@@ -1,0 +1,1510 @@
+﻿
+/*	=============================================================================================================
+	Responsive Form Structure
+	=============================================================================================================
+
+    <div class="responsive-form">
+                            
+        <fieldset>
+
+            <legend></legend>
+
+            <ul>
+                <li>
+                    <p>
+                        <label></label>
+                        <input>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <label></label>
+                        <input>
+                    </p>
+                </li>
+            </ul> 
+     
+            <ul>
+                <li>
+                    <p>
+                        <label></label>
+                        <input>
+                    </p>
+                </li>
+            </ul>
+			<ul>
+                <li>
+                    <div>
+                        <RadioButtonList>
+                    </div>
+                </li>
+            </ul>
+
+        </fieldset>
+
+    </div><!-- .responsive-form -->
+
+	RadioButtonLists must be in a div!
+
+    */
+
+/*	=============================================================================================================
+	Responsive Form
+	============================================================================================================= */
+
+    /* --- Microsoft love --- */
+
+	.responsive-form p,
+.responsive-form .button-container {
+        zoom: 1; 
+	}
+
+    /* don't show the x or eye for text/password inputs */
+::-ms-clear, ::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+    /* used on the UL level to add extra spacing between fields that have little in common, but are grouped in the same fieldset */
+.responsive-form .field-group-break-top {
+    margin-top: 10px;
+}
+	
+.responsive-form .field-group-break-bottom {
+    margin-bottom: 10px;
+}
+
+	.responsive-form label {
+		color: #999;
+		display: block;
+	}
+
+	.responsive-form .radio-mask > label, 
+.responsive-form .outter-label {
+		font-size: 13px;
+		color: #777;
+		line-height: 18px;
+		font-weight: normal;
+		margin: 0 0 3px;
+		max-width: 800px;
+	}
+
+.responsive-form .outter-label {
+    margin: 10px 0 3px 3px;
+}
+
+    .responsive-form .outter-label.focused {
+        color: #0079ff;
+    }
+
+    /* 
+    - used for pages that have page button container with a top solid border 
+    - add the ".no-bottom-borer" class to the ".responsive-form" element 
+    */
+.responsive-form.no-bottom-border fieldset:last-child {
+        border-bottom: none; 
+    }
+
+.responsive-form .label-note {
+		font-size: 11px;
+		line-height: 16px;
+		color: #888;
+		font-weight: normal;
+    clear: both;
+        display: block;
+		padding: 2px 4px;
+		font-style: italic;
+    margin-bottom: 3px;
+	}
+
+.responsive-form .outter-label em {
+		font-size: 12px;
+		color: #999;
+	}
+
+.responsive-form fieldset {
+        margin-bottom: 15px; 
+        padding-bottom: 15px; 
+        border-bottom: 2px dotted #eee; 
+    }
+    
+    .responsive-form fieldset.no-border {
+		margin-bottom: 10px; 
+        padding-bottom: 0; 
+        border-bottom: none; 
+    }
+
+    .responsive-form fieldset legend {
+        margin-bottom: 10px;
+        font-weight: normal;
+        font-size: 14px;
+        font-style: italic;
+        text-transform: uppercase; 
+        color: #555;
+    }
+
+    .responsive-form fieldset ul {
+		overflow: hidden;
+	}
+
+        .responsive-form fieldset ul.spaced {
+            margin-bottom: 10px;
+	}
+
+        .responsive-form fieldset ul li {
+        display: inline;
+        vertical-align: top;
+    }
+
+	.responsive-form fieldset ul li p.textbox-mask,
+	.responsive-form fieldset ul li p.textarea-mask,
+            .responsive-form fieldset ul li p.dropdown-mask {
+        position: relative; 
+        /*display: inline-block;*/
+                float: left;
+        width: 99%;
+        min-width: 100px;
+        height: 39px; 
+        margin: 0px 6px 0 0px;
+        overflow: hidden;
+        line-height: 25px; 
+        border: 1px solid #dedede;
+        cursor: text;
+        -webkit-border-radius: 3px;
+           -moz-border-radius: 3px;
+                border-radius: 3px;      
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        background: #f9f9f9;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fbfbfb), to(#f7f7f7));
+        background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#fbfbfb), to(#f7f7f7));
+        background: -moz-linear-gradient(center top, #fbfbfb, #f7f7f7);
+        background: linear-gradient(#fbfbfb, #f7f7f7);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f7f7f7');    
+	}
+
+    /* browsers that do not support box shadow (<ie8) */
+	.no-boxshadow .responsive-form fieldset ul li p.textbox-mask,
+	.no-boxshadow .responsive-form fieldset ul li p.textarea-mask,
+.no-boxshadow .responsive-form fieldset ul li p.dropdown-mask {
+        border-color: #ddd;
+    }
+
+	.responsive-form fieldset ul li p.textbox-mask,
+	.responsive-form fieldset ul li p.textarea-mask, 
+.responsive-form fieldset ul li p.dropdown-mask {
+        margin: 3px;
+	}
+
+	.responsive-form fieldset ul li p.textbox-mask,
+.responsive-form fieldset ul li p.textarea-mask {
+        padding: 0;
+	}
+
+	.responsive-form fieldset ul li p.textarea-mask {
+		height: auto;
+		margin-bottom: 6px;
+		max-width: 800px;
+	}
+
+	.responsive-form fieldset ul li p.textarea-mask .textarea {
+		width: 100% !important;
+		height: 92px;
+		padding-right: 28px !important;
+		position: relative;
+	}
+
+    .responsive-form fieldset ul li p.failed-validation,
+.no-boxshadow .responsive-form fieldset ul li p.failed-validation {
+        border-color: #a85c6f !important;
+        -webkit-box-shadow: 0 0 5px 0 #a85c6f;
+           -moz-box-shadow: 0 0 5px 0 #a85c6f;
+                box-shadow: 0 0 5px 0 #a85c6f;
+    }
+
+    .responsive-form fieldset ul li p,
+    .responsive-form fieldset ul li p .checkbox input,
+.responsive-form .button-container * {
+        -webkit-transition: all 0.30s ease-in-out;
+           -moz-transition: all 0.30s ease-in-out;
+            -ms-transition: all 0.30s ease-in-out;
+             -o-transition: all 0.30s ease-in-out;
+                transition: all 0.30s ease-in-out;
+    }
+
+    .responsive-form fieldset ul li p.focused,
+    .responsive-form fieldset ul li p .checkbox input:focus {
+        border-color: #229bff;
+        background: #fff;
+        -webkit-box-shadow: 0 0 5px 0 #0079FF;
+           -moz-box-shadow: 0 0 5px 0 #0079FF;
+                box-shadow: 0 0 5px 0 #0079FF;
+    }
+
+.responsive-form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #f9f9f9 inset;
+}
+
+.responsive-form p.focused input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+.responsive-form fieldset ul li p .checkbox input:focus {
+        outline: none;
+    }
+
+    .responsive-form fieldset ul li p label,
+.responsive-form fieldset ul li p label em {
+        color: #bbb;
+        font-weight: normal;
+        text-shadow: 1px 1px 1px #fff;
+        font-size: 13px;
+    }
+
+    .responsive-form fieldset ul li p label em {
+        margin-left: 5px; 
+	}
+
+.responsive-form fieldset ul li p label {
+        cursor: text;
+        display: block; 
+        margin: 0 !important; 
+        position: absolute;
+        z-index: 3;
+        top: 8px;
+        left: 0;  
+        width: 100%;
+        height: 25px;
+        padding-left: 8px;
+        padding-right: 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+	}
+
+.responsive-form fieldset ul li p.failed-validation label {
+        padding-right: 28px;
+    }
+    
+
+.responsive-form fieldset ul li p label::-moz-selection {
+    background: transparent !important;
+    color: inherit !important;
+    text-shadow: inherit !important;
+}
+
+.responsive-form fieldset ul li p label::selection {
+    background: transparent !important;
+    color: inherit !important;
+    text-shadow: inherit !important;
+}
+
+.responsive-form fieldset ul li p label.inputting {
+        -webkit-animation: labelSlideUp .3s both ease-out;
+	       -moz-animation: labelSlideUp .3s both ease-out;
+	        -ms-animation: labelSlideUp .3s both ease-out;
+	         -o-animation: labelSlideUp .3s both ease-out;
+	            animation: labelSlideUp .3s both ease-out;
+    }
+
+    .responsive-form fieldset ul li p label.inputting,
+.responsive-form fieldset ul li p label.inputting-notrans {
+        color: #0079FF;       
+    }
+
+    .responsive-form fieldset ul li p label.inputting,
+    .responsive-form fieldset ul li p label.inputting em,
+    .responsive-form fieldset ul li p label.inputted,
+    .responsive-form fieldset ul li p label.inputted em {
+        top: -3px;
+        left: 0;     
+        font-size: 9px;
+        text-shadow: none;
+        font-style: normal;
+		height: 0;
+        overflow: visible;
+    }
+	
+.responsive-form fieldset ul li p .dropdown.inline {
+        display: inline;
+	}
+
+	.responsive-form fieldset ul li p .textbox,
+	.responsive-form fieldset ul li p .dropdown,
+.responsive-form fieldset ul li p .textarea {
+        position: relative;
+        z-index: 2;
+        display: block;
+        width: 100%;
+        border: none;
+        background-color: transparent !important;
+        color: #000;
+        outline: none;
+        text-shadow: 1px 1px 1px #ddd;
+        font-weight: bold;
+        font-size: 14px;
+        padding-right: 0 !important;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+	}
+
+	.responsive-form fieldset ul li p .textbox[disabled="disabled"],
+	.responsive-form fieldset ul li p .dropdown[disabled="disabled"],
+    .responsive-form fieldset ul li p .textarea[disabled="disabled"] {
+        opacity: 1;	
+        color: #999;
+        text-shadow: 1px 1px 1px #fff;
+        -webkit-text-fill-color: #999;
+	}
+
+    .responsive-form fieldset ul li p .textbox::-ms-clear {
+        display: none;
+    }
+
+.responsive-form fieldset ul li p .textbox {
+        padding: 14px 28px 5px 8px !important; 
+    }
+
+	.responsive-form fieldset ul li p.textarea-mask label {
+    overflow: visible;
+    white-space: normal;
+		position: relative;
+		height: 16px;
+	}
+
+	.responsive-form fieldset ul li p.textarea-mask label.inputted {
+		line-height: 13px;
+		padding-top: 3px;
+		height: auto;
+	}
+
+.responsive-form fieldset ul li p .dropdown {
+        padding: 11px 8px 1px 8px; 
+    }
+	
+.responsive-form .input-loading {
+        display: none;
+        position: absolute;
+        top: 12px;
+        right: 10px;
+    }
+
+.responsive-form .dropdown-mask .input-loading {
+        right: 40px; 
+    }
+
+.responsive-form .input-status {
+        display: none;
+        position: absolute;
+        top: 7px;
+        right: 7px;
+        font-size: 18px;
+        z-index: 4; /* must be greater than label for clickability */
+        zoom: 1;
+        -khtml-opacity: 0.0;
+            -moz-opacity: 0.0;
+		        opacity: 0.0;
+        filter: alpha(opacity=0);
+		-webkit-transition: -webkit-transform .1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+		   -moz-transition: -moz-transform .1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+		     -o-transition: -o-transform .1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+				transition: transform .1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+.responsive-form .dropdown-mask .input-status {
+        right: 34px;
+    }
+
+.responsive-form fieldset ul li .failed-validation .input-status {
+        display: block;
+        -webkit-backface-visibility: hidden;
+           -moz-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+             -o-backface-visibility: hidden;
+                backface-visibility: hidden;
+        -webkit-animation: statusBounceIn .3s both ease;
+	       -moz-animation: statusBounceIn .3s both ease;
+	        -ms-animation: statusBounceIn .3s both ease;
+	         -o-animation: statusBounceIn .3s both ease;
+	            animation: statusBounceIn .3s both ease;
+    }
+
+	.responsive-form fieldset ul li .radio-mask.failed-validation label .input-status,
+.responsive-form fieldset ul li .checkbox-mask.failed-validation label .input-status {
+		display: inline;
+		position: static;
+	}
+
+    /* for browsers that do not support css animations (<ie8)*/
+.no-cssanimations .responsive-form fieldset ul li .failed-validation .input-status {
+        -khtml-opacity: 1.0;
+          -moz-opacity: 1.0;
+		       opacity: 1.0;
+        filter: alpha(opacity=100);
+    }
+
+.responsive-form .input-warning {
+        color: #a85c6f;
+        cursor: pointer; 
+    }
+
+.responsive-form .warning-messages {
+        width: 100%;
+        overflow: auto;
+        clear: both; 
+    }
+
+    .responsive-form .warning-messages div {
+        background: #f9f4f4;
+        margin: 0 3px 3px 0;
+        padding: 4px 6px;
+        color: #a85c6f;
+        float: left;
+        clear: left;
+        line-height: 18px;
+		font-size: 14px;
+        font-style: italic;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        -webkit-border-radius: 3px;
+           -moz-border-radius: 3px;
+                border-radius: 3px;      
+    }
+
+        .responsive-form .warning-messages div:last-child {
+        margin-bottom: 10px; 
+    } 
+
+    .responsive-form .warning-messages .bypass-field-link {
+        color: #a85c6f;
+        font-size: 13px;
+    }
+
+	.responsive-form .button-container {
+		padding-bottom: 5px;
+	}
+
+    .responsive-form .button-container * {
+    }
+
+    .responsive-form .button-container .clear-button {
+        float: none;
+        padding: 6px 10px;
+        margin: 0 5px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* modal alerts */
+#responsive-form-message .avlModal-content-wrapper {
+        display: table;  
+        width: 100%;
+        height: 100%;
+    }
+
+#responsive-form-message .avlModal-content p.warning-message {
+        color: #a85c6f;
+        font-weight: 600;
+        display: table-cell; 
+        vertical-align: middle; 
+        text-align: center; 
+		font-size: 14px;
+    }
+
+@-webkit-keyframes labelSlideUp {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+        top: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        top: -3px;
+    }
+}
+
+@-moz-keyframes labelSlideUp {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+        top: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        top: -3px;
+    }
+}
+
+@-o-keyframes labelSlideUp {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+        top: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        top: -3px;
+    }
+}
+
+@keyframes labelSlideUp {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+        top: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        top: -3px;
+    }
+}
+
+@-webkit-keyframes statusBounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.25);
+    }
+
+    70% {
+        opacity: 1;
+        -webkit-transform: scale(.7);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+}
+
+@-moz-keyframes statusBounceIn {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(.3);
+    }
+
+    50% {
+        opacity: 1;
+        -moz-transform: scale(1.25);
+    }
+
+    70% {
+        opacity: 1;
+        -moz-transform: scale(.7);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: scale(1);
+    }
+}
+
+@-o-keyframes statusBounceIn {
+    0% {
+        opacity: 0;
+        -o-transform: scale(.3);
+    }
+
+    50% {
+        opacity: 1;
+        -o-transform: scale(1.25);
+    }
+
+    70% {
+        opacity: 1;
+        -o-transform: scale(.7);
+    }
+
+    100% {
+        opacity: 1;
+        -o-transform: scale(1);
+    }
+}
+
+@keyframes statusBounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(.3);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.25);
+    }
+
+    70% {
+        opacity: 1;
+        transform: scale(.7);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/*	=============================================================================================================
+	Address Results Modal
+	============================================================================================================= */
+
+#address-results .avlModal-content h6 {
+        font-size: 13px;
+        margin-bottom: 10px;
+		color: #333;
+    }
+
+#address-results .avlModal-content a {
+        display: inline-block;
+        line-height: 25px; 
+        border: 1px solid #dedede;
+        text-decoration: none;
+        padding: 4px 8px;
+        margin: 4px 0;
+        color: #444;
+        -webkit-border-radius: 3px;
+           -moz-border-radius: 3px;
+                border-radius: 3px;      
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        background: #f9f9f9;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fbfbfb), to(#f7f7f7));
+        background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#fbfbfb), to(#f7f7f7));
+        background: -moz-linear-gradient(center top, #fbfbfb, #f7f7f7);
+        background: linear-gradient(#fbfbfb, #f7f7f7);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#f7f7f7');    
+    }
+
+    #address-results .avlModal-content a:hover {
+        color: #000;
+        border: 1px solid #cecece;
+        background: #e9e9e9;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ebebeb), to(#e7e7e7));
+        background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#ebebeb), to(#e7e7e7));
+        background: -moz-linear-gradient(center top, #ebebeb, #e7e7e7);
+        background: linear-gradient(#ebebeb, #e7e7e7);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#e7e7e7');    
+    }
+
+    #address-results .avlModal-content a.ar-choice {
+        font-weight: 600;
+    }
+
+    #address-results .avlModal-content a#ar-certify em {
+        font-style: normal;
+        color: #000;
+    }
+        
+/*	=============================================================================================================
+	Responsive AutoComplete
+	============================================================================================================= */
+
+.ui-menu {
+	    padding: 0px !important;
+	    border: 1px solid WindowFrame;
+	    background-color: Window;
+        z-index: 9998;
+        text-align: left;
+        max-height: 140px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    /* ie6 */
+* html .ui-menu {
+    height: 140px;
+}
+       
+    .ui-menu .ui-menu-item {
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        font: menu;
+        font-size: 15px;
+        overflow: hidden;
+    }
+    
+        .ui-menu .ui-menu-item a {
+        color: #444;
+        padding: 3px 10px !important;
+    }
+ 
+    .ui-menu .ui-menu-item a.ui-state-focus,
+            .ui-menu .ui-menu-item a.ui-state-active {
+	    background-color: Highlight;
+	    color: HighlightText;
+        margin: 0 !important;
+    }
+
+       
+.autocomplete-selected {
+	    background-color: Highlight;
+	    color: HighlightText;
+    }
+    
+.autocomplete-suggestions strong {
+        font-weight: bold; 
+	    color: #444;
+    }
+    
+.autocomplete-selected strong {
+        font-weight: bold; 
+	    color: HighlightText;
+    }
+
+/*	=============================================================================================================
+	Responsive Buttons
+	============================================================================================================= */
+
+
+
+/*	=============================================================================================================
+	Responsive Checkboxes
+	============================================================================================================= */
+	
+.responsive-form fieldset ul li p input.checkbox,
+.responsive-form fieldset ul li p .checkbox input {
+	    margin: 3px;
+    float: left;
+    }
+
+.responsive-form .checkbox {
+	    display: block;
+    }
+
+.responsive-form fieldset ul li p.checkbox-mask label {
+	    display: block;
+    float: none !important;
+	    position: static;
+	    padding-left: 8px;
+	    margin-top: 1px;
+	    font-weight: normal;
+	    color: #444;
+	    width: auto;
+	    font-size: 13px;
+	    overflow: hidden;
+	    height: auto;
+	    white-space: normal;
+    cursor: pointer;
+	}
+
+	.responsive-form fieldset ul li p.checkbox-mask.failed-validation {
+		border: 1px solid #a85c6f;
+    padding: 5px;
+    margin: 3px;
+	}
+
+	.responsive-form fieldset ul li p.approval label {
+		min-height: 22px;
+		vertical-align: top;
+	}
+
+	.responsive-form fieldset ul li p.approval.checkbox-mask.failed-validation {
+		padding: 12px;
+		border-width: 2px;
+	}
+
+/*	=============================================================================================================
+	Responsive Radiobuttons
+	============================================================================================================= */
+	
+	.responsive-form .radiobutton tr,
+	.responsive-form .radiobutton td,
+	.responsive-form .radiobutton input,
+.responsive-form .radiobutton label {
+    vertical-align: middle;
+}
+
+.responsive-form .radiobutton td {
+		padding-bottom: 2px;
+    overflow: hidden;
+	}
+
+.responsive-form .radiobutton tr:last-child td {
+		padding-bottom: 0;
+	}
+
+.responsive-form table.radiobutton {
+		width: 100%;
+        margin: 10px 0 6px 0;
+	}
+
+.responsive-form .radiobutton label {
+		display: block;
+	    position: static;
+	    padding-left: 8px;
+	    margin-top: 1px;
+	    font-weight: normal;
+	    color: #444;
+	    width: auto;
+	    font-size: 13px;
+	    overflow: auto;
+	    height: auto;
+	    white-space: normal;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 4px;
+	}
+
+.responsive-form .radiobutton input {
+	    margin: 3px;
+    float: left;
+    clear: left;
+    }
+
+.responsive-form .radio-mask.failed-validation {
+		border-width: 1px;
+		border-style: solid;
+    border-color: #a85c6f;
+		-webkit-box-shadow: 0 0 5px 0 #a85c6f;
+		-moz-box-shadow: 0 0 5px 0 #a85c6f;
+		box-shadow: 0 0 5px 0 #a85c6f;
+    padding: 5px;
+    float: left;
+	}
+
+    .responsive-form .radio-mask.failed-validation table {
+		clear: both;
+	}
+/*	=============================================================================================================
+	Responsive Textareas
+	============================================================================================================= */
+	
+	.responsive-form .txt-shortdescript,
+	.responsive-form .txt-longdescript,
+	.responsive-form .txt-authorbio,
+	.responsive-form .txt-services,
+.responsive-form .txt-keywords {
+    max-width: 700px;
+}
+
+/*	=============================================================================================================
+	Responsive DropDowns
+	============================================================================================================= */
+
+.responsive-form select {
+    z-index: 3;
+}
+
+    .responsive-form .dd-states,
+	.responsive-form .dd-tracklisting,
+	.responsive-form .dd-genre,
+.responsive-form .dd-pricing {
+    max-width: 220px;
+}
+
+	.responsive-form .dd-content-type,
+.responsive-form .dd-enhanced {
+    max-width: 250px;
+}
+
+.responsive-form .dd-compilation {
+    max-width: 300px;
+}
+
+.responsive-form .dd-country {
+    max-width: 400px;
+}
+
+.responsive-form fieldset ul li p.dropdown-mask.dd-month {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.responsive-form fieldset ul li p.dropdown-mask.dd-year {
+    min-width: 115px;
+    max-width: 115px;
+}
+
+.responsive-form .dd-sequence {
+    max-width: 600px;
+}
+
+.responsive-form .dd-spacing {
+    max-width: 630px;
+}
+
+.responsive-form .dd-fade {
+    max-width: 500px;
+}
+
+.responsive-form .dd-level {
+    max-width: 550px;
+}
+
+	.responsive-form .dd-eq,
+.responsive-form .dd-performer {
+    max-width: 420px;
+}
+
+	.responsive-form .dd-creditcard,
+.responsive-form .dd-feedback-type {
+    max-width: 175px;
+}
+
+	.responsive-form .dd-role,
+.responsive-form .dd-language {
+    max-width: 200px;
+}
+
+.responsive-form .dd-drm {
+    max-width: 450px;
+}
+
+.responsive-form .dd-price {
+    max-width: 150px;
+}
+
+.responsive-form .dd-subgenre {
+    max-width: 670px;
+}
+
+.responsive-form .dd-question {
+    max-width: 350px;
+}
+	
+.responsive-form .customSelect {
+        background-image: url(../img/customSelect-arrow-bg.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+
+.responsive-form .dd-maxWidth-50 {
+    max-width: 50px;
+}
+
+.responsive-form .dd-maxWidth-100 {
+    max-width: 100px;
+}
+
+.responsive-form .dd-maxWidth-150 {
+    max-width: 150px;
+}
+
+.responsive-form .dd-maxWidth-200 {
+    max-width: 200px;
+}
+
+.responsive-form .dd-maxWidth-250 {
+    max-width: 250px;
+}
+
+.responsive-form .dd-maxWidth-300 {
+    max-width: 300px;
+}
+
+.responsive-form .dd-maxWidth-350 {
+    max-width: 350px;
+}
+
+.responsive-form .dd-maxWidth-400 {
+    max-width: 400px;
+}
+
+.responsive-form .dd-maxWidth-450 {
+    max-width: 450px;
+}
+
+.responsive-form .dd-maxWidth-500 {
+    max-width: 500px;
+}
+
+.responsive-form .dd-maxWidth-550 {
+    max-width: 550px;
+}
+
+.responsive-form .dd-maxWidth-600 {
+    max-width: 600px;
+}
+
+.responsive-form .dd-maxWidth-650 {
+    max-width: 650px;
+}
+
+.responsive-form .dd-maxWidth-700 {
+    max-width: 700px;
+}
+
+.responsive-form .dd-maxWidth-750 {
+    max-width: 750px;
+}
+
+.responsive-form .dd-maxWidth-800 {
+    max-width: 800px;
+}
+
+
+/*	=============================================================================================================
+	Responsive Textboxes
+	============================================================================================================= */
+
+    .responsive-form .txt-email,
+    .responsive-form .txt-password,
+	.responsive-form .txt-projectname,
+	.responsive-form .txt-artistname,
+	.responsive-form .txt-albumname,
+    .responsive-form .txt-company,
+    .responsive-form .txt-country,
+   	.responsive-form .txt-companyname,
+	.responsive-form .txt-url,
+   	.responsive-form .txt-filename,
+	.responsive-form .txt-title,
+    .responsive-form .txt-imprint,
+    .responsive-form .txt-seriestitle,
+.responsive-form .txt-author {
+    max-width: 350px;
+}
+
+.responsive-form .txt-qt-or-so {
+    max-width: 370px;
+}
+
+    .responsive-form .txt-isbn,
+.responsive-form .txt-longerdate {
+    max-width: 400px;
+}
+
+    .responsive-form .txt-address1,
+	.responsive-form .txt-fullname,
+	.responsive-form .txt-customerID,
+	.responsive-form .txt-isrc,
+	.responsive-form .txt-trackname,
+	.responsive-form .txt-upc,
+.responsive-form .txt-volumename {
+    max-width: 300px;
+}
+	
+    .responsive-form .txt-phone,
+.responsive-form .txt-longdate {
+    max-width: 240px;
+}
+    
+    .responsive-form .txt-address2,
+.responsive-form .txt-city {
+    max-width: 220px;
+}
+
+.responsive-form .txt-address3 {
+    max-width: 525px;
+}
+
+	.responsive-form .txt-name,
+	.responsive-form .txt-city,
+.responsive-form .txt-state {
+    max-width: 200px;
+}
+
+.responsive-form .txt-series {
+    max-width: 260px;
+}
+
+.responsive-form .txt-creditcard {
+    max-width: 175px;
+}
+	
+    .responsive-form .txt-amount,
+.responsive-form .txt-number {
+		max-width: 150px;
+	}
+
+.responsive-form .txt-number-range {
+        max-width: 185px;
+    }
+
+.responsive-form .txt-keywords {
+    max-width: 600px;
+}
+
+.responsive-form .txt-date {
+    max-width: 130px;
+}
+	
+.responsive-form .txt-id {
+    max-width: 230px;
+}
+
+	.responsive-form .txt-zipcode,
+.responsive-form .dd-providers {
+    max-width: 145px;
+}
+
+.responsive-form .txt-quantity {
+    max-width: 60px;
+}
+
+.responsive-form .txt-cvv {
+    max-width: 80px;
+    min-width: 80px !important;
+}
+
+.responsive-form .txt-spacing {
+    max-width: 165px;
+}
+
+.responsive-form .txt-maxWidth-50 {
+    max-width: 50px;
+}
+
+.responsive-form .txt-maxWidth-100 {
+    max-width: 100px;
+}
+
+.responsive-form .txt-maxWidth-150 {
+    max-width: 150px;
+}
+
+.responsive-form .txt-maxWidth-200 {
+    max-width: 200px;
+}
+
+.responsive-form .txt-maxWidth-250 {
+    max-width: 250px;
+}
+
+.responsive-form .txt-maxWidth-300 {
+    max-width: 300px;
+}
+
+.responsive-form .txt-maxWidth-350 {
+    max-width: 350px;
+}
+
+.responsive-form .txt-maxWidth-400 {
+    max-width: 400px;
+}
+
+.responsive-form .txt-maxWidth-450 {
+    max-width: 450px;
+}
+
+.responsive-form .txt-maxWidth-500 {
+    max-width: 500px;
+}
+
+.responsive-form .txt-maxWidth-550 {
+    max-width: 550px;
+}
+
+.responsive-form .txt-maxWidth-600 {
+    max-width: 600px;
+}
+	
+.responsive-form .txt-maxWidth-650 {
+    max-width: 650px;
+}
+	
+.responsive-form .txt-maxWidth-700 {
+    max-width: 700px;
+}
+
+.responsive-form .txt-maxWidth-750 {
+    max-width: 750px;
+}
+
+.responsive-form .txt-maxWidth-800 {
+    max-width: 800px;
+}
+
+/*	=============================================================================================================
+	Responsive Inputs (Generic)
+	============================================================================================================= */
+    
+.responsive-form .npt-maxWidth-50 {
+    max-width: 50px;
+}
+
+.responsive-form .npt-maxWidth-100 {
+    max-width: 100px;
+}
+
+.responsive-form .npt-maxWidth-150 {
+    max-width: 150px;
+}
+
+.responsive-form .npt-maxWidth-200 {
+    max-width: 200px;
+}
+
+.responsive-form .npt-maxWidth-250 {
+    max-width: 250px;
+}
+
+.responsive-form .npt-maxWidth-300 {
+    max-width: 300px;
+}
+
+.responsive-form .npt-maxWidth-350 {
+    max-width: 350px;
+}
+
+.responsive-form .npt-maxWidth-400 {
+    max-width: 400px;
+}
+
+.responsive-form .npt-maxWidth-450 {
+    max-width: 450px;
+}
+
+.responsive-form .npt-maxWidth-500 {
+    max-width: 500px;
+}
+
+.responsive-form .npt-maxWidth-550 {
+    max-width: 550px;
+}
+
+.responsive-form .npt-maxWidth-600 {
+    max-width: 600px;
+}
+
+.responsive-form .npt-maxWidth-650 {
+    max-width: 650px;
+}
+
+.responsive-form .npt-maxWidth-700 {
+    max-width: 700px;
+}
+
+.responsive-form .npt-maxWidth-750 {
+    max-width: 750px;
+}
+
+.responsive-form .npt-maxWidth-800 {
+    max-width: 800px;
+}
+
+/*	=============================================================================================================
+	Output Messages
+	============================================================================================================= */
+	
+	.success-message,
+	.error-message,
+    .callout-message,
+.approval-message {
+        display: block; 
+        padding: 14px; 
+    line-height: 20px;
+        border: none; 
+        -webkit-border-radius: 4px;
+           -moz-border-radius: 4px;
+                border-radius: 4px;      
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+	}
+	
+	.callout-message i,
+	.success-message i,
+    .error-message i {
+        float: left;
+        margin-right: 10px;
+        font-size: 22px;
+	}
+	
+	.success-message,
+    .success-message i {
+        color: #7e8f6d; 
+    }
+	
+.success-message {
+        background-color: #eeffdd; 
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f0ffdf), to(#ecfddb));
+        background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#f0ffdf), to(#ecfddb));
+        background: -moz-linear-gradient(center top, #f0ffdf, #ecfddb);
+        background: linear-gradient(#f0ffdf, #ecfddb);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ecfddb', endColorstr='#f0ffdf');    
+	}
+	
+	.error-message,
+    .error-message a,
+.error-message a:hover {
+        color: #897e7e; 
+        background-color: #f9eeee; 
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fbf0f0), to(#f7ecec));
+        background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#fbf0f0), to(#f7ecec));
+        background: -moz-linear-gradient(center top, #fbf0f0, #f7ecec);
+        background: linear-gradient(#fbf0f0, #f7ecec);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7ecec', endColorstr='#fbf0f0');    
+	}
+	
+    .callout-message, 
+.callout-message i {
+        color: #7e8389;    
+	}
+
+.callout-message {
+        background-color: #eef3f9; 
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f0f5fb), to(#ecf1f7));
+        background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#f0f5fb), to(#ecf1f7));
+        background: -moz-linear-gradient(center top, #f0f5fb, #ecf1f7);
+        background: linear-gradient(#f0f5fb, #ecf1f7);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ecf1f7', endColorstr='#f0f5fb');    
+    }
+	
+.approval-message {
+        color: #888763;
+        background-color: #F8F7D3; 
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#faf9d5), to(#f6f5d1));
+        background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#faf9d5), to(#f6f5d1));
+        background: -moz-linear-gradient(center top, #faf9d5, #f6f5d1);
+        background: linear-gradient(#faf9d5, #f6f5d1);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f5d1', endColorstr='#faf9d5');    
+	}
+
+    .responsive-form .form-message { margin: 10px 3px; width: 100%; clear:left; margin-top:7px; }
+
+/*	=============================================================================================================
+	Responsive Input More Info Links
+	============================================================================================================= */
+    
+    
+    
+    /* for textareas*/
+    .responsive-form ul li a.info-text { display: block; clear: both; margin: 6px 0 24px 0; text-decoration: none; }
+        
+    .responsive-form ul li a .info-text,
+    .responsive-form ul li a .info-text-500,
+    .responsive-form ul li a .info-text-550,
+    .responsive-form ul li a .info-text-600,
+    .responsive-form ul li a .info-text-650,
+    .responsive-form ul li a .info-text-700,
+    .responsive-form ul li a .info-text-750,
+    .responsive-form ul li a .info-text-800 { display: none; }
+    
+    .responsive-form ul li a .info-symbol,
+    .responsive-form ul li a .info-symbol-500,
+    .responsive-form ul li a .info-symbol-550,
+    .responsive-form ul li a .info-symbol-600,
+    .responsive-form ul li a .info-symbol-650,
+    .responsive-form ul li a .info-symbol-700,
+    .responsive-form ul li a .info-symbol-750,
+    .responsive-form ul li a .info-symbol-800 { display: inline-block; width: 17px; height: 17px; margin: 12px; content: url(/ProjectCenter/img/bbp/questionMark.png) }
+
+    @media (max-width: 500px) { 
+        .responsive-form ul li a .info-text { display: inline-block; margin: 6px 0 24px 0; }  
+        .responsive-form ul li a .info-symbol { display: none; } 
+    }
+    @media (max-width: 585px) { 
+        .responsive-form ul li a .info-text-500 { display: inline-block; margin: 6px 0 24px 0; }  
+        .responsive-form ul li a .info-symbol-500 { display: none; } 
+    }
+    @media (max-width: 635px) { 
+        .responsive-form ul li a .info-text-550 { display: inline-block; margin: 6px 0 24px 0; } 
+        .responsive-form ul li a .info-symbol-550 { display: none; } 
+    }
+    @media (max-width: 685px) { 
+        .responsive-form ul li a .info-text-600 { display: inline-block; margin: 6px 0 24px 0; } 
+        .responsive-form ul li a .info-symbol-600 { display: none; } 
+    }
+    @media (max-width: 735px) { 
+        .responsive-form ul li a .info-text-650 { display: inline-block; margin: 6px 0 24px 0; } 
+        .responsive-form ul li a .info-symbol-650 { display: none; } 
+    }
+    @media (max-width: 785px) { 
+        .responsive-form ul li a .info-text-700 { display: inline-block; margin: 6px 0 24px 0; } 
+        .responsive-form ul li a .info-symbol-700 { display: none; } 
+    }
+    @media (max-width: 835px) { 
+        .responsive-form ul li a .info-text-750 { display: inline-block; margin: 6px 0 24px 0; } 
+        .responsive-form ul li a .info-symbol-750 { display: none; }
+    }
+    @media (max-width: 885px) { 
+        .responsive-form ul li a .info-text-800 { display: inline-block; margin: 6px 0 24px 0; } 
+        .responsive-form ul li a .info-symbol-800 { display: none; } 
+    }
+    @media (min-width: 981px) { 
+        .responsive-form ul li a .info-text-700, 
+        .responsive-form ul li a .info-text-750,
+        .responsive-form ul li a .info-text-800 { display: inline-block; margin: 6px 0 24px 0; }
+
+        .responsive-form ul li a .info-symbol-700,
+        .responsive-form ul li a .info-symbol-750,
+        .responsive-form ul li a .info-symbol-800 { display: none; }
+    }
+    @media (min-width: 1025px) { 
+        .responsive-form ul li a .info-text-700 { display: none; margin: 12px; } 
+        .responsive-form ul li a .info-symbol-700 { display: inline-block; }
+    }
+    @media (min-width: 1075px) { 
+        .responsive-form ul li a .info-text-750 { display: none; margin: 12px; } 
+        .responsive-form ul li a .info-symbol-750 { display: inline-block; } 
+    }
+    @media (min-width: 1125px) { 
+        .responsive-form ul li a .info-text-800 { display: none; margin: 12px; } 
+        .responsive-form ul li a .info-symbol-800 { display: inline-block; } 
+    }
+
+    /* IE8 hacks*/
+    .ie8 .responsive-form ul li a .info-text { display: block; margin: 6px 0 24px 4px; float: left; clear: both; }
+    .ie8 .responsive-form ul li a .info-symbol { display: none; }
+
+
+/*	=============================================================================================================
+	Media Queries
+	============================================================================================================= */
+
+    @media (max-width: 500px) {
+
+	    .responsive-form fieldset ul li p.textbox-mask,
+	    .responsive-form fieldset ul li p.textarea-mask,
+    .responsive-form fieldset ul li p.dropdown-mask {
+            max-width: 100%; 
+            margin: 3px 0px 3px 0;
+        }
+
+    .responsive-form fieldset {
+            margin-bottom: 10px;
+			padding-bottom: 10px;
+        }
+
+        .responsive-form .warning-messages div,
+        .responsive-form .button-container .primary-site-button, 
+    .responsive-form .button-container .clear-button {
+            width: 100%;
+        }
+
+    .responsive-form .button-container .primary-site-button {
+            padding: 16px 25px;
+        }
+
+    .responsive-form .button-container .clear-button {
+            display: inline-block;
+            padding: 6px 0;
+            margin: 10px 0 0 0;
+            text-align: center;
+        }
+}
+
+div.activity-item-container:nth-child(even) {
+    background: #fafafa;
+}

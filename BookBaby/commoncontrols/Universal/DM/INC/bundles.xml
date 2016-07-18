@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- ============================================================================
+		To list files for bundling in each bundle inside the <files> add...
+		<file>fileName</file>
+		use...
+		{BrandPrfix} 
+		for the brand's prefix
+		
+		e.g.
+		<files>
+			<file>CommonControls/Universal/{BrandPrefix}/JS/Scripts.js</file>
+		<files>
+==============================================================================		-->
+<bundles>
+  <bundle type="script" category="head">
+    <files>
+      <file>~/CommonControls/Universal/{BrandPrefix}/js/scripts-search.js</file>
+      <file>~/CommonControls/GoogleAnalytics/SilverPopTracking/SilverPopTracking.js</file>
+    </files>
+  </bundle>
+</bundles>

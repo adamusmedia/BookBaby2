@@ -1,0 +1,131 @@
+﻿
+/* adds a blur button thead page when overlay datalist present */
+.overlay-helper
+{
+    /* someday in the near future ;) */
+    /* -webkit-filter: blur(1px) grayscale(.7); */
+
+	-webkit-transition: all .1s; /* Safari and Chrome */
+	   -moz-transition: all .1s; /* Firefox 4 */
+		 -o-transition: all .1s; /* Opera */
+			transition: all .1s;
+}
+
+.avlModal-container
+{
+	position: absolute;
+	top: 0;
+	left: -9999px;
+    max-width: 2000px;
+}
+
+.avlModal 
+{ 
+    position: fixed;
+    left: 50%;
+    top: 50%;
+
+    -webkit-perspective: 800px;
+       -moz-perspective: 800px;
+         -o-perspective: 800px;
+            perspective: 800px;
+}	
+
+.avlModal .avlModal-wrapper
+{
+	opacity: 0;
+    padding: 20px;
+    text-align: left;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 6px solid rgba(0,0,0,0.1);
+
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
+	   -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+		    box-shadow: 0 0 10px rgba(0,0,0,.5);
+
+	-webkit-border-radius: 13px;
+	   -moz-border-radius: 13px;
+		    border-radius: 13px;	
+
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+	
+    -webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	        backface-visibility: hidden;
+
+    -webkit-transition: all 0.1s ease-in;
+	   -moz-transition: all 0.1s ease-in;
+	        transition: all 0.1s ease-in;
+
+	-webkit-transform: scale(1.1) translateZ(0px) perspective(800px) rotateX(0deg);
+	   -moz-transform: scale(1.1) translateZ(0px) perspective(800px) rotateX(0deg);
+	     -o-transform: scale(1.1) translateZ(0px) perspective(800px) rotateX(0deg);
+	        transform: scale(1.1) translateZ(0px) perspective(800px) rotateX(0deg);
+}
+
+.avlModal .avlModal-wrapper.no-trans
+{
+	-webkit-transform: none;
+	   -moz-transform: none;
+	        transform: none;
+}
+
+.avlModal .avlModal-wrapper.show
+{
+	opacity: 1;
+
+	-webkit-transform: scale(1) translateZ(0px) perspective(800px) rotateX(0deg);
+	   -moz-transform: scale(1) translateZ(0px) perspective(800px) rotateX(0deg);
+	     -o-transform: scale(1) translateZ(0px) perspective(800px) rotateX(0deg);
+	        transform: scale(1) translateZ(0px) perspective(800px) rotateX(0deg);
+}
+
+.avlModal .avlModal-wrapper.hide
+{
+	opacity: 0;
+
+	-webkit-transform: scale(1.1) translateZ(0px) perspective(800px) rotateX(0deg);
+	   -moz-transform: scale(1.1) translateZ(0px) perspective(800px) rotateX(0deg);
+	     -o-transform: scale(1.1) translateZ(0px) perspective(800px) rotateX(0deg);
+	        transform: scale(1.1) translateZ(0px) perspective(800px) rotateX(0deg);
+}
+
+.avlModal .avlModal-content
+{
+    overflow: auto;
+    height: 100%;
+} 
+
+.avlModal .avlModal-close
+{
+	position:absolute; 
+	display:block;
+	top:-8px; 
+	right:-8px;
+	width:29px;
+	height:28px;
+	z-index:9999;
+    white-space: nowrap;
+    overflow: hidden;
+    background: #fff;
+    border-radius:50%;
+    color:#667993;
+}
+
+.avlModal .avlModal-close i#closeModalIcon
+{
+    font-size: 21px;
+  position: relative;
+  display: block;
+  height: 28px;
+  width: 28px;
+  padding: 2px 0;
+}
+
+.avlModal .avlModal-close:hover
+{
+    color:#c87205;
+}

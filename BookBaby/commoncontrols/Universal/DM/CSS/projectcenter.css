@@ -1,0 +1,337 @@
+﻿/* =============================================================================
+   TOC
+   =============================================================================
+
+   Site Container
+   Site Container Sections
+   Site Container > Header Container
+   Site Container > Header Container > Header
+   Site Container > Content Container
+   Site Container > Content Container > Content
+   Site Container > Footer Container
+   Site Container > Header Container > Header
+   Site Container > Footer Container > Footer
+
+*/
+
+/* =============================================================================
+   Site Container
+   ========================================================================== */
+    
+    #site-container { width:100%; }
+
+/* =============================================================================
+   Site Container Sections
+   ========================================================================== */
+    
+    #site-header-container header,
+    #content,
+    #site-footer-container footer { position:relative; width:980px; text-align:left; }
+    
+    #site-header-container header,
+    #site-footer-container footer { margin: 0 auto; color: #fff; }
+
+/* =============================================================================
+   Site Container > Header Container
+   ========================================================================== */
+    
+    #site-header-container {width:980px;margin: 0 auto;overflow: hidden;}
+
+/* =============================================================================
+   Site Container > Content Container
+   ========================================================================== */
+    
+    #content-container { width:100%; }
+
+/* =============================================================================
+   Site Container > Content Container > Content
+   ========================================================================== */
+    
+    #content { position: relative; background: transparent url(../IMG/content-texture.png) repeat 0 0; margin:20px auto;}
+
+    #content .wrapper { padding:20px; }
+
+/* =============================================================================
+   Site Container > Footer Container
+   ========================================================================== */
+    
+    #site-footer-container { width:100%; }    
+/* =============================================================================
+   Site Container > Header Container > Header
+   ========================================================================== */
+    
+    #site-header-container header
+    {
+        width: 980px;
+        clear: both;
+    }
+    #site-header-container #div-top-login
+    {
+        float: right;
+        margin-bottom: 20px;
+        width: auto;
+        text-align: left;
+        overflow:hidden;
+    }
+    
+    #site-header-container .link-loginlogout 
+    {
+        display:block;
+        top: 0px;
+        width: 58px;
+        height: 24px;
+        line-height: 22px;
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        -webkit-border-radius: 0px 0px 5px 5px;
+        -moz-border-radius: 0px 0px 5px 5px;
+        border-radius: 0px 0px 5px 5px;
+        background-color: #458132;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#458132), to(#346226));
+        background-image: -webkit-linear-gradient(top, #458132, #346226);
+        background-image: -moz-linear-gradient(top, #458132, #346226);
+        background-image: -ms-linear-gradient(top, #458132, #346226);
+        background-image: -o-linear-gradient(top, #458132, #346226);
+        background-image: linear-gradient(to bottom, #458132, #346226);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#458132', endColorstr='#346226')";
+        filter:      progid:DXImageTransform.Microsoft.gradient(startColorstr='#458132', endColorstr='#346226');
+        zoom: 1;
+    }
+    
+    #site-header-container .link-loginlogout:hover,
+    #site-header-container .link-loginlogout:active 
+    {
+        background-color: #A95611;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#F77740), to(#A95611));
+        background-image: -webkit-linear-gradient(top, #F77740, #A95611);
+        background-image:    -moz-linear-gradient(top, #F77740, #A95611);
+        background-image:     -ms-linear-gradient(top, #F77740, #A95611);
+        background-image:      -o-linear-gradient(top, #F77740, #A95611);
+        background-image:         linear-gradient(to bottom, #F77740, #A95611);
+		      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F77740', endColorstr='#A95611')";
+              filter:      progid:DXImageTransform.Microsoft.gradient(startColorstr='#F77740', endColorstr='#A95611');
+        zoom: 1;
+    }
+
+    #site-header-container header nav
+    {
+        float:right;
+        margin-top:10px;
+        font-weight:bold;
+        color: #ccc;
+    }
+    #site-header-container header nav a 
+    {
+        color:#fff;
+        font-size: 12px;
+        text-transform:uppercase;
+        text-decoration:none;
+        margin: 0 20px;
+    }
+    #site-header-container header nav a:hover
+    {
+        color:#ED8707;
+    }
+    #site-header-container nav .chat-link
+    {
+        background: transparent url("../IMG/chat-icon.png") 0 -16px no-repeat;
+        padding-left: 30px;
+        height: 16px;
+        text-decoration: none;
+        color: #ED8707;
+    }
+    #site-header-container nav .chat-link:hover,
+    #site-header-container nav .chat-link:active
+    {
+        background-position: 0 0px;
+        color: #ffa727;
+    }
+    
+/* =============================================================================
+   Site Container > Footer Container > Footer
+   ========================================================================== */
+    
+    #site-footer-container footer
+    {
+        width: 940px;
+        margin: 0 auto;
+        padding: 10px 20px 0 20px;
+        position:relative;
+        overflow:hidden;
+        background: #0B0C11;
+        background: -webkit-linear-gradient(top, #2E3444 0%,#0B0C11 100%);
+		background:    -moz-linear-gradient(top, #2E3444 0%,#0B0C11 100%);
+		background:     -ms-linear-gradient(top, #2E3444 0%,#0B0C11 100%);
+		background:      -o-linear-gradient(top, #2E3444 0%,#0B0C11 100%);
+		background:         linear-gradient(top, #2E3444 0%,#0B0C11 100%);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#2E3444', endColorstr='#0B0C11')";
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2E3444', endColorstr='#0B0C11');
+    }
+    #site-footer-container footer ul
+    {
+        margin-bottom:18px;
+    }
+    #site-footer-container footer ul li.list-header a
+    {
+        color: #EB8506;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    #site-footer-container footer ul li
+    {
+        font-size:11px;
+        line-height: 17px;
+    }
+    #site-footer-container footer ul li.li-subheader
+    {
+        color: #EB8506;
+        font-style:italic;
+        font-size:12px;
+    }
+    
+    #site-footer-container footer a
+    { 
+        color: #FCFCFC;
+        text-decoration: none;
+    }
+    #site-footer-container footer a:hover
+    { 
+        text-decoration:underline;
+    }
+    
+    
+    #site-footer-container footer #tony-callout 
+    { 
+        width: 198px;
+        height: 185px;
+        padding: 240px 0 0 15px;
+        background-image: url(../IMG/footer/footer-tony.png);
+        background-repeat: no-repeat ;
+        float: left;
+        cursor:pointer;
+        color: #ccc;
+        font-size:13px;
+    }
+    #site-footer-container footer #tony-callout p
+    {
+        line-height: 16px;
+        margin: 5px 0 10px;
+    }
+    
+    
+    #site-footer-container footer #tony-callout a
+    {
+        text-decoration:underline;
+    }
+    #site-footer-container footer #tony-callout h4
+    {
+        color:#ED8707;
+        font-size: 16px;
+    }
+    
+    #site-footer-container footer div .footer-column
+    {
+        height: 450px;
+        width: 210px;
+        display: block;
+        border-right: 1px solid #666;
+        padding: 0px 10px 0 30px;
+        float: left;
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
+    #site-footer-container footer div .footer-column:last-child
+    {
+        border-right:none;
+    }
+    #site-footer-container footer #footer-email
+    {
+        clear:both;
+        width:920px;
+        height: 45px;
+        position:relative;
+        overflow:hidden;
+        margin: 20px auto;
+        padding: 13px 10px 13px 60px;
+        background: #343841 url("../IMG/footer/footer-email.gif") 0 -2px no-repeat;
+    }
+
+    #site-footer-container footer #footer-email #footer-email-form
+    {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 360px;
+    }
+    
+    #site-footer-container footer #footer-email #footer-email-form .textbox
+    {
+        padding: 5px;
+        margin-top: 1px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 1px solid #666;
+        -moz-box-shadow:inset    0px 0px 5px 1px #666;
+        -webkit-box-shadow:inset 0px 0px 5px 1px #666;
+        box-shadow:inset         0px 0px 5px 1px #666;
+    }
+        
+    #site-footer-container footer #footer-subscribe-button
+    {
+        position: absolute;
+        right: 0;
+        text-decoration: none;
+        height: 30px;
+        line-height: 30px;
+    }
+    
+    #site-footer-container footer #footer-bottom-nav li
+    {
+        display:inline;
+    }
+    #site-footer-container footer #social-icons-container li
+    {
+        display:inline;
+        margin-left: 10px;
+    }
+    #site-footer-container footer #footer-bottom-nav
+    {
+        text-align:center;
+        padding: 8px 0 12px 0;
+        border-bottom: 1px solid #333;
+        margin-bottom: 20px;
+    }
+    #site-footer-container footer #footer-bottom-nav li
+    {
+        display:inline;
+        padding: 0px 12px;
+        text-align: center;
+        color: #CCC;
+        border-right: 1px solid #333;
+    }
+    #site-footer-container footer #footer-bottom-nav li:last-child
+    {
+        border-right:none;
+    }
+    #site-footer-container footer  .footer-bottom-left 
+    {
+        float:left;
+    }
+    #site-footer-container footer  .footer-bottom-left img
+    {
+        margin-right:14px;
+        margin-top: -4px;
+    }
+    #site-footer-container footer #social-icons-container
+    {
+        float:right;
+    }
+    
+    #site-footer-container footer #social-icons-container ul
+    {
+        margin-top: 0;
+    }

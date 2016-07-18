@@ -1,0 +1,488 @@
+﻿footer#site-footer,
+footer#site-footer .footer-social,
+footer#site-footer .footer-social .content-wrapper,
+footer#site-footer #footer-social-signup,
+footer#site-footer .footer-social #footer-social-signup #footer-email-fieldset,
+footer#site-footer .footer-social #footer-social-signup #footer-email-fieldset .signup-button,
+footer#site-footer .footer-social #footer-social-signup #footer-email-fieldset #footer-email-mask,
+footer#site-footer .footer-social #footer-social-icons,
+footer#site-footer .footer-social #footer-social-icons ul,
+footer#site-footer .footer-social #footer-social-icons ul li,
+footer#site-footer .footer-social #footer-social-icons ul li a
+{
+    transition: all .5s;
+}
+
+
+footer#site-footer
+{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    background-color: #002842;
+    text-align: left;
+}
+
+footer#site-footer .footer-social
+{
+    background-color: #00476E;
+}
+
+footer#site-footer .footer-site-map
+{
+    background-color: #002842;
+    overflow: hidden;
+    transition: height .5s;
+}
+
+footer#site-footer .footer-bottom
+{
+    background-color: #00192B;
+    text-align: center;
+}
+
+footer#site-footer .footer-social .content-wrapper,
+footer#site-footer .footer-site-map .content-wrapper
+{
+    padding: 40px 10px;
+    overflow: hidden;
+}
+
+footer#site-footer .footer-bottom .content-wrapper
+{
+    padding: 20px 10px;
+}
+
+footer#site-footer .footer-bottom .content-wrapper .footer-logo
+{
+    margin: 0 auto;
+}
+
+footer#site-footer .footer-bottom .content-wrapper .footer-logo .dm-logo
+{
+    width: 200px;
+}
+
+footer#site-footer .footer-bottom .content-wrapper .footer-logo .since-logo
+{
+    width: 100px;
+}
+
+footer#site-footer .responsive-form fieldset ul li p label
+{
+	top:4px;
+	height:28px;	
+}
+footer#site-footer .responsive-form fieldset ul li p label, .responsive-form fieldset ul li p label em 
+{
+	font-size:20px;
+	font-color:#999;
+}
+footer#site-footer .responsive-form fieldset ul li p label.inputted, .responsive-form fieldset ul li p label.inputted em 
+{
+	font-size: 12px;
+    line-height: 18px;
+    color: #999;
+    top: 2px;
+}
+
+footer#site-footer #footer-social-signup
+{
+}
+
+
+footer#site-footer .footer-social #footer-social-signup #footer-email-fieldset
+{
+    margin-bottom: 0;
+    padding: 8px 10px;
+    background-color: #50819c;
+}
+
+footer#site-footer .footer-social #footer-social-signup #footer-email-fieldset .signup-button
+{
+    float: right;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 3px 20px 5px;
+    margin: 3px 3px 3px 15px;
+    font-weight: normal;
+    border: 1px solid #ca462a;
+    background-color: #ff6346;
+    box-shadow: #ca462a 0 -18px 18px inset;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+footer#site-footer .footer-social #footer-social-signup #footer-email-fieldset .signup-button:hover
+{
+    box-shadow: #ca462a 0 18px 18px inset;
+}
+
+footer#site-footer .footer-social #footer-social-signup #footer-email-fieldset #footer-email-mask
+{
+    display: block;
+    max-width: none;
+    float: none;
+    clear: none;
+    width: auto;
+}
+
+footer#site-footer .footer-social #footer-social-icons
+{
+    float: right;
+    width: 40%;
+    min-width: 396px;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+footer#site-footer .footer-social #footer-social-icons ul
+{
+    width: 396px;
+    height: 51px;
+    display: block;
+    margin: 0 auto;
+    font-size: 32px;
+    box-sizing: border-box;
+}
+
+footer#site-footer .footer-social #footer-social-icons li
+{
+    float: left;
+    margin-left: 3%;
+    width: 13%;
+    height: 100%;
+}
+
+footer#site-footer .footer-social #footer-social-icons li a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 8px 3px 8px;
+    font-size: 32px;
+    color: #fff;
+    background-color: #50819c;
+    border-radius: 50%;
+	text-decoration:none;
+}
+
+footer#site-footer .footer-social #footer-social-icons li a:hover
+{
+    color: #cce3f2;
+}
+
+footer#site-footer .footer-site-map .footer-column
+{
+    width: 16%;
+    padding-right: 2%;
+    float: left;
+}
+
+footer#site-footer .footer-site-map .footer-column.promo-column
+{
+    width: 24%;
+}
+
+footer#site-footer .footer-site-map .footer-column.manufacturing-column
+{
+    width: 21%;
+}
+
+footer#site-footer .footer-site-map .footer-column.dm-column
+{
+    width: 15%;
+}
+
+footer#site-footer .footer-site-map .footer-column.resources-column
+{
+    width: 17%;
+}
+
+footer#site-footer .footer-site-map .footer-column.company-column
+{
+    width: 15%;
+    padding-right: 0;
+}
+
+footer#site-footer .footer-site-map .footer-column a,
+footer#site-footer .footer-bottom a,
+footer#site-footer .footer-bottom span
+{
+    color: #cce3f2;
+    text-decoration: none;
+    line-height: 28px;
+    font-size: 13px;
+    transition: font-size .3s, line-height .3s, transform .5s;
+}
+
+footer#site-footer .footer-site-map .footer-column a:hover,
+footer#site-footer .footer-bottom a:hover,
+footer#site-footer .footer-site-map .footer-column a.column-header:hover
+{
+    text-decoration: underline;
+}
+
+footer#site-footer .footer-site-map .footer-column a.column-header
+{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    display: block;
+    color: #fff;
+}
+
+footer#site-footer .footer-site-map .footer-column .secondary-menu
+{
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #4D6D81;
+    max-width: 170px;
+}
+
+footer#site-footer .footer-bottom .footer-bottom-desktop
+{
+    height: 40px;
+    overflow: hidden;
+    transition: height .3s;
+}
+
+footer#site-footer .footer-bottom .footer-bottom-desktop a
+{
+    height: 40px;
+    display: inline-block;
+}
+
+footer#site-footer .footer-bottom .footer-bottom-desktop .footer-since-img
+{
+    height: 40px;
+}
+
+footer#site-footer .footer-bottom .footer-bottom-desktop .footer-logo-img
+{
+    height: 20px;
+    padding-right: 20px;
+}
+
+footer#site-footer .footer-bottom .footer-bottom-contact
+{
+    height: 0px;
+    text-align: center;
+    overflow: hidden;
+    transition: height .3s;
+}
+
+footer#site-footer .footer-bottom .footer-bottom-contact ul
+{
+    list-style: disc;
+}
+
+footer#site-footer .footer-bottom .footer-bottom-contact .footer-bottom-tablet
+{
+    display: inline;
+}
+
+footer#site-footer .footer-bottom .footer-bottom-contact .footer-bottom-mobile
+{
+    display: none;
+}
+
+footer#site-footer .footer-bottom .footer-bottom-contact .footer-bottom-spacer
+{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+@media (max-width:1100px)
+{
+
+    footer#site-footer .footer-site-map .footer-column a
+    {
+        line-height: 25px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:970px)
+{
+    footer#site-footer .footer-site-map .footer-column a.column-header
+    {
+        font-size: 14px;
+    }
+
+    footer#site-footer .footer-site-map
+    {
+        height: 440px;
+    }
+}
+
+@media (max-width:950px)
+{
+
+    footer#site-footer .footer-bottom .footer-bottom-contact
+    {
+        height: 30px;
+    }
+
+    footer#site-footer .footer-site-map
+    {
+        height: 0;
+    }
+
+    footer#site-footer .footer-social .content-wrapper
+    {
+        padding: 10px 0px;
+    }
+
+    footer#site-footer #footer-social-signup
+    {
+        top: 10px;
+        position: absolute;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    footer#site-footer .footer-social #footer-social-icons
+    {
+        width: 100%;
+        margin-top: 90px;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    footer#site-footer .footer-social #footer-social-icons ul
+    {
+        width: 381px;
+    }
+
+    footer#site-footer .footer-social #footer-social-icons li
+    {
+        margin-left: 3.5%;
+        width: 13.5%;
+    }
+
+    footer#site-footer .footer-social #footer-social-icons li:first-child
+    {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:610px)
+{
+
+    footer#site-footer .footer-bottom .footer-bottom-contact .footer-bottom-spacer
+    {
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+    footer#site-footer .footer-bottom .footer-bottom-contact a
+    {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:560px)
+{
+    footer#site-footer .footer-bottom .footer-bottom-contact
+    {
+        height: 105px;
+    }
+
+    footer#site-footer .footer-bottom .footer-bottom-contact a
+    {
+        font-size: 14px;
+    }
+
+    footer#site-footer .footer-bottom .footer-bottom-contact .footer-bottom-tablet
+    {
+        display: none;
+    }
+
+    footer#site-footer .footer-bottom .footer-bottom-contact .footer-bottom-mobile
+    {
+        display: inline;
+    }
+}
+
+@media (max-width: 500px)
+{
+    footer#site-footer .footer-social .content-wrapper
+    {
+        padding: 0;
+    }
+
+    footer#site-footer .footer-social #footer-social-icons
+    {
+        min-width: 0;
+        margin-top: 130px;
+    }
+
+    footer#site-footer .footer-social #footer-social-icons ul
+    {
+        width: 320px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    footer#site-footer .footer-social #footer-social-icons ul li
+    {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    footer#site-footer .footer-social #footer-social-icons ul li:first-child
+    {
+        margin-left: 10px;
+    }
+
+    footer#site-footer .footer-social #footer-social-icons ul li a
+    {
+        font-size: 25px;
+    }
+
+    footer#site-footer .footer-social #footer-social-signup
+    {
+        top: 0;
+        padding: 0;
+    }
+
+    footer#site-footer .footer-social #footer-social-signup #footer-email-fieldset
+    {
+        padding: 30px 10px;
+    }
+
+    footer#site-footer .footer-social #footer-social-signup #footer-email-fieldset .signup-button
+    {
+        position: static;
+        margin: 2px 0 0;
+        width: 32%;
+        box-sizing: border-box;
+    }
+
+    footer#site-footer .footer-social #footer-social-signup #footer-email-fieldset ul
+    {
+        position: relative;
+    }
+
+    footer#site-footer .footer-social #footer-social-signup #footer-email-fieldset #footer-email-mask
+    {
+        position: absolute;
+        width: 65%;
+    }
+	footer#site-footer .responsive-form fieldset ul li p label, .responsive-form fieldset ul li p label em 
+{
+	font-size:14px;
+	top:6px;
+}
+footer#site-footer .footer-social #footer-social-signup #footer-email-fieldset .signup-button
+{
+    font-size: 14px;
+    padding: 4px 4px;
+}
+}

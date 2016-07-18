@@ -1,0 +1,1459 @@
+﻿/* 	===================================================================================================================================================
+	RESPONSIVELAYOUT.CSS
+
+	The main responsive site styles.
+
+	REQUIRED SCRIPTS
+	================
+
+	jquery.js
+	jquery.hammer.js
+	jquery.plugin.cssAnimate.js
+
+
+
+	TABLE OF CONTENTS
+	=================
+	
+		ALL MEDIA ALL SIZES
+		===================
+		>	body
+		>	elastic page width
+		>	a
+		>	Site Container
+			>	Slideout-Container
+			>	Site Container Sections
+			>	Header Container
+				>	Header
+			>	Content Container
+				>	Content
+			>	Footer
+			>	Mobile Site Navigation
+			>	Mobile Help Section
+		>	Modals
+		>	Icon Links
+		>	.mobile and .hidden
+		
+	
+	
+		ALL MEDIA MAX WIDTH 1024PX
+		=========================
+		>	html & body
+		>	Shared Navigation 
+		>	Site Container
+			>	Slideout-Container
+			>	Site Container Sections
+			>	Content Container
+				>	Application Page Elements
+				>	Page Menu
+			>	Mobile Site Navigation
+			>	Mobile Help Section
+			>	Mobile Site Header
+		>	Mobile Colors
+		>	Modals
+		>	.mobile
+
+
+		ALL MEDIA MAX WIDTH 750PX
+		=========================
+		>	Slideout-Container
+		>	Mobile Help Section
+		>	Footer
+		>	Feedback Tab
+		>	.mobile
+	
+		ALL MEDIA MAX WIDTH 500PX
+		=========================
+		>	Page Buttons
+	
+=============================================================================================================================================== */
+
+
+/* =============================================================================
+   body
+   ========================================================================== */
+html,
+body {
+	background-image: none;
+}
+
+html:not(.OverflowScrolling) body ::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+html:not(.OverflowScrolling) body ::-webkit-scrollbar-track {
+	background: #D5D8DD;
+	border-radius: 10px;
+}
+
+html:not(.OverflowScrolling) body ::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #ABACB1;
+}
+
+html:not(.OverflowScrolling) body ::-webkit-scrollbar-thumb:hover,
+html:not(.OverflowScrolling) body ::-webkit-scrollbar-thumb:active {
+	background: #9a9ba0;
+}
+
+/* =============================================================================
+   elastic page width
+   ========================================================================== */
+
+
+#site-header #header-top,
+#site-header #header-site-nav,
+#site-footer-container #footer-main,
+#site-footer-container #footer-bottom-links,
+#site-footer-container #footer-social-bar-content,
+#site-header #div-top-login,
+#content {
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+html,
+body,
+form,
+#site-container,
+#slideout-container,
+#slideout-content {
+	width:100%;
+	z-index: 998;
+	position:relative;
+	overflow:visible;
+    height: 100%;
+    min-height: 100%;
+}
+
+/* =============================================================================
+   a
+   ========================================================================== */
+
+a {
+	color: #8B8F01;
+}
+
+a:hover, a:active, .link-button:hover, .link-button:active {
+	color: #F38909;
+	outline: 0;
+}
+
+a i {
+	cursor: pointer;
+}
+
+#session-warning .primary-site-button,
+.primary-site-button,
+.secondary-site-button,
+.primary-page-button {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	transition: all 0.30s ease-in-out;
+}
+
+label {
+	cursor: pointer;
+}
+/* =============================================================================
+   Site Container
+   ========================================================================== */
+
+
+/* =============================================================================
+   Slideout Container
+   ========================================================================== */
+
+
+#slideout-container {
+	overflow: hidden;
+	margin: auto;
+	min-width: 300px;
+	width: 100%;
+	position: relative;
+}
+
+#slideout-content {
+	overflow-y: auto;
+	position:relative;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+html.OverflowScrolling #slideout-content,
+html.OverflowScrolling #mobile-help,
+html.OverflowScrolling #site-navigation,
+html.OverflowScrolling .avlModal-content {
+	-webkit-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+}
+
+/* =============================================================================
+   Site Container Sections
+   ========================================================================== */
+
+#site-header header,
+#content,
+#site-footer-container {
+	position: relative;
+	text-align: left;
+}
+
+footer {
+	display: block;
+	position: relative;
+}
+
+/* =============================================================================
+   Site Container > Header Container
+   ========================================================================== */
+
+#site-header {
+	width: 100%;
+	max-width: none;
+}
+
+/* =============================================================================
+   Site Container > Header Container > Header
+   ========================================================================== */
+#site-header #header-top,
+#site-header #header-site-nav,
+#site-header #div-top-login {
+	position: relative;
+	display: block;
+}
+
+#site-header #nav-container {
+	width: 100%;
+	background-color: #002641;
+	position: relative;
+	top: 90px;
+	height: 50px;
+}
+
+#site-header header nav#header-site-nav {
+	padding-top: 0;
+}
+
+#site-header header, #content, #site-footer-container footer {
+	width: 100%;
+}
+
+#site-header header nav#header-site-nav a#header-site-quote em.primary-page-button {
+	display: inline;
+}
+
+/* =============================================================================
+   Site Container > Content Container
+   ========================================================================== */
+
+#site-container {
+	width: 100%;
+}
+
+/* =============================================================================
+   Site Container > Content Container > Content
+   ========================================================================== */
+
+#content {
+	position: relative;
+	background: transparent !important;
+	margin: 0 auto 20px;
+}
+
+#content .wrapper {
+	background: #fff;
+	padding: 20px;
+}
+
+.page-content {
+	overflow: hidden;
+	background: #fff;
+	padding: 15px;
+}
+
+#main-content {
+	background-color: #fff;
+}
+
+#main-content.main-content-prelogin {
+	background-color: #fff;
+	min-height: initial;
+}
+.page-wrapper {
+	border: 1px solid #ccc;
+}
+
+#main-content .page-header {
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	background-color: #313847;
+}
+
+#main-content .page-header h1 {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+	margin-left: 15px;
+}
+
+#main-content .page-header .link-need-help {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	padding-right: 0;
+	text-decoration: none;
+	background:none;
+    padding-right:0;
+    line-height: normal;
+    margin-top: 8px;
+
+}
+#main-content .page-header .link-need-help i
+{
+      font-size: 15px;
+      background: #6caad5;
+      border-radius: 50%;
+      height: 22px;
+      width: 22px;
+      display: inline-block;
+      margin-left: 10px;
+      padding: 2px;
+      text-decoration:none;
+}
+#main-content .page-header .link-need-help:hover
+{
+    text-decoration: none;
+}
+.approval-message {
+	overflow: hidden;
+}
+
+.approval-message.failed-validation {
+	background: #f9f4f4;
+}
+
+/* =============================================================================
+   Site Container > Footer Container
+   ========================================================================== */
+
+
+#site-footer-container #footer-social-bar {
+	width: 100%;
+}
+
+#site-footer-container footer #footer-social-bar {
+	overflow: hidden;
+	height: auto;
+}
+
+#site-footer-container #footer-social-signup {
+	position: static !important;
+	margin-left: 10px;
+	float: left;
+}
+
+#site-footer-container #footer-social-icons {
+	width: 266px;
+	margin: 0 auto;
+	position: static !important;
+	float: right;
+}
+
+#site-footer-container footer #footer-social-bar #footer-social-signup #signup-email {
+	float: left;
+	margin-top: 21px;
+}
+
+#site-footer-container footer #footer-social-bar #footer-social-signup .primary-page-button {
+	float: right;
+	line-height: 16px;
+	margin-top: 20px;
+	padding: 6px 18px;
+}
+
+#site-footer-container footer #tony-callout {
+	background-image: none;
+	background-color: #002641;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	padding: 15px;
+	overflow: hidden;
+	height: auto;
+}
+
+#site-footer-container footer #tony-callout #tony-callout-img {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+#site-footer-container footer #footer-social-bar #footer-social-icons li {
+	width: 32px;
+}
+
+#footer-social-icons li img {
+	width: 100%;
+}
+
+#site-footer-container #footer-social-icons a {
+	display: block;
+}
+
+#site-footer-container footer #footer-directory .footer-column.last {
+	border: none !important;
+	padding-right: 0 !important;
+}
+
+/* 	==========================================================================
+   	modal
+   	========================================================================== */
+.avlModal .avlModal-wrapper {
+	padding-right: 10px !important;
+}
+
+.avlModal .modal-buttons {
+	padding-bottom: 0 !important;
+}
+
+.avlModal .avlModal-header {
+	margin-right: 20px;
+}
+
+.avlModal-content {
+	padding: 0 20px 0 0 !important;
+}
+
+.avlModal .button {
+	margin-bottom: 5px;
+}
+/* 	==========================================================================
+	Icon Links
+   	========================================================================== */
+
+.icon-link,
+.icon-link:active {
+	position: absolute;
+	top: 5px;
+	display: inline-block;
+	height: 30px;
+	width: 40px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	color: #888;
+}
+
+.icon-link.highlight,
+.icon-link:hover,
+.icon-link:active {
+	color: #fff;
+}
+
+.submenu-dropdown-icon {
+	font-size: 24px;
+	float: right;
+	color: #fff;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+.footer-nav .submenu-dropdown-icon,
+#footer-bottom-links .submenu-dropdown-icon {
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.page-header .submenu-dropdown-icon {
+	margin-right: 3px;
+}
+
+/* browsers that do not support font face but say that they do :( */
+.no-fontface {
+	font-size: 14px;
+	display: none;
+	text-transform: uppercase;
+}
+
+/* 	==========================================================================
+   	MOBILE & HIDDEN
+   	========================================================================== */
+.radio-button-list input {
+	float: left;
+	display: block;
+	margin-top: 3px !important;
+}
+
+.radio-button-list label {
+	float: none;
+	display: block !important;
+	margin-left: 30px !important;
+}
+
+.radio-button-list label span.radio-choice-title {
+	display: block;
+}
+
+.radio-button-list label span.radio-choice-description {
+	margin: 0;
+	display: block;
+}
+/* 	==========================================================================
+   	MOBILE & HIDDEN
+   	========================================================================== */
+
+.hidden {
+	display: none;
+}
+
+.mobile {
+	display: none !important;
+}
+
+
+
+/*	####################################################################################################################################################  */
+/* 	====================================================================================================================================================
+	ALL MEDIA - MAX WIDTH 975PX
+   	==================================================================================================================================================== */
+/*	####################################################################################################################################################  */
+
+@media (max-width: 980px) {
+
+	/* 	==========================================================================
+	HTML & BODY
+   	========================================================================== */
+
+
+	body {
+		min-width: 320px;
+	}
+
+	html .no-fontface {
+		font-size: 11px;
+	}
+
+
+	/* 	==========================================================================
+	Shared Container
+   	========================================================================== */
+	#site-navigation .nav-menu li,
+	#page-menu .nav-menu li {
+		margin: 0px 10px;
+		padding-bottom: 6px;
+		overflow: hidden;
+	}
+
+	#site-navigation .nav-menu li a,
+	#page-menu .nav-menu li a {
+		clear: right;
+		display: block;
+		color: #fff;
+		text-align: left;
+		left: 10px;
+		font-family: 'open sans', arial, sans-serif;
+		line-height: 36px;
+		font-size: 20px;
+		text-decoration: none;
+		margin: 0;
+		border-bottom: 2px solid #999;
+		-webkit-box-shadow: 0 3px 2px rgba(0,0,0,0.2);
+		-moz-box-shadow: 0 3px 2px rgba(0,0,0,0.2);
+		box-shadow: 0 3px 2px rgba(0,0,0,0.2);
+		width: 120%;
+		margin: 0 0 0 -10%;
+		padding: 0 10% 6px;
+	}
+
+	/* 	====================================================================================================================================================
+	Site Container
+   	==================================================================================================================================================== */
+
+	/* 	====================================================================================================================================================
+	Slideout Container
+   	==================================================================================================================================================== */
+
+	#slideout-container {
+		-webkit-box-shadow: 0 0 5px 3px rgba(0,0,0,0.4);
+		-moz-box-shadow: 0 0 5px 3px rgba(0,0,0,0.4);
+		box-shadow: 0 0 5px 3px rgba(0,0,0,0.4);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0px;
+		z-index: 998; /* lower than step-navigation for non-mobile slideout */
+		background: #004A6F;
+		min-height: 100%;
+		transition: filter 0.3s ease-in-out;
+		-webkit-transition: -webkit-filter 0.3s ease-in-out;
+		-moz-transition: -moz-filter 0.3s ease-in-out;
+		-o-transition: -o-filter 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		overflow-y: hidden;
+		*overflow-y: hidden;
+	}
+
+	#slideout-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: none;
+		z-index: 1000;
+	}
+
+	#slideout-container.slide-out {
+		width: 100%; /*necessary to recalculate sizes inside the container - remove space left from scroll bar*/
+	}
+
+	#slideout-container.slide-out #slideout-overlay {
+		display: block;
+		cursor: pointer;
+	}
+
+	/* 	====================================================================================================================================================
+	Site Container > Sections
+   	==================================================================================================================================================== */
+
+	#site-container aside#nav-myaccount {
+		display: none;
+	}
+
+	#site-container aside .avlModal-container {
+		display: block;
+	}
+
+	/* 	====================================================================================================================================================
+	Site Container > Content Container
+   	==================================================================================================================================================== */
+
+	#content, #outer-wrapper {
+		margin: 0;
+	}
+
+	#content {
+		position: static;
+		background: #fff;
+	}
+
+	#content .wrapper {
+		margin: 0;
+		padding: 10px;
+	}
+
+	#main-content {
+		padding: 0 !important;
+	}
+
+	/* 	====================================================================================================================================================
+	Site Container > Content Container > Application Page Elements
+   	==================================================================================================================================================== */
+
+	.page-wrapper {
+		border: none;
+	}
+
+	#main-content .page-header {
+		height: auto !important;
+		min-height: 36px;
+		overflow: hidden;
+		position: relative;
+		font-size: 28px;
+		text-shadow: 0 1px 3px #000;
+		color: #666;
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+		text-transform: uppercase;
+	}
+
+	#main-content .dropDown-menu-link .page-header {
+		cursor: pointer;
+	}
+
+	#main-content .page-header h1 {
+		color: #fff;
+		text-align: left;
+		left: 10px;
+		font-family: 'open sans', arial, sans-serif;
+		line-height: 36px;
+		font-size: 20px;
+		font-weight: normal;
+		text-align: left;
+		position: absolute;
+		margin: 0 !important;
+	}
+
+	.page-header .link-need-help {
+		display: none;
+	}
+
+	/* 	==========================================================================
+	Page Menu
+	========================================================================== */
+
+	#page-menu {
+		height: 0;
+		clear: both;
+	}
+
+	#page-menu .nav-menu li {
+		padding-bottom: 0;
+	}
+
+	#page-menu .nav-menu li a {
+		border-bottom: none;
+		border-top: 2px solid #999;
+		-webkit-box-shadow: inset 0 3px 2px rgba(0,0,0,0.2);
+		-moz-box-shadow: inset 0 3px 2px rgba(0,0,0,0.2);
+		box-shadow: inset 0 3px 2px rgba(0,0,0,0.2);
+		margin: 0 0 0 -10%;
+		padding: 0px 10%;
+	}
+
+	.page-content {
+		padding: 0;
+	}
+
+	/* 	==========================================================================
+		Mobile Site Navigation
+   		========================================================================== */
+
+	#site-container nav#site-navigation,
+	#site-container nav#site-navigation #nav-wrapper {
+		position: absolute;
+		top: 0;
+		height: 100%;
+		overflow: auto;
+		text-align: left;
+	}
+
+	#site-container nav#site-navigation {
+		left: -80%; /* change back to 0 if pushing effect fails */
+		max-width: 300px;
+		width: 80%;
+		transition: left .4s ease;
+		-webkit-transition: left .4s ease;
+		-moz-transition: left .4s ease;
+		-o-transition: left .4s ease;
+	}
+
+	#site-container nav#site-navigation.active {
+		left: 0;
+		display: block !important;
+	}
+
+	#site-container nav#site-navigation #nav-wrapper {
+		left: 0;
+		width: 100%;
+	}
+
+	#site-container nav#site-navigation a {
+		position: relative;
+		display: block;
+		overflow: hidden;
+		text-decoration: none;
+	}
+
+	#site-container nav#site-navigation a span {
+		float: left;
+		width: 50px;
+		text-align: center;
+	}
+
+	#site-container nav#site-navigation ul {
+		padding-top: 10px;
+	}
+
+	/* 	==========================================================================
+	Mobile Help Section
+   	========================================================================== */
+
+	#mobile-help {
+		position: absolute;
+		height: 100%;
+		top: 0;
+		right: 0; /* change back to 0 if pushing effect fails */
+		width: 0%;
+		color: #fff;
+		text-align: left;
+		transition: width .4s ease;
+		-webkit-transition: width .4s ease;
+		-moz-transition: width .4s ease;
+		-o-transition: width .4s ease;
+		font-size: 13px;
+		z-index: 1;
+		overflow-y: auto;
+	}
+
+	#mobile-help.active {
+		width: 90%;
+	}
+
+	#mobile-help .help-section {
+		border-bottom: 2px solid #999;
+		-webkit-box-shadow: 0 3px 2px rgba(0,0,0,0.2);
+		-moz-box-shadow: 0 3px 2px rgba(0,0,0,0.2);
+		box-shadow: 0 3px 2px rgba(0,0,0,0.2);
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+		width: 100%;
+		padding-right: 10px;
+	}
+
+	#mobile-help .help-title {
+		font-size: 16px;
+		font-weight: 600;
+		text-shadow: 0 1px 3px #000;
+		font-family: 'open sans', arial, sans-serif;
+		line-height: 36px;
+		font-size: 20px;
+		text-decoration: none;
+		padding-top: 5px;
+	}
+
+	#mobile-help .help-wrapper {
+		margin-right: 10px;
+		margin-left: 20px;
+		overflow-x: hidden;
+	}
+
+	#mobile-help h4 {
+		margin-bottom: 5px;
+		font-weight: bold;
+		font-size: 13px;
+	}
+
+	#mobile-help p {
+		margin-bottom: 15px;
+	}
+
+	#mobile-help .help-section p:last-child {
+		margin-bottom: 5px;
+	}
+
+	#mobile-help .chat-icon, #mobile-help .email-icon, #mobile-help .phone-icon, #mobile-help .video-icon, #mobile-help .pdf-icon, #mobile-help .morehelp-icon {
+		display: inline-block;
+		vertical-align: middle;
+		padding-right: 4px;
+		height: 23px;
+		width: 23px;
+		background: url('/commoncontrols/universal/DM/IMG/mobile-help-icons.png') 0 0 no-repeat;
+	}
+
+	#mobile-help .video-icon, #mobile-help .pdf-icon {
+		vertical-align: bottom;
+		width: auto;
+		padding-left: 26px;
+	}
+
+	#mobile-help .help-icon-link {
+		display: block;
+		margin-bottom: 3px;
+		line-height: 24px;
+	}
+
+	#mobile-help .chat-icon {
+		background-position: 0 -46px;
+	}
+
+	#mobile-help .email-icon {
+		background-position: 0 -23px;
+	}
+
+	#mobile-help .phone-icon {
+		background-position: 0 0;
+	}
+
+	#mobile-help .video-icon {
+		background-position: 0 -92px;
+	}
+
+	#mobile-help .pdf-icon {
+		background-position: 0 -69px;
+	}
+
+	#mobile-help .contact-label {
+		font-weight: bold;
+	}
+
+	#mobile-help .morehelp-icon {
+		background-position: 0 -115px;
+	}
+
+	#mobile-help a {
+		color: #fff;
+		text-shadow: 0 1px 3px #000;
+	}
+
+	#mobile-help .callout-message {
+		color: #222;
+	}
+
+	#mobile-help .approval-message {
+		color: #222;
+	}
+
+	#mobile-help .error-message {
+		color: #222;
+	}
+
+	#mobile-help .success-message {
+		color: #222;
+	}
+	/* 	==========================================================================
+	Mobile Site Header
+   	========================================================================== */
+
+	#mobile-site-header {
+		height: 50px;
+		text-shadow: 0 1px 3px #000;
+		border-bottom: 1px solid #000;
+		position: relative;
+	}
+
+	#mobile-site-header,
+	#mobile-site-header #togglenav-button-header,
+	#mobile-site-header #togglehelp-button-header {
+		background: #004A6F;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #004A6F ), to( #17374e ));
+		background-image: -webkit-linear-gradient( #004A6F, #17374e );
+		background-image: -moz-linear-gradient( #004A6F, #17374e );
+		background-image: -ms-linear-gradient( #004A6F, #17374e );
+		background-image: -o-linear-gradient( #004A6F, #17374e );
+		background-image: linear-gradient( #004A6F, #17374e );
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17374e', endColorstr='#004A6F',GradientType=0 );
+	}
+
+	#mobile-site-header #togglenav-button-header,
+	#mobile-site-header #togglehelp-button-header {
+		top: 10px;
+		color: #eee;
+		border: 1px solid #1c252b;
+		-webkit-box-shadow: 0 1px 1px rgba(255,255,255,0.1);
+		-moz-box-shadow: 0 1px 1px rgba(255,255,255,0.1);
+		box-shadow: 0 1px 1px rgba(255,255,255,0.1);
+	}
+
+	#mobile-site-header #togglenav-button-header {
+		left: 10px;
+	}
+
+	#mobile-site-header #togglehelp-button-header {
+		right: 10px;
+	}
+
+	#mobile-site-header .link-logo {
+		position: absolute;
+		top: 15px;
+		left: 50%;
+		margin-left: -80px;
+	}
+
+	#mobile-site-header .link-logo,
+	#mobile-site-header .link-logo img {
+		height: 15px;
+		width: 160px;
+	}
+
+	/* 	==========================================================================
+	MOBILE > COLORS
+   	========================================================================== */
+
+	.icon-link:hover,
+	.icon-link.highlight {
+		background: #d6dce2 url(../img/noise-1.png);
+	}
+
+	body {
+		background-image: url(../img/noise-1.png);
+	}
+
+	#mobile-site-header,
+	#mobile-site-header a {
+		background: #004A6F;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #004A6F ), to( #17374e ));
+		background-image: -webkit-linear-gradient( #004A6F, #17374e );
+		background-image: -moz-linear-gradient( #004A6F, #17374e );
+		background-image: -ms-linear-gradient( #004A6F, #17374e );
+		background-image: -o-linear-gradient( #004A6F, #17374e );
+		background-image: linear-gradient( #004A6F, #17374e );
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17374e', endColorstr='#004A6F',GradientType=0 );
+	}
+	#mobile-site-header a.link-logo {
+		background: transparent;
+	}
+	#site-container .quoter-mode {
+		background: #E7EDF3 url(../img/noise-1.png);
+	}
+
+	#togglenav-button-header,
+	#togglehelp-button-header {
+		background: #445f74 url(../img/noise-1.png);
+	}
+
+	/* 	====================================================================================================================================================
+	Modals
+   	==================================================================================================================================================== */
+
+	.avlModal .avlModal-header {
+		font-size: 16px !important;
+		padding-bottom: 10px !important;
+		margin-bottom: 15px !important;
+	}
+
+
+
+	.avlModal .avlModal-wrapper p {
+		font-size: 13px !important;
+		line-height: 20px !important;
+	}
+
+	/* 	====================================================================================================================================================
+	Footer
+   	==================================================================================================================================================== */
+	#mobile-footer-buttons {
+		display: none;
+		right: 8px;
+		overflow: hidden;
+		width: 135px;
+		height: 34px;
+		bottom: 0;
+		z-index: 100;
+	}
+
+	#site-footer-container footer #tony-callout {
+		width: auto;
+		float: none;
+		padding: 15px 0;
+		margin: 0 10px;
+	}
+
+	#site-footer-container footer #tony-callout #tony-callout-img {
+		width: 100px;
+		margin: 0 10px;
+	}
+
+	#site-footer-container footer #footer-directory .footer-column {
+		width: 29%;
+		padding: 0 2%;
+		margin: 20px 0;
+	}
+
+	/* 	====================================================================================================================================================
+		Mobile
+   		==================================================================================================================================================== */
+
+	.mobile {
+		display: block !important;
+	}
+
+	#site-footer-container .mobile {
+		display: none !important;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+    ul.nav-menu [class^="icon-"], ul.nav-menu [class*=" icon-"] {
+        display: inline;
+    }
+}
+
+
+
+/*	####################################################################################################################################################  */
+/* 	====================================================================================================================================================
+	ALL MEDIA - MAX WIDTH 750PX
+   	==================================================================================================================================================== */
+/*	####################################################################################################################################################  */
+
+@media (max-width: 750px) {
+
+	/* 	====================================================================================================================================================
+	Slideout Container
+   	==================================================================================================================================================== */
+
+
+	#slideout-container {
+		background: #004A6F;
+	}
+
+	/* 	====================================================================================================================================================
+	Mobile Help Section
+   	==================================================================================================================================================== */
+
+
+	/* 	====================================================================================================================================================
+	Footer
+   	==================================================================================================================================================== */
+
+	#site-footer-container footer #footer-main {
+		padding-bottom: 0;
+	}
+
+	.footer-nav .nav-menu li,
+	#site-footer-container footer #footer-bottom-links .nav-menu li {
+		margin: 0px 10px;
+		padding-bottom: 6px;
+		overflow: hidden;
+		display: block;
+	}
+
+	.footer-nav .nav-menu li a,
+	#footer-bottom-links .nav-menu li a {
+		clear: right;
+		display: block;
+		color: #fff;
+		text-align: left;
+		left: 10px;
+		font-family: 'open sans', arial, sans-serif;
+		line-height: 36px;
+		font-size: 20px;
+		text-decoration: none;
+		margin: 0;
+		border-bottom: 2px solid #999;
+		-webkit-box-shadow: 0 3px 2px rgba(0,0,0,0.2);
+		-moz-box-shadow: 0 3px 2px rgba(0,0,0,0.2);
+		box-shadow: 0 3px 2px rgba(0,0,0,0.2);
+		width: 120%;
+		margin: 0 0 0 -10%;
+		padding: 0 10% 6px;
+	}
+
+
+	#site-footer-container footer {
+		background: #004A6F;
+	}
+
+	#site-footer-container footer #footer-directory .footer-column,
+	#site-footer-container footer #footer-directory .footer-column.last {
+		max-width: none;
+		width: auto;
+		float: none;
+		padding: 0 10px !important;
+		margin: 0;
+	}
+
+	#site-footer-container footer #footer-bottom-links {
+		text-align: left;
+		max-width: none;
+		width: auto;
+		float: none;
+		padding: 0 10px !important;
+		margin: 0 0 10px;
+	}
+
+	#site-footer-container footer #footer-directory .footer-column li.list-header,
+	#site-footer-container footer #footer-bottom-links li.list-header {
+		cursor: pointer;
+		margin-bottom: 0;
+	}
+
+	#site-footer-container footer #footer-directory .footer-column li.list-header > a,
+	#site-footer-container footer #footer-bottom-links li.list-header > a {
+		margin: 0;
+		padding: 0;
+		float: none;
+		width: 100%;
+		height: auto;
+		font-family: 'open sans', arial, sans-serif;
+		background: none;
+		color: #fff;
+		line-height: 50px;
+		font-size: 16px;
+		font-weight: normal;
+		text-decoration: none;
+		text-shadow: 0 1px 3px #000;
+		cursor: pointer;
+	}
+
+	#site-footer-container footer #footer-bottom-links li.list-header {
+		display: block;
+	}
+
+	#site-footer-container footer #footer-bottom-links li.list-header > a {
+		display: inline !important;
+	}
+
+	#site-footer-container footer ul.footer-nav > li > a,
+	#site-footer-container footer ul.footer-nav > li > span {
+		float: left;
+	}
+
+	#site-footer-container footer ul.footer-nav > li > i,
+	#site-footer-container footer #footer-bottom-links li.list-header > i {
+		float: right;
+	}
+
+	#site-footer-container footer #footer-directory .footer-column .sub-menu li a,
+	#site-footer-container footer #footer-bottom-links .sub-menu li a {
+		clear: none;
+		display: block;
+		color: #fff;
+		text-align: left;
+		font-family: 'open sans', arial, sans-serif;
+		font-size: 15px;
+		text-decoration: none;
+		margin: 0;
+		padding: 3px 0;
+		border-bottom: 1px solid #004A6F;
+	}
+
+	#site-footer-container footer #footer-directory .footer-column .sub-menu li a:hover {
+		color: #CCE3F2 !important;
+	}
+
+	#site-footer-container footer li {
+		padding-bottom: 0;
+	}
+
+	#site-footer-container footer ul.footer-nav > li > .menu-container,
+	#site-footer-container footer #footer-bottom-links .menu-container {
+		overflow: hidden;
+		width: 100%;
+		height: auto;
+		background: #002641;
+		clear: both;
+		border-bottom: 2px solid #002641;
+	}
+
+	#site-footer-container footer ul.footer-nav > li > .menu-container .sub-menu,
+	#site-footer-container footer #footer-bottom-links .menu-container .sub-menu {
+		margin: 0;
+		height: 0px;
+		-webkit-transition: height 1s ease;
+		-moz-transition: height 1s ease;
+		-o-transition: height 1s ease;
+		transition: height 1s ease;
+	}
+
+
+
+	#site-footer-container footer ul > li > a:hover,
+	#site-footer-container footer ul > li > a:active {
+		text-decoration: none;
+	}
+
+	#mobile-footer-buttons {
+		display: block;
+		right: auto;
+		position: static;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		z-index: 1;
+	}
+
+	#full-site-link {
+		display: block;
+	}
+
+	#footer-subscribe-button {
+		float: right;
+	}
+
+	#site-footer-container footer #footer-social-bar {
+		margin-bottom: 0;
+	}
+
+	#site-footer-container footer #tony-callout {
+		display: none;
+	}
+
+	#site-footer-container #footer-social-bar-content {
+		width: auto;
+	}
+
+	#site-footer-container footer #footer-social-bar #footer-social-signup {
+		height: auto !important;
+		padding: 0 10px;
+		line-height: normal;
+	}
+
+	#site-footer-container footer #footer-social-bar #footer-email-form {
+		padding-bottom: 10px;
+		border-bottom: 1px solid #004466;
+	}
+
+	#site-footer-container footer #footer-social-bar #email-input-container {
+		height: auto !important;
+		overflow: hidden;
+		line-height: normal;
+	}
+
+	#site-footer-container #footer-social-signup,
+	#site-footer-container #footer-social-icons {
+		float: none;
+		margin: 0;
+	}
+
+	#site-footer-container footer #footer-social-bar #footer-social-signup #signup-email {
+		margin-top: 10px;
+		font-size: 14px;
+		padding: 2%;
+		width: 64%;
+		height: 15px;
+	}
+
+	#site-footer-container footer #footer-social-bar #footer-social-signup .primary-page-button {
+		margin: 10px 0 0;
+		padding: 2% !important;
+		width: 26%;
+		text-align: center;
+		font-size: 14px;
+		line-height: 15px;
+	}
+
+	#site-footer-container footer #footer-social-bar #footer-social-icons {
+		width: 100%;
+		max-width: 500px;
+		height: auto;
+		line-height: normal;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#site-footer-container footer #footer-social-bar #footer-social-icons li {
+		width: 12%;
+		margin: 2.33%;
+		line-height: normal;
+	}
+
+
+
+
+
+	/* 	====================================================================================================================================================
+	mobile-Feedback Tab
+	==================================================================================================================================================== */
+	#feedback-tab {
+		display: none !important;
+	}
+
+	#mobile-feedback-link, #full-site-link.mobile a {
+		display: block;
+		position: static;
+		float: left;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		border: none;
+		border-radius: 0px;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		-o-border-radius: 0px;
+		-ms-border-radius: 0px;
+		color: #fff;
+		background: #4d97cb;
+		background: -webkit-linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+		background: -moz-linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+		background: -ms-linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+		background: -o-linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+		background: linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+	}
+
+	#site-footer-container footer #mobile-feedback-link:hover, #site-footer-container footer #full-site-link.mobile a:hover {
+		text-decoration: none;
+		background: #3e7ca6;
+		background: linear-gradient(top, #3e7ca6 0%,#4d97cb 100%);
+		background: -o-linear-gradient(top, #3e7ca6 0%,#4d97cb 100%);
+		background: -ms-linear-gradient(top, #3e7ca6 0%,#4d97cb 100%);
+		background: -moz-linear-gradient(top, #3e7ca6 0%,#4d97cb 100%);
+		background: -webkit-linear-gradient(top, #3e7ca6 0%,#4d97cb 100%);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e7ca6', endColorstr='#4d97cb')";
+	}
+	#mobile-feedback-tab{
+		margin-bottom: 40px;
+		overflow: hidden;
+	}
+	#mobile-feedback-tab #mobile-feedback-wrapper #mobile-feedback-link,
+	#full-site-link a {
+		display: block;
+		width: 100%;
+		text-transform: uppercase;
+		color: #fff;
+		position: static;
+		font-size: 16px;
+		line-height: 42px;
+		text-decoration: none;
+		font-weight: 600;
+		height: auto;
+	}
+
+	/* 	====================================================================================================================================================
+	Mobile
+   	==================================================================================================================================================== */
+
+	#site-footer-container .mobile {
+		display: block !important;
+	}
+}
+
+/*	####################################################################################################################################################  */
+/* 	====================================================================================================================================================
+	ALL MEDIA - MAX WIDTH 500PX
+   	==================================================================================================================================================== */
+/*	####################################################################################################################################################  */
+
+@media (max-width: 500px) {
+	#site-container {
+		min-height: 0;
+	}
+
+	.primary-site-button,
+	.secondary-site-button,
+	.primary-page-button {
+		width: 100%;
+		padding: 16px 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 10px;
+		border: none;
+	}
+
+	#btnExtendSession .more-text {
+		display: none;
+	}
+
+	.avlModal .button {
+		margin-left: 0 !important;
+	}
+
+	#site-footer-container footer #footer-social-bar #footer-social-signup .primary-page-button {
+		width: auto;
+		padding: 16px;
+	}
+
+	#site-footer-container footer #footer-social-bar #footer-social-signup #signup-email {
+		width: 96%;
+	}
+
+	#site-footer-container footer #footer-social-bar #footer-social-signup .primary-page-button {
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 350px) {
+
+	#site-footer-container footer #footer-directory .footer-column li.list-header > a {
+		font-size: 15px;
+	}
+}

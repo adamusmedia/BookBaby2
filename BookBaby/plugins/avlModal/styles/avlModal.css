@@ -1,0 +1,113 @@
+﻿
+.avlModalHideClass
+{
+	position:absolute;
+	top:0;
+	left:-9999px;
+}
+
+#avlModal 
+{ 
+	width:330px; 
+	padding:20px;
+	text-align:left;
+	-webkit-box-shadow: 0 1px 8px #333;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}	
+
+#avlModal h1, #avlModal h2
+{ 
+	font-size:22px;
+	font-weight:bold;
+	margin-bottom:10px;
+	border-bottom:1px solid #ddd;
+	padding-bottom:10px;
+}
+
+#avlModal p
+{ 
+	line-height:20px;
+	font-size:13px;
+	margin-bottom:20px;
+}
+#newvistext
+{ 
+	line-height:28px;
+	font-size:16px;
+	margin:90px 0 20px;
+}
+
+#avlModal .overlay-close
+{
+	position:absolute; 
+	display:block;
+	top:-14px; 
+	right:-14px;
+	width:28px;
+	height:28px;
+	z-index:9999;
+	background:transparent url(/plugins/avlmodal/images/closeX.png) no-repeat 0 0;
+}
+
+.modal-link
+{
+	margin-left:5px; 
+	cursor:pointer;
+}	
+
+.modal-link img { vertical-align:text-top; }
+
+.session-button-container
+{
+	margin-top:20px;
+}
+
+.session-button-container
+{
+	text-align:center;
+}
+	/*	=============================================================================================================
+	NEW VIS OVERLAY
+	============================================================================================================= */
+	#overlay h2, .avlModal-header {
+		font-family:"Open Sans","Arial", sans-serif;
+		border-bottom: 1px solid #ddd;
+    	font-size: 28px;
+    	font-weight: bold;
+    	margin-bottom: 10px;
+    	padding-bottom: 10px;
+		font-weignt:700;
+		text-align:center;
+		color:#000;
+	}
+	#overlay h3 {
+		font-family:"Open Sans","Arial", sans-serif;
+		/*font-size: 26px;*/
+		font-size: 30px;
+    	font-weight: bold;
+    	margin: 10px 0 0 0;
+    	padding: 25px 0 10px 0;
+		font-weignt:700;
+		text-align:left;
+		color:#000;
+	}
+	#overlay h4 {
+		font-family:"Open Sans","Arial", sans-serif;
+		/*font-size: 16px;
+    	font-weight: bold;
+    	margin:0;*/
+		font-size: 18px;
+    	font-weight: normal;
+    	margin:0 0 10px 0;
+    	padding: 0 0 10px 0;
+		font-weignt:700;
+		text-align:left;
+		color:#000;
+	}
+	.subhead{
+		font-size:14px;
+		line-height:25px;
+		color:#000;
+		margin-bottom:15px;
+	}

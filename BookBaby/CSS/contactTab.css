@@ -1,0 +1,566 @@
+﻿
+/* =============================================================================
+   TOC
+   =============================================================================
+
+    Modal
+    Contact Tab
+    Contact Modal
+    Form Styles
+
+*/
+    
+/* =============================================================================
+    Modal
+    ========================================================================== */
+	
+	.avlContactModal .avlContactModal-header
+	{
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 15px;
+    }
+
+	.avlContactModal .async-screen,
+	.avlContactModal .async-loader
+	{ 
+        -webkit-border-radius:8px;
+        -moz-border-radius:8px;
+        border-radius:8px;	
+    }	
+    
+	.avlContactModal .async-screen
+	{
+	    background-color:transparent;
+	    background-repeat:repeat;
+	}
+
+	.avlContactModal .async-screen
+	{
+	    display:none;
+	    position:absolute;
+	    top:0;
+	    left:0;
+	    height:100%;
+	    width:100%;
+	    background-position:0 0;
+    }
+	
+	.avlContactModal .async-loader
+	{
+		background-color:#fff;
+	    background-repeat:no-repeat;
+        -webkit-box-shadow: 0 1px 20px #000;
+        -moz-box-shadow: 0 1px 20px #000;
+        box-shadow: 0 1px 20px #000;		
+	    position:fixed;
+	    top:50%;
+	    left:50%;
+	    background-position:center 45px;
+	}
+	
+	.avlContactModal .async-loader
+	{
+	    height:70px;
+	    width:130px;
+	    margin-top:-45px;
+	    margin-left:-75px;
+	    padding-top:20px;
+	}
+	
+	.avlContactModal .async-loader h6,
+	#submit-coupon-screen .async-loader h6,
+	#place-order-screen .async-loader h6
+	{
+	    text-align:center;
+	    font-weight:bold;
+	}
+	
+	.avlContactModal .async-loader h6
+    {
+	    font-size:14px;
+	    margin: 0;
+	}	
+
+    .avlContactModal .button
+    {
+	   margin-left: 10px;
+    }	
+
+    .avlContactModal .secondary-site-button
+    {
+	   float: none;
+    }	
+
+/* =============================================================================
+    Contact Tab
+    ========================================================================== */
+
+    #contact-tab
+    {
+        position: fixed;
+		overflow: hidden;
+		bottom: 0;
+		right: -205px;
+        z-index: 9992;
+		width: 205px;
+        height: 61px;
+    }
+
+    #contact-wrapper
+    {
+        position: relative;
+    }
+
+    #contact-wrapper a
+    {
+        position: absolute;
+        text-indent: -9999px;
+    }
+    
+    #contact-tab #contact-link
+    {
+        left: 0;
+        width: 205px;
+        height: 122px;
+		background: url(/images/contactTab/popuptab.png) no-repeat 0 0;
+    }
+    
+    #contact-tab #contact-link:hover
+    {
+		background-position: 0 -61.5px;
+    }
+    
+    #contact-tab #open-page-tab
+    {
+        display: none;
+        left: 0px;
+        top: 0px;
+        width: 67px;
+        height: 70px;
+    }
+    
+    #contact-tab #close-page-tab
+    {
+        right: 0;
+        top: 0px;
+        width: 15px;
+        height: 25px;
+    }
+
+/* =============================================================================
+    Contact Modal
+    ========================================================================== */
+
+	.form .dd-contact-type { width:300px; }
+	.txt-contact           { width:590px; height:100px; }
+
+    #contact-modal .avlContactModal-section 
+    {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+    }
+    
+    #contact-modal .button { margin-left: 0; }
+    
+    #contact-modal .callout-message 
+    {
+        color: #555;
+        margin-bottom: 10px;
+        line-height: 20px;
+        border-bottom: 1px solid #ddd;
+        padding: 15px 10px;
+        margin: 0 0 15px 0;
+        background: #fafaff;
+        font-size: 13px;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+    }
+	
+	.avlContactModal #contact-submitted
+	{
+	    height:250px;
+	    display:none;
+		padding-top:100px;
+		text-align:center;
+		font-size:18px; 
+		color:#555;
+	}
+
+	.avlContactModal #contact-submitted a
+	{
+		display:block;
+		font-size:14px;
+		margin-top:20px;
+		color:#399639;
+	}
+
+
+/*	=============================================================================================================
+	Forms
+	============================================================================================================= */
+
+	.avlContactModal-wrapper .form .input-container,
+	.avlContactModal-wrapper .form .button-container { zoom: 1; }
+	
+	.avlContactModal-wrapper .form .form-section { margin-top:40px; }
+
+    .avlContactModal-wrapper .form .input-container { line-height: 25px; margin-bottom: 12px; }
+
+	.avlContactModal-wrapper .form .input-container label { display: block; margin-right: 10px; font-weight: bold; line-height: 20px; }
+    
+    .avlContactModal-wrapper .form .input-container .textbox,
+    .avlContactModal-wrapper .form .input-container .dropdown,
+    .avlContactModal-wrapper .form .input-container .additional,
+    .avlContactModal-wrapper .form .input-container .textarea { 
+		display: block; 
+    }
+
+	.avlContactModal-wrapper .form .input-container .dropdown
+	{
+		float: none;
+	}
+
+	.avlContactModal-wrapper .form .input-container .textbox
+	{
+		float: none;
+	}
+
+	.avlContactModal-wrapper .form .input-container .textarea
+	{
+		float:none;
+	}
+
+	.avlContactModal-wrapper textarea[class ~= "txt-contact"]
+	{
+		float:none;
+	}
+
+	.avlContactModal-wrapper label[class ~= "input-label-contact"]
+	{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+    .avlContactModal-wrapper .form .input-container .checkbox { display: inline;}
+
+    .avlContactModal-wrapper .form .input-container .textbox,
+    .avlContactModal-wrapper .form .input-container .dropdown,
+    .avlContactModal-wrapper .form .input-container .textarea { background-color: #f4f4f4; border: 1px solid #ccc; }
+	
+	.avlContactModal-wrapper .form .input-container label .label-note,
+	.avlContactModal-wrapper .form .input-container .input-note { color: #999; font-size: 11px; } 
+	
+	.avlContactModal-wrapper .form .input-container .input-note { display:block; line-height:20px;}
+
+	.avlContactModal-wrapper .form .input-container label .label-note { margin-left:15px; }
+	.avlContactModal-wrapper .form .input-container label.inline { display:inline; }
+	.avlContactModal-wrapper .form .input-container input.inline { display:inline; }
+    
+	.avlContactModal-wrapper .form .highlighted-container { padding: 5px 8px 4px 8px; border: 1px solid #E8DDDD; background:#f9eeee; max-width:610px;}
+	
+	.avlContactModal-wrapper .form .input-error { display:none; color:#900; margin-top: 5px; }
+	
+	.avlContactModal-wrapper .form h3 { font-size: 20px; }
+	.avlContactModal-wrapper .form h4 { font-size: 16px; }
+	.avlContactModal-wrapper .form .input-container p { line-height:25px; }
+	.avlContactModal-wrapper .form .input-container ul { list-style:disc; color: #666; margin-left:10px; padding-left:10px; line-height:18px;}
+	.avlContactModal-wrapper .form .input-container ul li { margin: 5px 0; }
+	
+	.avlContactModal-wrapper .form .page-buttons { margin-top: 20px; }
+	
+/*	=============================================================================================================
+	Checkboxes
+	============================================================================================================= */
+	
+	.avlContactModal-wrapper .checkbox,
+	.avlContactModal-wrapper .checkbox input { margin:2px 15px 0 0; }
+
+/*	=============================================================================================================
+	Radiobuttons
+	============================================================================================================= */
+	
+	.avlContactModal-wrapper .radio-button-list tr,
+	.avlContactModal-wrapper .radio-button-list td,
+	.avlContactModal-wrapper .radio-button-list input,
+	.avlContactModal-wrapper .radio-button-list label { vertical-align:middle; }
+	
+	.avlContactModal-wrapper .radio-button-list label { display: inline !important; margin-left: 10px; }
+
+/*	=============================================================================================================
+	Textareas
+	============================================================================================================= */
+	
+	.avlContactModal-wrapper .textarea { color:#555; padding:8px; }
+	
+	.avlContactModal-wrapper .txt-shortdescript,
+	.avlContactModal-wrapper .txt-longdescript,
+	.avlContactModal-wrapper .txt-authorbio,
+	.avlContactModal-wrapper .txt-services,
+	.avlContactModal-wrapper .txt-keywords { width:700px !important; } 
+
+/*	=============================================================================================================
+	DropDowns
+	============================================================================================================= */
+	
+	.avlContactModal-wrapper .dropdown { padding:7px; color:#555; }
+	
+	
+/*	=============================================================================================================
+	Textboxes
+	============================================================================================================= */
+	
+	.avlContactModal-wrapper .textbox
+	{
+		color:#555;
+		padding:8px;
+	}
+	
+	.avlContactModal-wrapper .txt-coupon
+	{
+		padding:3px;
+		margin-right:10px;
+	}
+
+	.avlContactModal-wrapper .txt-projectname,
+	.avlContactModal-wrapper .txt-artistname,
+	.avlContactModal-wrapper .txt-albumname,
+	.avlContactModal-wrapper .txt-companyname { width:350px; }
+
+	.avlContactModal-wrapper .txt-email,
+	.avlContactModal-wrapper .txt-password,
+	.avlContactModal-wrapper .txt-address,
+	.avlContactModal-wrapper .txt-fullname,
+	.avlContactModal-wrapper .txt-customerID,
+    .avlContactModal-wrapper .txt-isrc,
+	.avlContactModal-wrapper .txt-trackname { width:300px; }
+	
+	 
+	
+	.avlContactModal-wrapper .txt-name { width:200px; }
+	
+	.avlContactModal-wrapper .txt-volumename { width:120px; }
+	.avlContactModal-wrapper .txt-creditcard { width:175px; }
+	
+	.avlContactModal-wrapper .txt-phone,
+	.avlContactModal-wrapper .txt-date { width:100px; }
+	
+	.avlContactModal-wrapper .txt-zipcode { width:60px; }
+	
+	.avlContactModal-wrapper .txt-quantity { width:60px; text-align:center;}
+	.avlContactModal-wrapper .txt-cvv { width:35px; }
+
+
+/* ============================================================================= =============================================================================
+   Buttons
+   ============================================================================= ========================================================================== */
+    
+    .avlContactModal-wrapper .button
+    {
+        color: #fff;
+		text-align: center;
+		cursor: pointer;
+		text-decoration: none;
+    }
+    
+    .avlContactModal-wrapper .button:hover,
+    .avlContactModal-wrapper .button:active { color: #fff; }
+
+    .avlContactModal-wrapper .primary-site-button,
+    .avlContactModal-wrapper .secondary-site-button
+    {
+        text-transform: uppercase;
+        font-weight: bold;
+		padding: 6px 25px;
+		font-size: 14px;
+		-webkit-border-radius: 20px;
+		   -moz-border-radius: 20px;
+		        border-radius: 20px;
+    }
+    
+    
+    .avlContactModal-wrapper .primary-page-button
+    {
+        font-size:12px;
+        font-weight:600;
+		padding: 4px 18px;
+		border:1px solid #3e7ca6;
+        text-transform: capitalize;
+		-webkit-border-radius: 5px;
+		   -moz-border-radius: 5px;
+		        border-radius: 5px;
+
+        -webkit-box-shadow: 0 3px 3px rgba(0,0,0,.3);
+           -moz-box-shadow: 0 3px 3px rgba(0,0,0,.3);
+            -ms-box-shadow: 0 3px 3px rgba(0,0,0,.3);
+             -o-box-shadow: 0 3px 3px rgba(0,0,0,.3);
+                box-shadow: 0 3px 3px rgba(0,0,0,.3);
+
+		background: #4d97cb;
+		background: -webkit-linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+		background:    -moz-linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+		background:     -ms-linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+		background:      -o-linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+		background:         linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d97cb', endColorstr='#3e7ca6')";
+    }
+
+    .avlContactModal-wrapper .primary-page-button:hover
+    {
+		border-color:#ce7507;
+		background: #ed8509;
+		background: -webkit-linear-gradient(top, #ed8509 0%,#ce7507 100%);
+		background:    -moz-linear-gradient(top, #ed8509 0%,#ce7507 100%);
+		background:     -ms-linear-gradient(top, #ed8509 0%,#ce7507 100%);
+		background:      -o-linear-gradient(top, #ed8509 0%,#ce7507 100%);
+		background:         linear-gradient(top, #ed8509 0%,#ce7507 100%);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed8509', endColorstr='#ce7507')";
+    }
+
+    .avlContactModal-wrapper .primary-page-button:active
+    {
+        -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+           -moz-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+            -ms-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+             -o-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+                box-shadow: 0 2px 2px rgba(0,0,0,.2);
+
+		border-color:#ce7507;
+		background: #ed8509;
+		background: -webkit-linear-gradient(top, #ed8509 0%,#ce7507 100%);
+		background:    -moz-linear-gradient(top, #ed8509 0%,#ce7507 100%);
+		background:     -ms-linear-gradient(top, #ed8509 0%,#ce7507 100%);
+		background:      -o-linear-gradient(top, #ed8509 0%,#ce7507 100%);
+		background:         linear-gradient(top, #ed8509 0%,#ce7507 100%);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed8509', endColorstr='#ce7507')";
+    }
+    
+    .avlContactModal-wrapper .primary-site-button
+    {
+		text-shadow: 0px 1px 1px #8B8F01;
+		
+		background: #9CA306;
+        -webkit-box-shadow: inset 0 -10px 1px 6px #9CA306, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+           -moz-box-shadow: inset 0 -10px 1px 6px #9CA306, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+            -ms-box-shadow: inset 0 -10px 1px 6px #9CA306, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+             -o-box-shadow: inset 0 -10px 1px 6px #9CA306, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+                box-shadow: inset 0 -10px 1px 6px #9CA306, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+
+    }
+    .avlContactModal-wrapper .primary-site-button:hover
+    {
+		background: #f38909;
+        -webkit-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+           -moz-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+            -ms-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+             -o-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+                box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+    }
+    .avlContactModal-wrapper .primary-site-button:active
+    {
+		background: #f38909;
+        -webkit-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 2px 2px rgba(0,0,0,.2);
+           -moz-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 2px 2px rgba(0,0,0,.2);
+            -ms-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 2px 2px rgba(0,0,0,.2);
+             -o-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 2px 2px rgba(0,0,0,.2);
+                box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 2px 2px rgba(0,0,0,.2);
+    }
+    
+    .avlContactModal-wrapper .secondary-site-button
+    {
+		text-shadow: 0px 1px 1px #999999;
+		
+		background: #999999;
+        -webkit-box-shadow: inset 0 -10px 1px 6px #999999, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+           -moz-box-shadow: inset 0 -10px 1px 6px #999999, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+            -ms-box-shadow: inset 0 -10px 1px 6px #999999, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+             -o-box-shadow: inset 0 -10px 1px 6px #999999, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+                box-shadow: inset 0 -10px 1px 6px #999999, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+        float:left;
+    }
+    .avlContactModal-wrapper .secondary-site-button:hover
+    {
+		background: #f38909;
+        -webkit-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+           -moz-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+            -ms-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+             -o-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+                box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 3px 3px rgba(0,0,0,.3);
+    }
+    .avlContactModal-wrapper .secondary-site-button:active
+    {
+		background: #f38909;
+        -webkit-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 2px 2px rgba(0,0,0,.2);
+           -moz-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 2px 2px rgba(0,0,0,.2);
+            -ms-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 2px 2px rgba(0,0,0,.2);
+             -o-box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 2px 2px rgba(0,0,0,.2);
+                box-shadow: inset 0 -10px 1px 6px #f38909, inset 0 -50px 15px -10px rgba(255,255,255,.25), 0 2px 2px rgba(0,0,0,.2);
+    }
+
+
+
+
+
+
+
+	
+.avlContactModal-container
+{
+	position: absolute;
+	top: 0;
+	left: -9999px;
+}
+
+.avlContactModal 
+{ 
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    text-align: left;
+    background-color: #fff;
+
+	-webkit-box-shadow: inset 0 0 15px rgba(0,0,0,0.35);
+	   -moz-box-shadow: inset 0 0 15px rgba(0,0,0,0.35);
+		    box-shadow: inset 0 0 15px rgba(0,0,0,0.35);
+
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+		    border-radius: 6px;	
+}	
+
+.avlContactModal .avlContactModal-wrapper
+{
+    padding: 20px;
+} 
+
+.avlContactModal .avlContactModal-content
+{
+    overflow: auto;
+    height: 100%;
+} 
+
+.avlContactModal .avlContactModal-close
+{
+	position:absolute; 
+	display:block;
+	top:-14px; 
+	right:-14px;
+	width:28px;
+	height:28px;
+	z-index:9999;
+	background:transparent url(/images/contactTab/avlModal.png) no-repeat 0 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.avlContactModal .avlContactModal-close:hover
+{
+	background-position:0 -28px;
+}
+
+.avlContactModal-content-wrapper
+{ margin: 0; }

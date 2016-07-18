@@ -1,0 +1,316 @@
+﻿
+/* print styles */
+html, body {
+    width:auto;
+    font-family: Arial;
+}
+#site-header,
+#breadcrumb-hello,
+aside,
+#mobile-header,
+.actions-column,
+#feedback-tab ,
+#site-footer,
+.page-buttons
+{
+	display: none !important;
+}
+
+/* =============================================================================
+   body
+   ========================================================================== */
+html,
+body {
+	overflow: hidden;
+	background-image: none;
+}
+
+html:not(.OverflowScrolling) body ::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+html:not(.OverflowScrolling) body ::-webkit-scrollbar-track {
+	background: #D5D8DD;
+	border-radius: 10px;
+}
+
+html:not(.OverflowScrolling) body ::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #ABACB1;
+}
+
+html:not(.OverflowScrolling) body ::-webkit-scrollbar-thumb:hover,
+html:not(.OverflowScrolling) body ::-webkit-scrollbar-thumb:active {
+	background: #9a9ba0;
+}
+
+/* =============================================================================
+   elastic page width
+   ========================================================================== */
+
+
+#content {
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+html,
+body,
+form,
+#site-container,
+#slideout-container,
+#slideout-content {
+	min-height: auto;
+	height: auto;
+	-webkit-overflow-scrolling: auto;
+	overflow-scrolling: auto;
+	-webkit-transform: translate3d(0,0,0);
+	z-index: 998;
+}
+
+#slideout-container {
+	overflow-y: hidden;
+}
+
+#site-container {
+	position: relative;
+}
+/* =============================================================================
+   a
+   ========================================================================== */
+
+a {
+	color: #8B8F01;
+}
+
+a:hover, a:active, .link-button:hover, .link-button:active {
+	color: #F38909;
+	outline: 0;
+}
+
+a i {
+	cursor: pointer;
+}
+
+#session-warning .primary-site-button,
+.primary-site-button,
+.secondary-site-button,
+.primary-page-button {
+	display:none;
+}
+
+label {
+	cursor: pointer;
+}
+/* =============================================================================
+   Site Container
+   ========================================================================== */
+
+#site-container {
+	width: 100%;
+	overflow-y: hidden;
+}
+
+/* =============================================================================
+   Slideout Container
+   ========================================================================== */
+
+#slideout-container {
+	margin: auto;
+	min-width: 300px;
+	height: auto;
+}
+
+#slideout-content {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+html.OverflowScrolling #slideout-content,
+html.OverflowScrolling #mobile-help,
+html.OverflowScrolling #site-navigation,
+html.OverflowScrolling .avlModal-content {
+	-webkit-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+}
+
+/* =============================================================================
+   Site Container Sections
+   ========================================================================== */
+
+
+#content {
+	position: relative;
+	text-align: left;
+}
+
+/* =============================================================================
+   Site Container > Content Container
+   ========================================================================== */
+
+#content-container {
+	width: 100%;
+}
+
+/* =============================================================================
+   Site Container > Content Container > Content
+   ========================================================================== */
+
+#content {
+	position: relative;
+	background: transparent !important;
+	margin: 0 auto 20px;
+}
+
+#content .wrapper {
+	background: #fff;
+	padding: 20px;
+}
+
+.page-content {
+	overflow: hidden;
+	background: #fff;
+	padding: 15px;
+}
+
+#main-content {
+	background-color: #fff;
+	padding-left:0 !important;
+	/*border: 1px solid #ccc;*/
+}
+
+.page-wrapper {
+	border: 1px solid #ccc;
+}
+
+#main-content .page-header {
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	background-color: transparent !important;
+}
+
+#main-content .page-header h1 {
+	color: #000;
+
+	font-size: 22px;
+	font-weight: 600;
+	margin-left: 0 !important;
+}
+
+#main-content .page-header .link-need-help {
+	display:none;
+}
+
+.approval-message {
+	overflow: hidden;
+}
+
+.approval-message.failed-validation {
+	background: #f9f4f4;
+}
+
+/* 	==========================================================================
+   	modal
+   	========================================================================== */
+.avlModal .avlModal-wrapper {
+	padding-right: 10px !important;
+}
+
+.avlModal .modal-buttons {
+	padding-bottom: 0 !important;
+}
+
+.avlModal .avlModal-wrapper p,
+.avlModal .avlModal-header {
+	margin-right: 10px;
+}
+
+.avlModal-content {
+	padding: 0 !important;
+}
+
+.avlModal .button {
+	margin-bottom: 5px;
+}
+/* 	==========================================================================
+	Icon Links
+   	========================================================================== */
+
+.icon-link,
+.icon-link:active {
+	position: absolute;
+	top: 5px;
+	display: inline-block;
+	height: 30px;
+	width: 40px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	color: #888;
+}
+
+.icon-link.highlight,
+.icon-link:hover,
+.icon-link:active {
+	color: #fff;
+}
+
+.submenu-dropdown-icon {
+	font-size: 24px;
+	float: right;
+	color: #fff;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+
+.page-header .submenu-dropdown-icon {
+	margin-right: 3px;
+}
+
+/* browsers that do not support font face but say that they do :( */
+.no-fontface {
+	font-size: 14px;
+	display: none;
+	text-transform: uppercase;
+}
+
+/* 	==========================================================================
+   	FORMS
+   	========================================================================== */
+.radio-button-list input {
+	float: left;
+	display: block;
+	margin-top: 3px !important;
+}
+
+.radio-button-list label {
+	float: none;
+	display: block !important;
+	margin-left: 30px !important;
+}
+
+.radio-button-list label span.radio-choice-title {
+	display: block;
+}
+
+.radio-button-list label span.radio-choice-description {
+	margin: 0;
+	display: block;
+}
+/* 	==========================================================================
+   	MOBILE & HIDDEN
+   	========================================================================== */
+
+.hidden {
+	display: none;
+}
+
+.mobile {
+	display: none !important;
+}
+

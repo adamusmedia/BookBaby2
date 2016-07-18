@@ -1,0 +1,995 @@
+﻿/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+    audio:not([controls]) {
+        display: none;
+    }
+
+[hidden] {
+    display: none;
+}
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-align: center;
+    background-color: #fff;
+     overflow-x:hidden
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    background-color: #fff;
+}
+
+body, button, input, select, textarea {
+    font-family: 'open sans', arial, sans-serif;
+    color: #000;
+}
+
+::-moz-selection {
+    /*background: #313847;*/
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    /*background: #313847;*/
+    color: #fff;
+    text-shadow: none;
+}
+
+.mobile {
+    display: none;
+}
+
+
+html:not(.OverflowScrolling) ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    z-index: 200;
+}
+
+html:not(.OverflowScrolling) ::-webkit-scrollbar-track {
+    background: #D5D8DD;
+    border-radius: 10px;
+}
+
+html:not(.OverflowScrolling) ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #ABACB1;
+}
+
+    html:not(.OverflowScrolling) ::-webkit-scrollbar-thumb:hover,
+    html:not(.OverflowScrolling) ::-webkit-scrollbar-thumb:active {
+        background: #9a9ba0;
+    }
+
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+a {
+    color: #ca462a;
+}
+
+    a:hover, a:active {
+        color: #ff6346;
+    }
+
+@media (max-width: 500px) {
+    a {
+        font-size: 110%;
+    }
+}
+
+a, button {
+    transform: scale(1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transition: color .2s, transform .5s, font-size .5s;
+}
+
+    a:active, button:active {
+        -ms-transform: scale(1.05); /* IE 9 */
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    a:focus {
+        outline: thin dotted;
+    }
+
+    a:hover, a:active {
+        outline: 0;
+    }
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+dfn {
+    font-style: italic;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+ins {
+    background: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+pre, code, kbd, samp {
+    font-family: monospace, monospace;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+p, address {
+    margin: 0;
+    /*line-height: 20px;*/
+    font-style: normal;
+}
+
+q {
+    quotes: none;
+}
+
+    q:before, q:after {
+        content: "";
+        content: none;
+    }
+
+small {
+    font-size: 85%;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+ul, ol {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+    ul.disc-list {
+        list-style: disc;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+
+        ul.disc-list li {
+            margin-bottom: 10px;
+        }
+
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+
+figure {
+    margin: 0;
+}
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+
+form {
+    margin: 0;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+legend {
+    border: 0;
+    *margin-left: -7px;
+    padding: 0;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}
+
+button, input {
+    line-height: normal;
+    *overflow: visible;
+}
+
+table.dm-table button, table.dm-table input {
+    *overflow: auto;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 14px;
+    height: 14px;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+    input[type="search"]::-webkit-search-decoration {
+        -webkit-appearance: none;
+    }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+    input:valid, textarea:valid {
+    }
+
+input[type="password"] {
+    font-family: arial;
+}
+
+
+
+.responsive-form {
+    text-align: left;
+}
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    vertical-align: top;
+}
+
+/* ============================================================================= =============================================================================
+   Buttons
+   ============================================================================= ========================================================================== */
+
+/* 
+    Base Class: 
+        .button
+    Types:  
+	    .primary-site-button
+	    .secondary-site-button
+	    .primary-page-button
+    */
+
+.button {
+    display: inline-block;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    transition: padding-left .5s, padding-right .5s, margin-left .5s, margin-right .5s;
+}
+
+    .button:hover,
+    .button:active {
+        color: #fff;
+    }
+
+.button-container {
+    padding: 20px 0;
+}
+
+.primary-page-button {
+    font-size: 12px;
+    padding: 4px 18px 6px 18px;
+    border: 1px solid #3e7ca6;
+    text-transform: capitalize;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 3px 3px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 3px 3px rgba(0,0,0,.3);
+    -ms-box-shadow: 0 3px 3px rgba(0,0,0,.3);
+    -o-box-shadow: 0 3px 3px rgba(0,0,0,.3);
+    box-shadow: 0 3px 3px rgba(0,0,0,.3);
+    background: #4d97cb;
+    background: -webkit-linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+    background: -moz-linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+    background: -ms-linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+    background: -o-linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+    background: linear-gradient(top, #4d97cb 0%,#3e7ca6 100%);
+}
+
+    .primary-page-button:hover {
+        background: #3e7ca6;
+        background: linear-gradient(top, #3e7ca6 0%,#4d97cb 100%);
+        background: -o-linear-gradient(top, #3e7ca6 0%,#4d97cb 100%);
+        background: -ms-linear-gradient(top, #3e7ca6 0%,#4d97cb 100%);
+        background: -moz-linear-gradient(top, #3e7ca6 0%,#4d97cb 100%);
+        background: -webkit-linear-gradient(top, #3e7ca6 0%,#4d97cb 100%);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e7ca6', endColorstr='#4d97cb')";
+    }
+
+    .primary-page-button:active {
+        -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+        -moz-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+        -ms-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+        -o-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+        box-shadow: 0 2px 2px rgba(0,0,0,.2);
+        border-color: #ce7507;
+        background: #ed8509;
+        background: -webkit-linear-gradient(top, #ed8509 0%,#ce7507 100%);
+        background: -moz-linear-gradient(top, #ed8509 0%,#ce7507 100%);
+        background: -ms-linear-gradient(top, #ed8509 0%,#ce7507 100%);
+        background: -o-linear-gradient(top, #ed8509 0%,#ce7507 100%);
+        background: linear-gradient(top, #ed8509 0%,#ce7507 100%);
+    }
+
+.primary-site-button,
+.page-button {
+    line-height: normal;
+    font-size: 14px;
+    padding: 5px 40px;
+    font-weight: 600;
+    border: 1px solid #5b8e29;
+    background-color: #81bb30;
+    box-shadow: #5b8e29 0 -18px 18px inset;
+    border-radius: 6px;
+    color: #FFFFFF !important;
+    transition: box-shadow .4s;
+}
+
+.page-button {
+    display: inline-block;
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 7px 15px;
+    margin-bottom: 5px;
+    box-shadow: #5b8e29 0 -10px 10px inset;
+}
+
+.primary-site-button:hover,
+.primary-site-button:active {
+    color: #fff !important;
+    box-shadow: #5b8e29 0 18px 18px inset;
+}
+
+.page-button:hover,
+.page-button:active {
+    color: #fff !important;
+    box-shadow: #5b8e29 0 10px 10px inset;
+}
+
+#login-page .account-login-button {
+    font-size: 12px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .button {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .primary-site-button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 160% !important;
+        font-weight: 600 !important;
+    }
+}
+
+/* ============================================================================= =============================================================================
+   Classes
+   ============================================================================= ========================================================================== */
+
+/* hide the text (ie. image links) */
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* prevents bg color from leaking outside the border on rounded corner elements */
+.rounded-corners {
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+/* primary call to action color (orange) */
+.highlight {
+    color: #EC8606;
+}
+
+/* add to the parent container with child floats (replaces the div to clear the floats) */
+.float-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.onchange {
+    margin: 10px 0 0;
+    display: none;
+}
+
+
+/*	=============================================================================================================
+	Output Messages
+	============================================================================================================= */
+
+.success-message,
+.error-message,
+.callout-message,
+.attention-message,
+.approval-message {
+    display: block;
+    padding: 12px;
+    line-height: 20px;
+}
+
+.success-message {
+    background-color: #f1f8d6;
+    color: #070;
+    border: 2px solid #dfe6c8;
+}
+
+.error-message {
+    background-color: #f9eeee;
+    color: #900;
+    border: 2px solid #f9dddd;
+}
+
+    .error-message a,
+    .error-message a:hover {
+        color: #900;
+    }
+
+.callout-message {
+    background-color: #eef3f9;
+    border: 2px solid #dde2e8;
+}
+
+.attention-message {
+    background-color: #990000;
+    border: 2px solid #dde2e8;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.approval-message {
+    background-color: #ffc;
+    border: 2px solid #eeb;
+}
+
+/* =============================================================================
+	Update Panels
+	========================================================================== */
+
+.session-error {
+    display: none;
+}
+
+/* =============================================================================
+    Modal
+    ========================================================================== */
+
+.avlModal .avlModal-header {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.avlModal .async-screen,
+.avlModal .async-loader {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.avlModal .async-screen {
+    background-color: transparent;
+    background-repeat: repeat;
+    background-image: url(../IMG/Async/screen.png);
+}
+
+.avlModal .async-screen {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-position: 0 0;
+}
+
+.avlModal .async-loader {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/Async/loader.gif);
+    -webkit-box-shadow: 0 1px 20px #000;
+    -moz-box-shadow: 0 1px 20px #000;
+    box-shadow: 0 1px 20px #000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-position: center 45px;
+}
+
+.avlModal .async-loader {
+    height: 70px;
+    width: 130px;
+    margin-top: -45px;
+    margin-left: -75px;
+    padding-top: 20px;
+}
+
+    .avlModal .async-loader h6,
+    #submit-coupon-screen .async-loader h6,
+    #place-order-screen .async-loader h6 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .avlModal .async-loader h6 {
+        font-size: 14px;
+    }
+
+.avlModal .button {
+    margin-left: 10px;
+}
+
+.avlModal .secondary-site-button {
+    float: none;
+}
+
+#content-need-help .help-modal-contact,
+#content-need-help .help-modal-howto {
+    line-height: 1.7em;
+}
+
+#content-need-help h4 {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#content-need-help .contact-label {
+    font-weight: bold;
+}
+
+.avlModal #content-need-help .help-icon-link {
+    display: block;
+}
+
+.avlModal #content-need-help .phone-icon,
+.avlModal #content-need-help .chat-icon,
+.avlModal #content-need-help .email-icon,
+.avlModal #content-need-help .pdf-icon,
+.avlModal #content-need-help .video-icon {
+    margin-bottom: 3px;
+    padding-left: 25px;
+    display: inline-block;
+    vertical-align: top;
+    height: 23px;
+    background: url('/commoncontrols/universal/DM/IMG/helpmodal-icons.png') 0 0 no-repeat;
+}
+
+.avlModal #content-need-help .phone-icon,
+.avlModal #content-need-help .chat-icon,
+.avlModal #content-need-help .email-icon {
+    color: #666;
+}
+
+.avlModal #content-need-help .phone-icon {
+    background-position: 0 0;
+}
+
+.avlModal #content-need-help .email-icon {
+    background-position: 0 -23px;
+}
+
+.avlModal #content-need-help .chat-icon {
+    background-position: 0 -46px;
+}
+
+.avlModal #content-need-help .pdf-icon {
+    background-position: 0 -69px;
+}
+
+.avlModal #content-need-help .video-icon {
+    background-position: 0 -92px;
+}
+
+#content-need-help i {
+    font-size: 15px;
+    padding-right: 4px;
+}
+
+.avlModal #content-need-help i {
+    color: #666;
+}
+
+/* =============================================================================
+	Modal > Session Notifications
+	========================================================================== */
+
+.avlModal .session-modals #session-notification-img,
+.avlModal .session-modals #session-expired-img {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    margin-right: 15px;
+    text-indent: -9999px;
+    background-image: url(../JS/Plugins/avlModal/images/avlModal.png);
+}
+
+.avlModal .session-modals #session-notification-img {
+    background-position: -75px 0;
+}
+
+.avlModal .session-modals #session-expired-img {
+    background-position: -30px 0;
+}
+
+.avlModal .session-modals .button-container {
+    margin: 30px 0 10px;
+}
+
+.avlModal .session-modals p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.avlModal .modal-buttons {
+    margin: 20px 0 0;
+    padding: 15px 0 10px 0;
+    border-top: 1px solid #CCC;
+    text-align: right;
+    clear: both;
+}
+
+/* Main styles*/
+html, form, body {
+    width: 100%;
+}
+
+#site-container {
+    width: 100%;
+}
+
+
+.content-wrapper {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -m-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    max-width: 1620px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+#page {
+    width: 100%;
+    position: relative;
+    margin: 70px 0 0;
+    min-height: 300px;
+    transition: margin-top .5s;
+}
+
+.small-menu #page {
+    margin-top: 30px;
+}
+
+.isMobile #page,
+.isMobile.small-menu #page {
+    margin-top: 50px;
+}
+
+@media (max-width: 960px) {
+
+    #page,
+    .small-menu #page {
+        margin-top: 50px;
+    }
+}
+
+/*  =========================================================
+    Media Width Classes
+    ========================================================= */
+
+@media (max-width:960px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+@media (min-width:960px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .tablet-only {
+        display: none;
+    }
+}
+
+@media (min-width:500px) {
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media (max-width:960px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+@media (max-width:960px) {
+    .not-desktop {
+        display: none;
+    }
+}
+
+@media (min-width:500px) and (max-width:960px) {
+    .not-tablet {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .not-mobile {
+        display: none;
+    }
+}
+
+
+
+/*  =========================================================
+    Size and Position Classes
+    ========================================================= */
+.left {
+    float: left;
+    position: relative;
+}
+
+.right {
+    float: right;
+    position: relative;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.thirty-percent {
+    width: 29%;
+}
+
+.forty-percent {
+    width: 39%;
+}
+
+.fifty-percent,
+.half {
+    width: 49%;
+}
+
+.sixty-percent {
+    width: 59%;
+}
+
+.seventy-percent {
+    width: 69%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+@media (max-width:800px) {
+    .thirty-percent,
+    .forty-percent,
+    .fifty-percent,
+    .sixty-percent,
+    .seventy-percent,
+    .half {
+        width: 100%;
+    }
+}
+
+#login-page .page-header {
+    text-align: left;
+}
+
+.main-content-prelogin {
+    width: 1240px;
+    float: right;
+    position: relative;
+    left: -50%; 
+    text-align: left;
+}
+
+    .main-content-prelogin > #login-page {
+        position: relative;
+        left: 50%;
+    }
+
+@media (max-width:1600px) {
+    .main-content-prelogin {
+        width: 100%;
+    }
+}
+
+#site-container {
+    width: 100%;
+    text-align: center;
+}
+
+
+.page-content .page-step {
+    margin-left: 15px;
+}
+
+    #header-search #SearchButton
+{
+    position:relative;
+}
