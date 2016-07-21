@@ -212,7 +212,7 @@
 
 <nav class="navbar-inverse navbar-default meta-top">
   <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -220,12 +220,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
     </div>
-    -->
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Log In</a></li>
@@ -267,7 +265,7 @@
 
 		        <ul class="dropdown-menu" style="right:auto; left: 0;">
 			        <li>
-				        <a href="/book-printing" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Book styles overview']);">
+				        <a href="/book-printing" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Book styles overview']);">
 				        <span>Book Printing Overview</span></a>
 			        </li>
 
@@ -331,7 +329,7 @@
 
 		        <ul class="dropdown-menu" style="right:auto; left: 0;">
 			        <li>
-				        <a href="/ebooks" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBooks overview']);"><span>
+				        <a href="/ebooks" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBooks overview']);"><span>
 				        eBooks Overview</span></a>
 			        </li>
 
@@ -381,7 +379,7 @@
 
 
 	        <li class="dropdown">
-		        <a href="/self-publishing-book-services" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Services']);"><span>Services</span></a>
+		        <a href="/self-publishing-book-services" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Services']);"><span>Services</span></a>
 
 		        <ul class="dropdown-menu" style="right:auto; left: 0;">
 			        <li>
