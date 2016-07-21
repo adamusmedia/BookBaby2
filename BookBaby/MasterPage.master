@@ -259,269 +259,212 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
+
+        <ul class="nav navbar-nav navbar-right" id="navigation">
+	        <li class="dropdown">
+		        <a href="/book-printing" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Make a book']);"><span>Book
+		        Printing</span></a>
+
+		        <ul class="dropdown-menu" style="right:auto; left: 0;">
+			        <li>
+				        <a href="/book-printing" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Book styles overview']);">
+				        <span>Book Printing Overview</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/book-genres-and-styles" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Book styles']);"><span>
+				        Book styles</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/print-on-demand" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Print On Demand']);"><span>
+				        Print On Demand</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/book-distribution" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Book Distribution']);">
+				        <span>Book distribution</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/complete-self-publishing-package" onclick="_gaq.push(['_trackEvent', 'PEAPOD', 'Click', 'Header-e-book-printing']);">
+				        <span>The Complete Self-Publishing Package</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/templates" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Templates']);"><span>Templates</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/how-to-make-a-book" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'HowItWorks']);"><span>How to make a book</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/book-trim-sizes-and-binding-options" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Preparing for Book Printing']);">
+				        <span>Preparing for book printing</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/wholesale-book-printing" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Wholesale Book Printing']);">
+				        <span>Wholesale Book Printing</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/quoter/confighandler.aspx" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Get started']);"><span>
+				        Get started</span></a>
+			        </li>
+		        </ul>
+	        </li>
+
+
+	        <li class="dropdown">
+		        <a href="/ebooks" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBooks']);"><span>eBooks</span></a>
+
+		        <ul class="dropdown-menu" style="right:auto; left: 0;">
+			        <li>
+				        <a href="/ebooks" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBooks overview']);"><span>
+				        eBooks Overview</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/ebook-services" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBook publishing & conversion']);">
+				        <span>eBook publishing & conversion</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/ebook-distribution" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBook distribution']);">
+				        <span>eBook distribution</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/complete-self-publishing-package" onclick="_gaq.push(['_trackEvent', 'PEAPOD', 'Click', 'Header-e-ebooks']);"><span>
+				        The Complete Self-Publishing Package</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/fixed-layout-ebooks" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Fixed Layout books']);">
+				        <span>Fixed layout iBooks</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/how-to-make-an-ebook" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'How it works']);"><span>
+				        How to make an eBook</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/ebook-conversion-tips" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Preparing your files']);">
+				        <span>Preparing your files</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/quoter/confighandler.aspx" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Get started']);"><span>
+				        Get started</span></a>
+			        </li>
+		        </ul>
+	        </li>
+
+
+	        <li class="dropdown">
+		        <a href="/self-publishing-book-services" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Services']);"><span>Services</span></a>
+
+		        <ul class="dropdown-menu" style="right:auto; left: 0;">
+			        <li>
+				        <a href="/book-editing-services" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookEditingServices']);">
+				        <span><span class="orange"><em>NEW!</em></span> Editing</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/book-cover-design" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookCoverDesign']);"><span>
+				        Printed book cover design</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/ebook-cover-design" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBookCoverDesign']);"><span>
+				        eBook cover design</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/book-formatting" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'InteriorPrintDesignFormatting']);">
+				        <span>Interior print design &amp; formatting</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/bookpromo" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookPromo']);"><span>BookPromo&trade;</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/bookshop" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookShop']);"><span>BookShop&trade;</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/book-scanning" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookScanningServices']);">
+				        <span>Scanning</span></a>
+			        </li>
+
+
+			        <li>
+				        <a href="/press-release" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Press Releases']);"><span>
+				        Press releases</span></a>
+			        </li>
+
+
+			        <li class="last">
+				        <a href="/websites-for-authors" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Web Hosting for Authors']);">
+				        <span>Web hosting for authors</span></a>
+			        </li>
+		        </ul>
+	        </li>
+
+
+	        <li>
+		        <a href="http://support.bookbaby.com/" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Help']);">Help</a>
+	        </li>
+
+
+	        <li>
+		        <a href="/pricing" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Pricing']);">What we
+		        do</a>
+	        </li>
+
+
+	        <li>
+		        <a href="/quoter/confighandler.aspx" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Get started']);">Pricing</a>
+	        </li>
+
+        </ul>
+
+
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
 
 
-
-
-
-
-
     <div>
 
-        <div id="header">
-            <div class="inner-wrap float-container">
-	
-
-	<ul class="dropdown" id="navigation">
-		<li>
-			<a href="/book-printing" onclick=
-			"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Make a book']);"><span>Book
-			Printing</span></a>
-
-			<ul class="sub_menu make-a-book">
-				<li>
-					<a href="/book-printing" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Book styles overview']);">
-					<span>Book Printing Overview</span></a>
-				</li>
-
-
-				<li>
-					<a href="/book-genres-and-styles" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Book styles']);"><span>
-					Book styles</span></a>
-				</li>
-
-
-				<li>
-					<a href="/print-on-demand" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Print On Demand']);"><span>
-					Print On Demand</span></a>
-				</li>
-
-
-				<li>
-					<a href="/book-distribution" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Book Distribution']);">
-					<span>Book distribution</span></a>
-				</li>
-
-
-				<li>
-					<a href="/complete-self-publishing-package" onclick=
-					"_gaq.push(['_trackEvent', 'PEAPOD', 'Click', 'Header-e-book-printing']);">
-					<span>The Complete Self-Publishing Package</span></a>
-				</li>
-
-
-				<li>
-					<a href="/templates" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Templates']);"><span>Templates</span></a>
-				</li>
-
-
-				<li>
-					<a href="/how-to-make-a-book" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'HowItWorks']);"><span>How
-					to make a book</span></a>
-				</li>
-
-
-				<li>
-					<a href="/book-trim-sizes-and-binding-options" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Preparing for Book Printing']);">
-					<span>Preparing for book printing</span></a>
-				</li>
-
-
-				<li>
-					<a href="/wholesale-book-printing" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Wholesale Book Printing']);">
-					<span>Wholesale Book Printing</span></a>
-				</li>
-
-
-				<li>
-					<a href="/quoter/confighandler.aspx" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Get started']);"><span>
-					Get started</span></a>
-				</li>
-			</ul>
-		</li>
-
-
-		<li>
-			<a href="/ebooks" onclick=
-			"_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBooks']);"><span>eBooks</span></a>
-
-			<ul class="sub_menu services">
-				<li>
-					<a href="/ebooks" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBooks overview']);"><span>
-					eBooks Overview</span></a>
-				</li>
-
-
-				<li>
-					<a href="/ebook-services" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBook publishing & conversion']);">
-					<span>eBook publishing & conversion</span></a>
-				</li>
-
-
-				<li>
-					<a href="/ebook-distribution" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBook distribution']);">
-					<span>eBook distribution</span></a>
-				</li>
-
-
-				<li>
-					<a href="/complete-self-publishing-package" onclick=
-					"_gaq.push(['_trackEvent', 'PEAPOD', 'Click', 'Header-e-ebooks']);"><span>
-					The Complete Self-Publishing Package</span></a>
-				</li>
-
-
-				<li>
-					<a href="/fixed-layout-ebooks" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Fixed Layout books']);">
-					<span>Fixed layout iBooks</span></a>
-				</li>
-
-
-				<li>
-					<a href="/how-to-make-an-ebook" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'How it works']);"><span>
-					How to make an eBook</span></a>
-				</li>
-
-
-				<li>
-					<a href="/ebook-conversion-tips" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Preparing your files']);">
-					<span>Preparing your files</span></a>
-				</li>
-
-
-				<li>
-					<a href="/quoter/confighandler.aspx" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Get started']);"><span>
-					Get started</span></a>
-				</li>
-			</ul>
-		</li>
-
-
-		<li>
-			<a href="/self-publishing-book-services" onclick=
-			"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Services']);"><span>Services</span></a>
-
-			<ul class="sub_menu services">
-				<li>
-					<a href="/book-editing-services" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookEditingServices']);">
-					<span><span class="orange"><em>NEW!</em></span> Editing</span></a>
-				</li>
-
-
-				<li>
-					<a href="/book-cover-design" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookCoverDesign']);"><span>
-					Printed book cover design</span></a>
-				</li>
-
-
-				<li>
-					<a href="/ebook-cover-design" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBookCoverDesign']);"><span>
-					eBook cover design</span></a>
-				</li>
-
-
-				<li>
-					<a href="/book-formatting" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'InteriorPrintDesignFormatting']);">
-					<span>Interior print design &amp; formatting</span></a>
-				</li>
-
-
-				<li>
-					<a href="/bookpromo" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookPromo']);"><span>BookPromo&trade;</span></a>
-				</li>
-
-
-				<li>
-					<a href="/bookshop" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookShop']);"><span>BookShop&trade;</span></a>
-				</li>
-
-
-				<li>
-					<a href="/book-scanning" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookScanningServices']);">
-					<span>Scanning</span></a>
-				</li>
-
-
-				<li>
-					<a href="/press-release" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Press Releases']);"><span>
-					Press releases</span></a>
-				</li>
-
-
-				<li class="last">
-					<a href="/websites-for-authors" onclick=
-					"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Web Hosting for Authors']);">
-					<span>Web hosting for authors</span></a>
-				</li>
-			</ul>
-		</li>
-
-
-		<li>
-			<a href="http://support.bookbaby.com/" onclick=
-			"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Help']);">Help</a>
-		</li>
-
-
-		<li>
-			<a href="/pricing" onclick=
-			"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Pricing']);">What we
-			do</a>
-		</li>
-
-
-		<li>
-			<a href="/quoter/confighandler.aspx" onclick=
-			"_gaq.push(['_trackEvent', 'navigation', 'Click', 'Get started']);">Pricing</a>
-		</li>
-		<!-- <li style="margin-right:0; padding-right:0;"><a href="tel:1-877-961-6878" class="cursor-default" style="padding-right:0;"><span class="condensed-phone" style="padding-right:0;">1-877-961-6878</span></a></li>-->
-	</ul>
-</div>
-        </div><!-- #header -->
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
         <asp:ContentPlaceHolder id="pageContent" runat="server">
         </asp:ContentPlaceHolder>
