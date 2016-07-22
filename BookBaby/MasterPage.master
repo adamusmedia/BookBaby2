@@ -464,196 +464,180 @@
 
 <br /><br /><br />
 
-        <asp:ContentPlaceHolder id="pageContent" runat="server">
 
-        </asp:ContentPlaceHolder>
-
-
-        <!-- footer code here -->
-      <footer>
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-2">
-                      <ul>
-                        <li class="list-title"><a href="/">Make a Book</a></li>
-                        <li><a href="/book-printing">Book Printing</a></li>
-                        <li><a href="/book-distribution">Book Distribution</a></li>
-                        <li><a href="/complete-self-publishing-package" onclick="_gaq.push(['_trackEvent', 'PEAPOD', 'Click', 'Footer-e']);">The Complete Self-Publishing Package</a></li>
-                        <li><a href="/book-genres-and-styles">Book Styles</a></li>
-                        <li><a href="/book-trim-sizes-and-binding-options">Book Binding Styles</a></li>
-                        <li><a href="/print-on-demand">Print On Demand</a></li>
-                        <li><a href="/ebooks">eBooks</a></li>
-                        <li><a href="/ebook-services">eBook Publishing &amp; Conversion</a></li>
-                        <li><a href="/ebook-distribution">eBook Distribution</a></li>
-                        <li><a href="/fixed-layout-ebooks">Fixed Layout eBooks</a></li>
-                        <li><a href="/wholesale-book-printing">Wholesale Book Printing</a></li>
-                        <li><a href="/pricing">Pricing</a></li>
-                    </ul>
-                  </div>
-                  
-                  <div class="col-lg-2">
-                    <ul>
-                        <li class="list-title"><a href="/self-publishing-book-services">Services</a></li>
-                        <li><a href="/book-cover-design">Printed Book Cover Design</a></li>
-                        <li><a href="/ebook-cover-design">eBook Cover Design</a></li>
-                        <li><a href="/book-formatting">Interior Book Design &amp; Formatting</a></li>
-                        <li><a href="/bookpromo">BookPromo™</a></li>
-                        <li><a href="/bookshop">BookShop™</a></li>
-                        <li><a href="/book-editing-services">Editing</a></li>
-                        <li><a href="/book-scanning">Scanning</a></li>
-                        <li><a href="/press-release">Press Release Distribution</a></li>
-                        <li><a href="/agencies">Solutions for Agents<br>
-                            and Publishers</a></li>
-                        <li><a href="/government">Solutions for Government Agencies</a></li>
-                        <li><a href="/yearbook-printing">Solutions for Schools</a></li>
-                    </ul>
-                  </div>
-                  
-                  <div class="col-lg-2">
-                    <ul>
-                        <li class="list-title"><a href="http://support.bookbaby.com">Help</a></li>
-                        <li><a href="/pages/pdf/book-printing-preparation-checklist.pdf">Preparing Your Book<br>
-                            Printing Files</a></li>
-                        <li><a href="/ebook-conversion-tips">Preparing Your eBook Files</a></li>
-                        <li><a href="/how-to-make-a-book">How To Make A Book</a></li>
-                        <li><a href="/how-to-make-an-ebook">How to Make an eBook</a></li>
-                        <li><a href="/templates">Design Templates </a></li>
-                        <li><a href="/package-comparison">Book Printing<br>
-                            Comparison Chart</a></li>
-                        <li><a href="/book-trim-sizes-and-binding-options">Genre &amp; Trim Size<br>
-                            Recommendations</a></li>
-                        <li><a href="http://support.bookbaby.com">Frequently Asked Questions</a></li>
-                        <li><a href="/free-publishing-guides">Free Guides</a></li>
-                        <li><a href="/bookbaby-vs-createspace">BookBaby vs. CreateSpace</a></li>
-                        <li><a href="/bookbaby-vs-lulu">BookBaby vs. Lulu</a></li>
-                        <li><a href="/how-to-sell-books-online-with-print-on-demand">Making the Most of<br />
-                            Print On Demand</a></li>
-
-                    </ul>
-                  </div>
-                  
-                  <div class="col-lg-2">
-                        <ul>
-                            <li class="list-title"><a href="/about-bookbaby">About Us</a></li>
-                            <li><a href="/press">Press</a></li>
-                            <li><a href="/guarantee">Satisfaction Guarantee</a></li>
-                            <li><a href="/low-price-promise">Low Price Promise</a></li>
-                            <li><a href="/reviews">Customer Reviews</a></li>
-                            <li><a href="/terms-of-service">Terms of Service</a></li>
-                            <li><a href="/privacy">Privacy Policy</a></li>
-                            <li><a href="/shipping">Shipping Policy</a></li>
-                            <li><a href="/return-policy">Return &amp; Cancellation Policy</a></li>
-                            <li><a href="/careers">Careers</a></li>
-                            <li><a href="/contact">Contact Us</a></li>
-                            <li><a href="/bookbaby-partnership-opportunities.aspx">Partner with BookBaby</a></li>
-                            <li><a href="/coupons-and-deals">Coupons & Special Offers</a></li>
-                            <li><a href="/sitemap">Sitemap</a></li>
-                        </ul>
-                  </div>
-                  
-                  <div class="col-lg-2">
-                    <ul>
-                        <li class="list-title">Our Community</li>
-                        <li><a href="http://blog.bookbaby.com">Blog</a></li>
-                        <li><a href="/bookbaby-affiliate-program">BookBaby Affiliate Program</a></li>
-                        <li><a href="https://www.cdbaby.com/" target="_blank">CD Baby Music Store</a></li>
-                        <li><a href="https://members.cdbaby.com/" target="_blank">CD Baby: Sell Music Online</a></li>
-                        <li><a href="https://www.hostbaby.com/" target="_blank">HostBaby: Websites<br>
-                            for Authors</a></li>
-                        <li><a href="/friends-of-bookbaby">Author Resources</a></li>
-                        <li><a href="/materials.aspx">Materials License Form</a></li>
-                        <li><a href="/brand-guidelines">Brand Guidelines</a></li>
-                        <li><a href="/free-guide/twitter-chat">Twitter Chat</a></li>
-                    </ul>
-                  </div>
-              </div>
-          </div>
-      </footer>
+<!-- page content area -->
+<asp:ContentPlaceHolder id="pageContent" runat="server"></asp:ContentPlaceHolder>
 
 
 
-<br /><br />
-      <section id="footer-bands">
-                <div class="footer-bands-inner-wrap">
-                    <div id="footer-signup-container" class="footer-input-container">
-                        <div id="footer-signup-input" class="footer-input">
-                            <div id="ucFooter_pnlNewsletter" class=" footer-signup-form responsive-form" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ucFooter_btnSubmitSignup&#39;)">
-
-                                <fieldset class="no-border">
-                                    <ul>
-                                        <li>
-                                            <p id="txtEmailMask" class="textbox-mask txt-email" title="Please enter a valid Email">
-                                                <input type="submit" name="ctl00$ucFooter$btnSubmitSignup" value="" onclick="return ValidateInputs(event, $(&#39;.footer-signup-form&#39;), signupBBP);" id="ucFooter_btnSubmitSignup" class="button a-signup" />
-                                                <label for="control_EMAIL" onclick="focusSignUpEmail">Sign up for BookBaby's email newsletter!</label>
-                                                <input type="text" id="control_EMAIL" class="req-email textbox control_EMAIL hinted no-sisy no-focus footer-email" maxlength="64" data-validation="req-email" />
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </fieldset>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-social">
-                        <a class="a-social facebook" title="Join us on Facebook" target="_blank" href="https://www.facebook.com/bookbaby"></a>
-                        <a class="a-social twitter" title="Follow us on Twitter" target="_blank" href="https://twitter.com/bookbaby"></a>
-                        <a class="a-social insta" title="Follow us on Instagram" target="_blank" href="https://instagram.com/bookbabyofficial"></a>
-                        <a class="a-social pinterest" title="Follow us on Pinterest" target="_blank" href="https://www.pinterest.com/bookbabybooks/"></a>
-                        <a class="a-social youtube" title="Join us on Youtube" target="_blank" href="https://www.youtube.com/bookbaby "></a>
-                        <a class="a-social gplus" title="Join us on Google Plus" target="_blank" href="https://plus.google.com/100384963916732390896"></a>
-                        <a class="a-social wp" title="Join us on our Blog" target="_blank" href="https://blog.bookbaby.com"></a>
-                        <a class="a-social linkedin last" title="Join us on Linkedin" target="_blank" href="https://www.linkedin.com/company/bookbaby"></a>
+<footer>
+    <section id="footer-social">
+        <div class="container">
+            <div class="row">
+                <div class="signup col-lg-6">
+                    <div class="signup-wrapper">
+                        <fieldset>
+                            <ul>
+                                <li>
+                                    <p title="Please enter a valid Email">
+                                        <input class="btn btn-submit" type="submit" value="" />
+                                        <label for="control_EMAIL">Sign up for BookBaby's email newsletter!</label>
+                                        <input class="control_EMAIL" type="text" maxlength="64" />
+                                    </p>
+                                </li>
+                            </ul>
+                        </fieldset>
                     </div>
                 </div>
-            </section>
-
-            <section id="footer-link">
-                <div class="inner-wrap">
-                    <div class="footer-column">
-                        <!-- first col -->
-                    </div>
-
-                    <div class="footer-column">
-                        <!-- second -->
-                    </div>
-                    <div class="footer-column">
-                        <!-- third -->
-                    </div>
-
-                    <div class="footer-column">
-                        <!-- fourth -->
-                    </div>
-
-                    <div class="footer-column">
-                        <!-- fifth -->
-                    </div>
-
-
+                <div class="social col-lg-6">
+                    <a class="facebook" title="Join us on Facebook" target="_blank" href="https://www.facebook.com/bookbaby"></a>
+                    <a class="twitter" title="Follow us on Twitter" target="_blank" href="https://twitter.com/bookbaby"></a>
+                    <a class="instagram" title="Follow us on Instagram" target="_blank" href="https://instagram.com/bookbabyofficial"></a>
+                    <a class="pinterest" title="Follow us on Pinterest" target="_blank" href="https://www.pinterest.com/bookbabybooks/"></a>
+                    <a class="youtube" title="Join us on Youtube" target="_blank" href="https://www.youtube.com/bookbaby "></a>
+                    <a class="gplus" title="Join us on Google Plus" target="_blank" href="https://plus.google.com/100384963916732390896"></a>
+                    <a class="wp" title="Join us on our Blog" target="_blank" href="https://blog.bookbaby.com"></a>
+                    <a class="linkedin last" title="Join us on Linkedin" target="_blank" href="https://www.linkedin.com/company/bookbaby"></a>
                 </div>
-            </section>
-
-            <div class="trustpilot-widget" style="background-color: #2d2c25; padding-top: 40px;" data-locale="en-US" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="4f5a56f600006400051390aa" data-style-height="150px" data-style-width="100%" data-theme="dark">
-                <a href="https://www.trustpilot.com/review/bookbaby.com" target="_blank">Trustpilot</a>
             </div>
+        </div>
+    </section>
 
-            <section id="footer-bottom">
-                <div class="inner-wrap">
-                    <div id="footer-logo">
-                        <a href="http://www.bookbaby.com" id="footer-logo-link" title="Book Printing &amp; Self Publishing Services Made Easy">
-                            <img src="../../images/home/footer-logo.gif" alt="BookBaby" />
-                            Book Printing &amp; Self Publishing Services Made Easy
-                        </a>
-                    </div>
-                    <!-- #float-logo-->
-
-                    <div id="footer-usa">
-                        Made in the U.S.A.
-                        <img src="../../images/home/usa-flagwave.png" alt="Made in the U.S.A." />
-                    </div>
-                    <!-- #footer-social-->
+    <section id="footer-main">
+        <div class="container">
+            <div class="row"> 
+                <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+                    <ul>
+                    <li><h3 class="footer-title"><a href="/">Make a Book</a></h3></li>
+                    <li><a href="/book-printing">Book Printing</a></li>
+                    <li><a href="/book-distribution">Book Distribution</a></li>
+                    <li><a href="/complete-self-publishing-package" onclick="_gaq.push(['_trackEvent', 'PEAPOD', 'Click', 'Footer-e']);">The Complete Self-Publishing Package</a></li>
+                    <li><a href="/book-genres-and-styles">Book Styles</a></li>
+                    <li><a href="/book-trim-sizes-and-binding-options">Book Binding Styles</a></li>
+                    <li><a href="/print-on-demand">Print On Demand</a></li>
+                    <li><a href="/ebooks">eBooks</a></li>
+                    <li><a href="/ebook-services">eBook Publishing &amp; Conversion</a></li>
+                    <li><a href="/ebook-distribution">eBook Distribution</a></li>
+                    <li><a href="/fixed-layout-ebooks">Fixed Layout eBooks</a></li>
+                    <li><a href="/wholesale-book-printing">Wholesale Book Printing</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
+                </ul>
                 </div>
-                <!-- inner-wrap -->
-            </section>
+                  
+                <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+                <ul>
+                    <li><h3 class="footer-title"><a href="/self-publishing-book-services">Services</a></h3></li>
+                    <li><a href="/book-cover-design">Printed Book Cover Design</a></li>
+                    <li><a href="/ebook-cover-design">eBook Cover Design</a></li>
+                    <li><a href="/book-formatting">Interior Book Design &amp; Formatting</a></li>
+                    <li><a href="/bookpromo">BookPromo™</a></li>
+                    <li><a href="/bookshop">BookShop™</a></li>
+                    <li><a href="/book-editing-services">Editing</a></li>
+                    <li><a href="/book-scanning">Scanning</a></li>
+                    <li><a href="/press-release">Press Release Distribution</a></li>
+                    <li><a href="/agencies">Solutions for Agents<br>
+                        and Publishers</a></li>
+                    <li><a href="/government">Solutions for Government Agencies</a></li>
+                    <li><a href="/yearbook-printing">Solutions for Schools</a></li>
+                </ul>
+                </div>
+                  
+                <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+                <ul>
+                    <li><h3 class="footer-title"><a href="http://support.bookbaby.com">Help</a></h3></li>
+                    <li><a href="/pages/pdf/book-printing-preparation-checklist.pdf">Preparing Your Book<br>
+                        Printing Files</a></li>
+                    <li><a href="/ebook-conversion-tips">Preparing Your eBook Files</a></li>
+                    <li><a href="/how-to-make-a-book">How To Make A Book</a></li>
+                    <li><a href="/how-to-make-an-ebook">How to Make an eBook</a></li>
+                    <li><a href="/templates">Design Templates </a></li>
+                    <li><a href="/package-comparison">Book Printing<br>
+                        Comparison Chart</a></li>
+                    <li><a href="/book-trim-sizes-and-binding-options">Genre &amp; Trim Size<br>
+                        Recommendations</a></li>
+                    <li><a href="http://support.bookbaby.com">Frequently Asked Questions</a></li>
+                    <li><a href="/free-publishing-guides">Free Guides</a></li>
+                    <li><a href="/bookbaby-vs-createspace">BookBaby vs. CreateSpace</a></li>
+                    <li><a href="/bookbaby-vs-lulu">BookBaby vs. Lulu</a></li>
+                    <li><a href="/how-to-sell-books-online-with-print-on-demand">Making the Most of<br />
+                        Print On Demand</a></li>
+
+                </ul>
+                </div>
+                  
+                <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+                    <ul>
+                        <li><h3 class="footer-title"><a href="/about-bookbaby">About Us</a></h3></li>
+                        <li><a href="/press">Press</a></li>
+                        <li><a href="/guarantee">Satisfaction Guarantee</a></li>
+                        <li><a href="/low-price-promise">Low Price Promise</a></li>
+                        <li><a href="/reviews">Customer Reviews</a></li>
+                        <li><a href="/terms-of-service">Terms of Service</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/shipping">Shipping Policy</a></li>
+                        <li><a href="/return-policy">Return &amp; Cancellation Policy</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                        <li><a href="/bookbaby-partnership-opportunities.aspx">Partner with BookBaby</a></li>
+                        <li><a href="/coupons-and-deals">Coupons & Special Offers</a></li>
+                        <li><a href="/sitemap">Sitemap</a></li>
+                    </ul>
+                </div>
+                  
+                <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+                <ul>
+                    <li><h3 class="footer-title">Our Community</h3></li>
+                    <li><a href="http://blog.bookbaby.com">Blog</a></li>
+                    <li><a href="/bookbaby-affiliate-program">BookBaby Affiliate Program</a></li>
+                    <li><a href="https://www.cdbaby.com/" target="_blank">CD Baby Music Store</a></li>
+                    <li><a href="https://members.cdbaby.com/" target="_blank">CD Baby: Sell Music Online</a></li>
+                    <li><a href="https://www.hostbaby.com/" target="_blank">HostBaby: Websites<br>
+                        for Authors</a></li>
+                    <li><a href="/friends-of-bookbaby">Author Resources</a></li>
+                    <li><a href="/materials.aspx">Materials License Form</a></li>
+                    <li><a href="/brand-guidelines">Brand Guidelines</a></li>
+                    <li><a href="/free-guide/twitter-chat">Twitter Chat</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trustpilot">
+        <div class="trustpilot-widget" data-locale="en-US" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="4f5a56f600006400051390aa" data-style-height="150px" data-style-width="100%" data-theme="dark">
+            <iframe frameborder="0" scrolling="no" src="http://widget.trustpilot.com/trustboxes/53aa8807dec7e10d38f59f32/index.html?locale=en-US&amp;templateId=53aa8807dec7e10d38f59f32&amp;businessunitId=4f5a56f600006400051390aa&amp;styleHeight=150px&amp;styleWidth=100%25&amp;theme=dark" style="position: relative; height: 150px; width: 100%; border-style: none; display: block; overflow: hidden;"></iframe>
+        </div>
+    </section>
+
+    <section id="footer-bottom">
+        <div class="container">
+            <div class="row">
+
+                <div id="footer-logo">
+                    <a href="http://www.bookbaby.com" id="footer-logo-link" title="Book Printing &amp; Self Publishing Services Made Easy">
+                        <img src="../../images/home/footer-logo.gif" alt="BookBaby" />
+                        <span>Printing &amp; Self Publishing Services Made Easy</span>
+                    </a>
+                </div>
+
+                <div id="footer-usa">
+                    <span>Made in the U.S.A.</span>
+                    <img src="../../images/home/usa-flagwave.png" alt="Made in the U.S.A." />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</footer>
+
+
+
+
+
+
+            
+
 
 
 
