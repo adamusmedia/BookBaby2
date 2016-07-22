@@ -8,13 +8,13 @@
 
 /* header styles */
 /* ************* */
-.meta-top {
+.nav-alt {
     background-color: #838179;
 }
 
 .navbar { margin-bottom: 0; }
 
-.navbar-default.meta-top .navbar-nav > li > a {
+.navbar-default.nav-alt .navbar-nav > li > a {
     display: block;
     font-family: 'Open Sans Condensed', sans-serif !important;
     font-size: 13px;
