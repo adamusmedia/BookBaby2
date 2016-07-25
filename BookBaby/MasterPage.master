@@ -211,21 +211,7 @@
 
 </head>
 <body>
-  <form method="post" action="/" id="form1">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<form method="post" action="/" id="form1">
 
 <header>
 
@@ -238,7 +224,7 @@
 
 
 
-        <nav class="navbar col-md-10 col-lg-9 main-nav">
+        <nav class="navbar col-sm-11 col-md-10 col-lg-9 main-nav">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
@@ -247,7 +233,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="/" id="logo"><img alt="BookBaby Book Printing & Self Publishing Services Made Easy" src="../../images/nav-logo2.png" title="BookBaby Book Printing & Self Publishing Services Made Easy"></a>
+              <a class="navbar-brand" href="/" id="logo"><img class="img-responsive" alt="BookBaby Book Printing & Self Publishing Services Made Easy" src="../../images/nav-logo2.png" title="BookBaby Book Printing & Self Publishing Services Made Easy"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -305,7 +291,7 @@
         </nav><!-- /main-nav -->
 
 
-        <nav class="navbar col-md-2 col-lg-3 alt-nav">
+        <nav class="navbar col-sm-1 col-md-2 col-lg-3 alt-nav">
             <div class="icon-container">
                 
                 <div class="icon-wrap">
@@ -526,7 +512,7 @@
 
 
 
-    </form>
+</form>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

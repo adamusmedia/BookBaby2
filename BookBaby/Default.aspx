@@ -3,7 +3,7 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="pageContent">
 
-    <div class="container">
+    <div class="container" style="min-height:400px;">
        <div class="row">
 
        </div>
