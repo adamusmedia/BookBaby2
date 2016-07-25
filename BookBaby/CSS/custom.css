@@ -9,22 +9,29 @@
 /* header styles */
 /* ************* */
 
+header { background-color: #3e3b32; }
+
 header > #hc {
     padding-left: 0;
     padding-right: 0;
+    max-width: 1500px;
 }
-.alt-nav {
-    background-color: red;
-    padding-right: 0;
-}
+
+.main-nav,
+.alt-nav { background-color: unset; }
+
+.alt-nav { padding-right: 0; }
+
+.navbar-toggle { border: 1px solid #fff; }
+.navbar-toggle .icon-bar { border: 1px solid #fff; }
 
 .navbar { margin-bottom: 0; }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-nav > li > a {
     display: block;
     font-family: 'Open Sans', sans-serif !important;
 
-    color: #FFF;
+    color: #fff;
     font-weight: 100;
     font-size: 13px;
     letter-spacing: 0.004em;
@@ -37,20 +44,18 @@ header > #hc {
     padding-left: 8px;
 }
 
-.main-nav {
-    background-color: rgb(62, 59, 50);
-}
 
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    background-color: unset;
     color: #c0d478;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #c0d478;
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    background-color: unset;
+    color: #c0d478;
 }
 /* /header styles */
 /* ************** */
@@ -282,7 +287,10 @@ footer #trustpilot {
 /* Small devices (tablets, 768px+) */
 @media all and (min-width: 768px) {
 
-    #main-navbar .navbar-nav > li > a {
+    .navbar-right { margin-right: -30px; }
+
+    .navbar-nav > li > a {
+        font-size: 11px;
         line-height: 50px;
         padding-left: 7px;
         padding-right: 7px;
@@ -324,7 +332,7 @@ footer #trustpilot {
 /* ********************************* */
 /* Medium devices (desktops, 992px+) */
 @media all and (min-width: 992px) {
-    #main-navbar .navbar-nav > li > a {
+    .navbar-nav > li > a {
         padding-left: 5px;
         padding-right: 5px;
     }
@@ -360,6 +368,40 @@ footer #trustpilot {
     footer .col-xs-6 ul li { display: none; }
     footer .col-xs-6 ul li:nth-of-type(1){ display: block; }
     footer .col-xs-6 ul li h3 { text-align: center; width: 100%; display: block; margin: 0; }
+}
+/* ******************************* */
+
+
+
+
+/* ******************************* */
+/* custom header mq's */
+@media all and (min-width: 0px) and (max-width: 767px) {
+    .main-nav {
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        width: 100%;
+        height: auto;
+        background-color: #3E3B32;
+    }
+
+    .alt-nav {
+        padding-right: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #3E3B32;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1020px) {
+    .navbar-nav > li > a { font-size: 12px; }
+}
+
+@media all and (min-width: 1021px) {
+    .navbar-nav > li > a { font-size: 14px; }
 }
 /* ******************************* */
 

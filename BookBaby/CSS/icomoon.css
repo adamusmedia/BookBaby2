@@ -60,6 +60,8 @@ i, .icomoon-liga {
     float: left;
     text-align: center;
     width: 45px;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
 .icon-wrap > .mls {

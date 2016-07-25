@@ -238,7 +238,7 @@
 
 
 
-        <nav class="navbar navbar-default col-md-10 col-lg-9 main-nav">
+        <nav class="navbar col-md-10 col-lg-9 main-nav">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
@@ -305,7 +305,7 @@
         </nav><!-- /main-nav -->
 
 
-        <nav class="navbar navbar-default col-md-2 col-lg-3  alt-nav">
+        <nav class="navbar col-md-2 col-lg-3 alt-nav">
             <div class="icon-container">
                 
                 <div class="icon-wrap">
