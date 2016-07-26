@@ -25,6 +25,8 @@
 /* custom header mq's */
 @media all and (min-width: 0px) and (max-width: 767px) {
 
+    header { min-height:142px; z-index:5; position: relative; float: left; width: 100%; }
+
     .navbar-brand { padding: 0; width: 80%; max-width: 178px; }
 
     .navbar-header > button { margin-right: 0; }

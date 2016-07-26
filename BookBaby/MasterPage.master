@@ -322,10 +322,6 @@
 </header>
 
 
-
-<br /><br /><br />
-
-
 <!-- page content area -->
 <asp:ContentPlaceHolder id="pageContent" runat="server"></asp:ContentPlaceHolder>
 
@@ -495,29 +491,6 @@
     </section>
 
 </footer>
-
-
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

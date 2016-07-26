@@ -94,11 +94,6 @@ footer #footer-social .signup {
     float: left;
 }
 
-/*footer #footer-social .signup .signup-wrapper {
-    background: #838179;
-    padding: 2px 0 2px 2px;
-}*/
-
 footer #footer-social .signup fieldset ul {
     overflow: hidden;
     margin-bottom: 0;
@@ -296,4 +291,119 @@ footer #trustpilot {
 
 /* /footer styles */
 /* ************** */
+
+a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #D46B00;
+    font-weight: bold;
+}
+
+a:hover { color:#F0A04F ; }
+
+.p35 { padding: 35px 0; }
+
+.bg-cream { background-color: #E9E5D2; }
+
+
+
+.btn-orange {    
+    cursor: pointer;
+    font-weight: bold;
+    color: #FFF !important;
+    background-color: #ff8000;
+    border-radius: 4px;
+    border: 1px solid #a3511a;
+    text-shadow: 0px -1px 0px #a3511a;
+    box-shadow: inset 0 1px 0px #FFFFFF;
+    box-shadow: inset 0 1px 0px RGBa(256,256,256,0.5);
+    background: #ff8000 -webkit-linear-gradient(bottom, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
+    background: #ff8000 -moz-linear-gradient(bottom, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
+    background: #ff8000 -o-linear-gradient(bottom, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
+    background: #ff8000 linear-gradient(to top, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
+
+    /*
+    padding: 12px 35px;
+    font-size: 20px;
+    */
+}
+
+.btn-orange:hover {
+    background-color: #FFA041;
+    border-color: #a3511a;
+}
+
+.btn-center {
+    text-align:center;
+    margin:20px auto;
+    float: none;
+    position: relative;
+    display: inline-block;
+}
+
+.center-text {
+    text-align:center;
+}
+
+.container .jumbotron,
+.container-fluid .jumbotron { border-radius: 0px; }
+
+.jumbotron {
+    text-align: center;
+}
+
+.jumbotron.light {
+    background-color: #333;
+}
+
+.jumbotron.light h1,
+.jumbotron.light h2,
+.jumbotron.light h3,
+.jumbotron.light p,
+.jumbotron.light a {
+    color: #fff;
+}
+
+.jumbotron .title,
+.jumbotron .subtitle {
+    font-family: "Open Sans","Arial", sans-serif;
+}
+
+.jumbotron .title {
+    /*font-size: 58px;
+    line-height: 70px
+    margin: 55px 0 25px;;*/
+    font-weight: 700;
+    text-shadow: 2px 2px 7px #000;
+}
+
+.jumbotron .subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 6px #000;
+}
+
+.jumbotron .link > a {
+    color: #333;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.jumbotron .link > a:hover {
+    color: #555;
+}
+
+
+
+.hero {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-hero {
+    background-image: url("/Images/home/home-hero.jpg");
+}
 
