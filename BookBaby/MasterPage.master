@@ -238,7 +238,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="/" id="logo"><img class="img-responsive" alt="BookBaby Book Printing & Self Publishing Services Made Easy" src="../../images/nav-logo2.png" title="BookBaby Book Printing & Self Publishing Services Made Easy"></a>
+              <a class="navbar-brand" href="/" id="logo">
+                  <img class="img-responsive" alt="BookBaby Book Printing & Self Publishing Services Made Easy" src="../../images/nav-logo2.png" title="BookBaby Book Printing & Self Publishing Services Made Easy">
+              </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
