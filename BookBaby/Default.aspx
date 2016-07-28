@@ -60,22 +60,69 @@
 
 <div class="container-fluid bg-dark">
     <div class="row">
-        <section class="container" id="">
 
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-text">
-                <h2 class="text-right"><em>NEW!</em> Affordable editing for self-published authors</h2>
-                <p class="text-right">
-                    BookBaby Editing Services is for self-published authors who need premium editing for an affordable price. We’ve negotiated special rates with traditional publishing class editors that allow us to charge prices that are 30% to 50% lower than comparable services.<br />
-                    <a href="/book-editing-services" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Quadrant-editing']);">Learn more</a>
-                </p>
+        <section class="container-fluid" class="col-half">
+            <div class="row">
+
+                <div class="col-xs-12 visible-xs bg-img-half bg-home-s-3-1"></div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
+                    <div class="mw-400">
+                        <h2><em>NEW!</em> Affordable editing for self-published authors</h2>
+                        <p>
+                            BookBaby Editing Services is for self-published authors who need premium editing for an affordable price. We’ve negotiated special rates with traditional publishing class editors that allow us to charge prices that are 30% to 50% lower than comparable services.<br />
+                            <a href="/book-editing-services" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Quadrant-editing']);">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-home-s-3-1"></div>
+
             </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 center-text">
-                
-            </div>
-
-
         </section>
+        
+        
+        
+        <section class="container-fluid" class="col-half">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-home-s-3-2"></div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
+                    <div class="mw-400">
+                        <h2>Sell your eBooks <br />worldwide</h2>
+                        <p>
+                            We take care of all the work. You keep 100% of your net sales. It’s the easiest and most robust eBook publishing package on the planet.<br />
+                            <a href="/ebooks" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Quadrant-eBooks']);">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        
+        
+        <section class="container-fluid" class="col-half">
+            <div class="row">
+
+                <div class="col-xs-12 visible-xs bg-img-half bg-home-s-3-3"></div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
+                    <div class="mw-400">
+                        <h2>Sell your printed<br />books, too</h2>
+                        <p>
+                            We offer the highest-quality printed books available in hardcover, paperback, and numerous trim sizes, all backed by our <a href="/low-price-promise" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Quadrant-Print']);">low price promise</a>. Plus, you can easily add Print On Demand to your order and start selling your books in the world’s biggest bookstores.<br />
+                            <a href="/print-on-demand" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Quadrant-Print-POD']);">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-home-s-3-3"></div>
+
+            </div>
+        </section>
+
     </div>
 </div>
 

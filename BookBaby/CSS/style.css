@@ -24,12 +24,16 @@
 
 header { background-color: #3e3b32; }
 
+/*
 header > #hc {
     padding-left: 0;
     padding-right: 0;
     max-width: 1500px;
 }
+*/
 
+
+/*
 .main-nav,
 .alt-nav { background-color: unset; }
 
@@ -73,6 +77,9 @@ header > #hc {
     background-color: unset;
     color: #c0d478;
 }
+
+*/
+
 /* /header styles */
 /* ************** */
 
@@ -442,3 +449,39 @@ h3.title-bold {
     font-weight: 700;
     font-size: 17px;
 }
+
+/*
+.bg-dark .col-xs-12 {
+    padding: 25px 30px 25px 10px;
+}
+
+.bg-dark .col-sm-6 {
+    padding: 25px 30px 25px 10px;
+}
+
+.bg-dark .col-md-6 {
+    padding: 30px 30px 30px 10px;
+}
+
+.bg-dark .col-lg-6 {
+    padding: 35px 50px 35px 10px;
+}
+*/
+.bg-dark .mw-400 { max-width: 400px; }
+.bg-dark .text-right .mw-400 { float: right; }
+.bg-dark .text-right { padding: 35px 50px 35px 10px; }
+.bg-dark .text-left .mw-400 { float: left; }
+.bg-dark .text-left { padding: 35px 10px 35px 50px; }
+
+.bg-dark .bg-img-half {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #3E3B32;
+    height: 425px;
+}
+
+.bg-dark .bg-home-s-3-1 { background: url(../Images/home/quadrant-home-editing.jpg) no-repeat center center; }
+.bg-dark .bg-home-s-3-2 { background: url(../Images/home/quadrant-home-ebook.jpg) no-repeat center center; }
+.bg-dark .bg-home-s-3-3 { background: url(../Images/home/quadrant-home-print.jpg) no-repeat center center; }

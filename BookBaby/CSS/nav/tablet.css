@@ -1,0 +1,1196 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+/***----------------------------------***/
+/*** /start general styles            ***/
+
+#page {
+	margin: 15px 0 0 0 !important;
+	/*margin: 40px 0 0 0 !important;*/
+	min-height: 300px;
+   	position: relative;
+  	transition: margin-top 0.5s ease 0s;
+    width: 100%;}
+	
+.content-wrapper {padding: 40px 30px; }
+.content-wrapper.p80 {padding: 40px;}
+
+.section-1 .heading-block {min-width: 708px;}
+
+@media screen and (min-width: 768px) and (max-width: 960px) { 
+	#page {
+    margin: 15px 0 0 0 !important;
+    min-height: 300px;
+    position: relative;
+    transition: margin-top 0.5s ease 0s;
+    width: 100%;}
+}
+
+@media screen and  (min-width: 551px) and (max-width: 850px) { 
+.container-4-col .col-1-4 {
+	width: 46%;
+	position: relative;
+	float: left;
+	display: block;}
+	
+.container-4-col .col-1-4:nth-child(1),
+.container-4-col .col-1-4:nth-child(2){margin-bottom: 4%;}
+
+.container-4-col .col-1-4:nth-child(1),
+.container-4-col .col-1-4:nth-child(3){margin-right: 4%;}
+.container-4-col .col-1-4:nth-child(2),
+.container-4-col .col-1-4:nth-child(4){margin-right: 0%;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) { 
+.youtube-video-container{
+		width: 100%;
+		float: none;
+		max-width: 864px;
+		margin-left: auto;
+		margin-right: auto;}
+	
+	
+.video-copy {
+		width: 100%;
+		float: none;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;}
+	
+.youtube-video-container .aspect-ratio {
+		position: relative;
+		width: 100%;
+		height: 0;
+		padding-bottom: 56%;}
+
+}
+
+/***----------------------------------***/
+/*** /start general text styles            ***/
+   
+h1,
+.h1 {
+   font-size: 46px;
+   line-height:55px;}
+
+
+h2,
+.h2 {
+    font-size: 24px;
+    line-height: 33px;}
+
+h3,
+.h3 {
+  font-size: 21px;
+    line-height: 30px;}
+
+h4,
+.h4 {
+  font-size: 18px;
+    line-height: 26px;}
+	
+.callout-text{
+	font-size: 36px;
+	line-height:46px;}
+	
+.bottom-call-to-action-text{
+	font-size: 36px;
+	line-height:46px;
+	margin-bottom: 10px;}
+	
+.bottom-call-to-action-subtext{
+	font-size: 20px;
+	line-height:30px;
+	margin-bottom:20px;}
+	
+.body-plus2{
+	display: block;
+	font-size: 16px;
+	line-height:26px;}	
+	
+.block-link,
+.block-link a {
+	display: block;
+	font-size: 18px;
+	line-height: 26px;
+	text-decoration: underline;
+	color: #ffffff;}	
+	
+.block-link-black,
+.block-link-black a {
+	display: block;
+	font-size: 18px;
+	line-height: 26px;
+	text-decoration: underline;
+	color: #000000;}	
+	
+.block-link-orange {
+	font-weight: normal;
+	font-size: 14px;
+	text-decoration:none;
+	color: #D23D26;}
+	
+.block-link-orange-plus2 {
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: underline;
+	color: #D23D26;}	
+
+
+.section-subhead{
+	font-size: 36px;
+	line-height: 46px;}
+
+.alt {
+   	font-size: 20px;
+	line-height: 32px;}
+
+h2#toggleMe span, h3#toggleMe span, h4#toggleMe span {display: none;}
+
+.list-general {padding-left:4px;}
+.list-general li, .toggle-list li {
+    list-style-type: disc !important;
+	/*list-style-position:inside;*/
+    margin-left: 0;
+    text-align: left;
+}
+
+@media screen and (min-width:768px) and (max-width: 980px) { 
+.h5.thanks-genre {font-size:15px;}}
+
+/***----------------------------------***/
+/*** /start BUTTON styles            ***/
+/***----------------------------------***/
+
+.btn-green {min-width: 400px;}
+.btn-green.small {min-width: 200px;}
+
+.btn-green span {
+	padding: 18px 0px;
+	font-size: 23px;}
+
+table .btn-green span {padding: 5px 10px;}
+	
+table .btn-green span {
+	padding: 6px 0px;
+	text-align: center;
+	font-size: 14px;}
+
+.product-copy .btn-green span {padding: 10px 0;}
+
+
+/*** /end BUTTON styles            ***/
+/***------------------------------***/
+
+
+/***-----------------------------------***/
+/*** /start .stickers                  ***/
+/***-----------------------------------***/
+.sticker-container {margin-top: -98px;}
+
+.sticker-container .sticker {max-width: 180px;}
+
+.sticker-padding {padding-bottom: 65px;}
+	
+/***-----------------------------------***/
+/*** /end .stickers                  ***/
+/***-----------------------------------***/
+	
+	
+/*** GENERAL TABLE styles              ***/
+/***----------------------------------***/  
+	
+#templates-page th,
+#duplicators-page th {font-size: 14px;}
+
+#templates-page td,
+#duplicators-page td  {font-size: 14px;}
+
+.table-label {
+	font-size: 30px;
+	padding: 15px 0 10px 0;
+	min-height: 50px;
+	color: #ffffff;}
+
+.free-shipping, .free-shipping-limited {min-width: 80px;}
+
+
+/*** /end GENERAL TABLE styles         ***/
+/***----------------------------------***/  
+	
+/***----------------------------------***/
+/*** /end general styles             ***/
+/***--------------------------------***/
+
+/*****************************************/
+/*****************************************/	
+/*** start #home-page                   ***/
+/***-----------------------------------***/
+/*****************************************/
+#home-page .home{
+	font-size: 55px;
+	line-height:65px;
+	margin: 40px 5% 0 5%;
+	width:90%}
+		
+#home-page .section-3 .copy-container {
+	float: left;
+	width: 40%;
+	text-align: left;
+	min-width: 236px;
+	margin:20px 0;}
+	
+#home-page .section-3 .copy-container .section-subhead{line-height:40px;}
+
+#home-page .section-3 .copy-container h2{margin-bottom:10px; }	
+
+#home-page .section-3 .copy-container .block-link-orange {font-size: 18px;}
+
+#home-page .section-3 .img-container {
+	float: right;
+	width: 47%;
+	bottom: 0px;
+	min-width: 234px;
+	max-height:350px;
+	right: 30;
+	position:absolute;
+	top:40px;}
+
+#home-page .section-3 .img-container img {
+	height: auto;
+	max-width: 100%;}
+	
+#home-page .section-4 .content-wrapper #testimonials {
+	min-width: 700px;
+	height:auto; }
+
+#home-page .section-6 {min-height: 400px;}
+ 
+#home-page .section-6 .section-subhead{
+	margin-bottom:40px;
+	line-height:30px;}
+
+/*** section-70years ***/	
+@media screen and (min-width:768px) and (max-width: 980px) {
+#home-page .section-70years .container-3-col .col-1-3 h2 {font-size:28px; line-height:38px; margin-bottom:10px;}
+}
+	
+/***-----------------------------------***/
+/*** /end #home-page                   ***/
+/***-----------------------------------***/
+/*****************************************/
+
+/*****************************************/
+/*****************************************/	
+/*** start #home-page-business           ***/
+/***-----------------------------------***/
+/*****************************************/
+
+
+@media screen and  (min-width: 768px) and (max-width: 980px) {
+#home-page-business .section-4 .img-container {display:none;}
+#home-page-business .section-4 .copy-container {width:100%; text-align: center;}
+#home-page-business .section-4 .copy-container .section-subhead,
+#home-page-business .section-4 .copy-container p {text-align: center;}
+}
+
+#home-page-business .section-5 {
+    min-height: 510px;
+	background-position: 0 0px;
+} 
+
+
+/***-----------------------------------***/
+/*** /end #home-page-business             ***/
+/***-----------------------------------***/
+/*****************************************/
+
+
+/*****************************************/
+/***-----------------------------------***/
+/*** /start #product-page              ***/
+/***-----------------------------------***/
+
+@media screen and (max-width:980px) { 
+#product-page .container-1-5 .col-1-5 img{
+	position: relative;
+	max-width:80px;
+	height: auto;}	}
+
+#product-page .container-3-col a.col-1-3 {padding-bottom: 0px;}
+
+#product-page .product-copy {margin-top: 10px;}
+
+.container-bundles {
+	width: 100%;
+	margin-left:0%;
+	margin-right: 0%;
+	text-align:center;}
+
+.container-bundles .body-copy{text-align:center !important;}	
+.container-bundles .list-general li {
+	margin-bottom:5px; 
+    list-style-type: disc !important;
+	list-style-position:inside;
+    text-align: center;}	
+	
+@media screen and  (min-width: 768px) and (max-width: 800px) {
+.container-bundles img{width: 100%;}
+	
+.container-bundles.last {margin-top: 20px; }}	
+
+ 
+@media screen and  (min-width: 768px) and (max-width: 900px) {
+#product-page .product-img {
+	width:100%;
+	margin-left:0%;
+	margin-right:0%;}
+
+#product-page .product-copy {
+	text-align: center;
+	width:100%;
+	margin-right:0%;
+	margin-top:30px;}}
+
+@media screen and  (min-width: 768px) and (max-width: 980px) {
+	#product-page .video-copy h2 {margin-top: 20px;}
+	
+	#product-page .video-copy-50.press {width:100%; margin:0; display:block;}
+}
+	
+/***-----------------------------------***/
+/*** /end #product-page                ***/
+/***-----------------------------------***/
+/*****************************************/
+
+
+/*******************************************/
+/***-------------------------------------***/
+/*** /start #templates-page              ***/
+/***-------------------------------------***/
+
+#templates-page .section-2 .container-1-3 .col-2-3 .icon-container .col-1-5 {
+	width: 14%;
+	margin-right: 5%;}
+
+#templates-page .section-3 h2 {
+	margin-top: 18px;}
+
+#templates-page th:nth-child(2),
+#templates-page td:nth-child(2) {
+	min-width: 145px;}
+
+/***-------------------------------------***/
+/*** /end #templates-page                ***/
+/***-------------------------------------***/
+/*******************************************/
+
+
+/*********************************************/
+/***---------------------------------------***/
+/*** /start #duplicators-page              ***/
+/***---------------------------------------***/
+
+#duplicators-page th:nth-child(3), 
+#duplicators-page td:nth-child(3) {width: 26%;}
+
+#duplicators-page th:nth-child(5),
+#duplicators-page td:nth-child(5) {
+	width: 20%;
+	padding-left: 0;}
+	
+#duplicators-page .table-label .description {
+	font-size: 14px;
+	line-height: 21px;
+	width: 85%;}
+	
+#duplicators-page th:nth-child(1),
+#duplicators-page td:nth-child(1) {padding-left: 30px;}
+#duplicators-page th:nth-child(5),
+#duplicators-page td:nth-child(5) {padding-right: 30px;}
+
+#duplicators-page .col-4 td:nth-child(1) {padding-left: 30px;}
+#duplicators-page .col-4 th:nth-child(2),
+#duplicators-page .col-4 td:nth-child(2) {display:none;}
+#duplicators-page .col-4 th:nth-child(1), #duplicators-page .col-4 td:nth-child(1) {width: 50%}	
+#duplicators-page .col-4 th:nth-child(3), #duplicators-page .col-4 td:nth-child(3) {width: 35%}	
+#duplicators-page .col-4 th:nth-child(4),
+#duplicators-page .col-4 td:nth-child(4) {width: 15%; padding-right: 30px;}
+
+#duplicators-page .section-4 .left-m-15.list-number li {margin-left:20px;}
+
+#duplicators-page .col-2 td  {
+	padding: 20px;
+    font-size: 14px;}
+	
+#duplicators-page .col-2 td:nth-child(1) {
+    padding-right: 40px;
+	padding-left: 30px;
+    width: 25%;}
+
+#duplicators-page .col-2 td:nth-child(2) {
+	width: 75%;
+	padding-left: 40px;
+	padding-right: 30px;}
+	
+#duplicators-page table.specs td:nth-child(2), #duplicators-page table.specs td:nth-child(3) {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/*USB Page*/
+#duplicators-page .section-3 table.usb td:nth-child(2), #duplicators-page .section-3 table.usb td:nth-child(3), #duplicators-page .section-3 table.usb td:nth-child(4), #duplicators-page .section-3 table.usb td:nth-child(5) {padding-top: 50px;}
+
+
+@media screen and (min-width: 768px) and (max-width: 900px) { 
+#duplicators-page td:nth-child(2), #duplicators-page td:nth-child(3), #duplicators-page td:nth-child(4) {
+    padding: 40px 0 20px;}}
+	
+@media screen and (min-width: 768px) and (max-width: 800px) { 
+#duplicators-page .section-2.usb-packaging {display:none;}
+#duplicators-page .section-3.bundle .duplicator-list .duplicator-img {width:100%; margin:0 auto 20px;}
+#duplicators-page .section-3.bundle .duplicator-list > .duplicator-row-first h2, #duplicators-page .section-3.bundle .duplicator-list > .duplicator-row h2, #duplicators-page .section-3.bundle .duplicator-list > .duplicator-row-last h2 {
+    text-align: center;
+}
+#duplicators-page .section-3.bundle .duplicator-list .duplicator-copy {
+    width: 100%;
+	margin: 0 auto;
+}
+#duplicators-page .section-3.bundle .duplicator-list > .duplicator-row {
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 40px;
+}
+#duplicators-page .section-3.bundle .duplicator-list > .duplicator-row-first {padding: 10px 0 20px; }
+#duplicators-page .section-3.bundle .duplicator-list > .duplicator-row-last {padding: 20px 0 10px;}
+
+#duplicators-page .section-3.bundle.bundle .duplicator-list .duplicator-copy h2  {margin:20px auto 0;}
+#duplicators-page .section-3.bundle.bundle .duplicator-list .duplicator-copy p  {padding: 0 5%;}}
+
+	
+/***---------------------------------------***/
+/*** /end #duplicators-page                ***/
+/***---------------------------------------***/
+/*********************************************/
+
+
+/*********************************************/
+/***---------------------------------------***/
+/*** /start #web-distro-page               ***/
+/***---------------------------------------***/
+#web-distro-page .section-2 {		
+		background-size: cover;
+		max-height: 220px;
+		height: 220px;}
+
+
+/*********************************************/
+/*** /start #web-distro-page .section-3    ***/
+
+
+.packages-container .package-1 .bottom-box {
+	/*width: calc(100% - 15px);*/
+	padding: 15px;
+	float: left;}
+
+#web-distro-page .section-3 .packages-container .package-1 .bottom-box p.line1 {
+	font-size: 23px;
+	line-height: 39px;}
+
+#web-distro-page .section-3 .packages-container .package-1 .bottom-box p.line2 {
+	font-size: 14px;
+	line-height: 22px;}
+
+#web-distro-page .section-5 .list-general li{text-align: left;}
+
+/***-------------------------------------***/
+/*** /end #web-distro-page               ***/
+/***-------------------------------------***/
+/*******************************************/
+
+
+/*********************************************/
+/***---------------------------------------***/
+/*** /start #menu-page                     ***/
+/***---------------------------------------***/
+
+#menu-page .section-2 .product-item {
+	width: 47.5%;
+	height: auto;
+	position: relative;
+	display: block;}
+		
+#menu-page .section-2 .product-item:nth-child(odd){
+	margin: 0px .5% 30px 2%;
+	float: right;}
+
+#menu-page .section-2 .product-item:nth-child(even){
+	float: left;
+	margin: 0px 2% 30px .5%;}
+
+/*********************************************/
+/*** /start #menu-page .section-3          ***/
+#menu-page .section-3 p {display: block!important;}
+
+/***---------------------------------------***/
+/*** /end #menu-page                       ***/
+/***---------------------------------------***/
+/*********************************************/
+
+
+/*********************************************/
+/***---------------------------------------***/
+/*** /start #request-menu-page                     ***/
+/***---------------------------------------***/
+
+#request-menu-page .product-item {
+	width: 47.5%;
+	height: auto;
+	min-height:300px;
+	position: relative;
+	display: block;
+	float: left;}
+
+		
+/*********************************************/
+/*** /start #request-menu-page .section-2          ***/	
+#request-menu-page .section-2 .product-item:nth-child(1),
+#request-menu-page .section-2 .product-item:nth-child(3) {margin: 1% 0% 2.5% 0%;}
+
+#request-menu-page .section-2 .product-item:nth-child(2),
+#request-menu-page .section-2 .product-item:nth-child(4) {margin: 1% 3.5% 2.5% 0%;}
+
+
+/*********************************************/
+/*** /start #request-menu-page .section-3          ***/
+#request-menu-page .section-3 .product-item:nth-child(1),
+#request-menu-page .section-3 .product-item:nth-child(3),
+#request-menu-page .section-3 .product-item:nth-child(5),
+#request-menu-page .section-3 .product-item:nth-child(7) {margin: 1% 0% 2.5% 0%;}
+
+#request-menu-page .section-3 .product-item:nth-child(2),
+#request-menu-page .section-3 .product-item:nth-child(4),
+#request-menu-page .section-3 .product-item:nth-child(6) {margin: 1% 3.5% 2.5% 0%;}
+
+/*********************************************/
+/*** /start #request-menu-page .section-4          ***/
+#request-menu-page .section-4 .product-item:nth-child(1),
+#request-menu-page .section-4 .product-item:nth-child(3),
+#request-menu-page .section-4 .product-item:nth-child(5),
+#request-menu-page .section-4 .product-item:nth-child(7) {margin: 1% 0% 2.5% 0%;}
+
+#request-menu-page .section-4 .product-item:nth-child(2),
+#request-menu-page .section-4 .product-item:nth-child(4),
+#request-menu-page .section-4 .product-item:nth-child(6),
+#request-menu-page .section-4 .product-item:nth-child(8) {margin: 1% 3.5% 2.5% 0%;}
+
+/*********************************************/
+/*** /start #request-menu-page .section-5          ***/
+#request-menu-page .section-5 .product-item:nth-child(1),
+#request-menu-page .section-5 .product-item:nth-child(3),
+#request-menu-page .section-5 .product-item:nth-child(5) {margin: 1% 0% 2.5% 0%;}
+
+#request-menu-page .section-5 .product-item:nth-child(2),
+#request-menu-page .section-5 .product-item:nth-child(4) {margin: 1% 3.5% 2.5% 0%;}
+/***---------------------------------------***/
+/*** /end #request-menu-page                       ***/
+/***---------------------------------------***/
+/*********************************************/
+
+
+/*********************************************/
+/***---------------------------------------***/
+/*** /start #services-page                 ***/
+/***---------------------------------------***/
+
+#services-page .section-1  .content-wrapper .heading-container-text {
+	min-width: 400px;
+	width: 58%}
+	
+#services-page .section-1 .img-container {
+	min-width: 200px;
+	width: 35%;}
+	
+#services-page .section-1  .content-wrapper .heading-container-text-pledgemusic {
+	min-width: 400px;
+	width: 58%}
+	
+#services-page .section-1 .img-container-pledgemusic {
+	min-width: 200px;
+	width: 40%;}
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {	
+#services-page .section-1 .img-container-artistgrowth img {
+    margin-right: 30px;
+    width: 60%;}
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {	
+#services-page .section-1 .img-container-artistgrowth img {
+	margin-right: 10px;
+    width: 100%;}
+}
+	
+	
+/*********************************************/
+/*** /start #services-page .section-2    ***/
+	
+#services-page .section-2 .content-wrapper-bot-m-0 {
+	padding: 40px 30px;
+}
+#services-page .section-2 .col-1-2 {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+#services-page .section-2 .col-2-2 {
+    display:none;
+}
+#services-page .section-2 .col-2-2.show {
+    display:block;
+}
+#services-page .section-2 .col-2-2-sidebar h2 {
+	text-align:left;}
+
+#services-page .section-2 .col-2-sidebar ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;}
+	
+#services-page .section-2 .services-list .service-img,
+#services-page .section-2 .services-list-show-copy .service-img {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+#services-page .section-2 .container-shipping-box {width: 100%;}
+
+
+	
+/***---------------------------------------***/
+/*** /end #services-page                   ***/
+/***---------------------------------------***/
+/*********************************************/
+
+/*********************************************/	
+/***---------------------------------------***/
+/*** /start #search-results-page           ***/
+/***---------------------------------------***/
+.search-box-container {
+	width: calc(75% - 15px);
+	float: left;
+	padding-right: 5%;}
+
+.search-box-container #search-box {
+	width: 100%;
+	padding: 10px;
+	color: #666666;
+	border-radius: 5px;
+	font-size: 20px;
+	border: none;}
+
+.btn-green.btn-search {
+	margin: 0px;
+	float: left;
+	min-width: initial;
+	max-width: 325px;
+	min-width: 100px;
+	width: 20%;}
+
+
+	
+/*********************************************/	
+/***---------------------------------------***/
+/*** /start #search-results-page           ***/
+/***---------------------------------------***/
+
+/***************************************/
+/***---------------------------------***/
+/*** /start #request-page            ***/
+/***---------------------------------***/
+#request-page .section-2 .request-img {
+	height: auto;
+	width: 48%;
+	float: left;}
+
+#request-page .section-2 #form {
+	width: 48%;
+	float: left;
+	margin-left: 4%;}
+	
+	/* BACKSTAGE request pages */
+#request-thanks-page .section-1.backstage{min-height:500px;}
+	
+@media screen and (min-width: 768px) and (max-width: 849px) {
+
+	
+#request-page #genre-thanks,
+ #request-page #genre-form {
+	width: 55%;
+	float: left;
+	text-align:left !important;}
+
+#request-page #genre-thanks-right, 
+#request-page #genre-form-right {
+	width: 55%;
+	float:left;
+	margin-left:43%;
+	text-align:left !important;}
+	}
+	/***------------------------------***/
+	/*** /end #request-page            ***/
+	/***------------------------------***/
+	/************************************/
+
+/***************************************/
+
+	/***---------------------------------***/
+/*** /start #partner program           ***/
+/***---------------------------------***/
+#services-page .section-3 .toggle-list li {display: none;}	
+#services-page .section-3 #partner-program-image {display:none;}
+
+#services-page .section-3 .partner-program-toggle-text{
+    float: left;
+    position: relative;
+    width: 100%;}
+/*********************************************/
+/***---------------------------------------***/
+/*** /start #aftercare-page
+                     ***/
+#aftercare-page .table-label {
+	font-size: 28px;
+	line-height:32px;
+	padding: 12px 0 11px 0;
+	min-height: 30px;
+	color: #ffffff;}
+	
+#aftercare-page .container-3-col {text-align:center;}
+
+#aftercare-page .container-3-col .aftercare-logo {
+	width:30%;
+	float:none;
+	margin:0 auto 10px;}
+
+#aftercare-page .aftercare-friends-text {
+    float: left;
+    width: 100%;}
+
+#aftercare-page .aftercare-friends-text #toggle-1,
+#aftercare-page .aftercare-friends-text #toggle-2,
+#aftercare-page .aftercare-friends-text #toggle-3,
+#aftercare-page .aftercare-friends-text #toggle-4,
+#aftercare-page .aftercare-friends-text #toggle-5,
+#aftercare-page .aftercare-friends-text #toggle-6,
+#aftercare-page .aftercare-friends-text #toggle-7,
+#aftercare-page .aftercare-friends-text #toggle-8,
+#aftercare-page .aftercare-friends-text #toggle-9,
+#aftercare-page .aftercare-friends-text #toggle-10,
+#aftercare-page .aftercare-friends-text #toggle-11,
+#aftercare-page .aftercare-friends-text #toggle-12,
+#aftercare-page .aftercare-friends-text #toggle-13,
+#aftercare-page .aftercare-friends-text #toggle-14,
+#aftercare-page .aftercare-friends-text #toggle-15,
+#aftercare-page .aftercare-friends-text #toggle-16,
+#aftercare-page .aftercare-friends-text #toggle-17,
+#aftercare-page .aftercare-friends-text #toggle-18,
+#aftercare-page .aftercare-friends-text #toggle-19,
+#aftercare-page .aftercare-friends-text #toggle-20,
+#aftercare-page .aftercare-friends-text #toggle-21,
+#aftercare-page .aftercare-friends-text #toggle-22,
+#aftercare-page .aftercare-friends-text #toggle-23,
+#aftercare-page .aftercare-friends-text #toggle-24,
+#aftercare-page .aftercare-friends-text #toggle-25,
+#aftercare-page .aftercare-friends-text #toggle-26,
+#aftercare-page .aftercare-friends-text #toggle-27,
+#aftercare-page .aftercare-friends-text #toggle-28,
+#aftercare-page .aftercare-friends-text #toggle-29,
+#aftercare-page .aftercare-friends-text #toggle-30,
+#aftercare-page .aftercare-friends-text #toggle-31,
+#aftercare-page .aftercare-friends-text #toggle-32,
+#aftercare-page .aftercare-friends-text #toggle-33,
+#aftercare-page .aftercare-friends-text #toggle-34,
+#aftercare-page .aftercare-friends-text #toggle-35,
+#aftercare-page .aftercare-friends-text #toggle-36,
+#aftercare-page .aftercare-friends-text #toggle-37,
+#aftercare-page .aftercare-friends-text #toggle-38,
+#aftercare-page .aftercare-friends-text #toggle-39,
+#aftercare-page .aftercare-friends-text #toggle-40,
+#aftercare-page .aftercare-friends-text #toggle-41,
+#aftercare-page .aftercare-friends-text #toggle-42{display:none;}
+
+/*** /end #aftercare-page                       ***/
+
+
+/*********************************************/
+/***---------------------------------------***/
+/*** /start #locations-page                     ***/
+
+@media screen and (min-width: 651px) and (max-width: 800px) {	
+.locations-info {padding:10px;}
+}
+
+/*** /end #locations-page                       ***/
+
+
+
+/*********************************************/
+/***---------------------------------------***/
+/*** /start #locations-city-page                     ***/
+/***---------------------------------------***/
+@media screen and (max-width: 767px) {
+#services-page .col-1-3-location {
+	width: 92%;
+	padding: 4%;
+	margin-left: 0;}
+#services-page .col-2-3-location {display:none;}
+#services-page .location-city-hero-container {display:none;}
+}
+/***---------------------------------------***/
+/*** /end #locations-city-page                       ***/
+/***---------------------------------------***/
+/*********************************************/
+
+
+
+/************start careers/workingatDM************/
+
+#careers-page .section-2 .quote {margin-left: 25%; margin-top:150px; width: 50%;}
+
+@media screen and (min-width: 768px) and (max-width: 900px) { 
+#careers-page .section-2 .quote {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 30%;
+    margin-right: 0;
+    margin-top: 20px;
+    width: 37%;
+}
+#careers-page .section-2 {
+    background-size: cover;
+    height: 220px;
+    max-height: 220px;
+}
+#careers-page .section-5 {
+    background-size: cover;
+    height: 220px;
+    max-height: 220px;
+}
+#careers-page .section-5 .quote {
+    font-size: 18px;
+    line-height: 25px;
+	margin-left: 0;
+    margin-top: 20px;
+    width: 47%;
+}
+#careers-page .section-6 .container-1-3 .col-1-3:nth-child(1){margin-right: 7%;}
+#careers-page .section-6 .container-1-3 .col-1-3:nth-child(2){margin-right: 7%;}
+#careers-page .section-6 .container-1-3 .col-1-3:nth-child(3){margin-right: 0%;}
+}
+
+/************end careers/workingatDM************/
+
+/*********************************************/
+/***---------------------------------------***/
+/*** /start #sitemap             ***/
+/***---------------------------------------***/
+@media screen and  (min-width: 551px) and (max-width: 850px) { 
+#sitemap .body-copy a{font-size:14px;}	
+
+#sitemap  .container-4-col .col-1-4 {
+	width: 46%;
+	position: relative;
+	float: left;
+	display: block;}
+
+#sitemap .container-4-col .col-1-4:nth-child(1),
+#sitemap .container-4-col .col-1-4:nth-child(3){margin-right: 4%;}
+#sitemap .container-4-col .col-1-4:nth-child(2),
+#sitemap .container-4-col .col-1-4:nth-child(4){margin-right: 0%;}
+}
+
+/***********end /sitemap*****************/
+
+/*** /start #custom-kitting         ***/
+#custom-kitting-page .container-3-col .col-1-3{ display:none}
+#custom-kitting-page .container-3-col .col-2-3 {width: 100%;}
+/*** /end #custom-kitting         ***/
+
+/*** /start #news         ***/
+#news-page .container-3-col .col-1-3{margin: 0 10% 10px; width: 80%;}
+#news-page .container-3-col .col-2-3 {margin: 0 10%; width: 80%;}
+/*** /end #news         ***/
+
+/*** #crowdfunding-page        ***/
+#crowdfunding-page  .container-3-col .col-1-3{ display:none}
+#crowdfunding-page  .container-3-col .col-2-3 {width: 100%;}
+
+#crowdfunding-page .crowdfunding-tips-image {display:none;}
+
+#crowdfunding-page .crowdfunding-tips-text {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+/*** end crowdfunding-page        ***/
+
+/*******************************************/
+/***-------------------------------------***/
+/*** /start #shop-page              ***/
+/***-------------------------------------***/
+.hide-tablet {display:none;}
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+#shop-page .section-2 .shop-list .shop-copy {margin-top: 70px;}
+}
+	
+@media screen and (min-width: 768px) and (max-width: 900px) {
+#shop-page .section-2 .shop-list .shop-copy {margin-top: 40px;}
+}
+
+/*** end shop-page        ***/
+
+/*******************************************/
+/***-------------------------------------***/
+/*** /start falcon pages              ***/
+/***-------------------------------------***/
+#menu-page .section-2.falcon a.product-item.falcon h3 {font-size: 18px; line-height: 26px;} 
+#menu-page .section-2.falcon .product-item:nth-child(1), #menu-page .section-2.falcon .product-item:nth-child(2), #menu-page .section-2.falcon .product-item:nth-child(3), #menu-page .section-2.falcon .product-item:nth-child(5) {
+    margin-bottom: 2.5%;
+    margin-left: 3.5% !important;
+    margin-right: 0;
+    margin-top: 1%;}
+
+#menu-page .section-2.falcon .product-item:nth-child(4), #menu-page .section-2.falcon .product-item:nth-child(6), #menu-page .section-2.falcon .product-item:nth-child(7), #menu-page .section-2.falcon .product-item:nth-child(8){
+    margin-bottom: 2.5%;
+    margin-left: 0 !important;
+    margin-right: 0;
+    margin-top: 1%;}
+.content-wrapper-bot-0 {padding: 40px 30px 0 30px;}
+	
+
+/*** end falcon pages     ***/
+
+/*******************************************/
+/***-------------------------------------***/
+/*** /start #ondiscprinting-page              ***/
+/***-------------------------------------***/
+#ondisc-printing-page .section-4 .container-3-col .col-1-3 {width: 100%;}
+#ondisc-printing-page .section-4 .container-3-col .col-1-3:nth-child(1), #ondisc-printing-page .section-4 .container-3-col a.col-1-3:nth-child(1) {margin-right: 0;}
+#ondisc-printing-page .section-4 .container-3-col .col-1-3 .details-container .h3{font-size: 18px; line-height: 28px;}
+#ondisc-printing-page .section-4 .container-3-col .col-1-3:nth-child(1), #ondisc-printing-page .section-4 .container-3-col .col-1-3:nth-child(1),
+#ondisc-printing-page .section-4 .container-3-col .col-1-3:nth-child(2), #ondisc-printing-page .section-4 .container-3-col .col-1-3:nth-child(2) {margin-bottom: 40px;}
+#ondisc-printing-page .section-4 .container-3-col .col-1-3:nth-child(3), #ondisc-printing-page .section-4 .container-3-col a.col-1-3:nth-child(3) {margin-left: 0; margin-bottom: 0;}
+#ondisc-printing-page .section-4 .container-3-col .col-1-3 .details-container p:last-child {padding-bottom: 20px;}
+#ondisc-printing-page .section-4 .container-3-col .col-1-3 .details-container .ondisc-label {
+	font-size: 30px;
+	padding: 15px 0 10px 0;
+	min-height: 40px;}
+
+/*** end ondiscprinting-page        ***/
+
+
+/*********************************************/
+/***---------------------------------------***/
+/*** /start #testimonials-page            ***/
+/***---------------------------------------***/
+
+@media screen and (min-width:768px) and (max-width:980px) { 
+#testimonials-page .section-2 .quote {	
+	width: 44%;
+	margin-left: 55%;
+	font-size: 14px;
+	line-height: 28px;
+}
+#testimonials-page .section-2 {min-height: 320px;}}
+
+
+/***********end testimonials page*****************/
+
+/*********************************************/
+/***---------------------------------------***/
+/*** /start #error-page            ***/
+/***---------------------------------------***/
+
+ @media screen and (min-width:768px) and (max-width:1050px) {
+	#error-page .left{
+	width: 44%;
+	margin-right:1%;
+	float:left;}
+ 
+#error-page .right{
+	width: 55%;}}
+	
+/***********end /error page*****************/
+
+/***---------------------------------------***/
+/*** /start #nowproof-page            ***/
+/***---------------------------------------***/
+@media screen and (max-width: 900px) { 
+#nowproof-page .video-copy{margin-top:30px;}}	
+/***********end /nowproof page*****************/
+
+
+/***---------------------------------------***/
+/*** /start #download-cards-page            ***/
+/***---------------------------------------***/
+#download-cards-page .section-3 .container-3-col .col-1-3 {width: 100%;}
+#download-cards-page .section-3 .container-3-col .col-1-3 .dlc-copy {
+    height:inherit;
+    margin-bottom: 25px;
+    min-height:inherit;}
+#download-cards-page .section-3 .container-3-col .col-1-3 img {margin-bottom: 25px; width: 75%;}
+#download-cards-page .section-3 .container-3-col .col-1-3 .details-container .table-label {padding-bottom: 2%; padding-top: 3%;}
+#download-cards-page th:nth-child(1), #download-cards-page td:nth-child(1), #download-cards-page th:nth-child(2), #download-cards-page td:nth-child(2), #download-cards-page th:nth-child(3), #download-cards-page td:nth-child(3) {padding-bottom: 2%; padding-top: 2%;}
+#download-cards-page .container-3-col .col-1-3:nth-child(3) {margin-left: 0;}
+#download-cards-page table {margin-bottom:20px;}	
+/***********end /#download-cards page*****************/
+
+/***---------------------------------------***/
+/*** /start #promotion-page           ***/
+/***---------------------------------------***/
+#promotion-page .section-2 .container-3-col .col-1-3:nth-child(1) {margin-right: 0;}
+#promotion-page .section-2 .container-3-col .col-1-3.last, #promotion-page .section-2 .container-3-col .col-1-3.last p.body-copy {text-align: center;}
+#promotion-page .container-3-col .col-1-3 {width: 100%;}
+#promotion-page .section-3 .container-3-col .col-1-3 img {width: 60%;}
+#promotion-page .section-3 .container-3-col .col-1-3 .promo-copy {height: inherit; min-height: inherit;}
+#promotion-page th:nth-child(1), #promotion-page td:nth-child(1),
+#promotion-page th:nth-child(2), #promotion-page td:nth-child(2),
+#promotion-page th:nth-child(3), #promotion-page td:nth-child(3) {padding: 3% 0;}
+#promotion-page .container-3-col .col-1-3 .table-height,
+#promotion-page .section-4 table.bottom-copy {height:inherit; margin-bottom: 30px;}
+#promotion-page .container-3-col .col-1-3:nth-child(3), #promotion-page .container-3-col a.col-1-3:nth-child(3) {margin-left: 0;}
+#promotion-page td.promo-details:nth-child(1) {padding: 4%;}
+#promotion-page .section-4 ul.list-general {margin-bottom:0px;}
+#promotion-page .section-4 ul.list-general li {margin-left:0; text-align:left;}
+
+/***********end /#promotion page*****************/
+
+/***---------------------------------------***/
+/*** /start #genre-page           ***/
+/***---------------------------------------***/
+#genre-page .content-wrapper{padding:50px 30px;}
+
+#genre-page .sticker-padding{padding:50px 30px 100px 30px;}
+
+#genre-page .sticker-container{margin-top:-110px;}
+
+#genre-page .line-height-extra{ line-height:38px}
+
+#genre-page #hero-country {background-position: center center;}
+
+#genre-page #hero-country-text {
+	margin-left:30%;
+	width:70%;}	
+
+#genre-page .guide-image{width:100%;}	
+	
+#genre-page .testimonial-country {min-height:300px;}
+
+
+@media screen and (min-width:768px) and (max-width:880px) {
+#genre-page #hero-country-text {
+	margin-left:15%;
+	width:85%;}	
+	
+#genre-page #hero-country-text h1 {
+    font-size: 80px;
+ 	line-height: 80px;}
+	
+#genre-page #hero-country-text .headline-small {
+  	font-size: 50px;
+	line-height:50px;}}
+
+/***********hip-hop page*****************/	
+#genre-page #hero-hiphop-text h1 {font-size: 55px; line-height: 80px; margin-bottom:10px;}
+#genre-page .quote-left-hiphop, #genre-page .quote-right-hiphop {font-size: 120px;}
+#genre-page .quote {font-size: 30px;line-height: 55px;}
+#genre-page .section-4.clients h3 {margin-top: 30px;}
+#genre-page .section-6.soundlab .break {display:inline;}
+#genre-page .line-height-extra-hiphop {line-height:38px;}	
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+#genre-page .section-6.soundlab .text, #genre-page .section-7.distribution .text, #genre-page .section-8.vinyl .text, #genre-page .section-10.sampling .text {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;}
+#genre-page .section-6.soundlab {
+    background-image: url(../images/products/genre-pages/hiphop-soundlab-tablet.jpg);
+    max-height: 900px;
+	background-position: top center;}
+#genre-page .section-6.soundlab .content-wrapper {padding-top: 120px;}
+#genre-page .section-6.soundlab .break {display:inline;}
+#genre-page .section-7.distribution .content-wrapper {padding-bottom: 120px;}
+#genre-page .section-7.distribution {
+    background-image: url(../images/products/genre-pages/hiphop-distribution-tablet.jpg);
+    max-height: 900px;
+	background-position: bottom center;}
+#genre-page .section-8.vinyl .container-2-col .col-1-2 {margin: 0 10% 20px;width: 80%;}
+#genre-page .section-8.vinyl {background-image:none; max-height: 800px;}
+#genre-page .section-10.sampling {background-image:none;}
+#genre-page .section-11.guarantee .sticker-container.hiphop {margin-top: -118px;}
+}
+	
+/***********end /#genre page*****************/
+
+/***---------------------------------------***/
+/*** /start #70th anniversay           ***/
+/***---------------------------------------***/
+#home-page-dm70 h1.dm70-headline {
+	font-size: 120px;
+    line-height:120px;
+}
+#home-page-dm70 h2.dm70-subheadline {
+	font-size: 64px;
+    line-height:64px;
+}
+#home-page-dm70 h2.dm70-subheadline em {
+	font-size: 56px;
+    line-height:66px;
+}
+#home-page-dm70 .dm70section-subhead {
+    font-size: 65px;
+    line-height: 75px;
+}
+#home-page-dm70 .intro-text {
+	font-size: 24px;
+}
+#home-page-dm70 .section-3, 
+#home-page-dm70 .section-4, 
+#home-page-dm70 .section-5, 
+#home-page-dm70 .section-6, 
+#home-page-dm70 .section-7 {
+    min-height: 400px;
+}
+#home-page-dm70 h4.dm70-quote {
+	font-size:38px;
+	line-height:48px;
+}
+#home-page-dm70 .container-3-col .col-1-3.small {
+	width:10%;
+	margin-right:2%;
+}
+#home-page-dm70 .container-3-col .col-2-3.large{
+	width:88%;
+}
+
+/***********end #70th anniversay *****************/
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+
+}

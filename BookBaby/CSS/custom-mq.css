@@ -25,6 +25,7 @@
 /* mobile header */
 @media all and (min-width: 0px) and (max-width: 991px) {
 
+    /*
     header { 
         min-height:102px;
         z-index:5;
@@ -57,6 +58,7 @@
         padding-top: 5px;
         padding-bottom: 5px;
     }
+    */
 }
 @media all and (min-width: 851px) and (max-width: 912px) {
 
@@ -98,9 +100,9 @@
 
     
     
-    .bg-dark .text-right {
+    /*.bg-dark .text-right {
         text-align: center;
-    }
+    }*/
 
     .jumbotron .title {
         font-size: 38px;
@@ -154,22 +156,21 @@
 /* ******************************* */
 
 
-
+/*
 @media all and (min-width: 768px) and (max-width: 861px) {
     #navigation.navbar-nav > li > a {
         font-size: 10px;
     }
 }
-/* ******************************* */
+
 @media all and (min-width: 992px) and (max-width: 1030px) {
     #navigation.navbar-nav > li > a { font-size: 12px; }
 }
-/* ******************************* */
 
-
-
-/* ******************************* */
 @media all and (min-width: 1021px) {
     .navbar-nav > li > a { font-size: 14px; }
 }
+*/
 /* ******************************* */
+
+

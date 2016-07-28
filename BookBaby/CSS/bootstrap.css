@@ -1065,6 +1065,23 @@ th {
 .glyphicon-menu-up:before {
   content: "\e260";
 }
+/*
+    
+*:not(#header-menu *) {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before:not(#header-menu *),
+*:after:not(#header-menu *) {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*/
+
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -1076,6 +1093,7 @@ th {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
 html {
   font-size: 10px;
 
