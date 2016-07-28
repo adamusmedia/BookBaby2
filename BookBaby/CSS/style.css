@@ -4,9 +4,7 @@
 /*
 .row { border: 1px solid blue; }
 .b {border: 1px solid green; }
-
 .container { border:1px solid red; }
-
 
 #main-navbar,
 .navbar-brand,
@@ -23,62 +21,6 @@
 /* ************* */
 
 header { background-color: #3e3b32; }
-
-/*
-header > #hc {
-    padding-left: 0;
-    padding-right: 0;
-    max-width: 1500px;
-}
-*/
-
-
-/*
-.main-nav,
-.alt-nav { background-color: unset; }
-
-.alt-nav { padding-right: 0; }
-
-.navbar-toggle { border: 1px solid #fff; }
-.navbar-toggle .icon-bar { border: 1px solid #fff; }
-
-.navbar { margin-bottom: 0; }
-
-#navigation.navbar-nav > li > a {
-    display: block;
-    font-family: 'Open Sans', sans-serif !important;
-
-    color: #fff;
-    font-weight: 100;
-    font-size: 13px;
-    letter-spacing: 0.004em;
-
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: rgb(223, 223, 208);
-    padding-right: 8px;
-    padding-left: 8px;
-}
-
-.nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus { background-color: unset; }
-
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a:focus {
-    background-color: unset;
-    color: #c0d478;
-}
-
-.navbar-nav > .active > a,
-.navbar-nav > .active > a:hover,
-.navbar-nav > .active > a:focus {
-    background-color: unset;
-    color: #c0d478;
-}
-
-*/
 
 /* /header styles */
 /* ************** */
@@ -327,6 +269,11 @@ a:hover { color:#F0A04F ; }
 
 .bg-cream { background-color: #E9E5D2; }
 .bg-dark { background-color: #3E3B32; }
+.bg-lt-blue { background-color: #ebf5f5; }
+
+.section-padding-default { padding: 35px 0; }
+
+
 
 
 .btn-orange {    
@@ -344,11 +291,6 @@ a:hover { color:#F0A04F ; }
     background: #ff8000 -o-linear-gradient(bottom, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
     background: #ff8000 linear-gradient(to top, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
     text-decoration: none;
-
-    /*
-    padding: 12px 35px;
-    font-size: 20px;
-    */
 }
 
 .btn-orange:hover {
@@ -432,10 +374,6 @@ a:hover { color:#F0A04F ; }
     background-image: url("/Images/home/home-hero.jpg");
 }
 
-/*#product-selections > div
-.container .col-xs-12,
-.container .col-sm-12 { margin: 25px auto; }*/
-
 #product-selections { padding-top: 35px; }
 
 h2.title-bold {
@@ -450,23 +388,7 @@ h3.title-bold {
     font-size: 17px;
 }
 
-/*
-.bg-dark .col-xs-12 {
-    padding: 25px 30px 25px 10px;
-}
 
-.bg-dark .col-sm-6 {
-    padding: 25px 30px 25px 10px;
-}
-
-.bg-dark .col-md-6 {
-    padding: 30px 30px 30px 10px;
-}
-
-.bg-dark .col-lg-6 {
-    padding: 35px 50px 35px 10px;
-}
-*/
 .bg-dark .mw-400 { max-width: 400px; }
 .bg-dark .text-right .mw-400 { float: right; }
 .bg-dark .text-right { padding: 35px 50px 35px 10px; }

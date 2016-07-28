@@ -3,13 +3,6 @@
 /* Medium devices (large devices, 1200px+) */
 @media all and (min-width: 1200px) {
 
-    /*
-    .navbar-nav > li > a {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    */
-
     p, a {
         font-size: 18px;
         line-height: 28px;

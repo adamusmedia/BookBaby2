@@ -1,13 +1,6 @@
 ﻿/* ********************************* */
 /* Medium devices (desktops, 992px+) */
 @media all and (min-width: 992px) {
-
-    /*
-    .navbar-nav > li > a {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    */
     
     p, a {
         font-size: 16px;

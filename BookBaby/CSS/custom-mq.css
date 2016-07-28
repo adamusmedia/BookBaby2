@@ -1,11 +1,11 @@
 ﻿/* ******************************* */
 /* custom (<600px) */
 @media all and (min-width: 0px) and (max-width: 600px) {
-    footer .col-xs-6 {
-        width: 100%!important;
-    }
+
+    footer .col-xs-6 { width: 100%!important; }
 
     .social-wrapper { max-width: 240px; }
+
     footer #footer-social .social a.pinterest,
     footer #footer-social .social a.linkedin { margin-right: 0;}
     footer #footer-social .social a:nth-child(-n+4){ margin-bottom: 10px}
@@ -15,6 +15,16 @@
     footer .col-xs-6 ul li { display: none; }
     footer .col-xs-6 ul li:nth-of-type(1) { display: block; }
     footer .col-xs-6 ul li h3 { text-align: center; width: 100%; display: block; margin: 0; }
+
+}
+/* ******************************* */
+
+
+
+/* ******************************* */
+/* Custom, iPhone Retina           */ 
+@media only screen and (min-width : 320px) {
+    
 }
 /* ******************************* */
 
@@ -22,55 +32,9 @@
 
 
 /* ******************************* */
-/* mobile header */
-@media all and (min-width: 0px) and (max-width: 991px) {
+/* Extra Small Devices, Phones     */ 
+@media only screen and (min-width : 480px) {
 
-    /*
-    header { 
-        min-height:102px;
-        z-index:5;
-        position: relative;
-        width: 100%;
-
-    }
-
-    .navbar-header > button { margin-right: 0; }
-
-    .main-nav {
-        position: absolute;
-        top: 50px;
-        left: 0px;
-        width: 100%;
-        height: auto;
-        background-color: #3E3B32;
-    }
-
-    .alt-nav {
-        padding-right: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background-color: #2d2c25;
-    }
-
-    .alt-nav .icon-wrap {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    */
-}
-@media all and (min-width: 851px) and (max-width: 912px) {
-
-    .navbar-header { /*width: 23%;*/ }
-
-    .navbar-brand { 
-        /*
-        padding: 0;
-        width: 80%;
-        max-width: 178px;
-        */
-    }
 }
 /* ******************************* */
 
@@ -78,32 +42,19 @@
 
 
 /* ******************************* */
-/* 768 - 991 */
+/* Small Devices, Tablets          */
+@media only screen and (min-width : 768px) {
+
+}
+/* ******************************* */
+
+
+
+
+/* ******************************* */
+/* 768 - 991                       */
 @media all and (min-width: 768px) and (max-width: 991px) {
     
-    /*
-    .navbar-header { float: left; display:inline-block; max-width:178px; width: 100%; }
-
-    .navbar-brand { padding: 15px 0; width: 100%; }
-
-    .navbar-nav > li > a {
-        font-size: 11px;
-        padding-left: 6px;
-        padding-right: 6px;
-    }
-
-    .alt-nav .icon-container { width: 60px!important; }
-    .alt-nav .icon-wrap { width: 100%; padding-top: 3px; padding-bottom: 3px; }
-    .alt-nav .icon-wrap i { font-size: 16px; }
-    .alt-nav .icon-wrap span { display: none; }
-        */
-
-    
-    
-    /*.bg-dark .text-right {
-        text-align: center;
-    }*/
-
     .jumbotron .title {
         font-size: 38px;
         line-height: 50px;
@@ -119,58 +70,35 @@
 
 
 
+
 /* ******************************* */
-@media all and (min-width: 768px) and (max-width: 804px) {
-    /*
-    .navbar-header { 
-        max-width: 200px;
-    }
-    */
+/* Medium Devices, Desktops        */
+@media only screen and (min-width : 992px) {
 
 }
 /* ******************************* */
+
+
+
+
+/* ******************************* */
+/* Large Devices, Wide Screens     */
+@media only screen and (min-width : 1200px) {
+
+}
+/* ******************************* */
+
+
+
+
+
 
 
 
 /* ******************************* */
 @media all and (min-width: 851px) and (max-width: 991px) {
-    
-    /*.col-sm-11 { width: 82%; }
-    .col-sm-1 { width: 150px; float: right; }
-    .alt-nav .icon-container {
-        width: 135px!important;
-    }
-    .alt-nav .icon-wrap {
-        width: 45px!important;
-        padding-top: 22px;
-        padding-bottom: 22px;
-    }
-
-    .alt-nav .icon-wrap span {
-        display: block;
-    }
-        */
-    
 
 }
-/* ******************************* */
-
-
-/*
-@media all and (min-width: 768px) and (max-width: 861px) {
-    #navigation.navbar-nav > li > a {
-        font-size: 10px;
-    }
-}
-
-@media all and (min-width: 992px) and (max-width: 1030px) {
-    #navigation.navbar-nav > li > a { font-size: 12px; }
-}
-
-@media all and (min-width: 1021px) {
-    .navbar-nav > li > a { font-size: 14px; }
-}
-*/
 /* ******************************* */
 
 

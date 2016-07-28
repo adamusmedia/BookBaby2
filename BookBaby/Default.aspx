@@ -123,9 +123,37 @@
             </div>
         </section>
 
+
+
+
     </div>
 </div>
 
+    
 
 
+<div class="container-fluid bg-lt-blue">
+    <div class="row">
+
+        <section id="self-publishing-staff">
+            <div class="container section-padding-default">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img class="img-responsive" src="Images/home/bb-staff-small.jpg" width="460" height="317" alt="BookBaby friendly experts in Philadelphia and Portland" title="BookBaby friendly experts in Philadelphia and Portland" />
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
+                        <h2 class="section-headline">Self-publishing doesn’t mean going it alone</h2>
+                        <p><strong>At BookBaby we believe in People Powered Publishing</strong>.</p>
+                        <p>
+                            Our friendly experts in the Philadelphia-area are ready to answer your publishing and printing questions.
+                            <strong>Call us at 1-877-961-6878 (Monday - Friday, 9am to 5pm EDT) or email us any time at</strong> <a href="mailto:info@bookbaby.com">info@bookbaby.com</a>.
+                        </p>
+                        <p><a href="/about-bookbaby" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'learn-more-aboutBB']);">Learn more about BookBaby</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
 </asp:Content>
