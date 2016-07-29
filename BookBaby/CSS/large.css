@@ -2,10 +2,20 @@
 /* ********************************* */
 /* Medium devices (large devices, 1200px+) */
 @media all and (min-width: 1200px) {
-
+    
     p, a {
         font-size: 18px;
         line-height: 28px;
+    }
+
+    #site-header .main-nav .level1 li a,
+    #site-header.open .link-logo,
+    #site-header .main-nav .level2 a,
+    #site-header .main-nav .level3 a {
+        /*
+        font-size: 14px;
+        padding: 25px 7px!important;
+        */
     }
 
     footer .col-lg-2 { width: 20%; }

@@ -9,6 +9,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
 
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="CSS/icomoon/icomoon.css" />
@@ -17,12 +19,12 @@
     <link rel="stylesheet" type="text/css" href="CSS/small.css" />
     <link rel="stylesheet" type="text/css" href="CSS/medium.css" />
     <link rel="stylesheet" type="text/css" href="CSS/large.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/custom-mq.css" />
-
+    
     <link rel="stylesheet" href="CSS/nav/dm-styles.css">
     <link rel="stylesheet" href="CSS/nav/dm-header.css">
     <link rel="stylesheet" href="CSS/nav/animation.css">
     <link rel="stylesheet" href="CSS/nav/ResponsiveForms/styles.css">
+    <link rel="stylesheet" type="text/css" href="CSS/custom-mq.css" />
 
     <!--[if IE 7]>
     <link rel="stylesheet" href="/CommonControls/fonticons/css/fontello-ie7.css" />

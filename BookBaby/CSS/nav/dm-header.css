@@ -13,7 +13,7 @@
     /* IE 5-7 */
     filter: alpha(opacity=100);
     height: 70px;
-    background: #002842;
+    background: #3e3b32;
     color: #fff;
     font-size: 13px;
     z-index: 100;
@@ -351,6 +351,7 @@
 	transition: height 0s linear .6s, overflow 0s linear 0s;
     overflow: hidden; */
 	/*display:none;*/
+    border: 0;
 }
 /*
 #site-header .main-nav .level2 > li:hover,
@@ -390,16 +391,17 @@
 #site-header .main-nav .level2 li a
 {
     padding: 12px;
-    background: #00192b;
-    border-bottom: 1px solid #1f3342;
+    background: #fff;
+    border-bottom: 1px solid #eee;
     font-weight: 500;
     text-transform: none;
+    color: #333;
 }
 
 #site-header .main-nav .level2 li:hover > a
 {
-    background: #00476e;
-    color: #fff;
+    background: #cce3f2;
+    color: #00476e;
 }
 
 #site-header .main-nav .level2 li a i
@@ -442,13 +444,14 @@
 
 #site-header .main-nav .level2 .level3 a
 {
-    background: #00476e;
-    border-bottom: 1px solid #1d5778;
+    background: #fff;
+    border-bottom: 1px solid #eee;
 }
 
 #site-header .main-nav .level2 .level3 li a:hover
 {
-    background: #00395b;
+    background: #cce3f2;
+    color: #00476e;
 }
 
 #header-search
@@ -458,7 +461,7 @@
     width: 0;
     overflow: hidden;
     height: 70px;
-    background: #002842;
+    background: #00476e;
     transition: width .5s .3s;
 }
 
@@ -537,7 +540,7 @@
     font-size: 20px;
     position: absolute;
     left: 0;
-    padding: 11px 15px;
+    padding: 11px 0px;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     /* IE 5-7 */
@@ -703,7 +706,7 @@ Uncommment this query when the min width is 1600px.*/
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
         /* IE 5-7 */
         filter: alpha(opacity=100);
-        background: #00192b;
+        background: #3e3b32;
         transition: right .7s ease 0s, width 0s, height 0s, opacity 0s;
     }
 
@@ -749,7 +752,7 @@ Uncommment this query when the min width is 1600px.*/
         margin-right: 30px;
         margin-top: 12px;
         margin-bottom: 10px;
-        border-bottom: 1px solid #4d5e6c;
+        border-bottom: 1px solid #fff;
         transition: float 0s, font-size 0s, text-align 0s, font-size 0s;
     }
 
@@ -818,7 +821,7 @@ Uncommment this query when the min width is 1600px.*/
     {
         float: right;
         clear: none;
-        color: #4d5e6c;
+        color: #cce3f2;
         font-size: 20px;
     }
 
@@ -870,7 +873,7 @@ Uncommment this query when the min width is 1600px.*/
     #site-header.open #header-menu .main-nav .level1 li .level2 li a
     {
         display: block;
-        background: #00476e;
+        background: #cce3f2;
         border-bottom: 0px solid #1d5778;
         height: 0;
         opacity: 0;
@@ -884,20 +887,21 @@ Uncommment this query when the min width is 1600px.*/
     /*#site-header.open #header-menu .main-nav .level1 li:hover .level2 li a,*/
     #site-header.open #header-menu .main-nav .level1 li.open .level2 li a
     {
-        background: #00476e;
-        border-bottom: 1px solid #1d5778;
+        background: #fff;
+        border-bottom: none;
         height: 20px;
         opacity: 1;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
         /* IE 5-7 */
         filter: alpha(opacity=100);
         padding: 12px 30px;
-        border-width: 1px;
+        border-width: 0px;
     }
+
 
     #site-header.open #header-menu .main-nav .level1 li .level2 li a:hover
     {
-        background: #00395b;
+        background: #cce3f2;
     }
 
     #site-header.open #header-menu .main-nav .level1 li .level2 li a i
@@ -914,7 +918,7 @@ Uncommment this query when the min width is 1600px.*/
 
     #header-search
     {
-        background-color: #00192b;
+        background-color: #00476e;
         height: 50px;
     }
 
@@ -925,7 +929,7 @@ Uncommment this query when the min width is 1600px.*/
 
     #site-header.open #header-search.open
     {
-        background-color: #00192b;
+        background-color: #00476e;
         width: 245px;
         transition: width .7s ease 0s;
     }

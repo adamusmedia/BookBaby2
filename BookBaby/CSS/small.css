@@ -7,5 +7,19 @@
         line-height: 25px;
     }
     
+    
+    #site-header .main-nav .level1 li a,
+    #site-header.open .link-logo,
+    #site-header .main-nav .level2 a,
+    #site-header .main-nav .level3 a {
+    }
+
+    /*
+    #site-header .main-nav .level1 li a,
+    #site-header.open .link-logo {
+        font-size:12px
+    }
+    */
+    
 }
 /* ******************************* */

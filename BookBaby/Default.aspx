@@ -132,17 +132,17 @@
     
 
 
-<div class="container-fluid bg-lt-blue">
+<div class="container-fluid bg-lt-blue pre-offset-130">
     <div class="row">
 
         <section id="self-publishing-staff">
             <div class="container section-padding-default">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <img class="img-responsive" src="Images/home/bb-staff-small.jpg" width="460" height="317" alt="BookBaby friendly experts in Philadelphia and Portland" title="BookBaby friendly experts in Philadelphia and Portland" />
+                        <img class="img-responsive center-block" src="Images/home/bb-staff-small.jpg" width="460" height="317" alt="BookBaby friendly experts in Philadelphia and Portland" title="BookBaby friendly experts in Philadelphia and Portland" />
                     </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left text-center-xs">
                         <h2 class="section-headline">Self-publishing doesn’t mean going it alone</h2>
                         <p><strong>At BookBaby we believe in People Powered Publishing</strong>.</p>
                         <p>
@@ -156,4 +156,73 @@
         </section>
     </div>
 </div>
+
+
+
+
+
+<div class="container-fluid bg-md-grey">
+    <div class="row">
+
+        <div class="offset-icon-130">
+            <img class="keep-100-sales" src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
+        </div>
+
+        <section id="self-publishing-staff">
+            <div class="container section-padding-default">
+                <div class="row">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
+                        <h2 class="title-bold pb-35">Sell your book in the world’s biggest bookstores</h2>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half logos-container">
+
+                        <div class="logos-container-header">
+                            <h3><a href="/ebook-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'learn-more-aboutBB']);">eBook distribution</a></h3>
+                        </div>
+                        <a href="/ebook-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'sell-eBook-stores']);">
+                            <img src="Images/home/logos-retailers-ebook.png" class="img-responsive center-block p-20" width="400" height="342" alt="iBookstore, Amazon, Kobo, Scribd, Gardners Books, Copia, Esentral" />
+                        </a>
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half logos-container">
+
+                        <div class="logos-container-header">
+                            <h3><a href="book-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'sell-print-stores']);">Printed book distribution</a></h3>
+                        </div>
+                        <a href="/book-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'sell-print-stores']);">
+                            <img src="Images/home/logos-retailers-print.png" class="img-responsive center-block p-20" width="400" height="342" alt="Amazon, Barnes & Noble, Baker & Taylor, Powell's, Ingram" />
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+
+
+<div class="container-fluid bg-img bg-home-s-6">
+    <div class="row">
+        <section id="feeling-great-book">
+            <div class="col-xs-6 col sm-6 col-md-6 col-lg-6 text-left">
+                <div class="half-column">
+                    <h2 class="section-headline white">Nothing beats the feeling of a great book</h2>
+                    <p class="white">There’s nothing quite as satisfying as reading a beautifully-bound, vibrantly-printed book and that’s exactly what we deliver. Our books have won accolades nationwide, but don’t take our word for it: <a class="white" href="/single-book-printing" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'order-single-copy']);">Order one copy of your book for just $19 and see for yourself.</a> </p>
+                    <p class="white"><a class="white" href="/book-genres-and-styles" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'nothing-beats-the-feeling']);">View all of our book styles</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+
 </asp:Content>

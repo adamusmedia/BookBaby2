@@ -9,6 +9,8 @@
 
     .mw-400 > p { margin-bottom: 20px; }
 
+    
+
     footer .col-lg-2 ul { padding-left: 0; }
 
 
@@ -46,6 +48,17 @@
     .bg-dark .bg-img-half {
         height: 300px;
     }
+
+    .col-xs-12.col-half {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 25px;
+    }
+
+    #footer-bottom #footer-usa { text-align: center; }
+
+
 
 }
 /* ******************************* */
