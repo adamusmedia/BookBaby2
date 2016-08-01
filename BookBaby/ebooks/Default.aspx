@@ -1,16 +1,6 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="ebooks_Default" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb"  MasterPageFile="../MasterPage.master" Inherits="EBooks_Default" %>
 
-<!DOCTYPE html>
+<asp:Content runat="server" ContentPlaceHolderID="pageContent">
+    
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    sdfg
-    </div>
-    </form>
-</body>
-</html>
+</asp:Content>

@@ -1,5 +1,5 @@
 ﻿
-Partial Class ebooks_Default
+Partial Class EBooks_Default 
     Inherits System.Web.UI.Page
 
 End Class
