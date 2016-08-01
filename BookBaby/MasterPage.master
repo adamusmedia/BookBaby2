@@ -12,22 +12,22 @@
     
 
 
-    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/icomoon/icomoon.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/tiny.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/small.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/medium.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/large.css" />
+    <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/bootstrap.css")%>" />
+    <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/icomoon/icomoon.css")%>" />
+    <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/style.css")%>" />
+    <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/tiny.css")%>" />
+    <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/small.css")%>" />
+    <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/medium.css")%>" />
+    <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/large.css") %>" />
     
-    <link rel="stylesheet" href="CSS/nav/dm-styles.css">
-    <link rel="stylesheet" href="CSS/nav/dm-header.css">
-    <link rel="stylesheet" href="CSS/nav/animation.css">
-    <link rel="stylesheet" href="CSS/nav/ResponsiveForms/styles.css">
-    <link rel="stylesheet" type="text/css" href="CSS/custom-mq.css" />
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/CSS/nav/dm-styles.css") %>">
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/CSS/nav/dm-header.css") %>">
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/CSS/nav/animation.css") %>">
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/CSS/nav/ResponsiveForms/styles.css") %>">
+    <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/custom-mq.css") %>" />
 
     <!--[if IE 7]>
-    <link rel="stylesheet" href="/CommonControls/fonticons/css/fontello-ie7.css" />
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/CommonControls/fonticons/css/fontello-ie7.css") %>" />
     <![endif]-->
     <!--[if lte IE 8]>
 		<style type="text/css">
@@ -37,37 +37,37 @@
 		</style>
 	<![endif]-->
 
-    <script type="text/javascript" src="CommonControls/Universal/Common/js/libs/modernizr-2.8.3.min.js?v=1"></script>
-    <script type="text/javascript" src="JS/jquery-1.9.1.min.js?v=1"></script>
-    <script type="text/javascript" src="JS/jquery-migrate-1.2.0.js?v=1"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/CommonControls/Universal/Common/js/libs/modernizr-2.8.3.min.js?v=1") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/JS/jquery-1.9.1.min.js?v=1") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/JS/jquery-migrate-1.2.0.js?v=1") %>"></script>
    
     <script type="text/javascript">
         WebFontConfig = {
             google: { families: ['Bitter:400,700,400italic:latin', 'Open+Sans:300italic,400,300,700,800,600:latin', 'Open+Sans+Condensed:300,300italic,700'] }
         };
         (function () {
-            var wf = document.createElement('script');
+            var wf = document.createElement('script')
             wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
 			  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
             wf.type = 'text/javascript';
             wf.async = 'true';
             var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(wf, s);
-        })();
+            s.parentNode.insertBefore(wf, s)
+        })()
 
 	</script>
     
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Bitter:400,700,400italic%7COpen+Sans:300italic,400,300,700,800,600%7COpen+Sans+Condensed:300,300italic,700&amp;subset=latin,latin" media="all">
 
     <script type="text/javascript">
-        document.createElement("section");
+        document.createElement("section")
 	</script>
     <!--
     <script type="text/javascript" src="/CommonControls/ResponsiveForms/JS/jquery-ui-1.10.3.custom.min.js?v=1"></script>
     -->
-    <script src="JS/nav/scripts-utilities.js"></script>
-    <script src="JS/nav/fastclick.js"></script>
-    <script src="JS/nav/scripts-dmresponsive.js"></script>
+    <script src="<%= Page.ResolveClientUrl("~/JS/nav/scripts-utilities.js") %>"></script>
+    <script src="<%= Page.ResolveClientUrl("~/JS/nav/fastclick.js") %>"></script>
+    <script src="<%= Page.ResolveClientUrl("~/JS/nav/scripts-dmresponsive.js") %>"></script>
 
 
     <asp:ContentPlaceHolder id="head" runat="server">
@@ -564,7 +564,7 @@
             </div>
         </div>
         <div id="header-search" class="search-form responsive-form">
-            <a class="close-search-link" href="#closeSearch" onclick="Responsive.Functions.SearchReset();" title="close">
+            <a class="close-search-link" href="#closeSearch" onclick="Responsive.Functions.SearchReset()" title="close">
                 <i class="icon-cancel-1"></i>
             </a>
             <fieldset class="no-border">
@@ -646,7 +646,7 @@
                     <li><h3 class="footer-title"><a href="/">Make a Book</a></h3></li>
                     <li><a href="/book-printing">Book Printing</a></li>
                     <li><a href="/book-distribution">Book Distribution</a></li>
-                    <li><a href="/complete-self-publishing-package" onclick="_gaq.push(['_trackEvent', 'PEAPOD', 'Click', 'Footer-e']);">The Complete Self-Publishing Package</a></li>
+                    <li><a href="/complete-self-publishing-package" onclick="_gaq.push(['_trackEvent', 'PEAPOD', 'Click', 'Footer-e'])">The Complete Self-Publishing Package</a></li>
                     <li><a href="/book-genres-and-styles">Book Styles</a></li>
                     <li><a href="/book-trim-sizes-and-binding-options">Book Binding Styles</a></li>
                     <li><a href="/print-on-demand">Print On Demand</a></li>
@@ -772,6 +772,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="JS/bootstrap.min.js"></script>
+    <script src="<%= Page.ResolveClientUrl("~/JS/bootstrap.min.js") %>"></script>
 </body>
 </html>
