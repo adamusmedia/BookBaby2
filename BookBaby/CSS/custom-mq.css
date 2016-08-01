@@ -27,7 +27,10 @@
 /* ******************************* */
 /* 0 - 767 */
 @media all and (min-width: 0px) and (max-width: 767px) {
-    .text-center-xs { text-align: center; }
+    .text-center-xs,
+    .text-center-mobile { text-align: center; }
+
+    .text-100-mobile { width: 100%; }
 }
 
 
@@ -142,5 +145,4 @@
 
 }
 /* ******************************* */
-
 

@@ -61,7 +61,7 @@ body, button, input, select, textarea {
     display: none;
 }
 
-
+/*
 html:not(.OverflowScrolling) ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
@@ -82,20 +82,23 @@ html:not(.OverflowScrolling) ::-webkit-scrollbar-thumb {
     html:not(.OverflowScrolling) ::-webkit-scrollbar-thumb:active {
         background: #9a9ba0;
     }
-
+*/
 
 /* =============================================================================
    Links
    ========================================================================== */
 
-a {
+/*
+a,
+a.link-orange {
     color: #ca462a;
 }
 
-    a:hover, a:active {
+    a:hover, a:active,
+    a.link-orange:hover, a.link-orange:active {
         color: #ff6346;
     }
-
+*/
 @media (max-width: 500px) {
     a {
         font-size: 110%;

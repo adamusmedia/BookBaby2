@@ -49,6 +49,11 @@
         height: 300px;
     }
 
+    .container-fluid .text-center-mobile { padding: 0 15px; }
+
+    .nm-mobile { margin: 0; }
+
+
     .col-xs-12.col-half {
         width: 95%;
         margin-left: 2.5%;

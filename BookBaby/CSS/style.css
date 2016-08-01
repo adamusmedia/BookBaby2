@@ -1,6 +1,23 @@
 ﻿/* helper classes */
 /* ************* */
 
+/* vertical align*/
+
+
+/*
+body .container .valign,
+body .container-fluid .valign { height: 450px; line-height: 400px; }
+body .container .valign > .valign-inner,
+body .container-fluid .valign > .valign-inner { vertical-align: middle; display: inline-block; float: none; }
+*/
+
+
+.valign { height: 450px; line-height: 400px; }
+.valign .valign-inner {
+    vertical-align: middle; display: inline-block; float: none;
+}
+
+
 /*
 .row { border: 1px solid blue; }
 .b {border: 1px solid green; }
@@ -31,7 +48,7 @@ header { background-color: #3e3b32; }
 footer { background-color: #3E3B32; }
 
 footer section {
-    margin: 40px 0;
+    padding: 40px 0;
 }
 
 footer #footer-bottom { margin-bottom:0; padding-bottom:20px; }
@@ -256,12 +273,21 @@ footer #trustpilot {
 /* /footer styles */
 /* ************** */
 
+
+
+
+
+
+
+/* links */
 a {
     text-decoration: underline;
     cursor: pointer;
     color: #D46B00;
     font-weight: bold;
 }
+
+a:hover { color:#F0A04F ; }
 
 #site-header .main-nav .level1 li a,
 #site-header.open .link-logo,
@@ -272,20 +298,65 @@ a {
     box-sizing: content-box;
 }
 
+a, a.link-orange {
+    color: #ca462a;
+}
+
+a:hover, a:active, a.link-orange:hover, a.link-orange:active {
+    color: #ff6346;
+}
+
+p.text-white,
+p.text-white > a  { color: #fff; }
 
 
-a:hover { color:#F0A04F ; }
+
+/* headings/titles */
+h2.title-bold {
+    font-family: "Open Sans","Arial", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h3.title-bold {
+    font-family: "Open Sans","Arial", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
 
 
+h2.title { font-family: "Open Sans","Arial", sans-serif; }
+h2.semibold { font-weight: 600; }
+h2.white { color: #fff; }
+h2.black { color: #000; }
+
+
+/* text alignment */
+.center-text { text-align:center; }
+
+.valign { height: 450px; line-height: 400px; }
+.valign > .valign-inner { vertical-align: middle; display: inline-block; }
+
+
+
+/* padding and margin */
 .p-20 { padding: 20px; }
-.p-35 { padding: 35px 0; }
+.ptb-20 { padding: 20px 0; }
 .pb-35 { padding: 0 0 35px; }
+.pt-20 { padding-top: 20px; }
+.pt-35 { padding-top: 35px; }
+
+.m-20 { margin: 20px;}
 .mb-0 { margin-bottom: 0; }
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
+
 .pre-offset-130 { padding-bottom: 65px; }
 .offset-icon-130 { margin-top: -130px; }
+.section-padding-default { padding: 35px 0; }
 
 
-
+/* bg properties */
 .bg-cream { background-color: #E9E5D2; }
 .bg-dark { background-color: #3E3B32; }
 .bg-lt-blue { background-color: #ebf5f5; }
@@ -294,34 +365,11 @@ a:hover { color:#F0A04F ; }
     background: #dad5c2;
     padding: 45px 0;
 }
-
-
-.section-padding-default { padding: 35px 0; }
-
-.col-half {
-    width: 45%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-}
-
-.bg-lt-blue .row .row,
-.bg-md-grey .row .row { margin-left: 15px; margin-right: 15px; }
+.bg-green { background-color: #4d5e38; }
 
 
 
-/*
-
-
-        background-color: #FFF;
-    background-image: url("/Images/home/great-book-background.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 489px;
-    position: relative;
-    width: 100%;
-*/
-
+/* buttons */
 .btn-orange {    
     cursor: pointer;
     font-weight: bold;
@@ -352,9 +400,16 @@ a:hover { color:#F0A04F ; }
     display: inline-block;
 }
 
-.center-text {
-    text-align:center;
+
+.col-half {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
+
+.bg-lt-blue .row .row,
+.bg-md-grey .row .row { margin-left: 15px; margin-right: 15px; }
+
 
 .container .jumbotron,
 .container-fluid .jumbotron { border-radius: 0px; }
@@ -410,29 +465,12 @@ a:hover { color:#F0A04F ; }
 
 
 
-.hero {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.home-hero {
-    background-image: url("/Images/home/home-hero.jpg");
-}
 
-#product-selections { padding-top: 35px; }
 
-h2.title-bold {
-    font-family: "Open Sans","Arial", sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-}
 
-h3.title-bold {
-    font-family: "Open Sans","Arial", sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-}
+
+
 
 
 .bg-dark .mw-400 { max-width: 400px; }
@@ -442,17 +480,31 @@ h3.title-bold {
 .bg-dark .text-left { padding: 35px 10px 35px 50px; }
 
 .bg-dark .bg-img-half {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     background-color: #3E3B32;
     height: 425px;
 }
 
-.bg-dark .bg-home-s-3-1 { background: url(../Images/home/quadrant-home-editing.jpg) no-repeat center center; }
-.bg-dark .bg-home-s-3-2 { background: url(../Images/home/quadrant-home-ebook.jpg) no-repeat center center; }
-.bg-dark .bg-home-s-3-3 { background: url(../Images/home/quadrant-home-print.jpg) no-repeat center center; }
+
+
+.bg-img,
+.bg-img-half {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.bg-home-hero { background-image: url("/Images/home/home-hero.jpg"); }
+.bg-dark .bg-home-s-3-1 { background-image: url(../Images/home/quadrant-home-editing.jpg); }
+.bg-dark .bg-home-s-3-2 { background-image: url(../Images/home/quadrant-home-ebook.jpg); }
+.bg-dark .bg-home-s-3-3 { background-image: url(../Images/home/quadrant-home-print.jpg); }
+.bg-home-s-6 { background-image: url("../images/home/great-book-background.jpg");
+    min-height: 300px;
+    height: auto;
+}
 
 
 
