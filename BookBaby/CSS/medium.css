@@ -33,6 +33,11 @@
     }
 
 
+    .list-suboffers .row:nth-child(1) { padding-top: 45px; }
+    .list-suboffers .row {
+        margin-bottom: 55px;
+        padding-bottom: 45px;
+    }
 
 }
 /* ******************************* */

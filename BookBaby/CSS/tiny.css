@@ -49,7 +49,7 @@
         height: 300px;
     }
 
-    .container-fluid .text-center-mobile { padding: 0 15px; }
+    .container-fluid .text-center-mobile { padding: 0 15px; text-align: center; }
 
     .nm-mobile { margin: 0; }
 
@@ -64,6 +64,12 @@
     #footer-bottom #footer-usa { text-align: center; }
 
 
+
+    .list-suboffers .row:nth-child(1) { padding-top: 25px; }
+    .list-suboffers .row {
+        margin-bottom: 25px;
+        padding-bottom: 20px;
+    }
 
 }
 /* ******************************* */

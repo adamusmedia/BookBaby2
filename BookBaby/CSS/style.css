@@ -9,7 +9,10 @@ body .container .valign,
 body .container-fluid .valign { height: 450px; line-height: 400px; }
 body .container .valign > .valign-inner,
 body .container-fluid .valign > .valign-inner { vertical-align: middle; display: inline-block; float: none; }
+
+.row { border: 1px solid blue; }
 */
+
 
 
 .valign { height: 450px; line-height: 400px; }
@@ -17,7 +20,55 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
     vertical-align: middle; display: inline-block; float: none;
 }
 
+.va-c,
+.list-image > a {
 
+/*
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+*/
+
+  /* // old
+    height: 1px;
+    line-height: 1px;
+    white-space: nowrap; 
+    border:1px solid red;
+    */ 
+}
+
+.va-e,
+.list-image > a > img,
+.list-image > img {
+    /*
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: perspective(1px) translateY(40%);
+
+    max-width: 100%;
+    height: auto;
+       
+    border:1px solid green;
+*/
+}
+
+
+}
+    
+.list-suboffers .row {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+.list-suboffers .row:nth-child(1) { margin-top: 25px; }
+
+.list-image > a > img { margin-top: 25px; }
+
+.list-suboffers .row { border-bottom: 1px solid #CCC; }
 /*
 .row { border: 1px solid blue; }
 .b {border: 1px solid green; }
@@ -315,14 +366,19 @@ p.text-white > a  { color: #fff; }
 h2.title-bold {
     font-family: "Open Sans","Arial", sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 24px;
 }
 
-h3.title-bold {
+h3.title-bold,
+a.title-bold > h3  {
     font-family: "Open Sans","Arial", sans-serif;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 24px;
+    color: #000;
 }
+a.title-bold { text-decoration: none; }
+
+
 
 
 h2.title { font-family: "Open Sans","Arial", sans-serif; }
@@ -444,13 +500,13 @@ h2.black { color: #000; }
 
 .jumbotron .title {
     font-weight: 700;
-    text-shadow: 2px 2px 7px #000;
+    text-shadow: 1px 1px 4px #000;
 }
 
 .jumbotron .subtitle {
     font-weight: 600;
     margin-bottom: 15px;
-    text-shadow: 2px 2px 6px #000;
+    text-shadow: 1px 1px 4px #000;
 }
 
 .jumbotron .link > a {
@@ -463,6 +519,8 @@ h2.black { color: #000; }
     color: #555;
 }
 
+.jumbotron .link > a.link-white { color: #fff; text-shadow: 1px 1px 4px #000; }
+.jumbotron .link > a.link-white:hover { color: #ff8000; }
 
 
 
@@ -498,6 +556,8 @@ h2.black { color: #000; }
 }
 
 .bg-home-hero { background-image: url("/Images/home/home-hero.jpg"); }
+.bg-home-ebooks { background-image: url("/Images/ebooks-hero.jpg"); }
+
 .bg-dark .bg-home-s-3-1 { background-image: url(../Images/home/quadrant-home-editing.jpg); }
 .bg-dark .bg-home-s-3-2 { background-image: url(../Images/home/quadrant-home-ebook.jpg); }
 .bg-dark .bg-home-s-3-3 { background-image: url(../Images/home/quadrant-home-print.jpg); }
