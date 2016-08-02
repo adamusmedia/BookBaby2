@@ -9,7 +9,7 @@
         <section class="jumbotron light bg-img bg-home-ebooks mb-0">
             <h1 class="title pt-35">Everything you need to create, promote, and sell eBooks</h1>
             <h2 class="subtitle">You could write a book on all the things we do to help authors self-publish eBooks</h2>
-            <a href=""/quoter/confighandler.aspx?webpreconfigid=WPC0000038" class="btn btn-center btn-orange btn-lg" role="button" onclick="_gaq.push(['_trackEvent', 'ebooks', 'Click', 'hero-button-GetStarted'])">Get started</a>
+            <a href="/quoter/confighandler.aspx?webpreconfigid=WPC0000038" class="btn btn-center btn-orange btn-lg" role="button" onclick="_gaq.push(['_trackEvent', 'ebooks', 'Click', 'hero-button-GetStarted'])">Get started</a>
             <p class="link"><a class="link-white" href="http://www.bookbaby.com/ebook-services">Learn more</a></p>
         </section>
     </div>
@@ -142,21 +142,36 @@
 				</div> 
 			</div>
 			
-            <div id="vid-container980">
-		     	<iframe width="960" height="540" src="https://www.youtube-nocookie.com/embed/BaXoi4lt4Lo?rel=0" frameborder="0" allowfullscreen></iframe>
-		     </div>
+            <div class="row last"> 
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 embed-responsive embed-responsive-16by9">
+		     	    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/BaXoi4lt4Lo?rel=0" frameborder="0" allowfullscreen></iframe><!--  width="960" height="540" -->
+		         </div>
+            </div>
             
     </div>
 </div>
 
 
 
-<div class="container-fluid">
+<div class="container-fluid bg-dk-blue section-padding-default">
     <div class="container">
         <div class="row">
-            a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />a<br />
+           <h2 class="white">Ready to get published? Create your free account.</h2>
+           <a href="/quoter/confighandler.aspx?webpreconfigid=WPC0000038" class="btn btn-center btn-orange btn-lg" role="button">Get started</a>
         </div>
     </div>
 </div>
+
+
+<!--
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <br />
+        </div>
+    </div>
+</div>
+-->
+
 
 </asp:Content>

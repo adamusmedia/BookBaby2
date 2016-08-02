@@ -69,6 +69,7 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
 .list-image > a > img { margin-top: 25px; }
 
 .list-suboffers .row { border-bottom: 1px solid #CCC; }
+.list-suboffers .row.last { border-bottom: none; }
 /*
 .row { border: 1px solid blue; }
 .b {border: 1px solid green; }
@@ -416,6 +417,7 @@ h2.black { color: #000; }
 .bg-cream { background-color: #E9E5D2; }
 .bg-dark { background-color: #3E3B32; }
 .bg-lt-blue { background-color: #ebf5f5; }
+.bg-dk-blue { background-color: #212733; }
 .bg-md-grey {
     border-top: 4px #AAA69C solid;
     background: #dad5c2;
