@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/bootstrap.css")%>" />
     <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/icomoon/icomoon.css")%>" />
     <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/style.css")%>" />
+    <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/nav/header-footer.css")%>" />
     <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/tiny.css")%>" />
     <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/small.css")%>" />
     <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/medium.css")%>" />

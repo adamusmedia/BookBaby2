@@ -208,13 +208,13 @@
 
 
 
-<div class="container-fluid bg-img bg-dark bg-home-s-6">
+<div class="container-fluid bg-img bg-dark bg-home-s-6 p-20">
     <div class="container">
         <div class="row">
             <section id="feeling-great-book">
                 <div class="col-xs-6 col sm-6 col-md-6 col-lg-6 text-left text-center-mobile text-100-mobile">
                     <div class="half-column">
-                        <h2 class="title semibold white mt-20">Nothing beats the feeling of a great book</h2>
+                        <h2 class="title semibold white mt-0">Nothing beats the feeling of a great book</h2>
                         <p class="text-white">There’s nothing quite as satisfying as reading a beautifully-bound, vibrantly-printed book and that’s exactly what we deliver. Our books have won accolades nationwide, but don’t take our word for it: <a class="white" href="/single-book-printing" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'order-single-copy']);">Order one copy of your book for just $19 and see for yourself.</a> </p>
                         <p class="text-white"><a href="/book-genres-and-styles" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'nothing-beats-the-feeling']);">View all of our book styles</a></p>
                     </div>
@@ -237,9 +237,9 @@
                 <p class="text-white">I stand behind our products and services with the strongest guarantee in the eBook and publishing businesses.</p>
                 <p class="text-white signature">Steven Spatz, <em>President, BookBaby</em></p>
             </div>
-            <div class="col-sm-12 col-md-2 col-lg-3">
+            <div class="hidden-sm col-md-2 col-lg-3">
                 <a href="/guarantee" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'home-guarantee']);">
-                    <img class="m-20 nm-mobile mb-20" src="/images/home/guarantee181.png" alt="100% satisfaction guarantee" title="100% satisfaction guarantee" />
+                    <img class="mt-20 nm-mobile mb-20" src="/images/home/guarantee181.png" alt="100% satisfaction guarantee" title="100% satisfaction guarantee" />
                 </a>
             </div>
 

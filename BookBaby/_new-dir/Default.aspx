@@ -21,7 +21,6 @@
             <div id="fb-root"></div>
             <script>
 	            $('#like').html('');
-
 	            (function (d, s, id) {
 	            var js, fjs = d.getElementsByTagName(s)[0];
 	            if (d.getElementById(id)) return;
@@ -29,7 +28,6 @@
 	            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
 	            fjs.parentNode.insertBefore(js, fjs);
 	            }(document, 'script', 'facebook-jssdk'));
-	
 	            $(window).load(function () {
 		            if (typeof FB !== 'undefined') {
 			            $("#like").html('<fb:like href="http://bookbaby.com' + window.location.pathname + '" layout="button_count" show_faces="false" width="65" action="like" font="segoe ui" colorscheme="light" />');

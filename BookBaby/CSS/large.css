@@ -8,6 +8,15 @@
         line-height: 28px;
     }
 
+    h1 {
+        font-size: 58px;
+        line-height: 70px;
+    }
+
+    h2 { font-size: 36px; }
+
+    h3 {  }
+
     #site-header .main-nav .level1 li a,
     #site-header.open .link-logo,
     #site-header .main-nav .level2 a,

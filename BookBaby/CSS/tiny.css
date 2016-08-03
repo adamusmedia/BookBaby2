@@ -7,6 +7,15 @@
         line-height: 25px;
     }
 
+    h1 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    h2 { font-size: 22px; }
+
+    h3 {  }
+
     .mw-400 > p { margin-bottom: 20px; }
 
     
@@ -51,7 +60,7 @@
     }
 
     .container-fluid .text-center-mobile { padding: 0 15px; text-align: center; }
-
+    .container-fluid .p20 { padding: 20px; }
     .nm-mobile { margin: 0; }
 
 

@@ -2,7 +2,7 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="pageContent">
 
-<div class="container-fluid bg-img bg-free-publishing-guides">
+<div class="container-fluid bg-img bg-wood-panel">
     <div class="container">
         <div class="row">
             <section class="jumbotron light text-left">

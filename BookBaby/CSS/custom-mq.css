@@ -1,7 +1,28 @@
-﻿p { margin-bottom: 20px; }
+﻿/* ******************************* */
+/* custom (<= 370px) */
+@media all and (min-width: 0px) and (max-width: 370px) {
 
-/* ******************************* */
-/* custom (<600px) */
+    #privacy-social-icons {
+        float: left;
+        margin: 0px 0px 10px;
+        width: 100%;
+    }
+
+    #privacy-social-icons > #like,
+    #privacy-social-icons > .twitter-share-button,
+    #privacy-social-icons  .g-plusone,
+    #privacy-social-icons  #___plusone_0 {
+        width: 70px!important;
+        float: none;
+        margin-left: auto!important;
+        margin-right: auto!important;
+        display: block!important;
+        margin-bottom: 10px;
+    }
+}
+
+/* *************** */
+/* custom (<= 600px) */
 @media all and (min-width: 0px) and (max-width: 600px) {
 
     footer .col-xs-6 { width: 100%!important; }
@@ -48,6 +69,7 @@
 /* Extra Small Devices, Phones     */ 
 @media only screen and (min-width : 480px) {
 
+
 }
 /* ******************************* */
 
@@ -65,7 +87,7 @@
 @media (min-width: 961px) and (max-width: 1100px) {
     body #site-header .main-nav .level1 > li > a {
         font-size: 11px;
-        padding: 25px 4px;
+        padding: 25px 3px;
     }
 }
 
