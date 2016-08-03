@@ -370,6 +370,15 @@ h2.title-bold {
     font-size: 24px;
 }
 
+h2.intro {
+    font: 14px "Open Sans","Arial", sans-serif;
+    color: #000;
+    margin: 0px 0px 45px 0px;
+    display: block;
+    font-size: 19px;
+    line-height: 1.7em;
+}
+
 h3.title-bold,
 a.title-bold > h3  {
     font-family: "Open Sans","Arial", sans-serif;
@@ -377,6 +386,20 @@ a.title-bold > h3  {
     font-size: 24px;
     color: #000;
 }
+
+#free-publishing-guides h3 {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+
+#free-publishing-guides p,
+#free-publishing-guides a {
+    font-size: 14px;
+    line-height: 22px;
+}
+
 a.title-bold { text-decoration: none; }
 
 
@@ -418,13 +441,13 @@ h2.black { color: #000; }
 .bg-dark { background-color: #3E3B32; }
 .bg-lt-blue { background-color: #ebf5f5; }
 .bg-dk-blue { background-color: #212733; }
+.bg-lt-grey { background-color: #F8F7F6; }
 .bg-md-grey {
     border-top: 4px #AAA69C solid;
     background: #dad5c2;
     padding: 45px 0;
 }
 .bg-green { background-color: #4d5e38; }
-
 
 
 /* buttons */
@@ -476,9 +499,8 @@ h2.black { color: #000; }
     text-align: center;
 }
 
-.jumbotron.light {
-    background-color: #333;
-}
+.jumbotron.light { background-color: transparent; }
+/*.bg-privacy .jumbotron.light { background-color: transparent; }*/
 
 .jumbotron.light h1,
 .jumbotron.light h2,
@@ -496,8 +518,17 @@ h2.black { color: #000; }
 }
 
 .jumbotron .title,
-.jumbotron .subtitle {
+.jumbotron .subtitle,
+.jumbotron .subhead {
     font-family: "Open Sans","Arial", sans-serif;
+}
+
+.jumbotron .subhead {
+    color: #A6D1CE;
+    font-size: 23px;
+    line-height: 25px;
+    display: block;
+    width: 100%;
 }
 
 .jumbotron .title {
@@ -558,7 +589,11 @@ h2.black { color: #000; }
 }
 
 .bg-home-hero { background-image: url("/Images/home/home-hero.jpg"); }
-.bg-home-ebooks { background-image: url("/Images/ebooks-hero.jpg"); }
+.bg-ebooks { background-image: url("/Images/ebooks-hero.jpg"); }
+.bg-privacy,
+.bg-free-publishing-guides { background-image: url("/Images/redesign-wood-hero.png"); }
+
+
 
 .bg-dark .bg-home-s-3-1 { background-image: url(../Images/home/quadrant-home-editing.jpg); }
 .bg-dark .bg-home-s-3-2 { background-image: url(../Images/home/quadrant-home-ebook.jpg); }
@@ -588,3 +623,33 @@ h2.black { color: #000; }
     text-align: center;
     text-decoration: none;
 }
+
+
+/*
+#contract-text h3 {
+    font-family: "Open Sans","Arial", sans-serif;
+    line-height: 1.3em;
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+*/
+
+#contract-text p,
+#contract-text ul li {
+    /*font-size: 14px;
+    line-height: 22px;*/
+    margin-bottom: 15px;
+}
+
+#privacy-social-icons { float: left; margin: 20px 0; width: 100%; }
+#privacy-social-icons > #like,
+#privacy-social-icons > .twitter-share-button,
+#privacy-social-icons > .g-plusone {
+    width: 115px !important;
+    float: left;
+    display: block;
+}
+

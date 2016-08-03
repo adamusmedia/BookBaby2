@@ -2,7 +2,7 @@
 /* Small devices (tablets, 768px+) */
 @media all and (min-width: 768px) {
     
-    p, a {
+    p, a, ul li {
         font-size: 15px;
         line-height: 25px;
     }

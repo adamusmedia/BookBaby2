@@ -2,7 +2,7 @@
 /* Medium devices (desktops, 992px+) */
 @media all and (min-width: 992px) {
     
-    p, a {
+    p, a, ul li {
         font-size: 16px;
         line-height: 26px;
     }

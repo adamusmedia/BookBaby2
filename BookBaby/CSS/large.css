@@ -3,7 +3,7 @@
 /* Medium devices (large devices, 1200px+) */
 @media all and (min-width: 1200px) {
     
-    p, a {
+    p, a, ul li {
         font-size: 18px;
         line-height: 28px;
     }

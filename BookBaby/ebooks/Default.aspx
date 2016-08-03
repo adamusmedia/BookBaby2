@@ -4,14 +4,16 @@
 
 
 
-<div class="container-fluid">
-    <div class="row">
-        <section class="jumbotron light bg-img bg-home-ebooks mb-0">
-            <h1 class="title pt-35">Everything you need to create, promote, and sell eBooks</h1>
-            <h2 class="subtitle">You could write a book on all the things we do to help authors self-publish eBooks</h2>
-            <a href="/quoter/confighandler.aspx?webpreconfigid=WPC0000038" class="btn btn-center btn-orange btn-lg" role="button" onclick="_gaq.push(['_trackEvent', 'ebooks', 'Click', 'hero-button-GetStarted'])">Get started</a>
-            <p class="link"><a class="link-white" href="http://www.bookbaby.com/ebook-services">Learn more</a></p>
-        </section>
+<div class="container-fluid bg-img bg-ebooks">
+    <div class="container">
+        <div class="row">
+            <section class="jumbotron light mb-0">
+                <h1 class="title pt-35">Everything you need to create, promote, and sell eBooks</h1>
+                <h2 class="subtitle">You could write a book on all the things we do to help authors self-publish eBooks</h2>
+                <a href="/quoter/confighandler.aspx?webpreconfigid=WPC0000038" class="btn btn-center btn-orange btn-lg" role="button" onclick="_gaq.push(['_trackEvent', 'ebooks', 'Click', 'hero-button-GetStarted'])">Get started</a>
+                <p class="link"><a class="link-white" href="http://www.bookbaby.com/ebook-services">Learn more</a></p>
+            </section>
+        </div>
     </div>
 </div>
 

@@ -2,7 +2,7 @@
 /* Phones (phones, <=768px) */
 @media all and (min-width: 0px) and (max-width: 767px) {
     
-    p, a {
+    p, a, ul li {
         font-size: 15px;
         line-height: 25px;
     }
@@ -25,7 +25,8 @@
         line-height: 34px;
     }
 
-    .jumbotron .subtitle {
+    .jumbotron .subtitle,
+    .jumbotron .subhead {
         font-size: 18px;
         line-height: 28px;
     }
