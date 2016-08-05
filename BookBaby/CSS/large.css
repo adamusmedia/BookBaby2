@@ -8,13 +8,8 @@
         line-height: 28px;
     }
 
-    h1 {
-        font-size: 58px;
-        line-height: 70px;
-    }
-
+    h1 { font-size: 58px; }
     h2 { font-size: 36px; }
-
     h3 {  }
 
     #site-header .main-nav .level1 li a,
@@ -30,5 +25,14 @@
     footer .col-lg-2 { width: 20%; }
     footer .col-lg-2 ul { padding-left: 5px; }
 
+
+
+    
+    /****/
+    h1.alt { font-size: 42px; }
+    p.h1-leadin { font-size: 21px; }
+    h2.alt { font-size: 24px; }
+
+    h2.title-big-bold { font-size: 36px; }
 }
 /* ******************************* */

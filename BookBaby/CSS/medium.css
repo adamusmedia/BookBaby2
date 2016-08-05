@@ -7,13 +7,8 @@
         line-height: 26px;
     }
 
-    h1 {
-        font-size: 48px;
-        line-height: 60px;
-    }
-
+    h1 { font-size: 48px; }
     h2 { font-size: 29px; }
-
     h3 {  }
 
     .jumbotron .title {
@@ -46,6 +41,12 @@
         margin-bottom: 55px;
         padding-bottom: 45px;
     }
+    
+    /****/
+    h1.alt { font-size: 36px; }
+    p.h1-leadin { font-size: 20px; }
+    h2.alt { font-size: 20px; }
+
 
 }
 /* ******************************* */

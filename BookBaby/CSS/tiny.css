@@ -7,14 +7,11 @@
         line-height: 25px;
     }
 
-    h1 {
-        font-size: 25px;
-        line-height: 34px;
-    }
-
+    h1 { font-size: 25px; }
     h2 { font-size: 22px; }
-
     h3 {  }
+
+    .mmt-20 { margin-top: 20px; }
 
     .mw-400 > p { margin-bottom: 20px; }
 
@@ -80,6 +77,38 @@
         margin-bottom: 25px;
         padding-bottom: 20px;
     }
+
+    .col-xs-mt-20 { margin-top: 20px !important; }
+    .plr-0 { padding-left: 0; padding-right: 0; }
+
+
+    
+    
+    /****/    
+    h1.alt { font-size: 30px; }
+    p.h1-leadin { font-size: 18px; }
+    h2.alt { font-size: 18px; }
+
+
+    /****/
+
+
+    table.table.col-2 > tbody > tr > td.col-2-title,
+    table.table.col-2 > tbody > tr > td.col-2-copy {
+        display: table-cell;
+        float: left;
+    }
+    table.table.col-2 > tbody > tr > td.col-2-title { width: 100%; }
+    td.col-2-title { border-right: 0px; }
+    table.table.col-2 > tbody > tr > td.col-2-copy { width: 100%; background-color: #fff; }
+    td.col-2-copy > span { text-align: center; float: none; }
+
+
+
+
+
+
+
 
 }
 /* ******************************* */

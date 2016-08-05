@@ -57,7 +57,7 @@
             </div><!-- social icons -->
 
 
-            <div class="col-xs-12 col-sm-7 col-md-8 col-lg-9 mb-20">
+            <div class="col-xs-12 col-sm-7 col-md-7 col-lg-8 mb-20">
 
                 <h2>Bound Book Scanning</h2>
                 <p>We talk to a lot of authors who want to publish an eBook, but only have a printed version of their book. They need a way to get the necessary electronic files, such as a .pdf or .doc, to get started.</p>
@@ -67,7 +67,7 @@
 
             </div>
 
-            <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3 side-special-offer text-center-mobile"> <!--  col-sm-offset-1 col-md-offset-1 col-lg-offset-1 -->
+            <div class="col-xs-10 col-xs-offset-1 col-xs-mt-20 col-sm-4 col-md-4 col-lg-3 side-special-offer text-center-mobile"> <!--  col-sm-offset-1 col-md-offset-1 col-lg-offset-1 -->
                 <img class="abs-top-right" src="/images/ebook-scanning-special-offer.png">
                 <h3 class="title-bold pb-20">SAVE 10% on your order</h3>
                 <p class="pb-20"><a href="http://www.boundbookscanning.com/">Bound Book Scanning</a> is a BookBaby partner! Use the code BOOKBABYD10 at checkout!</p><a href="http://www.boundbookscanning.com/" target="_blank"><img alt="Bound Book Scanning" class="img-responsive center-block mb-20" src="/Images/book-scanning-logo.gif" title="Bound Book Scanning"></a>

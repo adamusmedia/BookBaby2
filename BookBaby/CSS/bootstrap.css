@@ -1204,7 +1204,7 @@ h6,
 .h6 {
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.3;
   color: inherit;
 }
 h1 small,
@@ -4981,7 +4981,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: transparent;
 }
 .jumbotron h1,
 .jumbotron .h1 {
