@@ -70,7 +70,7 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
     border:1px solid green;
 }*/
 
-
+p { margin-bottom: 15px; }
 
 /* links */
 a {
@@ -314,6 +314,10 @@ a.title-bold { text-decoration: none; }
     width: 100%;
 }
 
+.jumbotron .subhead {
+    margin: 20px 0;
+}
+
 .jumbotron .title {
     font-weight: 700;
     text-shadow: 1px 1px 4px #000;
@@ -348,7 +352,7 @@ h1.alt {
     font-weight: 700;
 }
 
-p.h1-leadin {
+.h1-leadin {
     color: #666;
     margin-top: 15px;
     margin-bottom: 0px;
@@ -364,8 +368,9 @@ h2.alt {
 
 h2.title { font-family: "Open Sans","Arial", sans-serif; }
 h2.semibold { font-weight: 600; }
-h2.white { color: #fff; }
-h2.black { color: #000; }
+
+.white { color: #fff!important; }
+.black { color: #000!important; }
 
 
 

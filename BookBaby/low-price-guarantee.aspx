@@ -4,10 +4,10 @@
 
 
 
-<div class="container-fluid bg-img bg-privacy">
+<div class="container-fluid bg-img bg-wood-panel">
     <div class="container">
         <div class="row">
-            <section class="jumbotron light text-left">
+            <section class="jumbotron light text-center">
                 <h1 class="title pt-35">The lowest prices. Guaranteed.</h1>
             </section>
         </div>
