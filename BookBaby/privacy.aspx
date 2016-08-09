@@ -21,50 +21,8 @@
     <div class="container">
         <div class="row text-left">
         <div class="col-xs-12">
-    		<h2>We care about how your personal information is used and shared. We take your privacy seriously.</h2>
+    		<h2 class="title-bold">We care about how your personal information is used and shared. We take your privacy seriously.</h2>
         </div>
-        <div id="fb-root"></div>
-        <script>
-	        $('#like').html('');
-
-	        (function (d, s, id) {
-	        var js, fjs = d.getElementsByTagName(s)[0];
-	        if (d.getElementById(id)) return;
-	        js = d.createElement(s); js.id = id;
-	        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-	        fjs.parentNode.insertBefore(js, fjs);
-	        }(document, 'script', 'facebook-jssdk'));
-	
-	        $(window).load(function () {
-		        if (typeof FB !== 'undefined') {
-			        $("#like").html('<fb:like href="http://bookbaby.com' + window.location.pathname + '" layout="button_count" show_faces="false" width="65" action="like" font="segoe ui" colorscheme="light" />');
-			        FB.XFBML.parse(document.getElementById('like'));
-		        }
-	        });
-        </script>
-
-        <!-- Markup -->
-        <div id="privacy-social-icons" class="col-xs-12 text-left">
-	        <span id="like">
-		        <fb:like href="http://bookbaby.com" layout="button_count" show_faces="false" width="65" action="like" font="segoe ui" colorscheme="light" />		
-	        </span>
-	        <a href="https://twitter.com/share" class="twitter-share-button" data-via="bookbaby">Tweet</a>
-	        <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
-
-	        <!-- Place this tag where you want the +1 button to render. -->
-	        <div class="g-plusone" data-size="medium"></div>
-
-	        <!-- Place this tag after the last +1 button tag. -->
-	        <script type="text/javascript">
-		        (function () {
-			        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-			        po.src = 'https://apis.google.com/js/plusone.js';
-			        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-		        })();
-	        </script>
-            <div style="clear:both;"></div>
-        </div><!-- social icons -->
-
 
 		<div id="contract-text" class="col-xs-12 text-left">
 			<p>Please read the following to learn more about our privacy policy. By visiting the BookBaby managed domains (including, but not limited to, www.bookbaby.com) and websites or domain name, or any other linked pages, features, content, or application services offered from time to time by BookBaby in connection therewith (collectively, the "Website"), submitting information, or using any of our services, you acknowledge that you accept the practices and policies outlined in this privacy policy (the "Privacy Policy").</p>

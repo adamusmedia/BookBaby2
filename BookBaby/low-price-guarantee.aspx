@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row">
             <section class="jumbotron light text-center">
-                <h1 class="title pt-35">The lowest prices. Guaranteed.</h1>
+                <h1 class="title text-center pb-30">The lowest prices. Guaranteed.</h1>
             </section>
         </div>
     </div>

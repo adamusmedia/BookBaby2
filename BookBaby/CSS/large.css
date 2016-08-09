@@ -3,7 +3,7 @@
 /* Medium devices (large devices, 1200px+) */
 @media all and (min-width: 1200px) {
     
-    p, ul li {
+    p, ul li, .p {
         font-size: 18px;
         line-height: 28px;
     }
@@ -31,7 +31,7 @@
     .bg-book-printing { padding-bottom: 500px; }
     .sc-mt-o-10 { margin-top: -15px; }
     .text-center-xs-sm { text-align: left; }
-
+    .text-left-lg { text-align: left; }
 
 
 

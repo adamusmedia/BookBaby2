@@ -2,7 +2,7 @@
 /* Small devices (tablets, 768px+) */
 @media all and (min-width: 768px) {
     
-    p, ul li {
+    p, ul li, .p {
         font-size: 15px;
         line-height: 25px;
     }
@@ -37,7 +37,7 @@
         padding-bottom: 10px;
     }
 
-    .text-center-xs-sm { text-align: center; }
+    .text-center-xs-sm, text-center-mobile { text-align: center; }
     .mmb-40 { margin-bottom: 40px; }
 
 

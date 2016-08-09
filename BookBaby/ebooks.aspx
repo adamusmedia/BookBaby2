@@ -158,7 +158,7 @@
 <div class="container-fluid bg-dk-blue section-padding-default">
     <div class="container">
         <div class="row">
-           <h2 class="white">Ready to get published? Create your free account.</h2>
+           <h2 class="title-bold white">Ready to get published? Create your free account.</h2>
            <a href="/quoter/confighandler.aspx?webpreconfigid=WPC0000038" class="btn btn-center btn-orange btn-lg" role="button">Get started</a>
         </div>
     </div>

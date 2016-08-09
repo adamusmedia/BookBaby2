@@ -44,7 +44,6 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
 .ptb-40 { padding: 40px 0 50px; }
 
 
-
 .m-20 { margin: 20px;}
 
 .mb-0 { margin-bottom: 0px; }
@@ -173,7 +172,9 @@ a.link-orange:hover {
 .book-styles {
     color: #000;
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 400;
+    margin-bottom: 30px;
+    display: inline-block;
 }
 
 p.text-white,
@@ -181,8 +182,8 @@ p.text-white > a  { color: #fff; }
 
 p.larger { font-size: 125%; }
 
-.blk-shadow { text-shadow: 2px 2px 7px #000; }
-
+.text-shadow { text-shadow: 1px 1px 4px #000; }
+.blk-shadow, .text-shadow2 { text-shadow: 2px 2px 7px #000; }
 
 
 /* headings/titles */
@@ -200,6 +201,7 @@ h2.intro {
     font-size: 19px;
     line-height: 1.7em;
 }
+
 
 /*
 
@@ -392,7 +394,7 @@ a.tdn { text-decoration: none; }
 }
 
 .jumbotron .subhead {
-    color: #A6D1CE;
+    color: #fff;
     font-size: 23px;
     line-height: 29px;
     display: block;

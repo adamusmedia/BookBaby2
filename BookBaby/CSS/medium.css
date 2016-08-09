@@ -2,7 +2,7 @@
 /* Medium devices (desktops, 992px+) */
 @media all and (min-width: 992px) {
     
-    p, ul li {
+    p, ul li, .p {
         font-size: 16px;
         line-height: 26px;
     }
@@ -33,6 +33,9 @@
     
     .sc-mt-o-10 { margin-top: -10px; }
     .text-center-xs-sm { text-align: left; }
+    .text-left-md { text-align: left; } 
+
+
 
     .container .jumbotron,
     .container-fluid .jumbotron {

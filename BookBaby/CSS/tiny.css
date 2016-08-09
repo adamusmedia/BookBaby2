@@ -2,7 +2,7 @@
 /* Phones (phones, <=768px) */
 @media all and (min-width: 0px) and (max-width: 767px) {
     
-    p, ul li {
+    p, ul li, .p {
         font-size: 15px;
         line-height: 25px;
     }
@@ -30,6 +30,9 @@
 
     .bg-book-printing { padding-bottom: 200px; }
     
+    
+    .ptb-xs-20 { padding: 20px; }
+
     .pb-m-20 { padding-bottom: 20px; }
     .mmt-20 { margin-top: 20px; }
     .mmb-40 { margin-bottom: 40px; }

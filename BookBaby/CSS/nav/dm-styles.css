@@ -101,7 +101,7 @@ a.link-orange {
 */
 @media (max-width: 500px) {
     a, p {
-        font-size: 110%;
+        /*font-size: 110%;*/
     }
 }
 
