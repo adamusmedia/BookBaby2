@@ -2,16 +2,37 @@
 /* Phones (phones, <=768px) */
 @media all and (min-width: 0px) and (max-width: 767px) {
     
-    p, a, ul li {
+    p, ul li {
         font-size: 15px;
         line-height: 25px;
     }
 
-    h1 { font-size: 25px; }
-    h2 { font-size: 22px; }
+    h1 { font-size: 26px; }
+    h2 { font-size: 24px; }
     h3 {  }
+    
+    h3.title-bold { font-size: 18px; font-weight: 700; } 
 
+    .title-bold { font-size: 20px; }
+    .title-bolder { font-size: 24px; }
+    .title-big-bold {  }
+    
+        
+    h1.alt { font-size: 30px; }
+    p.h1-leadin { font-size: 18px; }
+    h2.alt { font-size: 18px; }
+    /***
+    h2.title-big-bold { font-size: 30px; font-weight: 700; }
+*/
+
+
+
+
+    .bg-book-printing { padding-bottom: 200px; }
+    
+    .pb-m-20 { padding-bottom: 20px; }
     .mmt-20 { margin-top: 20px; }
+    .mmb-40 { margin-bottom: 40px; }
 
     .mw-400 > p { margin-bottom: 20px; }
 
@@ -19,11 +40,15 @@
 
     footer .col-lg-2 ul { padding-left: 0; }
 
+    
+
+
+
 
     .container .jumbotron,
     .container-fluid .jumbotron {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 60px;
+        padding-bottom: 0px;
     }
 
     .jumbotron .title {
@@ -56,6 +81,11 @@
         height: 300px;
     }
 
+
+
+    
+
+    .text-center-xs-sm { text-align: center; }
     .container-fluid .text-center-mobile { padding: 0 15px; text-align: center; }
     .container-fluid .p20 { padding: 20px; }
     .nm-mobile { margin: 0; }
@@ -82,12 +112,6 @@
     .plr-0 { padding-left: 0; padding-right: 0; }
 
 
-    
-    
-    /****/    
-    h1.alt { font-size: 30px; }
-    p.h1-leadin { font-size: 18px; }
-    h2.alt { font-size: 18px; }
 
 
     /****/

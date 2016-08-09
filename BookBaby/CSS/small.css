@@ -2,16 +2,48 @@
 /* Small devices (tablets, 768px+) */
 @media all and (min-width: 768px) {
     
-    p, a, ul li {
+    p, ul li {
         font-size: 15px;
         line-height: 25px;
     }
 
     h1 { font-size: 38px; }
     h2 { font-size: 24px; }
-    h3 {  }
+    h3 {  }  
+    
+    h2.title-bold { font-size: 24px; font-weight: 700; }
+    h3.title-bold { font-size: 18px; font-weight: 700; } 
+
+    .title-bold { font-size: 24px; }
+    .title-bolder { font-size: 28px; }
+    .title-big-bold {  }
+    
+    h1.alt { font-size: 30px; }
+    p.h1-leadin { font-size: 18px; }
+    h2.alt { font-size: 18px; }
+    /***
+    h2.title-big-bold { font-size: 30px; font-weight: 700; }
+*/
+
+    
+    .bg-book-printing { padding-bottom: 400px; }
+
     
     
+    
+    .container .jumbotron,
+    .container-fluid .jumbotron {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+
+    .text-center-xs-sm { text-align: center; }
+    .mmb-40 { margin-bottom: 40px; }
+
+
+
+
+
     #site-header .main-nav .level1 li a,
     #site-header.open .link-logo,
     #site-header .main-nav .level2 a,
@@ -33,10 +65,5 @@
         margin-bottom: 25px;
         padding-bottom: 20px;
     }
-    
-    /****/    
-    h1.alt { font-size: 30px; }
-    p.h1-leadin { font-size: 18px; }
-    h2.alt { font-size: 18px; }
 }
 /* ******************************* */

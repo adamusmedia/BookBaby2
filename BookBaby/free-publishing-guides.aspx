@@ -4,11 +4,9 @@
 
 <div class="container-fluid bg-img bg-wood-panel">
     <div class="container">
-        <div class="row">
-            <section class="jumbotron light text-left">
-                <h1 class="title pt-35">Free Guides For Authors <small class="subhead">Learn how to write, promote, and sell more books with these free guides.</small></h1>
-            </section>
-        </div>
+        <section class="jumbotron light text-left">
+            <h1 class="title">Free Guides For Authors <small class="subhead">Learn how to write, promote, and sell more books with these free guides.</small></h1>
+        </section>
     </div>
 </div>
 

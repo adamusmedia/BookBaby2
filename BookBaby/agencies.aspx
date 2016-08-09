@@ -5,10 +5,10 @@
 
 <div class="container-fluid bg-img bg-wood-panel">
     <div class="container plr-0">
-        <section class="jumbotron mb-0">
+        <section class="jumbotron">
 
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left text-center-mobile">
-				<p class="h1-leadin white pt-35">BOOKBABY WHOLESALE</p>
+				<p class="h1-leadin white">BOOKBABY WHOLESALE</p>
 				<h1 class="title alt white">BookBaby service solutions for publishers, agents, and other volume buyers
 				<small class="subhead">Headquartered in Pennsauken, NJ, just across the bridge from Philadelphia, BookBaby offers 
 publishing services for organizations of any size looking for a publishing production engine to 

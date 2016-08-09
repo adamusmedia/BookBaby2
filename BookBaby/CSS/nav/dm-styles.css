@@ -100,11 +100,12 @@ a.link-orange {
     }
 */
 @media (max-width: 500px) {
-    a {
+    a, p {
         font-size: 110%;
     }
 }
 
+/*
 a, button {
     transform: scale(1);
     -webkit-transform: translate3d(0, 0, 0);
@@ -112,7 +113,7 @@ a, button {
 }
 
     a:active, button:active {
-        -ms-transform: scale(1.05); /* IE 9 */
+        -ms-transform: scale(1.05); // IE 9 
         -webkit-transform: scale(1.05);
         -moz-transform: scale(1.05);
         transform: scale(1.05);
@@ -125,7 +126,7 @@ a, button {
     a:hover, a:active {
         outline: 0;
     }
-
+*/
 /* =============================================================================
    Typography
    ========================================================================== */

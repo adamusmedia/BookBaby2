@@ -3,7 +3,7 @@
 /* Medium devices (large devices, 1200px+) */
 @media all and (min-width: 1200px) {
     
-    p, a, ul li {
+    p, ul li {
         font-size: 18px;
         line-height: 28px;
     }
@@ -11,6 +11,32 @@
     h1 { font-size: 58px; }
     h2 { font-size: 36px; }
     h3 {  }
+    
+    h2.title-bold { font-size: 36px; font-weight: 700; } 
+    h3.title-bold { font-size: 24px; font-weight: 700; } 
+
+    .title-bold { font-size: 32px; }
+    .title-bolder { font-size: 36px; }
+    .title-big-bold {  }
+    
+    h1.alt { font-size: 42px; }
+    p.h1-leadin { font-size: 21px; }
+    h2.alt { font-size: 24px; }
+    /***
+    h2.title-big-bold { font-size: 36px; font-weight: 700; }
+*/
+
+
+    
+    .bg-book-printing { padding-bottom: 500px; }
+    .sc-mt-o-10 { margin-top: -15px; }
+    .text-center-xs-sm { text-align: left; }
+
+
+
+
+
+
 
     #site-header .main-nav .level1 li a,
     #site-header.open .link-logo,
@@ -26,13 +52,5 @@
     footer .col-lg-2 ul { padding-left: 5px; }
 
 
-
-    
-    /****/
-    h1.alt { font-size: 42px; }
-    p.h1-leadin { font-size: 21px; }
-    h2.alt { font-size: 24px; }
-
-    h2.title-big-bold { font-size: 36px; }
 }
 /* ******************************* */

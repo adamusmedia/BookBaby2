@@ -5,8 +5,10 @@
 <div class="container-fluid bg-img bg-book-scanning">
     <div class="container">
         <div class="row">
-            <section class="jumbotron light col-xs-8 col-sm-9 col-md-8 col-lg-9 text-left">
-                <h1 class="title pt-35">Book Scanning Services <small class="subhead">Transfer any paper book to a clear, searchable PDF and editable Word document.</small></h1>
+            <section class="jumbotron light">
+                <div class="col-xs-8 col-sm-9 col-md-8 col-lg-8 text-left">
+                    <h1 class="title pt-35">Book Scanning Services <small class="subhead">Transfer any paper book to a clear, searchable PDF and editable Word document.</small></h1>
+                </div>
             </section>
         </div>
     </div>

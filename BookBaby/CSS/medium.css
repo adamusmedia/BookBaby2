@@ -2,7 +2,7 @@
 /* Medium devices (desktops, 992px+) */
 @media all and (min-width: 992px) {
     
-    p, a, ul li {
+    p, ul li {
         font-size: 16px;
         line-height: 26px;
     }
@@ -10,6 +10,35 @@
     h1 { font-size: 48px; }
     h2 { font-size: 29px; }
     h3 {  }
+    
+    h2.title-bold { font-size: 29px; font-weight: 700; } 
+    h3.title-bold { font-size: 24px; font-weight: 700; } 
+
+    .title-bold { font-size: 28px; }
+    .title-bolder { font-size: 32px; }
+    .title-big-bold {  }
+    
+    h1.alt { font-size: 36px; }
+    p.h1-leadin { font-size: 20px; }
+    h2.alt { font-size: 20px; }
+    /***
+    h2.title-big-bold { font-size: 36px; font-weight: 700; }
+*/
+
+
+
+    
+    .bg-book-printing { padding-bottom: 400px; }
+
+    
+    .sc-mt-o-10 { margin-top: -10px; }
+    .text-center-xs-sm { text-align: left; }
+
+    .container .jumbotron,
+    .container-fluid .jumbotron {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
 
     .jumbotron .title {
         font-size: 58px;
@@ -41,11 +70,6 @@
         margin-bottom: 55px;
         padding-bottom: 45px;
     }
-    
-    /****/
-    h1.alt { font-size: 36px; }
-    p.h1-leadin { font-size: 20px; }
-    h2.alt { font-size: 20px; }
 
 
 }

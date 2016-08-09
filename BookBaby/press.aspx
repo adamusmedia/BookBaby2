@@ -8,8 +8,8 @@
 <div class="container-fluid bg-img bg-wood-panel">
     <div class="container">
         <div class="row">
-            <section class="jumbotron light text-left">
-                <h1 class="title pt-35 text-center">BookBaby in the Press</small></h1>
+            <section class="jumbotron light">
+                <h1 class="title text-center pb-30">BookBaby in the Press</small></h1>
             </section>
         </div>
     </div>

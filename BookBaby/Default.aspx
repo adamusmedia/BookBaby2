@@ -1,21 +1,24 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="MasterPage.master" CodeFile="Default.aspx.cs" Inherits="Default" %>
 <asp:Content runat="server" ContentPlaceHolderID="pageContent">
 
-<div class="container-fluid">
-    <div class="row">
-        <section class="jumbotron light bg-img bg-home-hero mb-0">
-            <h1 class="title pt-35">New low prices on printed books, same high standards</h1>
-            <h2 class="subtitle">Self-publishing your book just got much more affordable.</h2>
-            <a href="/book-printing" class="btn btn-center btn-orange btn-lg" role="button" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'hero-button-LearnMore']);">Learn more</a>
-            <p class="link"><a href="/quoter/default.aspx" onclick="_gaq.push(['_trackEvent', 'home', 'Click', 'hero-GetPricing']);">Get pricing</a></p>
-        </section>
+<div class="container-fluid bg-img bg-home-hero">
+    <div class="container">
+        <div class="row">
+            <section class="jumbotron light mb-0">
+                <h1 class="title pt-35">New low prices on printed books, same high standards</h1>
+                <h2 class="subtitle">Self-publishing your book just got much more affordable.</h2>
+                <a href="/book-printing" class="btn btn-center btn-orange btn-lg" role="button" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'hero-button-LearnMore']);">Learn more</a>
+                <p class="link"><a href="/quoter/default.aspx" onclick="_gaq.push(['_trackEvent', 'home', 'Click', 'hero-GetPricing']);">Get pricing</a></p>
+            </section>
+        </div>
+
     </div>
 </div>
 
 
 <div class="container-fluid bg-cream">
     <div class="row">
-        <section class="container pt-35">
+        <section class="container ptb-40">
 
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
                 <a href="/ebooks" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'eBook Publishing &amp; Distribution']);">
@@ -49,7 +52,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-text pb-35">
-                <h2 class="title-bold">Want to get all three?</h2>
+                <h3 class="title-bold">Want to get all three?</h3>
                 <p><a class="link-orange" href="/complete-self-publishing-package">Learn more about the complete self-publishing package.</a></p>
             </div>
 
@@ -143,7 +146,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left text-center-xs">
-                        <h2 class="title semibold black">Self-publishing doesn’t mean going it alone</h2>
+                        <h2 class="title-bold black">Self-publishing doesn’t mean going it alone</h2>
                         <p><strong>At BookBaby we believe in People Powered Publishing</strong>.</p>
                         <p>
                             Our friendly experts in the Philadelphia-area are ready to answer your publishing and printing questions.
@@ -173,7 +176,7 @@
                 <div class="row">
                     
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-                        <h2 class="title-bold pb-35">Sell your book in the world’s biggest bookstores</h2>
+                        <h2 class="title-bold mt-0 mb-20">Sell your book in the world’s biggest bookstores</h2>
                     </div>
                     
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half logos-container">
@@ -214,7 +217,7 @@
             <section id="feeling-great-book">
                 <div class="col-xs-6 col sm-6 col-md-6 col-lg-6 text-left text-center-mobile text-100-mobile">
                     <div class="half-column">
-                        <h2 class="title semibold white mt-0">Nothing beats the feeling of a great book</h2>
+                        <h2 class="title-bold white mt-0">Nothing beats the feeling of a great book</h2>
                         <p class="text-white">There’s nothing quite as satisfying as reading a beautifully-bound, vibrantly-printed book and that’s exactly what we deliver. Our books have won accolades nationwide, but don’t take our word for it: <a class="white" href="/single-book-printing" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'order-single-copy']);">Order one copy of your book for just $19 and see for yourself.</a> </p>
                         <p class="text-white"><a href="/book-genres-and-styles" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'nothing-beats-the-feeling']);">View all of our book styles</a></p>
                     </div>
@@ -232,7 +235,7 @@
                 <img class="left-img" src="images/pricing-footer.jpg">
             </div>
             <div class="col-sm-9 col-md-6 col-lg-6 text-left text-center-mobile">
-                <h2 class="section-headline white">I know you’ll be happy with<br />
+                <h2 class="title-bold white">I know you’ll be happy with<br />
                     our work. In fact, <span class="bolditalic">I guarantee it.</span></h2>
                 <p class="text-white">I stand behind our products and services with the strongest guarantee in the eBook and publishing businesses.</p>
                 <p class="text-white signature">Steven Spatz, <em>President, BookBaby</em></p>

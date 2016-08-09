@@ -20,9 +20,9 @@
 
 
 
-<div class="container-fluid bg-lt-blue">
+<div class="container-fluid bg-lt-blue ptb-40">
     <div class="row">
-        <section class="container pt-35">
+        <section class="container">
 
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 center-text">
                 <a href="/ebook-services">
@@ -72,7 +72,7 @@
             		<a href="/bookpromo"><img src="../images/ebooks-list-bookpromo.png" alt="BookPromo" title="BookPromo" width="240" height="70" class="img-responsive center-block"></a>
 				</div>
 				<div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 text-left text-center-mobile list-text"> 
-			  		<a class="title-bold" href="/bookpromo"><h3>Get discovered with BookPromo™</h3></a>
+			  		<a href="/bookpromo" class="tdn"><h3 class="title-bold">Get discovered with BookPromo™</h3></a>
 					<p>A BookBaby exclusive – free with every eBook order. Help readers find your book using these powerful and proven book promotional tools.  <a href="/bookpromo">Learn more</a>.</p>
 				</div> 
 			</div>
@@ -83,7 +83,7 @@
             		<a href="/ebook-conversion-tips"><img src="../images/ebooks-list-conversion.png" alt="eBook Conversion" title="eBook Conversion" class="img-responsive center-block"></a>
 				</div>
 				<div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 text-left text-center-mobile list-text"> 
-			  		<a class="title-bold" href="/ebook-conversion-tips"><h3>The absolute highest-quality eBook file conversion</h3></a>
+			  		<a href="/ebook-conversion-tips" class="tdn"><h3 class="title-bold">The absolute highest-quality eBook file conversion</h3></a>
 					<p>Rest assured that your eBook can be read on Kindle, iPad, Nook, smartphones, and every reader around the globe. Our team of publishing specialists will convert your Word, PDF, or other popular digital document and send you an ePub formatting proof for your approval.  <a href="/ebook-conversion-tips">Learn more</a>.</p>
 				</div> 
 			</div>
@@ -94,7 +94,7 @@
             		<a href="/fixed-layout-ebooks"><img src="../images/ebooks-list-fixedlayout.png" alt="Fixed layout iBooks" title="Fixed layout iBooks" class="img-responsive center-block"></a>
 				</div>
 				<div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 text-left text-center-mobile list-text"> 
-			  		<a class="title-bold" href="/fixed-layout-ebooks"><h3>Fixed layout eBooks</h3></a>
+			  		<a href="/fixed-layout-ebooks" class="tdn"><h3 class="title-bold">Fixed layout eBooks</h3></a>
 					<p>If it’s important that your images and text appear in a specific and consistent way, fixed layout formatting is for you. Perfect for children’s books, graphic novels, and cookbooks. <a href="/fixed-layout-ebooks">Learn more</a>.</p>
 				</div> 
 			</div>
@@ -105,7 +105,7 @@
             		<a href="/ebook-conversion-tips"><img src="../images/ebooks-list-help.png" alt="Preparing files" title="Preparing files" class="img-responsive center-block"></a>
 				</div>
 				<div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 text-left text-center-mobile list-text"> 
-			  		<a class="title-bold" href="/ebook-conversion-tips"><h3>Need help preparing your files?</h3></a>
+			  		<a href="/ebook-conversion-tips" class="tdn"><h3 class="title-bold">Need help preparing your files?</h3></a>
 					<p>There are a few simple things you can do to prepare your manuscript so your eBook will look exactly the way you want it to. <a href="/ebook-conversion-tips">Learn more</a>.</p>
 				</div> 
 			</div>
@@ -127,7 +127,7 @@
             		<a href="/bookshop"><img src="../images/ebooks-list-bookshop.png" alt="Sell direct and earn more" title="Sell direct and earn more" class="img-responsive center-block"></a>
 				</div>
 				<div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 text-left text-center-mobile list-text"> 
-			  		<a class="title-bold" href="/bookshop"><h3>Sell direct and earn more</h3></a>
+			  		<a href="/bookshop" class="tdn"><h3 class="title-bold">Sell direct and earn more</h3></a>
 					<p>BookShop™ is a webpage that lets you sell direct to your readers, delivering your book in three different formats. Best of all you’ll earn a whopping 85% of your retail sales. Free to all BookBaby authors. <a href="/bookshop">Learn more</a>.</p>
 				</div> 
 			</div>
@@ -138,7 +138,7 @@
             		<a href="http://support.print.bookbaby.com/hc/en-us"><img src="../images/ebooks-list-customerservice.jpg" alt="Questions? We’re ready to help" title="Questions? We’re ready to help" class="img-responsive center-block"></a>
 				</div>
 				<div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 text-left text-center-mobile list-text"> 
-			  		<a class="title-bold" href="http://support.print.bookbaby.com/hc/en-us"><h3>Questions? We’re ready to help</h3></a>
+			  		<a href="http://support.print.bookbaby.com/hc/en-us" class="tdn"><h3 class="title-bold">Questions? We’re ready to help</h3></a>
 					<p>Our friendly experts are ready to answer your publishing and printing questions.<br> 
                     Call us at 1-877-961-6878 (Monday - Friday, 9am to 5pm EDT) or email us any time at <a href="mailto:info@bookbaby.com">info@bookbaby.com</a>.</p>
 				</div> 
