@@ -1,1 +1,11 @@
-- popups/modals
+- popups/modals (use bootstrap)
+
+
+go back and put content in:
+- templates
+
+
+
+
+
+

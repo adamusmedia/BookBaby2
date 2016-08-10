@@ -199,8 +199,8 @@
     <div class="container">
         <div class="row ptb-40 text-left">
 
-        	<h2 class="title-bold">Using Our Templates</h2>
-            <h3 class="p">Get it right the first time. <a href="/pages/pdf/book-printing-preparation-checklist.pdf">Download our helpful Book Printing Preparation Checklist PDF.</a></h3>
+        	<h2 class="title-bold text-center">Using Our Templates</h2>
+            <h3 class="p text-center">Get it right the first time. <a href="/pages/pdf/book-printing-preparation-checklist.pdf">Download our helpful Book Printing Preparation Checklist PDF.</a></h3>
         	<p><strong>Specifications:</strong></p>
             <ul class="disc-list">
                 <li>We offer templates for use with the following design programs: Adobe InDesign, QuarkXPress, and Microsoft Word</li> 

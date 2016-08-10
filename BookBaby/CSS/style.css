@@ -306,6 +306,7 @@ a.tdn { text-decoration: none; }
 .bg-home-hero { background-image: url("/Images/home/home-hero.jpg"); }
 .bg-ebooks { background-image: url("/Images/ebooks-hero.jpg"); }
 .bg-wood-panel { background-image: url("/Images/redesign-wood-hero.png"); }
+.bg-free-guide { background-image: url("/Images/redesign-wood-hero.png"); }
 .bg-book-scanning { background-image: url("/Images/ebook-scanning-hero.png"); }
 .bg-lt-blue-testimonial { background-image: url("/Images/quote-bkgrd.jpg"); }
 .bg-coupons { background-image: url("/images/coupons-and-deals-hero.jpg"); }
@@ -313,7 +314,7 @@ a.tdn { text-decoration: none; }
 .bg-blue-books { background-image: url("/images/book-printing-premiumbkgrd.jpg"); background-position: 50% }
 .bg-guarantee { background-image: url("/images/guarantee-hero.jpg"); border-bottom: solid 2px #A9A59D; padding-bottom:90px; }
 
-
+.free-guide-img > img { max-height: 400px; display: block; }
 
 /* buttons */
 .btn-orange {    
@@ -389,7 +390,8 @@ a.tdn { text-decoration: none; }
 
 .jumbotron .title,
 .jumbotron .subtitle,
-.jumbotron .subhead {
+.jumbotron .subhead,
+#free-guide .title {
     font-family: "Open Sans","Arial", sans-serif;
 }
 
@@ -405,7 +407,8 @@ a.tdn { text-decoration: none; }
     margin: 20px 0;
 }
 
-.jumbotron .title {
+.jumbotron .title,
+#free-guide .title {
     font-weight: 700;
     text-shadow: 1px 1px 4px #000;
 }
@@ -419,6 +422,10 @@ a.tdn { text-decoration: none; }
 .jumbotron .title.no-shadow,
 .jumbotron .subtitle.no-shadow {
     text-shadow: none;
+}
+
+.no-shadow {
+    text-shadow: none!important;
 }
 
 .jumbotron .link > a {
