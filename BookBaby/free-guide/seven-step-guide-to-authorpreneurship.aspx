@@ -26,6 +26,14 @@
 
             <div class="col-md-6 col-lg-6">
 
+
+
+
+
+
+
+
+
 <div class="responsive-form" id="request-form">
     <p>As an award-winning author and veteran publisher, Rochelle Carter has learned a thing or two about finding success with self-publishing. In her latest book, she’ll walk you through the ins and outs of the book publishing world and how to get the better of it—all in just 7 steps.</p>
     <p class="mb-40">Fill out the information below to get your free copy right now.</p>
@@ -1108,7 +1116,7 @@
                 <li>
                     <p class="dropdown-mask dd-states" style="display: block;" title="Please choose your state."><label class="inputted" for="contentMain_ucEmailNameAddress_ddlStates" id="contentMain_ucEmailNameAddress_lblStateDD">State</label> 
                         
-                        <select class="dropdown hasCustomSelect" data-loader="true" data-override-server="true" data-validation="req-selection" id="contentMain_ucEmailNameAddress_ddlStates" name="ctl00$contentMain$ucEmailNameAddress$ddlStates" style="-webkit-appearance: menulist-button; width: 100%; position: absolute; opacity: 0; z-index: 3; height: 37px; font-size: 14px;" tabindex="12">
+                   <select class="dropdown hasCustomSelect" data-loader="true" data-override-server="true" data-validation="req-selection" id="contentMain_ucEmailNameAddress_ddlStates" name="ctl00$contentMain$ucEmailNameAddress$ddlStates" style="-webkit-appearance: menulist-button; width: 100%; position: absolute; opacity: 0; z-index: 3; height: 37px; font-size: 14px;" tabindex="12">
                             <option selected="selected" value="AA">
                                 APO/FPO-Armed Forces Americas
                             </option>
@@ -1368,6 +1376,21 @@
     </div>
     <!-- .button-container -->
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
 
 
 
