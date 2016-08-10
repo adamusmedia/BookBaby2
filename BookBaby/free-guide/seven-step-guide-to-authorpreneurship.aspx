@@ -4,6 +4,8 @@
 
 
 
+
+
 <div class="container-fluid section-padding-default mt-100">
     <div class="container">
         <div id="free-guide" class="text-left">
@@ -1371,18 +1373,6 @@
 
 
 
-            </div>
-
-
-
-					
-            
-
-
-
-
-
-        </div>
     </div>
 </div>
 
