@@ -66,6 +66,28 @@
     }
 
 
+
+
+    /* .col-2-blocks  - home */
+    .col-2-blocks .col-xs-12,
+    .col-2-blocks .col-sm-12 {
+        padding: 25px 15px;
+    }
+
+    .col-2-blocks .text-right,
+    .col-2-blocks .text-left { text-align: center; }
+
+    .col-2-blocks .text-right .mw-400,
+    .col-2-blocks .text-left .mw-400 {
+        float: none;
+        max-width: unset;
+    }
+    
+    .col-2-blocks .bg-img-half {
+        height: 300px;
+    }
+
+    /* .bg-dark  - home */
     .bg-dark .col-xs-12,
     .bg-dark .col-sm-12 {
         padding: 25px 15px;
@@ -84,12 +106,39 @@
         height: 300px;
     }
 
+    /* .bg-white art-book-printing */
+    .bg-white .col-xs-12,
+    .bg-white .col-sm-12 {
+        padding: 25px 15px;
+    }
+
+    .bg-white .text-right,
+    .bg-white .text-left { text-align: center; }
+
+    .bg-white .text-right .mw-400,
+    .bg-white .text-left .mw-400 {
+        float: none;
+        max-width: unset;
+    }
+    
+    .bg-white .bg-img-half {
+        height: 300px;
+    }
+
+    .bg-white .bg-abp-s-2 { padding-bottom: 300px; }
+
 
 
     
-
+    .container-fluid .text-center-xs,
+    .container-fluid .text-center-mobile {
+        text-align: center;
+    }
+    /*
     .text-center-xs-sm { text-align: center; }
     .container-fluid .text-center-mobile { padding: 0 15px; text-align: center; }
+    */
+        
     .container-fluid .p20 { padding: 20px; }
     .nm-mobile { margin: 0; }
 
@@ -131,6 +180,90 @@
     td.col-2-copy > span { text-align: center; float: none; }
 
 
+
+
+
+
+
+
+
+/*** responsive tables ***/
+	/* Force table to not be like tables anymore */
+	table.res, table.res thead, table.res tbody, table.res thead tr, table.res thead tr th, table.res tbody tr, table.res tbody tr td {
+		display: block;
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	table.res thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	table.res tbody tr { border: 1px solid #eee; }
+
+	table.res tbody tr td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+	}
+
+	table.res tbody tr td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+
+	/*	Label the data	*/
+    table.res > tbody > tr > td:before { font-weight: 700; }
+	table.volume-pricing tbody tr td:nth-of-type(1):before { content: "Quantity"; }
+	table.volume-pricing tbody tr td:nth-of-type(2):before { content: "Price"; }
+	table.volume-pricing tbody tr td:nth-of-type(3):before { content: "Each"; }
+	table.volume-pricing tbody tr td:nth-of-type(4):before { content: "Save"; }
+    
+    
+	table.art-book-printing.table1 tbody tr td:nth-of-type(1):before { content: " "; }
+	table.art-book-printing.table1 tbody tr td:nth-of-type(2):before { content: "BookBaby (8.5x11)"; }
+	table.art-book-printing.table1 tbody tr td:nth-of-type(3):before { content: "Blurb (8x10)"; }
+	table.art-book-printing.table1 tbody tr td:nth-of-type(4):before { content: "Lulu (8.5x11)"; }
+    
+	table.art-book-printing.table2 tbody tr td:nth-of-type(1):before { content: " "; }
+	table.art-book-printing.table2 tbody tr td:nth-of-type(2):before { content: "BookBaby"; }
+	table.art-book-printing.table2 tbody tr td:nth-of-type(3):before { content: "Blurb"; }
+	table.art-book-printing.table2 tbody tr td:nth-of-type(4):before { content: "Lulu"; }
+
+    table.art-book-printing.table2 tbody tr td:first-child > span {
+        float: none;
+        text-align: center;
+    }
+
+
+    
+    /*
+    table.res > tbody > tr > td { 
+        padding: 0;
+
+    }
+    table.res > tbody > tr > td > span { 
+        display: inline-block;
+
+    }
+    table.res > tbody > tr > td:before { 
+        top: 0;
+        left: 0;
+        background: #eee;
+        padding: 8px;
+        display:table-cell;
+    }
+    */
+/*** /responsive tables ***/
 
 
 

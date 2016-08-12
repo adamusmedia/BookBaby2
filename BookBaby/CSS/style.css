@@ -12,6 +12,14 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
 */
 
 /* padding and margin */
+
+.ptb-20 { padding: 20px 0; }
+.ptb-40 { padding: 40px 0 50px; }
+
+.mtb-40 { margin-top: 40px; margin-bottom: 40px; }
+.mtb-50 { margin-top: 50px; margin-bottom: 50px; }
+
+
 .mp-0 { margin: 0; padding: 0; }
 
 .p-20 { padding: 20px; }
@@ -40,9 +48,6 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
 .pt-90 { padding-top: 90px; }
 .pt-100 { padding-top: 100px; }
 
-.ptb-20 { padding: 20px 0; }
-.ptb-40 { padding: 40px 0 50px; }
-
 
 .m-20 { margin: 20px;}
 
@@ -69,9 +74,6 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
 .mt-80 { margin-top: 80px; }
 .mt-90 { margin-top: 90px; }
 .mt-100 { margin-top: 100px; }
-
-.mtb-40 { margin-top: 40px; margin-bottom: 40px; }
-.mtb-50 { margin-top: 50px; margin-bottom: 50px; }
 
 .pre-offset-130 { padding-bottom: 65px; }
 .offset-icon-130 { margin-top: -130px; }
@@ -285,14 +287,17 @@ a.tdn { text-decoration: none; }
 
 .bg-cream { background-color: #E9E5D2; }
 .bg-tan { background-color: #EBE4D1; }
+.bg-tan-dark { background-color: #DAD5C0; }
 .bg-dark { background-color: #3E3B32; }
+.bg-white { background-color: #ffffff; }
 .bg-lt-blue { background-color: #ebf5f5; }
 .bg-lt-blue-2 { background-color: #D8EBE9; }
 .bg-dk-blue { background-color: #212733; }
 .bg-lt-grey { background-color: #F8F7F6; }
 .bg-md-grey { border-top: 4px #AAA69C solid; background: #dad5c2; padding: 45px 0; }
+    .bt-0 { border-top: 0px; }
 .bg-green { background-color: #4d5e38; }
-
+.bg-forest-green { background-color: #575748; }
 
 
 
@@ -302,10 +307,15 @@ a.tdn { text-decoration: none; }
 .bg-dark .bg-home-s-3-1 { background-image: url(../Images/home/quadrant-home-editing.jpg); }
 .bg-dark .bg-home-s-3-2 { background-image: url(../Images/home/quadrant-home-ebook.jpg); }
 .bg-dark .bg-home-s-3-3 { background-image: url(../Images/home/quadrant-home-print.jpg); }
+
+.bg-white .bg-abp-s-2 { background-image: url(../Images/artbooks-quad1.jpg); }
+.bg-forest-green .bg-pbp-s-2 { background-image: url(../Images/photobooks-quad1.jpg); }
+
 .bg-home-s-6 { background-image: url("../Images/home/great-book-background.jpg"); }
 .bg-home-hero { background-image: url("/Images/home/home-hero.jpg"); }
 .bg-ebooks { background-image: url("/Images/ebooks-hero.jpg"); }
 .bg-wood-panel { background-image: url("/Images/redesign-wood-hero.png"); }
+.bg-wood-2 { background-image: url("../Images/photobooks-woodbkgrd.jpg"); }
 .bg-free-guide { background-image: url("/Images/redesign-wood-hero.png"); }
 .bg-book-scanning { background-image: url("/Images/ebook-scanning-hero.png"); }
 .bg-lt-blue-testimonial { background-image: url("/Images/quote-bkgrd.jpg"); }
@@ -313,6 +323,10 @@ a.tdn { text-decoration: none; }
 .bg-book-printing { background-image: url("/images/book-printing-hero.jpg"); }
 .bg-blue-books { background-image: url("/images/book-printing-premiumbkgrd.jpg"); background-position: 50% }
 .bg-guarantee { background-image: url("/images/guarantee-hero.jpg"); border-bottom: solid 2px #A9A59D; padding-bottom:90px; }
+.bg-art-book-printing { background-image: url("/images/artbooks-hero-image.jpg"); }
+.bg-photo-book-printing { background-image: url("/images/photobooks-hero-image.jpg"); }
+
+
 
 .free-guide-img > img { max-height: 400px; display: block; }
 
@@ -345,6 +359,7 @@ a.tdn { text-decoration: none; }
     float: none;
     position: relative;
     display: inline-block;
+        display: table;
 }
 
 
@@ -469,6 +484,15 @@ h2.alt {
 h2.title { font-family: "Open Sans","Arial", sans-serif; }
 h2.semibold { font-weight: 600; }
 
+.condensed {
+    color: #666;
+    font-family: "Open Sans Condensed",Open Sans Condensed,sans-serif;
+    font-weight: 300;
+
+    font-size: 50px;
+    line-height: 65px;
+}
+
 .white { color: #fff!important; }
 .black { color: #000!important; }
 
@@ -479,7 +503,11 @@ p.subhead { font-weight: 600; font-size: 130%; }
 
 
 
-
+.col-2-blocks .mw-400 { max-width: 400px; }
+.col-2-blocks .text-right .mw-400 { float: right; }
+.col-2-blocks .text-right { padding: 35px 50px 35px 10px; }
+.col-2-blocks .text-left .mw-400 { float: left; }
+.col-2-blocks .text-left { padding: 35px 10px 35px 50px; }
 
 .bg-dark .mw-400 { max-width: 400px; }
 .bg-dark .text-right .mw-400 { float: right; }
@@ -490,6 +518,18 @@ p.subhead { font-weight: 600; font-size: 130%; }
 .bg-dark .bg-img-half {
     background-color: #3E3B32;
     height: 425px;
+}
+
+
+.bg-white .mw-400 { max-width: 400px; }
+.bg-white .text-right .mw-400 { float: right; }
+.bg-white .text-right { padding: 35px 50px 35px 10px; }
+.bg-white .text-left .mw-400 { float: left; }
+.bg-white .text-left { padding: 35px 10px 35px 50px; }
+
+.bg-white .bg-img-half {
+    background-color: #3E3B32;
+    /* height: 425px; */
 }
 
 
@@ -606,4 +646,59 @@ p.testimonial > span {
     display: block;
     width: 100%;
     margin-top: 20px;
+}
+
+p.testimonial-2 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+p.testimonial-2 > span {
+    font-size: 75%;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+div.table-res { float: left; width: 100%; }
+
+div.table-res .table-header {
+    background: #3E3B32 URL('/images/dark-crosshatch.png');
+    float: left;
+    display: block;
+    width: 100%;
+    margin: 20px 0 0;
+    padding: 1px 0px 8px 0px;
+}
+
+div.table-res > table.res {
+    float: left;
+    display: block;
+    width: 100%;
+    margin: 0px 0px 20px;
+    background-color: #fff;
+}
+
+
+table.res thead th {
+    background-color: #f2efe4;
+}
+
+table.res th,
+table.res td,
+table.volume-pricing th,
+table.volume-pricing td { text-align: center; }
+
+table.art-book-printing thead th {
+    background-color: #eee;
+}
+
+table.art-book-printing thead th.bg-t-blue {
+    background-color: #56acbe;
+    color: #fff;
+}
+
+table.art-book-printing tbody tr td.bg-t-lt-blue {
+    background-color: #E5F3F5;
 }

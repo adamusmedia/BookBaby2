@@ -4,11 +4,11 @@
 
 
 
-<div class="container-fluid bg-lt-blue-2 plr-0">
+<div class="container-fluid bg-lt-blue-2 plr-0 pb-20">
     <div class="container plr-0">
-        <section class="jumbotron mb-0">
+        <section class="jumbotron">
 
-			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-6 text-left text-center-mobile">
+			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-6 text-left text-center-xs">
 				<p class="h1-leadin">eBOOK PUBLISHING &amp; CONVERSION</p>
 				<h1 class="alt">The complete eBook self-publishing package</h1>
 				<h2 class="alt">Everything you need: eBook conversion, promotion & distribution for just $149</h2>
@@ -159,17 +159,6 @@
 
     
     
-    
-    
-<div class="container-fluid bg-cream">
-    <div class="container">
-
-             
- 
-            
-    </div>
-</div>
-
 
 
 <div class="container-fluid bg-dk-blue section-padding-default">

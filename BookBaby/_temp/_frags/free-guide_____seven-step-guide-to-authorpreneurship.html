@@ -316,7 +316,7 @@
 
 
 
-    <form method="post" action="/free-guide/seven-step-guide-to-authorpreneurship.aspx" id="form1">
+<form method="post" action="/free-guide/seven-step-guide-to-authorpreneurship.aspx" id="form1">
 <div class="aspNetHidden">
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
@@ -396,354 +396,6 @@ function __doPostBack(eventTarget, eventArgument) {
 	</div>
 </div><!--container-meta-nav-->
 
-            
-
-	<link rel="stylesheet" type="text/css" href="/plugins/avlModal/styles/avlModal.css" />
-<style type="text/css">
-        
-    .edit-button
-	{
-	    float:right;
-	    margin-top: 10px;
-    }
-    
-    .login-button
-    {
-        width:50px;
-        
-    }
-	#update-your-browser-banner
-	{
-		line-height: 26px;
-		background-color: #ccd00a;
-		font-size: 14px;
-		padding: 10px;
-		font-weight: bold;
-		text-align: center;
-		display: none;
-		width: 100%;
-		cursor: pointer;
-		position:fixed;
-		top:0px;
-		left:0px;
-		z-index:9999;
-	}
-	#updateYourBrowser li{
-		float: left;
-		margin: 12px 12px 34px 12px;
-		text-align: center;
-		
-	}
-	#updateYourBrowser .button-container .button {
-		float: right;
-	}
-
-	#updateYourBrowser li div{
-		background-image: url(../../images/sprites/browserlogos.png);
-		background-repeat:no-repeat;
-		width: 100px;
-		height: 100px;
-	}
-	#lnk-chrome{background-position: -4px 0;}
-	#lnk-firefox{background-position: -171px 0;}
-	#lnk-safari{background-position: -340px 0;}
-	#lnk-ie{background-position:-495px 0;}
-
-</style>
-
-<script type="text/javascript">
-	// --- Session timeout notification and expiration vars ---
-
-	var jsTimeoutNotify;
-	var jsTimeoutExpire;
-	var sessTimeoutExpire = 0;
-	var sessTimeoutNotify = sessTimeoutExpire - 300000;
-	var autoRefresh;
-
-	// --- end ---
-
-	$(document).ready(function() {
-		FeatureDetection();
-	});
-
-	function FeatureDetection() {
-		//detect base support at the site level  checking for audio support elimintates IE8 this should be expanded to include common failure points in older browsers based on actual features used.
-		if (!Modernizr.audio) {
-			if($.cookie('updatebrowser') !== "true"){
-				updateYourBrowserModal();
-			}
-			if(!$('#update-your-browser-banner').length){
-				var headerElem = ($("#container-meta-nav").length > 0) ? "#container-meta-nav" : "#header";
-				$('<div id="update-your-browser-banner" onclick ="updateYourBrowserModal();">NOTE: Your browser is out of date and no longer supported by BookBaby.  Please upgrade or use a different browser for the best experience. </div>').insertBefore(headerElem)
-				
-				$("#update-your-browser-banner").show();
-				if($("#home-hero").length > 0) {
-					$("#home-hero").css('marginTop','+=45px');
-				}
-				if($("#content-hero").length > 0) {
-					$("#content-hero").attr('style','margin-top: 180px !important');
-				}
-				if($("#content-wrapper").length > 0) {
-					if($("#content-hero").length == 0 && $("#campaign-content-hero").length == 0) {
-						$("#content-wrapper").attr('style','margin-top: 180px !important');
-					}
-				}
-				if($("#container-meta-nav").length > 0) {
-					$("#container-meta-nav").css('top','+=45px');
-					$("#header").css('top','+=45px');
-				}else {
-					$("#update-your-browser-banner").css("position","relative");
-				}
-			}
-		}
-	}
-	function createUpdateBrowserCookie(){
-		$.cookie('updatebrowser', true);
-	}
-	function updateYourBrowserModal(){
-	    $.openModal({ target: '#updateYourBrowser', width: '530px', closeButtonFunction: createUpdateBrowserCookie });
-	}
-  
-</script>
-<script type="text/javascript" src="/js/session-notification.js"></script>
-
-<div id="updateYourBrowser" class="avlModal-container">
-    <div class="avlModal-wrapper">
-        <div class="avlModal-header"> We need to talk. </div>
-        <div class="avlModal-content">
-	        <p>The web browser you're using to surf the web is so old it’s embarrassing. But hey, we hope you consider us a friend, the kind of friend you can count on to tell you when there's spinach stuck between your teeth. So here it goes: every time you surf the web with that antiquated web browser it’s like you have spinach in your teeth. Every time you get online, spinach!</p>
-	        <p>Look, we don't want you to be the butt of any more jokes when the sites you visit don't load or function properly. So please - for your own sake - click on one of the links for your preferred browser below, and get that spinach out of your teeth for good.</p>
-	        <p>We’re glad we were able to have this talk.  </p>
-	        <ul>
-		        <li><a href="http://www.google.com/chrome/" target="_blank"><div id="lnk-chrome"></div>Google Chrome</a></li>
-		        <li><a href="https://www.mozilla.com/firefox/" target="_blank"><div id="lnk-firefox"> </div>Mozilla Firefox</a></li>
-		        <li><a href="http://www.apple.com/safari/download/" target="_blank"><div id="lnk-safari"></div>Safari</a></li>
-		        <li><a href="http://www.microsoft.com/windows/internet-explorer" target="_blank"><div id="lnk-ie"></div>Internet Explorer</a></li>
-	        </ul>
-	        <div class="modal-buttons">
-		        <a href="javascript:;" class="button" onclick="$.closeModal({target:'#updateYourBrowser'});createUpdateBrowserCookie();">Close</a>
-	        </div>
-        </div>
-    </div>
-</div>
-
-<div id="header">
-	<div class="inner-wrap float-container">
-	<a href="/" id="logo">
-			<img src="../../images/nav-logo2.png"  alt="BookBaby Book Printing & Self Publishing Services Made Easy" title="BookBaby Book Printing & Self Publishing Services Made Easy"/>
-	</a>
-		
-
-<ul id="navigation" class="dropdown">
-    <li><a href="/book-printing" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Make a book']);"><span>Book Printing</span></a>
-        <ul class="sub_menu make-a-book">
-        	<li><a href="/book-printing" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Book styles overview']);"><span>Book Printing Overview</span></a></li>
-        	<li><a href="/book-genres-and-styles" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Book styles']);"><span>Book styles</span></a></li>
-			<li><a href="/print-on-demand" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Print On Demand']);"><span>Print On Demand</span></a></li>
-            <li><a href="/book-distribution" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Book Distribution']);"><span>Book distribution</span></a></li>
-            <li><a href="/complete-self-publishing-package"  onclick="_gaq.push(['_trackEvent', 'PEAPOD', 'Click', 'Header-e-book-printing']);" ><span>The Complete Self-Publishing Package</span></a></li>
-        	<li><a href="/templates" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Templates']);"><span>Templates</span></a></li>
-			<li><a href="/how-to-make-a-book" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'HowItWorks']);"><span>How to make a book</span></a></li>
-        	<li><a href="/book-trim-sizes-and-binding-options" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Preparing for Book Printing']);"><span>Preparing for book printing</span></a></li>
-            <li><a href="/wholesale-book-printing" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Wholesale Book Printing']);"><span>Wholesale Book Printing</span></a></li>
-			<li><a href="/quoter/confighandler.aspx" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Get started']);"><span>Get started</span></a></li>
-        </ul>
-    </li>
-    
-    <li><a onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBooks']);" href="/ebooks"><span>eBooks</span></a>
-        <ul class="sub_menu services">
-        	<li><a href="/ebooks" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBooks overview']);"><span>eBooks Overview</span></a></li>
-			<li><a href="/ebook-services" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBook publishing & conversion']);"><span>eBook publishing & conversion</span></a></li>
-            <li><a href="/ebook-distribution" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBook distribution']);"><span>eBook distribution</span></a></li>
-            <li><a href="/complete-self-publishing-package"  onclick="_gaq.push(['_trackEvent', 'PEAPOD', 'Click', 'Header-e-ebooks']);" ><span>The Complete Self-Publishing Package</span></a></li>
-			<li><a href="/fixed-layout-ebooks" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Fixed Layout books']);"><span>Fixed layout iBooks</span></a></li>
-            <li><a href="/how-to-make-an-ebook" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'How it works']);"><span>How to make an eBook</span></a></li>
-            <li><a href="/ebook-conversion-tips" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Preparing your files']);"><span>Preparing your files</span></a></li>
-            <li><a href="/quoter/confighandler.aspx" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Get started']);"><span>Get started</span></a></li>
-        </ul>
-    </li>
-    
-    <li><a onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Services']);" href="/self-publishing-book-services"><span>Services</span></a>
-        <ul class="sub_menu services">
-        	<li><a href="/book-editing-services" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookEditingServices']);"><span><span class="orange"><em>NEW!</em></span> Editing</span></a></li>
-			<li><a href="/book-cover-design" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookCoverDesign']);"><span>Printed book cover design</span></a></li>
-            <li><a href="/ebook-cover-design" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'eBookCoverDesign']);"><span>eBook cover design</span></a></li>
-            <li><a href="/book-formatting" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'InteriorPrintDesignFormatting']);"><span>Interior print design &amp; formatting</span></a></li>
-            <li><a href="/bookpromo" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookPromo']);"><span>BookPromo&trade;</span></a></li>
-            <li><a href="/bookshop" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookShop']);"><span>BookShop&trade;</span></a></li>
-            <li><a href="/book-scanning" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'BookScanningServices']);"><span>Scanning</span></a></li>
-            <li><a href="/press-release" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Press Releases']);"><span>Press releases</span></a></li>
-            <li class="last"><a href="/websites-for-authors" onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Web Hosting for Authors']);"><span>Web hosting for authors</span></a></li>
-        </ul>
-    </li>
-    
-    <li><a onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Help']);" href="http://support.bookbaby.com/">Help</a></li>
-	<li><a onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Pricing']);" href="/pricing">What we do</a></li>
-    <li><a onclick="_gaq.push(['_trackEvent', 'navigation', 'Click', 'Get started']);" href="/quoter/confighandler.aspx">Pricing</a></li>
-   <!-- <li style="margin-right:0; padding-right:0;"><a href="tel:1-877-961-6878" class="cursor-default" style="padding-right:0;"><span class="condensed-phone" style="padding-right:0;">1-877-961-6878</span></a></li>-->
-</ul>
-		
-	</div><!-- .inner_wrap -->
-</div> <!-- #header -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -765,7 +417,7 @@ function __doPostBack(eventTarget, eventArgument) {
                
               
 				<p>Fill out the information below to get your free copy right now.</p>
-				<script type="text/javascript">
+<script type="text/javascript">
 //<![CDATA[
 Sys.WebForms.PageRequestManager._initialize('ctl00$contentMain$ucEmailNameAddress$scriptManager', 'form1', ['tctl00$contentMain$ucEmailNameAddress$upAddressPanel','contentMain_ucEmailNameAddress_upAddressPanel'], [], [], 90, 'ctl00');
 //]]>
@@ -813,7 +465,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$contentMain$ucEmailNameAddres
                     <li>
                         <p class="dropdown-mask dd-country" title="Please choose your country.">
                             <label for="contentMain_ucEmailNameAddress_ddlCountries" id="contentMain_ucEmailNameAddress_lblCountry" class="inputted">Country</label>
-                            <select name="ctl00$contentMain$ucEmailNameAddress$ddlCountries" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$contentMain$ucEmailNameAddress$ddlCountries\&#39;,\&#39;\&#39;)&#39;, 0)" id="contentMain_ucEmailNameAddress_ddlCountries" tabindex="7" class="dropdown no-reset" data-validation="req-selection">
+<select name="ctl00$contentMain$ucEmailNameAddress$ddlCountries" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$contentMain$ucEmailNameAddress$ddlCountries\&#39;,\&#39;\&#39;)&#39;, 0)" id="contentMain_ucEmailNameAddress_ddlCountries" tabindex="7" class="dropdown no-reset" data-validation="req-selection">
 		<option selected="selected" value="US">United States of America</option>
 		<option value="USV">U.S. – Virgin Islands</option>
 		<option value="AF">Afghanistan</option>
@@ -1065,9 +717,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$contentMain$ucEmailNameAddres
 		<option value="EH">Western Sahara</option>
 		<option value="YE">Yemen</option>
 		<option value="ZAM">Zambia</option>
-		<option value="ZIM">Zimbabwe</option>
-
-	</select>
+		<option value="ZIM">Zimbabwe</option></select>
                         </p>
                     </li>
                     <li>
@@ -1104,7 +754,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$contentMain$ucEmailNameAddres
                     <li>
                         <p class="dropdown-mask dd-states" title="Please choose your state.">
                             <label for="contentMain_ucEmailNameAddress_ddlStates" id="contentMain_ucEmailNameAddress_lblStateDD" class="inputted">State</label>
-                            <select name="ctl00$contentMain$ucEmailNameAddress$ddlStates" id="contentMain_ucEmailNameAddress_ddlStates" tabindex="12" class="dropdown" data-override-server="true" data-validation="req-selection" data-loader="true" autocomplete="off">
+<select name="ctl00$contentMain$ucEmailNameAddress$ddlStates" id="contentMain_ucEmailNameAddress_ddlStates" tabindex="12" class="dropdown" data-override-server="true" data-validation="req-selection" data-loader="true" autocomplete="off">
 		<option selected="selected" value="AA">APO/FPO-Armed Forces Americas</option>
 		<option value="AE">APO/FPO-Armed Forces Europe</option>
 		<option value="AK">Alaska</option>
@@ -1165,8 +815,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$contentMain$ucEmailNameAddres
 		<option value="WI">Wisconsin</option>
 		<option value="WV">West Virginia</option>
 		<option value="WY">Wyoming</option>
-
-	</select>
+</select>
                         </p>
                     </li>
                     <li>
@@ -1196,349 +845,35 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$contentMain$ucEmailNameAddres
 
 
             
-<!--<div class="trustpilot-widget" style="background-color:#3e3b32; padding:15px 0;" data-locale="en-US" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="4f5a56f600006400051390aa" data-style-height="20px" data-style-width="100%" data-theme="dark">
-    <a href="/reviews" target="_blank">Trustpilot</a>
-</div>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="footer-bands">
-    <div class="footer-bands-inner-wrap">
-        <div id="footer-signup-container" class="footer-input-container">
-    		<div id="footer-signup-input" class="footer-input">
-                <div id="ucFooter_pnlNewsletter" class=" footer-signup-form responsive-form" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ucFooter_btnSubmitSignup&#39;)">
-	
-                    <fieldset class="no-border">
-                        <ul>
-                            <li>
-                                <p id ="txtEmailMask" class="textbox-mask txt-email" title="Please enter a valid Email">
-                                    <input type="submit" name="ctl00$ucFooter$btnSubmitSignup" value="" onclick="return ValidateInputs(event, $(&#39;.footer-signup-form&#39;), signupBBP);" id="ucFooter_btnSubmitSignup" class="button a-signup" />
-                                    <label for="control_EMAIL" onclick="focusSignUpEmail">Sign up for BookBaby's email newsletter!</label>
-                                    <input type="text" id="control_EMAIL" class="req-email textbox control_EMAIL hinted no-sisy no-focus footer-email"  maxlength="64" data-validation="req-email"/>
-                                </p>
-                            </li>
-                        </ul>
-                    </fieldset>
-                
-</div>
-			</div>
- 		</div>
-        <div class="footer-social">
-			<a class="a-social facebook" title="Join us on Facebook" target="_blank" href="https://www.facebook.com/bookbaby"></a>
-			<a class="a-social twitter" title="Follow us on Twitter" target="_blank" href="https://twitter.com/bookbaby"></a>
-			<a class="a-social insta" title="Follow us on Instagram" target="_blank" href="https://instagram.com/bookbabyofficial"></a>
-			<a class="a-social pinterest" title="Follow us on Pinterest" target="_blank" href="https://www.pinterest.com/bookbabybooks/"></a>
-			<a class="a-social youtube" title="Join us on Youtube" target="_blank" href="https://www.youtube.com/bookbaby "></a>
-			<a class="a-social gplus" title="Join us on Google Plus" target="_blank" href="https://plus.google.com/100384963916732390896"></a>
-			<a class="a-social wp" title="Join us on our Blog" target="_blank" href="https://blog.bookbaby.com"></a>
-            <a class="a-social linkedin last" title="Join us on Linkedin" target="_blank" href="https://www.linkedin.com/company/bookbaby"></a>
-        </div>
-    </div>	
-</section>
-
-<section id="footer-link">
-	<div class="inner-wrap">
-		<div class="footer-column">
-			<ul>
-				<li class="list-title">
-				<a href="/">Make a Book</a>
-				</li>
-				<li><a href="/book-printing">Book Printing</a></li>
-				<li><a href="/book-distribution">Book Distribution</a></li>
-                <li><a href="/complete-self-publishing-package" onclick="_gaq.push(['_trackEvent', 'PEAPOD', 'Click', 'Footer-e']);">The Complete Self-Publishing Package</a></li>
-                <li><a href="/book-genres-and-styles">Book Styles</a></li>
-				<li><a href="/book-trim-sizes-and-binding-options">Book Binding Styles</a></li>
-                <li><a href="/print-on-demand">Print On Demand</a></li>
-                <li><a href="/ebooks">eBooks</a></li>
-				<li><a href="/ebook-services">eBook Publishing &amp; Conversion</a></li>
-                <li><a href="/ebook-distribution">eBook Distribution</a></li>
-				<li><a href="/fixed-layout-ebooks">Fixed Layout eBooks</a></li>
-                <li><a href="/wholesale-book-printing">Wholesale Book Printing</a></li>
-				<li><a href="/pricing">Pricing</a></li>
-                <!--<li><a href="/volume-pricing">Volume Pricing</a></li>-->
-        </ul>
-		</div>
-			
-		<div class="footer-column">
-			<ul>
-				<li class="list-title"><a href="/self-publishing-book-services">Services</a></li>
-			<li><a href="/book-cover-design">Printed Book Cover Design</a></li>
-			<li><a href="/ebook-cover-design">eBook Cover Design</a></li>
-			<li><a href="/book-formatting">Interior Book Design &amp; Formatting</a></li>
-            <li><a href="/bookpromo">BookPromo™</a></li>
-			<li><a href="/bookshop">BookShop™</a></li>
-			<li><a href="/book-editing-services">Editing</a></li>
-			<li><a href="/book-scanning">Scanning</a></li>
-			<li><a href="/press-release">Press Release Distribution</a></li>
-			<li><a href="/agencies">Solutions for Agents<br>and Publishers</a></li>
-			<li><a href="/government">Solutions for Government Agencies</a></li>
-            <li><a href="/yearbook-printing">Solutions for Schools</a></li>
-			</ul>
-		</div>
-		<div class="footer-column">
-			<ul>
-			<li class="list-title"><a href="http://support.bookbaby.com">Help</a></li>
-			<li><a href="/pages/pdf/book-printing-preparation-checklist.pdf">Preparing Your Book<br>Printing Files</a></li>
-			<li><a href="/ebook-conversion-tips">Preparing Your eBook Files</a></li>
-			<li><a href="/how-to-make-a-book">How To Make A Book</a></li>
-			<li><a href="/how-to-make-an-ebook">How to Make an eBook</a></li>
-            <li><a href="/templates">Design Templates </a></li>
-			<li><a href="/package-comparison">Book Printing<br>Comparison Chart</a></li>
-			<li><a href="/book-trim-sizes-and-binding-options">Genre &amp; Trim Size<br>Recommendations</a></li>
-			<li><a href="http://support.bookbaby.com">Frequently Asked Questions</a></li>
-			<li><a href="/free-publishing-guides">Free Guides</a></li>
-            <li><a href="/bookbaby-vs-createspace">BookBaby vs. CreateSpace</a></li>
-            <li><a href="/bookbaby-vs-lulu">BookBaby vs. Lulu</a></li>
-            <li><a href="/how-to-sell-books-online-with-print-on-demand">Making the Most of<br /> Print On Demand</a></li>
-			
-        </ul>
-		</div>
-						
-		<div class="footer-column">
-			<ul>
-				<li class="list-title"><a href="/about-bookbaby">About Us</a></li>
-		    	<li><a href="/press">Press</a></li>
-				<li><a href="/guarantee">Satisfaction Guarantee</a></li>
-				<li><a href="/low-price-promise">Low Price Promise</a></li>
-				<li><a href="/reviews">Customer Reviews</a></li>
-				<li><a href="/terms-of-service">Terms of Service</a></li>
-				<li><a href="/privacy">Privacy Policy</a></li>
-				<li><a href="/shipping">Shipping Policy</a></li>
-				<li><a href="/return-policy">Return &amp; Cancellation Policy</a></li>
-                <li><a href="/careers">Careers</a></li>
-				<li><a href="/contact">Contact Us</a></li>
-                <li><a href="/bookbaby-partnership-opportunities.aspx">Partner with BookBaby</a></li>
-                <li><a href="/coupons-and-deals">Coupons & Special Offers</a></li>
-				<li><a href="/sitemap">Sitemap</a></li>
-			</ul>
-		</div>
-			
-		<div class="footer-column">
-			<ul>
-				<li class="list-title">Our Community</li>
-                <li><a href="http://blog.bookbaby.com">Blog</a></li>
-				<li><a href="/bookbaby-affiliate-program">BookBaby Affiliate Program</a></li>
-				<li><a href="https://www.cdbaby.com/" target="_blank">CD Baby Music Store</a></li>
-				<li><a href="https://members.cdbaby.com/" target="_blank">CD Baby: Sell Music Online</a></li>
-				<li><a href="https://www.hostbaby.com/" target="_blank">HostBaby: Websites<br>for Authors</a></li>
-                <li><a href="/friends-of-bookbaby">Author Resources</a></li>
-                <li><a href="/materials.aspx">Materials License Form</a></li>
-                <li><a href="/brand-guidelines">Brand Guidelines</a></li>
-                <li><a href="/free-guide/twitter-chat">Twitter Chat</a></li>
-			</ul>
-		</div>
-
-
-	</div>	
-</section>
-
-<div class="trustpilot-widget" style="background-color:#2d2c25; padding-top:40px;" data-locale="en-US" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="4f5a56f600006400051390aa" data-style-height="150px" data-style-width="100%" data-theme="dark">
-    <a href="https://www.trustpilot.com/review/bookbaby.com" target="_blank">Trustpilot</a>
-</div>
-
-<section id="footer-bottom">
-	<div class="inner-wrap">
-		<div id="footer-logo">
-			<a href="http://www.bookbaby.com" id="footer-logo-link" title="Book Printing &amp; Self Publishing Services Made Easy">
-				<img src="../../images/home/footer-logo.gif" alt="BookBaby"/>
-				Book Printing &amp; Self Publishing Services Made Easy
-			</a>
-		</div><!-- #float-logo-->
-
-		<div id="footer-usa">
-			Made in the U.S.A. <img src="../../images/home/usa-flagwave.png" alt="Made in the U.S.A."/>
-		</div> <!-- #footer-social-->
-	</div> <!-- inner-wrap -->
-</section>
-
-	
-
-
-
-            
 
         </div>
     </form>
 
-    <div id="loader" class="avlModal-container" style="background-color: transparent !important;">
-        <div class="avlModal-content">
-            <div class="avlModal-content">
-                <img src="/Images/async-loader-green2.gif" alt="loading" style="position: absolute; top: 50%; left: 50%;" />
-            </div>
-        </div>
-    </div>
 
-    <div id="session-warning" class="avlModal-container">
-        <div class="avlModal-content">
-            <div class="avlModal-header">Session Expiration Warning</div>
-            <div class="avlModal-content">
-                <p>Your BookBaby online session is due to expire shortly.  Would you like to extend your session and remain logged in?</p>
-                <div class="session-button-container modal-buttons">
-                    <a href="javascript:;" class="button" onclick="return TimeoutNotificationYes();" title="Yes, extend my BookBaby session">Yes</a>
-                </div>
-            </div>
 
-        </div>
-    </div>
 
-    <div id="session-expiration" class="avlModal-container">
-        <div class="avlModal-wrapper">
-            <div class="avlModal-header">Session Expiration</div>
-            <div class="avlModal-content">
-                <p>We're sorry, but your BookBaby online session has expired.</p>
-                <div class="session-button-container modal-buttons">
-                    <a href="/Account" class="button light-blue" title="Log back into my account">Login</a>
-                    <div style="clear: both;"></div>
-                </div>
-            </div>
 
-        </div>
-    </div>
 
-    
 
-    <div id="pnlEngageModalLogin">
-	
-        <div id="engage-modal-login" class="avlModal-container">
-            <div class="avlModal-wrapper">  
-                <div class="avlModal-header">Social login</div>
-                <div class="avlModal-content">
-                    <div id="janrainEngageEmbed" style="margin-left: 45px;"></div>
-                    <p style="text-align: center; color: #666; font-size: 11px;">We will <strong>NEVER</strong> post anything to your social profiles.</p>
-                </div>
-            </div>
-        </div>
-    
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- <img src="/plugins/avlmodal/images/closeX.png" height="1" width="1" alt="" />
 	<img src="/plugins/avlmodal/images/overlay.png" height="1" width="1" alt="" />

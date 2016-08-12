@@ -48,9 +48,6 @@
 /* ******************************* */
 /* 0 - 767 */
 @media all and (min-width: 0px) and (max-width: 767px) {
-    .text-center-xs,
-    .text-center-mobile { text-align: center!important; }
-
     .text-100-mobile { width: 100%; }
 }
 
@@ -85,6 +82,30 @@
 
 }
 /* ******************************* */
+
+
+
+
+
+
+
+
+
+
+/* ******************************* */
+@media (min-width: 0px) and (max-width: 991px) {
+    .container-fluid .text-center-xs-sm,
+    .container-fluid .text-center-mobile {
+        text-align: center;
+    }
+}
+/* ******************************* */
+
+
+
+
+
+
 
 
 
