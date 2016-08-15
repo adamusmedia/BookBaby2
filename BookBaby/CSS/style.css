@@ -16,6 +16,8 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
 .ptb-20 { padding: 20px 0; }
 .ptb-40 { padding: 40px 0 50px; }
 
+.plr-0 { padding-left: 0; padding-right: 0; }
+
 .mtb-40 { margin-top: 40px; margin-bottom: 40px; }
 .mtb-50 { margin-top: 50px; margin-bottom: 50px; }
 
@@ -336,10 +338,14 @@ a.tdn { text-decoration: none; }
 .bg-guarantee { background-image: url("/images/guarantee-hero.jpg"); border-bottom: solid 2px #A9A59D; padding-bottom:90px; }
 .bg-art-book-printing { background-image: url("/images/artbooks-hero-image.jpg"); }
 .bg-photo-book-printing { background-image: url("/images/photobooks-hero-image.jpg"); }
-
+.bg-how-to-make-a-book { background-image: url("/images/how-to-make-a-book-hero.jpg"); }
+.bg-friends-of-bookbaby { background-image: url("/Images/partner-hero.jpg"); }
 
 
 .free-guide-img > img { max-height: 400px; display: block; }
+
+
+
 
 /* buttons */
 .btn-orange {    
@@ -518,6 +524,7 @@ h2.semibold { font-weight: 600; }
 
 .white { color: #fff!important; }
 .black { color: #000!important; }
+.orange { color: #EC8606; }
 
 p.subhead { font-weight: 600; font-size: 130%; }
 
@@ -760,3 +767,8 @@ h4.price { margin-top: 3px; }
     font-weight: 400;
     margin-bottom: 0;
 }
+
+
+
+
+.box-white-border-grey { background-color: #fff; border: 1px solid #ccc; padding: 15px; }

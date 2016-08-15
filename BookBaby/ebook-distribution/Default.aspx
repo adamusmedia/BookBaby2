@@ -220,7 +220,7 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 text-left text-center-xs">
-					<a href="#" class="tdn"><h3 class="title-bold">Vearsa</h3></a>
+					<a href="#" class="tdn"><h3 class="title-bold"><em class="orange">NEW! </em>Vearsa</h3></a>
 					<p>Vearsa blazes new trails for BookBaby authors. Within a few weeks of publishing, your eBook will be available in regional eBook retail outlets across a wide variety of territory and genre-specific stores.</p>
                 </div>
             </div>
