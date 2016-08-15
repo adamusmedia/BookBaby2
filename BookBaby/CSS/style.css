@@ -22,7 +22,12 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
 
 .mp-0 { margin: 0; padding: 0; }
 
+
+.p-0 { padding: 0px; }
+.p-10 { padding: 10px; }
 .p-20 { padding: 20px; }
+.p-30 { padding: 30px; }
+.p-40 { padding: 40px; }
 
 .pb-0 { padding-bottom: 0px; }
 .pb-10 { padding-bottom: 10px; }
@@ -263,6 +268,11 @@ a.tdn { text-decoration: none; }
     padding-bottom: 40px;
     margin-bottom: 60px;
 }
+.article-divider-2 {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
 
 .article-divider.mp-0 {
     border-bottom: 1px solid #CCC;
@@ -314,6 +324,7 @@ a.tdn { text-decoration: none; }
 .bg-home-s-6 { background-image: url("../Images/home/great-book-background.jpg"); }
 .bg-home-hero { background-image: url("/Images/home/home-hero.jpg"); }
 .bg-ebooks { background-image: url("/Images/ebooks-hero.jpg"); }
+.bg-ebook-distribution { background-image: url("/images/ebook-distribution-hero.png"); }
 .bg-wood-panel { background-image: url("/Images/redesign-wood-hero.png"); }
 .bg-wood-2 { background-image: url("../Images/photobooks-woodbkgrd.jpg"); }
 .bg-free-guide { background-image: url("/Images/redesign-wood-hero.png"); }
@@ -488,10 +499,22 @@ h2.semibold { font-weight: 600; }
     color: #666;
     font-family: "Open Sans Condensed",Open Sans Condensed,sans-serif;
     font-weight: 300;
-
+/*
     font-size: 50px;
     line-height: 65px;
+*/
 }
+
+.price.reg {
+    font-weight: 600;
+}
+
+.price.large {
+    font-weight: 600;
+}
+
+
+
 
 .white { color: #fff!important; }
 .black { color: #000!important; }
@@ -701,4 +724,39 @@ table.art-book-printing thead th.bg-t-blue {
 
 table.art-book-printing tbody tr td.bg-t-lt-blue {
     background-color: #E5F3F5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grey-title-block {
+    background-color: #838179;
+    width: 100%;
+    text-align: center;
+    padding: 5px 3px 10px;
+}
+
+.title-thin {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h4.price { margin-top: 3px; }
+
+.price-leadin {
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 0;
 }

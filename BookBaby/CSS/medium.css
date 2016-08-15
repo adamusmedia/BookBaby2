@@ -26,7 +26,17 @@
 */
 
 
-
+    
+    
+    .price.reg {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    
+    .price.large {
+        font-size: 55px;
+        line-height: 65px;
+    }
     
     .bg-book-printing { padding-bottom: 400px; }
     

@@ -25,7 +25,15 @@
     h2.title-big-bold { font-size: 30px; font-weight: 700; }
 */
 
-
+    .price.reg {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .price.large {
+        font-size: 40px;
+        line-height: 50px;
+    }
 
 
     .bg-book-printing { padding-bottom: 200px; }

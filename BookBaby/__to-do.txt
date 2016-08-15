@@ -3,7 +3,7 @@
 
 go back and put content in:
 - templates
-
+- bookshop (comp[lex table area) - make 2 tables
 
 
 
