@@ -340,6 +340,7 @@ a.tdn { text-decoration: none; }
 .bg-photo-book-printing { background-image: url("/images/photobooks-hero-image.jpg"); }
 .bg-how-to-make-a-book { background-image: url("/images/how-to-make-a-book-hero.jpg"); }
 .bg-friends-of-bookbaby { background-image: url("/Images/partner-hero.jpg"); }
+.bg-bb-vs-createspace { background-image: url("/images/bookbaby-vs-createspace-hero.jpg"); }
 
 
 .free-guide-img > img { max-height: 400px; display: block; }
@@ -724,14 +725,34 @@ table.art-book-printing thead th {
     background-color: #eee;
 }
 
-table.art-book-printing thead th.bg-t-blue {
+table.art-book-printing thead th.bg-t-blue,
+table.vs-createspace thead th.bg-t-blue,
+table.vs-lulu thead th.bg-t-blue {
     background-color: #56acbe;
     color: #fff;
 }
 
-table.art-book-printing tbody tr td.bg-t-lt-blue {
+table.art-book-printing tbody tr td.bg-t-lt-blue,
+table.vs-createspace tbody tr td.bg-t-lt-blue,
+table.vs-lulu tbody tr td.bg-t-lt-blue {
     background-color: #E5F3F5;
 }
+
+table.vs-createspace thead tr th:nth-child(1),
+table.vs-createspace tbody tr td:nth-child(1),
+table.vs-lulu thead tr th:nth-child(1),
+table.vs-lulu tbody tr td:nth-child(1) {
+    width: 50%;
+}
+
+
+table.vs-createspace thead tr th:nth-child(n+2),
+table.vs-createspace tbody tr td:nth-child(n+2),
+table.vs-lulu thead tr th:nth-child(n+2),
+table.vs-lulu tbody tr td:nth-child(n+2) {
+    width: 25%;
+}
+
 
 
 

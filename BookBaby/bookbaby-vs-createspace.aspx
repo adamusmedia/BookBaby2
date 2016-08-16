@@ -1,13 +1,12 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="MasterPage.master" CodeFile="Default.aspx.cs" Inherits="Default" %>
 <asp:Content runat="server" ContentPlaceHolderID="pageContent">
 
-    <div class="container-fluid bg-img bg-photo-book-printing">
+    <div class="container-fluid bg-img bg-bb-vs-createspace">
         <div class="container">
             <div class="row">
                 <section class="jumbotron light">
-                    <h1 class="title pt-35">Photography Book Printing</h1>
-                    <h2 class="subtitle">Gain more exposure with a stunning photo book</h2>
-                    <a href="/quoter/confighandler.aspx?configid=900177871&amp;itemid=BBP-Book-Print&amp;qty=100&amp;pagecount=68&amp;proditemid=EXTTURN" class="btn btn-center btn-orange btn-lg" role="button"  onclick="_gaq.push(['_trackEvent', 'products', 'Click', 'artbooks-get-started-hero']);">Get Started</a>
+                    <h1 class="title pt-35 mb-0">BookBaby vs. CreateSpace</h1>
+                    <h2 class="subtitle pb-30 mt-0">Who should you trust with your all-important book project?</h2>
                 </section>
             </div>
 
@@ -20,198 +19,176 @@
 
 
 
-<div class="container-fluid bg-white col-2-blocks">
-    <div class="row">
-
-        <section class="container-fluid">
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400">
-                        <h2 class="condensed">Create a beautiful coffee table book that you will be proud to call your own.</h2>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-                    <div class="mw-400">
-                        <p>When it comes to professional photo book printing, image is everything. If you’re printing a photography book you need a printer who can deliver the absolute highest-quality printing so that your photographs can truly amaze. This is a case when even excellent printing isn’t good enough–you need perfection and that is what BookBaby delivers, day in, day out. But don’t take our word for it. You can order <a href="/single-book-printing">one copy of your photography book for just $19 and see for yourself</a>.</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-    </div>
-</div>
-
- 
-
-<div class="container-fluid bg-forest-green col-2-blocks">
-    <div class="row">
-
-        <section class="container-fluid">
-            <div class="row">
-
-                <div class="col-xs-12 visible-xs bg-img-half bg-pbp-s-2"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400">
-                        <h2 class="condensed white">BookBaby is the exclusive printer for Outdoor Photographer's "American Landscapes" series</h2>
-                        <p class="white">BookBaby makes it easy to order and publish a photo book online. We provide easy-to-use book printing templates so you know your book will be perfect. You can order anywhere from 25 books to 10,000+ and with our brand new Print On Demand service, you can even sell physical copies of your photography book worldwide! (Our Print On Demand books are exactly the same as the books we produce for our larger runs. We use the same printing presses and are able to deliver the exact same quality.) All of our books are printed in our US-based, state-of-the-art printing facility and are backed by our 100% satisfaction guarantee.</p>
-                    </div>
-                </div>
-
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-pbp-s-2"></div>
-            </div>
-        </section>
-
-    </div>
-</div>
-
-
-
-
-
-<div class="container-fluid bg-md-grey bt-0">
-    <div class="row">
-        <section class="container ptb-40">
-
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 embed-responsive embed-responsive-16by9">
-	            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AV7A27C2pow?rel=0" frameborder="0" allowfullscreen></iframe>
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p class="testimonial-2 mt-30">“People will come up to me and say ‘Thank you for preserving these memories’ – It’s personal for them and it’s becoming personal for me.”
-                    <span>— Chuck Beard, Photographer</span>
-                </p>
-            </div>
-
-        </section>
-    </div>
-</div>
-
-
 
 <div class="container-fluid">
-    <div class="row">
-        <section class="container ptb-40">
-            
+    <div class="container">
 
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-text pb-35">
-                <h2 class="title-bold">Choose the style and binding for your custom photography book</h2>
-                <p>We offer both softcover and hardcover photo book printing options in a variety of sizes and paper stocks. Photography book <a href="/book-trim-sizes-and-binding-options">printing and binding options</a> include: spiral, perfect binding, or hardcover (casebound). Print from a PDF or have us <a href="/book-cover-design">design your book cover</a> and book interior. Here are some of our popular photography book styles:</p>
+        <h3 class="title-bold mt-40">Which publisher is right for you?</h3>
+        <p>We work closely with our valued partner Amazon to distribute your books to their massive audience. But Amazon offers their own Print on Demand service and we frequently get asked which company — BookBaby or CreateSpace — is the best for independent authors.</p>
+
+        <div class="col-xs-12 mtb-50 mt-20">
+            <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 list-image">
+           	    <img src="Images/bookbaby-vs-createspace-logos.jpg" alt="Worldwide distribution" title="Worldwide distribution" width="240" height="150" class="img-responsive center-block mt-20" />  
             </div>
 
-
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
-                <a href="/quoter/confighandler.aspx?configid=900175940&itemid=BBP-Book-Print&qty=100&pagecount=100&proditemid=EXTTURN"><img src="/Images/photobooks-thumb-square.png" alt="Large Square 10&quot; x 10&quot;" title="Large Square 10&quot; x 10&quot;" class="img-responsive center-block" /></a>
-
-                <h3 class="title-bold">Large Square 10" x 10"</h3>
-                <p>
-                    Casebound, 80lb gloss color
-                    <br />
-                    <a href="/quoter/confighandler.aspx?configid=900175940&itemid=BBP-Book-Print&qty=100&pagecount=100&proditemid=EXTTURN" class="link-orange">Get started</a>
-                </p>
+            <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8 text-left text-center-xs">
+                <h3 class="title-bold">BookBaby gives you Amazon and so much more </h3>
+                <p>CreateSpace is an excellent company. However, they primarily serve Amazon. At BookBaby we deliver your books (both eBooks and printed books through our Print on Demand program) to Amazon... AND you can get your books into hundreds of online and brick and mortar retail stores worldwide that are not available when you publish through CreateSpace. </p>
             </div>
+        </div>
+        <div class="article-divider clearfix mp-0"></div>
 
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
 
-                <a href="/quoter/confighandler.aspx?configid=900192259&itemid=BBP-Book-Print&qty=100&pagecount=100&proditemid=EXTTURN"><img src="/Images/photobooks-thumb-landscape.png" alt="Large Landscape 12&quot; x 9&quot;" title="Large Landscape 12&quot; x 9&quot;" class="img-responsive center-block" /></a>
-                <h3 class="title-bold">Large Landscape 12" x 9"</h3>
-                <p>
-                    Soft Cover, Perfect Binding, 80lb gloss color<br />
-                    <a href="/quoter/confighandler.aspx?configid=900192259&itemid=BBP-Book-Print&qty=100&pagecount=100&proditemid=EXTTURN" class="link-orange">Get started</a>
-                </p>
-            </div>
 
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
-                <a href="/quoter/confighandler.aspx?configid=900198411&itemid=BBP-Book-Print&qty=100&pagecount=100&proditemid=EXTTURN"><img src="/Images/photobooks-thumb-letter.png" alt="Letter 8.5&quot; x 11&quot;" title="Letter 8.5&quot; x 11&quot;" class="img-responsive center-block" /></a>
-                <h3 class="title-bold">Letter 8.5" x 11"</h3>
-                <p>
-                    Casebound, 80lb gloss color<br />
-                    <a href="/quoter/confighandler.aspx?configid=900198411&itemid=BBP-Book-Print&qty=100&pagecount=100&proditemid=EXTTURN" class="link-orange">Get started</a>
-                </p>
-            </div>
+        <div class="col-xs-12 mtb-50">
+            <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 list-image">
+	    			<img src="Images/bookbaby-vs-createspace-group.jpg" alt="Self-publishing experts" title="Self-publishing experts" width="240" height="170" class="img-responsive center-block mt-20" /> 						</div>
 
-            <div class="clearfix"></div>
+    		<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8 text-left text-center-xs">
+    			<h3 class="title-bold">A friendly expert is standing by to answer your questions </h3>
+        		<p>Publishing can be tricky and it’s often hard to get answers to your questions. Not with BookBaby. We believe in People Powered Publishing. Our self-publishing specialists are standing by to answer any and all of your questions. We think that makes us pretty unique in the publishing world and we do it because we want you to feel confident when you publish your book.</p>
+				<p>You can reach our specialists by phone, emails, and live chats, from 9 a.m. to 6 p.m. ET, Monday through Friday. </p>
+    		</div>
+        </div>
+        <div class="article-divider clearfix mp-0"></div>
 
-            <div id="col-xs-12 col-sm-12 col-md-12 col-lg-12 ptb-40 center-text">
-        	    <h3 class="title-bold">Add Print On Demand and eBooks to your printed book order.</h3>
-                <p><a href="/complete-self-publishing-package" class="link-orange">Learn more about the Complete Self-Publishing Package.</a></p>
-            </div>
 
-        </section>
+
+        <div class="col-xs-12 mtb-50">
+            <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 list-image">
+	    			<img src="Images/bookbaby-vs-createspace-errorfree.jpg" alt="Self-publishing experts" title="Self-publishing experts" width="240" height="150" class="img-responsive center-block mt-20" /> 
+    		</div>
+
+    		<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8 text-left text-center-xs">
+    			<h3 class="title-bold">BookBaby ensures error-free publishing </h3>
+        		<p>Authors who go elsewhere routinely complain that some companies allow out-of-spec files to go to print, resulting in badly-printed books. That doesn’t happen at BookBaby. Our prepress specialists look at every single page, of every single book, we print to make sure it’s perfect. That’s part of how we deliver the absolute highest-quality printed books to the marketplace.  </p>
+    		</div>
+        </div>
+        <div class="article-divider clearfix mp-0"></div>
+
+
+
+        <div class="col-xs-12 mtb-50">
+            <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 list-image">
+	    			<img src="Images/bookbaby-vs-createspace-authors.jpg" alt="Independent authors" title="Independent authors" width="240" height="150" class="img-responsive center-block mt-20" />  
+    		</div>
+
+    		<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8 text-left text-center-xs">
+    			<h3 class="title-bold">We specialize in publishing independent authors</h3>
+        		<p>We truly understand the needs of independent writers, and the challenges you face, and we’ve set up special services to help you be successful. After all, we’re the sister company of indie music powerhouse CD Baby, the company that’s helped hundreds of thousands of indie musicians sell their music on iTunes, YouTube, Spotify and beyond. Plus, you’ll never get caught in a production queue behind some publishing behemoth’s book.</p>
+    		</div>
+        </div>
+
+
+
     </div>
 </div>
+
+
+
+
     
     
     
-    
-    <div class="container-fluid bg-cream ptb-40 pb-100">
+    <div class="container-fluid bg-tan ptb-40">
         <div class="container">
 
-            <div class="table-res mt-40">
+            <div class="table-res mt-20 mb-40">
+
+                <h2 class="title-bold mt-0 mb-30">Here’s how BookBaby stacks up against CreateSpace:</h2>
     
-                <table class="table table-bordered res art-book-printing table2">
+                <table class="table table-bordered res vs-createspace">
                     <thead>
                         <tr>
                             <th><span></span></th>
                             <th class="bg-t-blue"><span><strong>BookBaby</strong></span></th>
-                            <th><span>Blurb</span></th>
-                            <th><span>Lulu</span></th>
+                            <th><span>CreateSpace</span></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><span><strong>Book files reviewed by in-house prepress specialist before printing</strong></span></td>
+                            <td><span><strong>Free book file review to ensure your files are 100% perfect and ready to be printed?</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
-                            <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>Books printed in one location ensuring quality every time</strong></span></td>
+                            <td><span><strong>Toll Free Customer Service lines staffed by publishing experts ready to offer help and advice?</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
-                            <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>In-house professional book cover design and layout services</strong></span></td>
+                            <td><span><strong>Distribution Network</strong></span></td>
+                            <td class="bg-t-lt-blue"><span>Amazon, Barnes & Noble, Ingram, Baker & Taylor, NACSCORP, Powells, Book-a-Zine, Partners, Diamond Comic, BPDI, Christian Book Distributors and 50+ other international, wholesale and niche retail store catalogs</span></td>
+                            <td><span>Amazon, Barnes & Noble,<br /> <em>(Ingram, Baker & Taylor and NACSCORP only available with expanded distribution program.)</em></span></td>
+                        </tr>
+                        <tr>
+                            <td><span><strong>Hardcover & Softcover Books available for Print on Demand</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
-                            <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>We print our company's logo on your books</strong></span></td>
-                            <td class="bg-t-lt-blue"><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
-                            <td><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
-                            <td><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
-                        </tr>
-                        <tr>
-                            <td><span><strong>Live US based customer support (email, phone, live chat)</strong></span></td>
+                            <td><span><strong>Add eBooks distribution to Printed Books order?</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
-                            <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>Quality guaranteed</strong></span></td>
+                            <td><span><strong>ISBNs available?</strong></span></td>
+                            <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block mb-10"></span><span><strong>$29 ea.</strong></span></td>
+                            <td><span><img src="/images/comparison-x.png" class="img-responsive center-block mb-10"></span><span><strong>$99 ea. </strong><br /><em>includes Amazon's expanded distribution</em></span></td>
+                        </tr>
+                        <tr>
+                            <td><span><strong>Paper stock options available for Print On Demand distribution</strong></span></td>
+                            <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block mb-10"></span>
+                                <span>
+                                    <strong>5 for both B&W and full color: </strong><br />
+                                    <em>50 lb Natural,<br /> 
+                                        60 lb Natural, 60 lb Opaque,<br /> 
+                                        60 lb Gloss, 80 lb Gloss</em>
+                                </span>
+                            </td>
+                            <td><span><img src="/images/comparison-x.png" class="img-responsive center-block mb-10"></span>
+                                <span>
+                                    <strong>2 for B&W: </strong><br />
+                                    <em>60 lb off-set, 60 lb cream off-set </em><br />
+                                    <strong>1 for full color: </strong><br />
+                                    <em>60 lb Gloss, 80 lb Gloss</em>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span><strong>Estimated Royalty </strong><br /><em>(Based on 6x9, 200 pages, Retail price $15.99)</em></span></td>
+                            <td class="bg-t-lt-blue"><span>Avg. $3.25, all distribution</span></td>
+                            <td><span>$3.14, expanded distribution</span></td>
+                        </tr>
+                        <tr>
+                            <td><span><strong>Single source book printer to ensure best quality Print On Demand books</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
-                            <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>ISBN assignment</strong></span></td>
+                            <td><span><strong>Affordable, small quantity books for local sales and book signings?</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
-                            <td><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span><strong>Free promotional services and guaranteed reviews?</strong></span></td>
+                            <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
+                            <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span><strong>Sell eBooks direct-to-reader?</strong></span></td>
+                            <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
+                            <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+            
 
 
-            <h2>Compare BookBaby's photo book printing prices to Blurb & Lulu:</h2>
+            <h2 class="title-bold">But isn’t CreateSpace free?</h2>
 
-            <p>It's true, BookBaby delivers the highest quality printed photo books at affordable prices, but we also pride ourselves on being the most author friendly book printer in the industry. Check out this comparison chart to see how BookBaby stacks up against Blurb and Lulu…</p>
+            <p>Yes, it’s true, and that only gets your book on Amazon, leaving your book unavailable at hundreds of other bookstores worldwide. BookBaby offers you the largest book distribution network anywhere, friendly, helpful self-publishing experts to walk you through the process, the highest quality printed books, and promotional tools for your book, all with a 100% satisfaction guarantee. This extra reach and higher quality can’t be done for free, and we feel that when you compare the convenience and value of BookBaby versus the other guys, BookBaby offers the best value to today’s serious author.</p>
 
         </div>
     </div>    
@@ -219,69 +196,26 @@
 
     
 
-    
-<div class="container-fluid bg-wood-2 ptb-40 pb-100">
-    <div class="container">
-
-        	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left text-center-xs text-center-sm">
-            	<h3 class="title-bold white">"BookBaby did a bang up job on my photography book. In fact, the book looks so good that when I delivered it to a major bookstore, the rep e-mailed me, saying, ‘Eli. I have your book in my office. WOW! What a book!’ Her exact words."</h3>
-                <p class="white">Eli Vega, Author/Photographer, 
-                    <em class="">Right Brain Photography</em>
-                </p>
-            </div>
-
-            <div class="hidden-xs col-sm-12 col-md-6 col-lg-6">
-                <img src="/Images/photobooks-testimonial-sample.png" width="350" height="460" class="photobooks-testimonial-image" alt="photography books" title="photography books" class="img-responsive center-block">
-            </div>
-
-    </div>
-</div>
 
 
-
-    
-    <div class="container-fluid bg-md-grey">
-        <div class="row">
-
-            <div class="offset-icon-130">
-                <img class="keep-100-sales" src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
-            </div>
-
-            <section id="self-publishing-staff">
-                <div class="container section-padding-default">
-                    <div class="row">
-                    
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-                            <h2 class="title-bold mt-0 mb-20">Publish and sell your professional photography book</h2>
-                            <p class="mb-50">BookBaby writers can now publish and sell their eBooks and printed books in the world’s biggest bookstores. Not only will we convert your photo book into an eBook and sell it digitally in 60+ stores, with our new Print On Demand technology, you can now sell your printed photography book (book-by-book) direct to your readers, without having to pay for large print runs, warehousing, or fulfillment.</p>
-                        </div>
-                    
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half logos-container">
-
-                            <div class="logos-container-header">
-                                <h3><a href="/ebook-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'learn-more-aboutBB']);">eBook distribution</a></h3>
-                            </div>
-                            <a href="/ebook-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'sell-eBook-stores']);">
-                                <img src="/Images/ibookstore-logo.png" width="189" height="61" alt="iBookstore" class="img-responsive center-block ptb-20">
-                            </a>
-                            <p class="p-20">Most photography books require fixed layout file conversion in order to turn it into an eBook. The technical experts at BookBaby can convert your high-resolution PDF files into an eBook with a Fixed Layout. This is for iBooks only. We do not currently produce Fixed Layout files for the Kindle Fire or the Barnes & Noble Nook reader.<br>
-                    <a href="/fixed-layout-ebooks">Learn more about Fixed Layout for iBooks</a>.</p>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half logos-container">
-
-                            <div class="logos-container-header">
-                                <h3><a href="book-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'sell-print-stores']);">Printed book distribution</a></h3>
-                            </div>
-                            <a href="/book-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'sell-print-stores']);">
-                                <img src="Images/home/logos-retailers-print.png" class="img-responsive center-block p-20" width="400" height="342" alt="Amazon, Barnes & Noble, Baker & Taylor, Powell's, Ingram" />
-                            </a>
-
-                        </div>
-
-                    </div>
+    <div class="container-fluid bg-green">
+        <div class="container">
+            <div class="row">
+                <div class="hidden-xs col-sm-3 col-md-3 col-lg-3">
+                    <img class="left-img" src="images/pricing-footer.jpg">
                 </div>
-            </section>
+                <div class="hidden-xs col-sm-9 col-md-6 col-lg-6 text-left text-center-mobile">
+                    <h2 class="title-bold white">Still not convinced?</h2>
+                    <p class="text-white">Just remember this: Only BookBaby promises the best-quality Print on Demand books in the business. And Only BookBaby backs that up with a 100% Satisfaction Guarantee. You must be satisfied.</p>
+                    <p class="text-white signature">Steven Spatz, <em>President, BookBaby</em></p>
+                </div>
+                <div class="hidden-sm ptb-xs-20 col-md-2 col-lg-3">
+                    <a href="/guarantee" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'home-guarantee']);">
+                        <img class="mt-20 nm-mobile mb-20" src="/images/home/guarantee181.png" alt="100% satisfaction guarantee" title="100% satisfaction guarantee" />
+                    </a>
+                </div>
+
+            </div>
         </div>
     </div>
 
@@ -290,8 +224,10 @@
     <div class="container-fluid bg-dk-blue section-padding-default">
         <div class="container">
             <div class="row">
-               <h2 class="title-bold white">Try before you buy. <br />Get a single copy of your book made for just $19!</h2>
-                <a href="/single-book-printing" class="btn btn-center btn-orange btn-lg" onclick="_gaq.push(['_trackEvent', 'products', 'Click', 'POD-get-started-make-a-book']);">Get started</a>
+                <h2 class="title-bold white">Ready to get started?</h2>
+                <p class="lead white">C’mon in. We’re excited to have you on board!</p>
+                
+                <a href="/quoter/default.aspx" class="btn btn-center btn-orange btn-lg" onclick="_gaq.push(['_trackEvent', 'products', 'Click', 'BBvsCreateSpace-get-started']);">Get started</a>
             </div>
         </div>
     </div>

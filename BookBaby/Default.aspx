@@ -235,8 +235,7 @@
                 <img class="left-img" src="images/pricing-footer.jpg">
             </div>
             <div class="hidden-xs col-sm-9 col-md-6 col-lg-6 text-left text-center-mobile">
-                <h2 class="title-bold white">I know you’ll be happy with<br />
-                    our work. In fact, <span class="bolditalic">I guarantee it.</span></h2>
+                <h2 class="title-bold white">I know you’ll be happy with our work. In fact, <em><strong>I guarantee it.</strong></em></h2>
                 <p class="text-white">I stand behind our products and services with the strongest guarantee in the eBook and publishing businesses.</p>
                 <p class="text-white signature">Steven Spatz, <em>President, BookBaby</em></p>
             </div>

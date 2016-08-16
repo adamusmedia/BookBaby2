@@ -92,7 +92,9 @@
     
     table.art-book-printing tbody tr td:first-child { width: 50%; }
 
-    table.art-book-printing tbody tr td:first-child > span {
+    table.art-book-printing tbody tr td:first-child > span,
+    table.vs-createspace tbody tr td:first-child > span,
+    table.vs-lulu tbody tr td:first-child > span {
         float: left;
         text-align: left;
     }
