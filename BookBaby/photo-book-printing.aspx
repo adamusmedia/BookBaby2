@@ -5,8 +5,8 @@
         <div class="container">
             <div class="row">
                 <section class="jumbotron light">
-                    <h1 class="title pt-35">Photography Book Printing</h1>
-                    <h2 class="subtitle">Gain more exposure with a stunning photo book</h2>
+                    <h1 class="title pt-35 mb-0">Photography Book Printing</h1>
+                    <h2 class="subtitle mt-0">Gain more exposure with a stunning photo book</h2>
                     <a href="/quoter/confighandler.aspx?configid=900177871&amp;itemid=BBP-Book-Print&amp;qty=100&amp;pagecount=68&amp;proditemid=EXTTURN" class="btn btn-center btn-orange btn-lg" role="button"  onclick="_gaq.push(['_trackEvent', 'products', 'Click', 'artbooks-get-started-hero']);">Get Started</a>
                 </section>
             </div>

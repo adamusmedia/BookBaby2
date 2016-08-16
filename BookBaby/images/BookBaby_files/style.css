@@ -331,9 +331,7 @@ a.tdn { text-decoration: none; }
 .bg-white .bg-abp-s-2 { background-image: url(../Images/artbooks-quad1.jpg); }
 .bg-forest-green .bg-pbp-s-2 { background-image: url(../Images/photobooks-quad1.jpg); }
 
-.bg-brown .bg-cbp-1 { background-image: url("/Images/childrens-books-quad1.jpg"); }
 .bg-brown .bg-cbp-2 { background-image: url("/Images/childrens-books-quad2.jpg"); }
-.bg-cbp-testimonial { background-image: url("/Images/childrens-books-bob.jpg"); }
 
 .bg-home-s-6 { background-image: url("../Images/home/great-book-background.jpg"); }
 .bg-home-hero { background-image: url("/Images/home/home-hero.jpg"); }

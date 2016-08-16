@@ -1,0 +1,477 @@
+﻿
+/* header styles */
+/* ************* */
+
+header { background-color: #3e3b32; }
+
+/* /header styles */
+/* ************** */
+
+
+/* ************* */
+/* footer styles */
+footer { background-color: #3E3B32; }
+
+footer section {
+    padding: 40px 0;
+}
+
+footer #footer-bottom { margin-bottom:0; padding-bottom:20px; }
+
+/* footer-social */
+footer .social-wrapper {
+    width: auto;
+    position: relative;
+    float: none;
+    width: 500px;
+    margin: 20px auto;
+}
+
+footer #footer-social {
+    background-color: #2D2C25;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer #footer-social .signup {
+    position: relative;
+    float: left;
+}
+
+footer #footer-social .signup fieldset ul {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+footer #footer-social .signup fieldset ul li {
+    display: inline;
+    vertical-align: top;
+}
+
+footer #footer-social .signup fieldset ul li > p {
+    background: #ffffff;
+
+    max-width: 400px;
+    height: 34px;
+    padding: 0;
+    margin: 3px;
+    
+    position: relative;
+    float: left;
+    width: 99%;
+    min-width: 100px;
+    overflow: hidden;
+    line-height: 25px;
+    border: 1px solid #dedede;
+    cursor: text;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+footer #footer-social .signup fieldset ul li > p .btn-submit {
+    float: right;
+    background: URL('/images/home/sub-button.png') 6px 3px no-repeat;
+    height: 33px;
+    width: 35px;
+    display: block;
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+    cursor: pointer;
+    color: #FFF !important;
+    padding: 7px 15px;
+    background-color: #ff8000;
+    border-radius: 4px;
+    border: 1px solid #a3511a;
+    text-shadow: 0px -1px 0px #a3511a;
+    font-weight: bold;
+    box-shadow: inset 0 1px 0px #FFFFFF;
+    box-shadow: inset 0 1px 0px RGBa(256,256,256,0.5);
+    background: #ff8000 -webkit-linear-gradient(bottom, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
+    background: #ff8000 -moz-linear-gradient(bottom, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
+    background: #ff8000 -o-linear-gradient(bottom, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
+    background: #ff8000 linear-gradient(to top, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+footer #footer-social .signup fieldset ul li > p label[for="control_EMAIL"] {
+    border: none;
+    color: #bbb;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 13px;
+    width: 350px;
+    max-width: 70%;
+    line-height: 17px;
+    text-align: left;
+    cursor: text;
+    display: block;
+    margin: 0 !important;
+    position: absolute;
+    z-index: 3;
+    top: 8px;
+    left: 0;
+    height: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+footer #footer-social .signup fieldset ul li > p label[for="control_EMAIL"]:focus,
+footer #footer-social .signup fieldset ul li > p label[for="control_EMAIL"]:active {
+    color: #000000;
+}
+
+footer #footer-social .signup fieldset ul li > p .control_EMAIL {
+    width: 350px;
+    max-width: 70%;
+    line-height: 17px;
+    text-align: left;
+    cursor: text;
+    display: block;
+    margin: 0 !important;
+    position: absolute;
+    z-index: 3;
+    top: 8px;
+    left: 0;
+    height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent !important;
+    color: #000;
+    outline: none;
+    text-shadow: 1px 1px 1px #ddd;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer #footer-social .social {
+    position: relative;
+    float: left;
+}
+
+.signup-wrapper > fieldset ul {
+    padding-left: 0;
+    width: 100%;
+}
+
+.signup-wrapper > fieldset {
+    min-width: 0;
+    padding: 2px;
+    margin: 0 auto;
+    background: #838179;
+    width: auto;
+    max-width: 410px;
+}
+
+footer #footer-social .social a {
+    background: url(/images/home/social-sprite.jpg) no-repeat 0 0 #838179;
+    float: left;
+    height: 45px;
+    margin-right: 19px;
+    width: 45px;
+}
+
+footer #footer-social .social a.facebook { background-position: 0 0; }
+footer #footer-social .social a.twitter { background-position: -44px 0; }
+footer #footer-social .social a.instagram { background-position: -175px 0; }
+footer #footer-social .social a.pinterest { background-position: -263px 0; }
+footer #footer-social .social a.youtube { background-position: -86px 0; }
+footer #footer-social .social a.gplus { background-position: -131px 0; }
+footer #footer-social .social a.wp { background-position: -219px 0; }
+footer #footer-social .social a.linkedin { background-position: -308px 0; margin-right: 0; }
+
+/* footer-main (below)*/
+footer .col-lg-2 ul {
+    padding-bottom: 15px;
+    list-style: none;
+}
+
+footer .col-lg-2 ul > li {  text-align: left; }
+footer .col-lg-2 ul > li a { text-decoration: none; }
+footer .col-lg-2 ul > li > a { font-size: 12px; color: #fff; font-weight: 100; text-decoration: none; line-height: 18px }
+
+footer h3.footer-title,
+footer h3.footer-title a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+footer #trustpilot {
+    background-color: #2d2c25;
+    padding-top: 40px;
+}
+
+#footer-logo { float: left; }
+
+#footer-logo > span {
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#footer-bottom span { color: #999; font-size: 12px; }
+#footer-logo-link { text-decoration: none; }
+#footer-bottom #footer-usa { float: right; text-align: right; }
+
+/* /footer styles */
+/* ************** */
+/* header styles */
+/* ************* */
+
+header { background-color: #3e3b32; }
+
+/* /header styles */
+/* ************** */
+
+
+/* ************* */
+/* footer styles */
+footer { background-color: #3E3B32; }
+
+footer section {
+    padding: 40px 0;
+}
+
+footer #footer-bottom { margin-bottom:0; padding-bottom:20px; }
+
+/* footer-social */
+footer .social-wrapper {
+    width: auto;
+    position: relative;
+    float: none;
+    width: 500px;
+    margin: 20px auto;
+}
+
+footer #footer-social {
+    background-color: #2D2C25;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer #footer-social .signup {
+    position: relative;
+    float: left;
+}
+
+footer #footer-social .signup fieldset ul {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+footer #footer-social .signup fieldset ul li {
+    display: inline;
+    vertical-align: top;
+}
+
+footer #footer-social .signup fieldset ul li > p {
+    background: #ffffff;
+
+    max-width: 400px;
+    height: 34px;
+    padding: 0;
+    margin: 3px;
+    
+    position: relative;
+    float: left;
+    width: 99%;
+    min-width: 100px;
+    overflow: hidden;
+    line-height: 25px;
+    border: 1px solid #dedede;
+    cursor: text;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+footer #footer-social .signup fieldset ul li > p .btn-submit {
+    float: right;
+    background: URL('/images/home/sub-button.png') 6px 3px no-repeat;
+    height: 33px;
+    width: 35px;
+    display: block;
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+    cursor: pointer;
+    color: #FFF !important;
+    padding: 7px 15px;
+    background-color: #ff8000;
+    border-radius: 4px;
+    border: 1px solid #a3511a;
+    text-shadow: 0px -1px 0px #a3511a;
+    font-weight: bold;
+    box-shadow: inset 0 1px 0px #FFFFFF;
+    box-shadow: inset 0 1px 0px RGBa(256,256,256,0.5);
+    background: #ff8000 -webkit-linear-gradient(bottom, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
+    background: #ff8000 -moz-linear-gradient(bottom, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
+    background: #ff8000 -o-linear-gradient(bottom, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
+    background: #ff8000 linear-gradient(to top, RGBa(0,0,0,0.2) 0%, RGBa(256,256,256,0.1) 100%);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+footer #footer-social .signup fieldset ul li > p label[for="control_EMAIL"] {
+    border: none;
+    color: #bbb;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 13px;
+    width: 350px;
+    max-width: 70%;
+    line-height: 17px;
+    text-align: left;
+    cursor: text;
+    display: block;
+    margin: 0 !important;
+    position: absolute;
+    z-index: 3;
+    top: 8px;
+    left: 0;
+    height: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+footer #footer-social .signup fieldset ul li > p label[for="control_EMAIL"]:focus,
+footer #footer-social .signup fieldset ul li > p label[for="control_EMAIL"]:active {
+    color: #000000;
+}
+
+footer #footer-social .signup fieldset ul li > p .control_EMAIL {
+    width: 350px;
+    max-width: 70%;
+    line-height: 17px;
+    text-align: left;
+    cursor: text;
+    display: block;
+    margin: 0 !important;
+    position: absolute;
+    z-index: 3;
+    top: 8px;
+    left: 0;
+    height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent !important;
+    color: #000;
+    outline: none;
+    text-shadow: 1px 1px 1px #ddd;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer #footer-social .social {
+    position: relative;
+    float: left;
+}
+
+.signup-wrapper > fieldset ul {
+    padding-left: 0;
+    width: 100%;
+}
+
+.signup-wrapper > fieldset {
+    min-width: 0;
+    padding: 2px;
+    margin: 0 auto;
+    background: #838179;
+    width: auto;
+    max-width: 410px;
+}
+
+footer #footer-social .social a {
+    background: url(/images/home/social-sprite.jpg) no-repeat 0 0 #838179;
+    float: left;
+    height: 45px;
+    margin-right: 19px;
+    width: 45px;
+}
+
+footer #footer-social .social a.facebook { background-position: 0 0; }
+footer #footer-social .social a.twitter { background-position: -44px 0; }
+footer #footer-social .social a.instagram { background-position: -175px 0; }
+footer #footer-social .social a.pinterest { background-position: -263px 0; }
+footer #footer-social .social a.youtube { background-position: -86px 0; }
+footer #footer-social .social a.gplus { background-position: -131px 0; }
+footer #footer-social .social a.wp { background-position: -219px 0; }
+footer #footer-social .social a.linkedin { background-position: -308px 0; margin-right: 0; }
+
+/* footer-main (below)*/
+footer .col-lg-2 ul {
+    padding-bottom: 15px;
+    list-style: none;
+}
+
+footer .col-lg-2 ul > li {  text-align: left; }
+footer .col-lg-2 ul > li a { text-decoration: none; }
+footer .col-lg-2 ul > li > a { font-size: 12px; color: #fff; font-weight: 100; text-decoration: none; line-height: 18px }
+
+footer h3.footer-title,
+footer h3.footer-title a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+footer #trustpilot {
+    background-color: #2d2c25;
+    padding-top: 40px;
+}
+
+#footer-logo { float: left; }
+
+#footer-logo > span {
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#footer-bottom span { color: #999; font-size: 12px; }
+#footer-logo-link { text-decoration: none; }
+#footer-bottom #footer-usa { float: right; text-align: right; }
+
+/* /footer styles */
+/* ************** */

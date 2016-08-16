@@ -141,17 +141,12 @@
     }
 
     .bg-white .bg-abp-s-2 { padding-bottom: 300px; }
+
     .bg-brown .bg-cbp-2 { padding-bottom: 300px; }
-    .img-mw-50 { max-width: 50%; }
-
-
-
 
     .mpb-0 { padding-bottom: 0!important; }
     .mplr-15 { padding-left: 15px; padding-right: 15px; }
-    
-    .mmb-40 { margin-bottom: 40px; }
-    .mmt-40 { margin-top: 40px; }
+
 
     
     .container-fluid .text-center-xs,
