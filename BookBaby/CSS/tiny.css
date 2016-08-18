@@ -47,6 +47,7 @@
     .ptb-xs-20 { padding: 20px; }
 
     .pb-m-20 { padding-bottom: 20px; }
+    .mt-xs-10 { margin-top: 10px; }
     .mmt-20 { margin-top: 20px; }
     .mmb-40 { margin-bottom: 40px; }
 
@@ -299,7 +300,32 @@
         width: unset;
     }
 
+    
+    
+	table.pod.table1 tbody tr td:nth-of-type(1):before { content: "Retail Price"; }
+	table.pod.table1 tr td:nth-of-type(2):before { content: "$10.99"; }
+	table.pod.table1 tr td:nth-of-type(3):before { content: "$12.99"; }
+	table.pod.table1 tr td:nth-of-type(4):before { content: "$13.99"; }
+	table.pod.table1 tr td:nth-of-type(5):before { content: "$14.99"; }
+	table.pod.table1 tr td:nth-of-type(6):before { content: "$15.99"; }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    .sidebar-content-publish-on { padding: 20px; }
 
     
     /*

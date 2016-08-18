@@ -355,6 +355,9 @@ a.tdn { text-decoration: none; }
 .bg-friends-of-bookbaby { background-image: url("/Images/partner-hero.jpg"); }
 .bg-bookbaby-partnership-opportunities { background-image: url("/Images/partner-hero.jpg"); }
 .bg-bb-vs-createspace { background-image: url("/images/bookbaby-vs-createspace-hero.jpg"); }
+.bg-print-on-demand { background-image: url("/images/pod-hero.jpg"); }
+.bg-pod-6 { background-image: url("/Images/making-the-most-of-pod-callout.jpg"); }
+.bg-pod-7 { background-image: url("/Images/pod-101-royaltiesbkgrd.jpg"); }
 
 
 .free-guide-img > img { max-height: 400px; display: block; }
@@ -434,6 +437,12 @@ a.tdn { text-decoration: none; }
 .bg-dark p {
     color: #fff;
 }
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video { max-height: 420px; }
 
 .jumbotron .title,
 .jumbotron .subtitle,
@@ -726,9 +735,21 @@ div.table-res > table.res {
 }
 
 
-table.res thead th {
+table.pod thead th {
     background-color: #f2efe4;
+    vertical-align: top;
 }
+
+
+table.pod thead.lt-blue th {
+    background-color: #E7F4F1;
+    font-weight: normal;
+}
+
+/*table.pod thead.lt-blue:first-child th { width: 5%; }
+table.pod thead.lt-blue:first-child th:nth-child(1) { width: 30%; }*/
+
+
 
 table.res th,
 table.res td,
@@ -807,3 +828,19 @@ h4.price { margin-top: 3px; }
 
 
 .box-white-border-grey { background-color: #fff; border: 1px solid #ccc; padding: 15px; }
+
+
+
+.sidebar-head-publish-on {
+    background-color: #333;
+    border: 1px solid #CCC;
+    border-bottom: none;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.sidebar-content-publish-on {
+    border: 1px solid #CCC;
+    background: #fff;
+}

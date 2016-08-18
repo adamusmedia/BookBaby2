@@ -57,8 +57,9 @@
     .container-fluid .text-center-sm {
         text-align: center;
     }
-    .mmb-40 { margin-bottom: 40px; }
+    .mt-sm-10 { margin-top: 10px; }
     .mmt-40 { margin-top: 40px; }
+    .mmb-40 { margin-bottom: 40px; }
     
     .mt-sm-20 { margin-top: 20px; }
 
