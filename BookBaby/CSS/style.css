@@ -272,10 +272,13 @@ a.tdn { text-decoration: none; }
 
 
 
+ol.num-list { list-style: decimal; }
+ol.num-list li { margin-bottom: 20px; }
+
 .article-divider {
     border-bottom: 1px solid #CCC;
     padding-bottom: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 .article-divider-2 {
     border-bottom: 1px solid #CCC;
@@ -312,6 +315,8 @@ a.tdn { text-decoration: none; }
 .bg-white { background-color: #ffffff; }
 .bg-lt-blue { background-color: #ebf5f5; }
 .bg-lt-blue-2 { background-color: #D8EBE9; }
+.bg-baby-blue-el { background-color: #6FBED8;  padding: 8px; margin-bottom: 20px; max-width: 200px; }
+    .bg-baby-blue-el > span { color: #fff; text-align: center; }
 .bg-dk-blue { background-color: #212733; }
 .bg-lt-grey { background-color: #F8F7F6; }
 .bg-md-grey { border-top: 4px #AAA69C solid; background: #dad5c2; padding: 45px 0; }
@@ -334,6 +339,10 @@ a.tdn { text-decoration: none; }
 .bg-brown .bg-cbp-1 { background-image: url("/Images/childrens-books-quad1.jpg"); }
 .bg-brown .bg-cbp-2 { background-image: url("/Images/childrens-books-quad2.jpg"); }
 .bg-cbp-testimonial { background-image: url("/Images/childrens-books-bob.jpg"); }
+.bg-cb-testimonial { background-image: url("/Images/cookbooks-jeanine.jpg"); }
+
+.bg-brown .bg-cb-1 { background-image: url("/Images/cookbooks-chef.jpg"); }
+.bg-brown .bg-cb-2 { background-image: url("/Images/cookbooks-chef-cooking.jpg"); }
 
 .bg-home-s-6 { background-image: url("../Images/home/great-book-background.jpg"); }
 .bg-home-hero { background-image: url("/Images/home/home-hero.jpg"); }
@@ -358,9 +367,16 @@ a.tdn { text-decoration: none; }
 .bg-print-on-demand { background-image: url("/images/pod-hero.jpg"); }
 .bg-pod-6 { background-image: url("/Images/making-the-most-of-pod-callout.jpg"); }
 .bg-pod-7 { background-image: url("/Images/pod-101-royaltiesbkgrd.jpg"); }
+.bg-pod-10 { background-image: url("/Images/pod-infographic-banner.jpg"); }
+.bg-book-genre-styles { background-image: url("/images/book-styles-hero-bg.jpg"); }
+.bg-how-sell-books-1 { background-image: url("/images/making-the-most-of-pod-writing.jpg");  height: 200px; }
+.bg-how-sell-books-2 { background-image: url("/images/making-the-most-of-pod-books.jpg");  height: 200px; }
+.bg-cookbooks { background-image: url("/images/cookbooks-hero-image.jpg"); }
+.bg-cb-3 { background-image: url("/Images/cookbooks-cutting-board.jpg"); }
 
 
 .free-guide-img > img { max-height: 400px; display: block; }
+
 
 
 
@@ -543,7 +559,7 @@ h2.semibold { font-weight: 600; }
     font-weight: 600;
 }
 
-
+.success-subheader { font-size: 20px; font-weight: bold; }
 
 
 .white { color: #fff!important; }
@@ -725,6 +741,7 @@ div.table-res .table-header {
     margin: 20px 0 0;
     padding: 1px 0px 8px 0px;
 }
+div.table-res .table-header.p-10 { padding: 10px; }
 
 div.table-res > table.res {
     float: left;
@@ -734,16 +751,12 @@ div.table-res > table.res {
     background-color: #fff;
 }
 
+table.pod { background-color: #fff; }
 
-table.pod thead th {
-    background-color: #f2efe4;
-    vertical-align: top;
-}
-
-
-table.pod thead.lt-blue th {
-    background-color: #E7F4F1;
+table.pod > thead > tr > th {
     font-weight: normal;
+    text-align: center;
+    border-bottom-width: 1px;
 }
 
 /*table.pod thead.lt-blue:first-child th { width: 5%; }
@@ -769,7 +782,9 @@ table.vs-lulu thead th.bg-t-blue {
 
 table.art-book-printing tbody tr td.bg-t-lt-blue,
 table.vs-createspace tbody tr td.bg-t-lt-blue,
-table.vs-lulu tbody tr td.bg-t-lt-blue {
+table.vs-lulu tbody tr td.bg-t-lt-blue,
+table.pod thead tr th.bg-lt-blue,
+table.pod tbody tr td.bg-lt-blue {
     background-color: #E5F3F5;
 }
 

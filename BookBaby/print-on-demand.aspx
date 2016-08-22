@@ -33,7 +33,7 @@
 
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left text-center-xs text-center-sm">
             <div class="row">
-                <p class="p-40 pt-xs-0 pt-sm-0">BookBaby makes your title(s) available for ordering to the largest network of global booksellers, libraries and online retailers. Through our network, your book will be available for sale online at Powell’s Books, Amazon, and Barnes &amp; Noble, both domestically and globally. In addition, your title(s) will be available for ordering through the <a href="/book-distribution">largest book distribution network</a> in the world including Ingram, Baker &amp; Taylor, NACSCORP, Book-a-Zine, Diamond Comic, BPDI along with 50+ others.</p>
+                <p class="p-40 pt-xs-0 pt-sm-0 mplr-0">BookBaby makes your title(s) available for ordering to the largest network of global booksellers, libraries and online retailers. Through our network, your book will be available for sale online at Powell’s Books, Amazon, and Barnes &amp; Noble, both domestically and globally. In addition, your title(s) will be available for ordering through the <a href="/book-distribution">largest book distribution network</a> in the world including Ingram, Baker &amp; Taylor, NACSCORP, Book-a-Zine, Diamond Comic, BPDI along with 50+ others.</p>
             </div>
         </div>
 
@@ -154,11 +154,9 @@
 
 
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            
-
-            <div class="table-res mt-40">
-                <div class="table-header"><h3 class="white mt-0 mb-0">GENRE FICTION</h3><em class="white center-block">6"x9", 200 pages, perfect bound, black text, 50lb natural</em></div>
-                <table class="table table-bordered res pod table1">
+            <div class="table-res mt-20">
+                <div class="table-header p-10"><h3 class="white mt-0 mb-0">GENRE FICTION</h3><em class="white center-block">6"x9", 200 pages, perfect bound, black text, 50lb natural</em></div>
+                <!--table class="table table-bordered res pod table1">
                     <thead class="lt-blue">
                         <tr>
                             <th><span><strong>Retail Price</strong></span></th>
@@ -187,19 +185,181 @@
                             <td class=""><span>20%</span></td>
                         </tr>
                     </tbody>
+                <table-->
+                <table class="table table-bordered pod table1">
+                    <thead>
+                        <tr>
+                            <th class="bg-lt-blue"><span><strong>Retail Price</strong></span></th>
+                            <th><span><strong>Royalty $</strong></span></th>
+                            <th><span><strong>Royalty %</strong></span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$10.99</span></td>
+                            <td><span>$1.23</span></td>
+                            <td><span>11%</span></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$12.99</span></td>
+                            <td><span>$2.03</span></td>
+                            <td><span>16%</span></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$13.99</span></td>
+                            <td><span>$2.44</span></td>
+                            <td><span>17%</span></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$14.99</span></td>
+                            <td><span>$2.84</span></td>
+                            <td><span>19%</span></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$15.99</span></td>
+                            <td><span>$3.25</span></td>
+                            <td><span>20%</span></td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
-
         </div>
 
-				
 
-
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="table-res mt-20">
+                <div class="table-header p-10"><h3 class="white mt-0 mb-0">CHILDREN'S BOOK</h3><em class="white center-block">9"x7", 28 pages, perfect bound, color, 60lb natural</em></div>
+                <table class="table table-bordered pod table2">
+                    <thead>
+                        <tr>
+                            <th class="bg-lt-blue"><span><strong>Retail Price</strong></span></th>
+                            <th><span><strong>Royalty $</strong></span></th>
+                            <th><span><strong>Royalty %</strong></span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$8.99</span></td>
+                            <td><span>$1.61</span></td>
+                            <td><span>18%</span></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$9.99</span></td>
+                            <td><span>$2.02</span></td>
+                            <td><span>20%</span></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$10.99</span></td>
+                            <td><span>$2.42</span></td>
+                            <td><span>22%</span></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$12.99</span></td>
+                            <td><span>$3.23</span></td>
+                            <td><span>25%</span></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$15.99</span></td>
+                            <td><span>$4.44</span></td>
+                            <td><span>28%</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
     </div>
 </div>
-    
  
+    
+    
+    
+    
+    
+    
+    
+    
+<div class="container-fluid bg-cream ptb-40">
+    <div class="container">
+        <h2 class="title-bold">Add Print On Demand and eBooks to your printed book order.</h2>
+        <p><a href="/complete-self-publishing-package">Learn more about the Complete Self-Publishing Package.</a></p>
+    </div>
+</div>    
+    
+    
+    
+    
+    
+       
+ 
+
+
+
+
+<div class="container-fluid ptb-40">
+    <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+            <a href="/guarantee"><img src="/Images/pod-101-guaranteeicon.png" alt="100% Satisfaction Guarantee" title="100% Satisfaction Guarantee" width="210" height="207" class="img-responsive center-block" /></a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
+            <h2 class="title-bold">Quality guarantee</h2>
+            <p>Our short-run printed books have been acclaimed nationwide for their unsurpassed quality. Our Print On Demand quality is just as good. Why? Because they are the same. We use the exact same digital printing process for all of our books. We guarantee our print quality with a 100% money-back guarantee. If you are unsatisfied we will refund your money. <a href="/guarantee">Learn more.</a></p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container bg-img bg-pod-10 mb-50">
+    <div class="row">
+    	<a href="http://blog.bookbaby.com/2015/05/10-ways-promote-your-self-published-book-infographic" class="center-block tdn" target="_blank">
+            <div class="col-xs-12 col-sm-7 col-sm-offset-5 col-md-4 col-md-offset-6 col-lg-4 col-lg-offset-7">
+
+		            <h3 class="title-bold black">10 ways to promote your self-published book</h3>
+		            <p class="link-orange">View Infographic</p>
+
+            </div>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="container-fluid bg-forest-green ptb-40">
+    <div class="container">
+        <h2 class="title-bold white">Your books belong on the same shelves as the big name authors!</h2>
+        <p class="lead white">Still have questions? Read our FAQs or just call us at 877-961-6878 (Monday - Friday, 9am to 5pm EDT)</p>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid bg-lt-blue bg-img bg-lt-blue-testimonial ptb-40">
+    <div class="container">
+        <img src="/Images/quote-icon.png" width="73" height="57" class="img-responsive center-block">
+        <p class="testimonial">“BookBaby gave us the chance to produce a quality book that fulfilled our concept with amazing color and photography. We could not be happier!” <span><strong>— Paul McCullough and Jeremy Stanford, </strong>Roma-therapy</span></p>
+
+    </div>
+</div>
+
+
 
 
 

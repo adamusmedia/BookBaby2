@@ -101,6 +101,9 @@
 }
 /* ******************************* */
 
+@media all and (min-width: 561px) and (max-width: 956px) {
+    .bgs { min-height: 336px; }
+}
 
 
 

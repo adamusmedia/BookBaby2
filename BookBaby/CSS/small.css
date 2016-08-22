@@ -109,13 +109,23 @@
     .bg-forest-green .bg-pbp-s-2 { padding-bottom: 900px; }
     .bg-brown .bg-cbp-1 { padding-bottom: 410px; }
     .bg-brown .bg-cbp-2 { padding-bottom: 410px; }
+
+    
+
+    .bg-brown .bg-cb-1 { padding-bottom: 320px; }
+    .bg-brown .bg-cb-2 { padding-bottom: 320px; }
+
+
     .img-mw-50 { max-width: 50%; }
 
 
 
+    
+    .col-sm-12.embed-responsive > iframe { padding-left: 20px; padding-right: 20px; }
+    
 
 
-
+    .bgs { min-height: 290px; }
 
 
 
