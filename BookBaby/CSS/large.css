@@ -32,6 +32,13 @@
 */
 
     
+    .error-title { 
+        font-size: 45px!important;
+        line-height: 52px!important;
+    }
+    
+    .errorsub { font-size: 21px!important; line-height: 34px; }
+
     .price.reg {
         font-size: 55px;
         line-height: 65px;
@@ -41,13 +48,13 @@
         font-size: 70px;
         line-height: 80px;
     }
-
+    
+    .book-item p:nth-child(2) { font-size:23px; }
     
     .bg-book-printing { padding-bottom: 500px; }
     .sc-mt-o-10 { margin-top: -15px; }
     .text-center-xs-sm { text-align: left; }
     .text-left-lg { text-align: left; }
-
 
     
     .bg-white .bg-abp-s-2 { padding-bottom: 660px; }
@@ -81,6 +88,9 @@
 
 
     .bgs { min-height: 318px; }
+
+    .bg-np-1 ~ .bg-blue-texture { padding-top: 100px; min-height: 425px; }
+    .bg-white .bg-np-2 { height: 550px;  }
 
 }
 /* ******************************* */

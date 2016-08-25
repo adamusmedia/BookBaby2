@@ -40,9 +40,18 @@
         line-height: 50px;
     }
 
+    .large { font-size: 16px; }
+
+    
+    .book-item p:nth-child(2) { font-size:19px; }
 
     .bg-book-printing { padding-bottom: 200px; }
     
+    .book-item p.book-item-title-paper-stock,
+    .book-item p.book-item-title-paper-stock-weight,
+    .book-item p.book-item-title-paper-stock-details {
+        text-align: center!important;
+    }
     
     .ptb-xs-20 { padding: 20px; }
 
@@ -62,7 +71,7 @@
     
 
 
-
+    .visible-xs-error { display: inline-block; }
 
     .container .jumbotron,
     .container-fluid .jumbotron {
@@ -81,6 +90,9 @@
         line-height: 24px;
     }
 
+    .bg-error .jumbotron {
+        padding-top: 50px!important;
+    }
 
 
 
@@ -116,6 +128,7 @@
     .bg-dark .text-left .mw-400 {
         float: none;
         max-width: unset;
+        text-align: center;
     }
     
     .bg-dark .bg-img-half {
@@ -135,6 +148,7 @@
     .bg-white .text-left .mw-400 {
         float: none;
         max-width: unset;
+        text-align: center;
     }
     
     .bg-white .bg-img-half {
@@ -287,6 +301,15 @@
 	table.vs-lulu tbody tr td:nth-of-type(1):before { content: " "; }
 	table.vs-lulu tbody tr td:nth-of-type(2):before { content: "BookBaby"; }
 	table.vs-lulu tbody tr td:nth-of-type(3):before { content: "Lulu"; }
+    
+	table.book-trim-sizes tbody tr td:nth-of-type(1):before { content: "Word Count"; }
+	table.book-trim-sizes tbody tr td:nth-of-type(2):before { content: "POCKET BOOK pages"; }
+	table.book-trim-sizes tbody tr td:nth-of-type(3):before { content: "DIGEST pages"; }
+	table.book-trim-sizes tbody tr td:nth-of-type(4):before { content: "TRADE pages"; }
+    
+	table.yb-printing tbody tr td:nth-of-type(1):before { content: " "; }
+	table.yb-printing tbody tr td:nth-of-type(2):before { content: "SOFTCOVER"; }
+	table.yb-printing tbody tr td:nth-of-type(3):before { content: "HARDCOVER"; }
 
 
     table.vs-createspace thead tr th:nth-child(1),

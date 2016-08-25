@@ -17,8 +17,8 @@
 
 
 <div class="container-fluid bg-cream">
-    <div class="row">
-        <section class="container ptb-40">
+
+        <div class="container ptb-40">
 
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
                 <a href="/ebooks" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'eBook Publishing &amp; Distribution']);">
@@ -56,8 +56,8 @@
                 <p><a class="link-orange" href="/complete-self-publishing-package">Learn more about the complete self-publishing package.</a></p>
             </div>
 
-        </section>
-    </div>
+        </div>
+
 </div>
 
 

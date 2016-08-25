@@ -43,6 +43,10 @@
         line-height: 65px;
     }
     
+    .large { font-size: 18px; }
+    
+    .book-item p:nth-child(2) { font-size:21px; }
+    
     .bg-book-printing { padding-bottom: 400px; }
     
     .bg-white .bg-abp-s-2 { padding-bottom: 620px; }
@@ -64,7 +68,7 @@
         text-align: left;
     }
 
-
+    
 
     .container .jumbotron,
     .container-fluid .jumbotron {
@@ -81,6 +85,15 @@
         font-size: 30px;
         line-height: 38px;
     }
+    
+    .error-title {
+        font-size: 39px !important;
+        line-height: 42px !important;
+    }
+
+    .errorsub { font-size: 17px!important; }
+
+    .error-mt-30 { margin-top: 30px; }
 
 
     
@@ -124,5 +137,8 @@
     .embed-responsive video { max-height: 550px; }
 
     .bgs { min-height: 333px; }
+    
+    .bg-np-1 ~ .bg-blue-texture { padding-top: 100px; min-height: 425px; }
+    .bg-white .bg-np-2 { height: 550px;  }
 }
 /* ******************************* */

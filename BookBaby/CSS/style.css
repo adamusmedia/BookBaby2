@@ -11,12 +11,47 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
 .container { border:1px solid red; }
 */
 
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
 /* padding and margin */
 
+.ptb-10 { padding: 10px 0; }
 .ptb-20 { padding: 20px 0; }
 .ptb-40 { padding: 40px 0 50px; }
 
 .plr-0 { padding-left: 0; padding-right: 0; }
+.plr-15 { padding-left: 15px; padding-right: 15px; }
+.mlr-15 { margin-left: 15px; margin-right: 15px; }
 
 .mtb-40 { margin-top: 40px; margin-bottom: 40px; }
 .mtb-50 { margin-top: 50px; margin-bottom: 50px; }
@@ -86,6 +121,8 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
 .clear-both { clear: both; }
 .clear-left { clear: left; }
 .clear-right { clear: right; }
+
+.w-100 { width: 100%; float:left; }
 
 
 
@@ -206,6 +243,7 @@ p.larger { font-size: 125%; }
 .title-bold { font-weight: 600; }
 .title-bolder { font-weight: 700; }
 .title-big-bold { font-weight: 600; }
+.title-side { font-size: 16px; font-weight: 700; }
 
 .subhead-bi { font-size: 130%; font-weight: 600; font-style: italic; }
 
@@ -327,59 +365,100 @@ ol.num-list li { margin-bottom: 20px; }
 
 
 
-.bg-XXXXX { background-image: url("/Images/XXXXXX.png"); }
+.bg-XXXXX { background-image: url("../images/XXXXXX.png"); }
 
-.bg-dark .bg-home-s-3-1 { background-image: url(../Images/home/quadrant-home-editing.jpg); }
-.bg-dark .bg-home-s-3-2 { background-image: url(../Images/home/quadrant-home-ebook.jpg); }
-.bg-dark .bg-home-s-3-3 { background-image: url(../Images/home/quadrant-home-print.jpg); }
+.bg-dark .bg-home-s-3-1 { background-image: url(../images/home/quadrant-home-editing.jpg); }
+.bg-dark .bg-home-s-3-2 { background-image: url(../images/home/quadrant-home-ebook.jpg); }
+.bg-dark .bg-home-s-3-3 { background-image: url(../images/home/quadrant-home-print.jpg); }
 
-.bg-white .bg-abp-s-2 { background-image: url(../Images/artbooks-quad1.jpg); }
-.bg-forest-green .bg-pbp-s-2 { background-image: url(../Images/photobooks-quad1.jpg); }
+.bg-white .bg-cspp-1 { background-image: url(../images/complete-selfpub-quadpod.jpg); }
+.bg-white .bg-cspp-2 { background-image: url(../images/complete-selfpub-quadebook.jpg); }
+.bg-white .bg-cspp-3 { background-image: url(../images/complete-selfpub-quadprint.jpg); }
+.bg-white .bg-cspp-4 { background-image: url(../images/complete-selfpub-design.jpg); }
 
-.bg-brown .bg-cbp-1 { background-image: url("/Images/childrens-books-quad1.jpg"); }
-.bg-brown .bg-cbp-2 { background-image: url("/Images/childrens-books-quad2.jpg"); }
-.bg-cbp-testimonial { background-image: url("/Images/childrens-books-bob.jpg"); }
-.bg-cb-testimonial { background-image: url("/Images/cookbooks-jeanine.jpg"); }
 
-.bg-brown .bg-cb-1 { background-image: url("/Images/cookbooks-chef.jpg"); }
-.bg-brown .bg-cb-2 { background-image: url("/Images/cookbooks-chef-cooking.jpg"); }
 
-.bg-home-s-6 { background-image: url("../Images/home/great-book-background.jpg"); }
-.bg-home-hero { background-image: url("/Images/home/home-hero.jpg"); }
-.bg-ebooks { background-image: url("/Images/ebooks-hero.jpg"); }
-.bg-ebook-distribution { background-image: url("/images/ebook-distribution-hero.png"); }
-.bg-wood-panel { background-image: url("/Images/redesign-wood-hero.png"); }
-.bg-wood-2 { background-image: url("../Images/photobooks-woodbkgrd.jpg"); }
-.bg-free-guide { background-image: url("/Images/redesign-wood-hero.png"); }
-.bg-book-scanning { background-image: url("/Images/ebook-scanning-hero.png"); }
-.bg-lt-blue-testimonial { background-image: url("/Images/quote-bkgrd.jpg"); }
-.bg-coupons { background-image: url("/images/coupons-and-deals-hero.jpg"); }
-.bg-book-printing { background-image: url("/images/book-printing-hero.jpg"); }
-.bg-blue-books { background-image: url("/images/book-printing-premiumbkgrd.jpg"); background-position: 50% }
-.bg-guarantee { background-image: url("/images/guarantee-hero.jpg"); border-bottom: solid 2px #A9A59D; padding-bottom:90px; }
-.bg-art-book-printing { background-image: url("/images/artbooks-hero-image.jpg"); }
-.bg-photo-book-printing { background-image: url("/images/photobooks-hero-image.jpg"); }
-.bg-childrens-book-printing { background-image: url("/images/childrens-books-hero.jpg"); }
-.bg-how-to-make-a-book { background-image: url("/images/how-to-make-a-book-hero.jpg"); }
-.bg-friends-of-bookbaby { background-image: url("/Images/partner-hero.jpg"); }
-.bg-bookbaby-partnership-opportunities { background-image: url("/Images/partner-hero.jpg"); }
-.bg-bb-vs-createspace { background-image: url("/images/bookbaby-vs-createspace-hero.jpg"); }
-.bg-print-on-demand { background-image: url("/images/pod-hero.jpg"); }
-.bg-pod-6 { background-image: url("/Images/making-the-most-of-pod-callout.jpg"); }
-.bg-pod-7 { background-image: url("/Images/pod-101-royaltiesbkgrd.jpg"); }
-.bg-pod-10 { background-image: url("/Images/pod-infographic-banner.jpg"); }
-.bg-book-genre-styles { background-image: url("/images/book-styles-hero-bg.jpg"); }
-.bg-how-sell-books-1 { background-image: url("/images/making-the-most-of-pod-writing.jpg");  height: 200px; }
-.bg-how-sell-books-2 { background-image: url("/images/making-the-most-of-pod-books.jpg");  height: 200px; }
-.bg-cookbooks { background-image: url("/images/cookbooks-hero-image.jpg"); }
-.bg-cb-3 { background-image: url("/Images/cookbooks-cutting-board.jpg"); }
 
+
+.bg-white .bg-abp-s-2 { background-image: url(../images/artbooks-quad1.jpg); }
+.bg-forest-green .bg-pbp-s-2 { background-image: url(../images/photobooks-quad1.jpg); }
+
+.bg-brown .bg-cbp-1 { background-image: url("../images/childrens-books-quad1.jpg"); }
+.bg-brown .bg-cbp-2 { background-image: url("../images/childrens-books-quad2.jpg"); }
+.bg-cbp-testimonial { background-image: url("../images/childrens-books-bob.jpg"); }
+.bg-cb-testimonial { background-image: url("../images/cookbooks-jeanine.jpg"); }
+
+.bg-brown .bg-cb-1 { background-image: url("../images/cookbooks-chef.jpg"); }
+.bg-brown .bg-cb-2 { background-image: url("../images/cookbooks-chef-cooking.jpg"); }
+
+.bg-home-s-6 { background-image: url("../images/home/great-book-background.jpg"); }
+.bg-home-hero { background-image: url("../images/home/home-hero.jpg"); }
+.bg-ebooks { background-image: url("../images/ebooks-hero.jpg"); }
+.bg-ebook-distribution { background-image: url("../images/ebook-distribution-hero.png"); }
+.bg-wood-panel { background-image: url("../images/redesign-wood-hero.png"); }
+.bg-wood-2 { background-image: url("../images/photobooks-woodbkgrd.jpg"); }
+.bg-free-guide { background-image: url("../images/redesign-wood-hero.png"); }
+.bg-book-scanning { background-image: url("../images/ebook-scanning-hero.png"); }
+.bg-lt-blue-testimonial { background-image: url("../images/quote-bkgrd.jpg"); }
+.bg-coupons { background-image: url("../images/coupons-and-deals-hero.jpg"); }
+.bg-book-printing { background-image: url("../images/book-printing-hero.jpg"); }
+.bg-blue-books { background-image: url("../images/book-printing-premiumbkgrd.jpg"); background-position: 50% }
+.bg-guarantee { background-image: url("../images/guarantee-hero.jpg"); border-bottom: solid 2px #A9A59D; padding-bottom:90px; }
+.bg-art-book-printing { background-image: url("../images/artbooks-hero-image.jpg"); }
+.bg-photo-book-printing { background-image: url("../images/photobooks-hero-image.jpg"); }
+.bg-childrens-book-printing { background-image: url("../images/childrens-books-hero.jpg"); }
+.bg-how-to-make-a-book { background-image: url("../images/how-to-make-a-book-hero.jpg"); }
+.bg-friends-of-bookbaby { background-image: url("../images/partner-hero.jpg"); }
+.bg-bookbaby-partnership-opportunities { background-image: url("../images/partner-hero.jpg"); }
+.bg-bb-vs-createspace { background-image: url("../images/bookbaby-vs-createspace-hero.jpg"); }
+.bg-print-on-demand { background-image: url("../images/pod-hero.jpg"); }
+.bg-pod-6 { background-image: url("../images/making-the-most-of-pod-callout.jpg"); }
+.bg-pod-7 { background-image: url("../images/pod-101-royaltiesbkgrd.jpg"); }
+.bg-pod-10 { background-image: url("../images/pod-infographic-banner.jpg"); }
+.bg-book-genre-styles { background-image: url("../images/book-styles-hero-bg.jpg"); }
+.bg-how-sell-books-1 { background-image: url("../images/making-the-most-of-pod-writing.jpg");  height: 200px; }
+.bg-how-sell-books-2 { background-image: url("../images/making-the-most-of-pod-books.jpg");  height: 200px; }
+.bg-cookbooks { background-image: url("../images/cookbooks-hero-image.jpg"); }
+.bg-cb-3 { background-image: url("../images/cookbooks-cutting-board.jpg"); }
+.bg-affiliate-program { background-image: url('../images/affiliates-mainimage.jpg'); }
+.bg-complete-self-publishing-package { background-image: url("../images/complete-selfpub-hero.jpg"); }
+.bg-novel-printing { background-image: url("../images/novel-hero.jpg"); }
+.bg-blue-texture { background-image:url("../images/novel-bluebkgrd.jpg") }
+.bg-book-distribution { background-image: url("../images/book-distribution-hero.jpg"); }
+.bg-error { background-image: url("../images/404-bkgd.jpg"); }
+.bg-yearbooks { background-image: url("../images/yearbooks-hero-image2.jpg"); }
+.bg-masterwriter { background-image: url("../images/masterwriter.jpg"); }
+
+.bg-np-1 { background-image: url("../images/novel-quad1.jpg"); }
+.bg-np-2 { background-image: url("../images/novel-quad2.jpg"); }
+.bg-np-3 { background-image: url("../images/novel-quad3.jpg"); }
+
+.bg-yb-1 { background-image: url("../images/yearbooks-quad1.jpg"); }
+.bg-yb-2 { background-image: url("../images/yearbooks-quad2.jpg"); }
+
+.bg-book-trim { background-image: url("../images/book-printing-options-hero.jpg"); }
+.bg-brown-texture { background-image: url("../images/brown-texture-bg.jpg"); }
 
 .free-guide-img > img { max-height: 400px; display: block; }
 
 
+.book-item { margin-bottom: 20px; }
+.book-item p { margin-bottom: 5px; }
 
-
+.book-item p.book-item-title-paper-stock { font-weight: 600; font-size: 14px!important; line-height: 18px!important; text-align: left; padding-bottom: 5px!important; }
+.book-item p.book-item-title-paper-stock-weight {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+    font-style: italic;
+    padding-top:15px;
+    border-top:1px solid #ccc;
+}
+.book-item p.book-item-title-paper-stock-details {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
 
 /* buttons */
 .btn-orange {    
@@ -496,6 +575,21 @@ ol.num-list li { margin-bottom: 20px; }
     text-shadow: none;
 }
 
+
+
+.bg-error .jumbotron {
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+.error-title {
+    color: #333;
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+    font-weight: 700;
+}
+
+.errorsub { font-weight: 400; }
+
 .no-shadow {
     text-shadow: none!important;
 }
@@ -551,6 +645,79 @@ h2.semibold { font-weight: 600; }
 */
 }
 
+
+
+
+.bitter {
+    font-family: 'Bitter', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #555;
+    font-weight: 600;
+    margin: 0 0 0 10px;
+}
+
+.bitter-container {
+    background: black;
+    float: left;
+    margin: -70px 0 0 -20px;
+    padding: 10px;
+    min-width: 290px; 
+}
+
+.logo-box,
+.palette { background:white; border:1px solid #ccc; margin-top:85px; }
+
+.logo-box .bitter-container { min-width: 290px; }
+
+.palette .bitter-container { min-width: 160px; }
+
+.el-logo { padding-top: 20px; padding-bottom: 20px; }
+
+.el-color { 
+    min-width: 98px;
+    display: block;
+    /*
+    border:1px solid red;
+    float: left;
+    margin: 0 0px 20px 0;
+    min-width: 85px;
+    */
+
+    /*    max-width: 96px;
+    float: left;
+    position: relative;
+    display: inline-block;*/
+}
+
+.el-color .example { width: 75px; height: 75px; border: 1px solid black; float: none; margin-left:auto; margin-right: auto; padding: 25px; }
+
+.bg-label { color: #666; width: 100%; float:left; margin-top: 10px; margin-bottom: 10px; line-height: 17px; }
+
+.download-formats {
+    text-align: center;
+    width: 152px;
+    margin: 5px auto;
+    display: block;
+    position: relative;
+}
+
+.download {
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 16px;
+    display: block;
+    float: left;
+    background: rgba(0, 0, 0, 0) URL('../images/brandGuidelines-download.png') no-repeat 0px 2px;
+    padding-left: 16px;
+    height: 30px;
+}
+
+
+
+
+
 .price.reg {
     font-weight: 600;
 }
@@ -572,7 +739,6 @@ p.subhead { font-weight: 600; font-size: 130%; }
 
 
 
-
 .col-2-blocks .mw-400 { max-width: 400px; }
 .col-2-blocks .text-right .mw-400 { float: right; }
 .col-2-blocks .text-right { padding: 35px 50px 35px 10px; }
@@ -580,30 +746,36 @@ p.subhead { font-weight: 600; font-size: 130%; }
 .col-2-blocks .text-left { padding: 35px 10px 35px 50px; }
 
 .bg-dark .mw-400 { max-width: 400px; }
-.bg-dark .text-right .mw-400 { float: right; }
+.bg-dark .text-right .mw-400 { float: right; text-align: left; }
 .bg-dark .text-right { padding: 35px 50px 35px 10px; }
 .bg-dark .text-left .mw-400 { float: left; }
 .bg-dark .text-left { padding: 35px 10px 35px 50px; }
 
-.bg-dark .bg-img-half {
+.bg-dark .bg-img-half,
+.bg-white .bg-img-half {
     background-color: #3E3B32;
     height: 425px;
 }
 
+.bg-white .bg-img-half.bg-yb-1,
+.bg-white .bg-img-half.bg-yb-2 {
+    height: 645px;
+}
+
 
 .bg-white .mw-400 { max-width: 400px; }
-.bg-white .text-right .mw-400 { float: right; }
+.bg-white .text-right .mw-400 { float: right; text-align: left; }
 .bg-white .text-right { padding: 35px 50px 35px 10px; }
 .bg-white .text-left .mw-400 { float: left; }
 .bg-white .text-left { padding: 35px 10px 35px 50px; }
 
-.bg-white .bg-img-half {
-    background-color: #3E3B32;
-    /* height: 425px; */
+
+.yb-form .input-container {
+    position: relative; overflow: hidden; margin-bottom:15px;
 }
 
-
-
+.yb-form .input-container label { color: #555; display: block; width: 100%; }
+.yb-form .input-container input { display: block; width: 100%; border: 1px solid #ccc; padding: 8px; }
 
 
 .logos-container { background-color: #fff; padding: 0; }
@@ -775,16 +947,32 @@ table.art-book-printing thead th {
 
 table.art-book-printing thead th.bg-t-blue,
 table.vs-createspace thead th.bg-t-blue,
-table.vs-lulu thead th.bg-t-blue {
+table.vs-lulu thead th.bg-t-blue,
+table.book-trim-sizes thead th.bg-t-blue {
     background-color: #56acbe;
     color: #fff;
+}
+
+
+table.yb-printing tbody tr td.bg-blue {
+    background-color: #56acbe;
+}
+
+table.yb-printing tbody tr td.bg-dk-grey{
+    background-color: #848078;
+}
+
+table.yb-printing tbody tr td.bg-lt-grey{
+    background-color: #eee;
 }
 
 table.art-book-printing tbody tr td.bg-t-lt-blue,
 table.vs-createspace tbody tr td.bg-t-lt-blue,
 table.vs-lulu tbody tr td.bg-t-lt-blue,
 table.pod thead tr th.bg-lt-blue,
-table.pod tbody tr td.bg-lt-blue {
+table.pod tbody tr td.bg-lt-blue,
+table.book-trim-sizes thead tr th.bg-lt-blue,
+table.book-trim-sizes tbody tr td.bg-lt-blue {
     background-color: #E5F3F5;
 }
 
@@ -843,6 +1031,7 @@ h4.price { margin-top: 3px; }
 
 
 .box-white-border-grey { background-color: #fff; border: 1px solid #ccc; padding: 15px; }
+.box-lt-blue-border-grey { background-color: #ebf5f5; border: 1px solid #ccc; padding: 15px; }
 
 
 

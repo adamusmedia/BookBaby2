@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row">
             <section class="jumbotron light">
-                <h1 class="title text-center pb-30">BookBaby in the Press</small></h1>
+                <h1 class="title text-center pb-30">BookBaby in the Press</h1>
             </section>
         </div>
     </div>

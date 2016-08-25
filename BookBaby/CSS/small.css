@@ -42,17 +42,30 @@
         line-height: 55px;
     }
     
-    .bg-book-printing { padding-bottom: 400px; }
+    .large { font-size: 17px; }
 
     
     
+    .bg-book-printing { padding-bottom: 400px; }
+
+    
+    .visible-xs-error { display: none; }
+    .bg-error .jumbotron {
+        padding-top: 70px!important;
+    }
     
     .container .jumbotron,
     .container-fluid .jumbotron {
         padding-top: 60px;
         padding-bottom: 10px;
     }
-    
+
+    .error-title {
+        font-size: 34px !important;
+        line-height: 38px !important;
+    }
+
+    .errorsub { font-size: 15px!important; }
     
     .container-fluid .text-center-sm {
         text-align: center;
@@ -127,7 +140,10 @@
 
     .bgs { min-height: 290px; }
 
-
+    
+    
+    .bg-np-1 ~ .bg-blue-texture { padding-top: 100px; min-height: 425px; }
+    .bg-white .bg-np-2 { height: 500px;  }
 
 
 

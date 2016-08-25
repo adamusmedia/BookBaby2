@@ -12,7 +12,7 @@
 				<p class="h1-leadin">PUBLISH YOUR eBOOK ON GARDNERS BOOKS</p>
 				<h1 class="alt">The complete eBook self-publishing package</h1>
 				<h2 class="alt">Everything you need: eBook conversion, promotion & distribution for just $149</h2>
-                <a href="/quoter/confighandler.aspx?webpreconfigid=WPC0000038" class="btn btn-orange btn-lg">Get started</a>
+                <a href="/quoter/confighandler.aspx?webpreconfigid=WPC0000038" class="btn btn-orange btn-lg" role="button">Get started</a>
 
 			</div>
 			<div class="hidden-xs col-sm-5 col-md-5 col-lg-6">
