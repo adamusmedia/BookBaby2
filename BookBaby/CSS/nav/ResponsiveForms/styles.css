@@ -164,7 +164,7 @@
                 /*display: inline-block;*/
                 float: left;
                 width: 99%;
-                min-width: 100px;
+                /*min-width: 100px;*/
                 height: 39px;
                 margin: 0px 6px 0 0px;
                 overflow: hidden;
@@ -927,7 +927,7 @@
 .responsive-form .dd-tracklisting,
 .responsive-form .dd-genre,
 .responsive-form .dd-pricing {
-    max-width: 220px;
+    /*max-width: 220px;*/
 }
 
 .responsive-form .dd-content-type,
@@ -940,7 +940,7 @@
 }
 
 .responsive-form .dd-country {
-    max-width: 400px;
+    /*max-width: 400px;*/
 }
 
 .responsive-form fieldset ul li p.dropdown-mask.dd-month {
@@ -1089,7 +1089,7 @@
 .responsive-form .txt-imprint,
 .responsive-form .txt-seriestitle,
 .responsive-form .txt-author {
-    max-width: 350px;
+    /*max-width: 350px;*/
 }
 
 .responsive-form .txt-qt-or-so {
@@ -1108,7 +1108,7 @@
 .responsive-form .txt-trackname,
 .responsive-form .txt-upc,
 .responsive-form .txt-volumename {
-    max-width: 300px;
+    /*max-width: 300px;*/
 }
 
 .responsive-form .txt-phone,
@@ -1118,7 +1118,7 @@
 
 .responsive-form .txt-address2,
 .responsive-form .txt-city {
-    max-width: 220px;
+    max-width: 50%;
 }
 
 .responsive-form .txt-address3 {
@@ -1128,7 +1128,7 @@
 .responsive-form .txt-name,
 .responsive-form .txt-city,
 .responsive-form .txt-state {
-    max-width: 200px;
+    /*max-width: 200px;*/
 }
 
 .responsive-form .txt-series {
@@ -1162,7 +1162,7 @@
 
 .responsive-form .txt-zipcode,
 .responsive-form .dd-providers {
-    max-width: 145px;
+    max-width: 50%;
 }
 
 .responsive-form .txt-quantity {
@@ -1430,3 +1430,7 @@
 div.activity-item-container:nth-child(even) {
     background: #fafafa;
 }
+
+
+
+.responsive-form ul li p { margin-bottom: 20px!important; }

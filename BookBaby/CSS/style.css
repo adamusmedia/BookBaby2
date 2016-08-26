@@ -311,7 +311,7 @@ a.tdn { text-decoration: none; }
 
 
 ol.num-list { list-style: decimal; }
-ol.num-list li { margin-bottom: 20px; }
+ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 
 .article-divider {
     border-bottom: 1px solid #CCC;
@@ -408,6 +408,7 @@ ol.num-list li { margin-bottom: 20px; }
 .bg-photo-book-printing { background-image: url("../images/photobooks-hero-image.jpg"); }
 .bg-childrens-book-printing { background-image: url("../images/childrens-books-hero.jpg"); }
 .bg-how-to-make-a-book { background-image: url("../images/how-to-make-a-book-hero.jpg"); }
+.bg-how-to-make-an-ebook { background-image: url("/images/partner-kickstarter-thanks.jpg"); }
 .bg-friends-of-bookbaby { background-image: url("../images/partner-hero.jpg"); }
 .bg-bookbaby-partnership-opportunities { background-image: url("../images/partner-hero.jpg"); }
 .bg-bb-vs-createspace { background-image: url("../images/bookbaby-vs-createspace-hero.jpg"); }
@@ -428,6 +429,7 @@ ol.num-list li { margin-bottom: 20px; }
 .bg-error { background-image: url("../images/404-bkgd.jpg"); }
 .bg-yearbooks { background-image: url("../images/yearbooks-hero-image2.jpg"); }
 .bg-masterwriter { background-image: url("../images/masterwriter.jpg"); }
+.bg-twitter-chat { background-image: url(../images/twitter-chat-lifestyle.jpg); min-height: 400px;  }
 
 .bg-np-1 { background-image: url("../images/novel-quad1.jpg"); }
 .bg-np-2 { background-image: url("../images/novel-quad2.jpg"); }
@@ -439,7 +441,7 @@ ol.num-list li { margin-bottom: 20px; }
 .bg-book-trim { background-image: url("../images/book-printing-options-hero.jpg"); }
 .bg-brown-texture { background-image: url("../images/brown-texture-bg.jpg"); }
 
-.free-guide-img > img { max-height: 400px; display: block; }
+.free-guide-img > img { /*max-height: 400px;*/ display: block; }
 
 
 .book-item { margin-bottom: 20px; }
