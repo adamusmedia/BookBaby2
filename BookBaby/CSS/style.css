@@ -323,6 +323,12 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
     padding-bottom: 20px;
     margin-bottom: 5px;
 }
+.article-divider-3 {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
+
 
 .article-divider.mp-0 {
     border-bottom: 1px solid #CCC;
@@ -330,7 +336,7 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
     padding: 0;
 }
 
-
+.apb-item { padding-top: 20px; }
 
 
 
@@ -441,6 +447,11 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 .bg-book-trim { background-image: url("../images/book-printing-options-hero.jpg"); }
 .bg-brown-texture { background-image: url("../images/brown-texture-bg.jpg"); }
 
+.bg-apg-thanks { background-image: url("../images/request-all-guides-thanks.jpg"); min-height: 400px;  }
+.ty-aside { margin-left: 20px; }
+
+
+
 .free-guide-img > img { /*max-height: 400px;*/ display: block; }
 
 
@@ -461,6 +472,8 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
     line-height: 20px;
     text-align: left;
 }
+
+.pb-title { font-weight: 700; font-size: 115%; }
 
 /* buttons */
 .btn-orange {    
@@ -950,9 +963,11 @@ table.art-book-printing thead th {
 table.art-book-printing thead th.bg-t-blue,
 table.vs-createspace thead th.bg-t-blue,
 table.vs-lulu thead th.bg-t-blue,
-table.book-trim-sizes thead th.bg-t-blue {
+table.book-trim-sizes thead th.bg-t-blue,
+table.packagecompare thead th.bg-t-blue {
     background-color: #56acbe;
     color: #fff;
+    vertical-align: top;
 }
 
 
@@ -974,7 +989,8 @@ table.vs-lulu tbody tr td.bg-t-lt-blue,
 table.pod thead tr th.bg-lt-blue,
 table.pod tbody tr td.bg-lt-blue,
 table.book-trim-sizes thead tr th.bg-lt-blue,
-table.book-trim-sizes tbody tr td.bg-lt-blue {
+table.book-trim-sizes tbody tr td.bg-lt-blue,
+table.packagecompare tbody tr td.bg-lt-blue {
     background-color: #E5F3F5;
 }
 
@@ -994,6 +1010,8 @@ table.vs-lulu tbody tr td:nth-child(n+2) {
 }
 
 
+.packagecompare span,
+.packagecompare span ul.disc-list li { text-align: left; }
 
 
 

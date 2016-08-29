@@ -8,14 +8,13 @@
         <section class="jumbotron">
 
 			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-6 text-left text-center-xs">
-				<p class="h1-leadin">PUBLISH YOUR eBOOK ON GARDNERS BOOKS</p>
-				<h1 class="alt">The complete eBook self-publishing package</h1>
-				<h2 class="alt">Everything you need: eBook conversion, promotion & distribution for just $149</h2>
+				<p class="h1-leadin">PUBLISH YOUR BOOK ON NOOK</p>
+				<h1 class="alt">Get published on Barnes & Noble's eBook store and more</h1>
                 <a href="/quoter/confighandler.aspx?webpreconfigid=WPC0000038" class="btn btn-orange btn-lg" role="button">Get started</a>
 
 			</div>
 			<div class="hidden-xs col-sm-5 col-md-5 col-lg-6">
-                <img src="/images/publish-on-gardners.png" alt="Publish on Gardners Books" title="Publish on Gardners Books"  class="img-responsive" />
+                <img src="/images/publish-on-nook.png" alt="Publish on NOOK" title="Publish on NOOK" class="img-responsive" />
 			</div>
 
         </section>
@@ -28,8 +27,8 @@
 <div class="container-fluid bg-lt-grey ptb-40">
     <div class="container pt-35">
 
-            <h2 class="title-bold">Global eBook publishing on Gardners Books and more</h2>
-            <p class="lead">Gardners Books is a leading eBook retailer in the UK. When you publish your eBook on Gardners Books it will share virtual shelf space with time-honored classics and international best sellers. When you publish with BookBaby you’ll also get distribution to the world’s most popular eReaders like the iPad and Kindle.</p>
+            <h2 class="title-bold">Global eBook Publishing on NOOK and more</h2>
+            <p class="lead">Publish your book on the popular NOOK eReader and your book will share virtual shelf space with the latest New York Times’ best sellers, Pulitzer Prize winners, and time-honored classics.</p>
             
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pt-40">
 
@@ -43,7 +42,7 @@
                         </div>
                         <div class="col-md-9 col-lg-9 text-left text-center-xs text-center-sm">
                             <h2 class="title-bold mt-xs-10 mt-sm-10 mt-0">eBook Conversion</h2>
-                            <p>We’ll convert your eBook for Gardners Books as well as other eReaders like the Kindle and iPad.</p>
+                            <p>We’ll convert your eBook for Barnes & Noble’s NOOK as well as other eReaders like the Kindle and iPad.</p>
                         </div>
                     </div>
 
@@ -55,7 +54,7 @@
                         </div>
                         <div class="col-md-9 col-lg-9 text-left text-center-xs text-center-sm">
                             <h2 class="title-bold mt-xs-10 mt-sm-10 mt-0">Global eBook Distribution</h2>
-                            <p>Get published with BookBaby and we’ll make sure your eBook is made available in all the most popular eReader stores. Including: Amazon.com, iBooks, Barnes & Noble’s Nook store, Kobo, and many others.</p>
+                            <p>Get published with BookBaby and we’ll make sure your eBook is made available in all the most popular eReader stores including: Amazon.com, iBooks, Barnes & Noble’s Nook store, Kobo, and many others.</p>
                         </div>
                     </div>
 
@@ -80,7 +79,7 @@
                         <div class="col-md-9 col-lg-9 text-left">
                             <h2 class="title-bold mt-xs-10 mt-sm-10 mt-0">Territories</h2>
                             <ul class="disc-list">
-                                <li>Worldwide</li>
+                                <li>United States</li>
                             </ul>
                         </div>
                     </div>
@@ -94,17 +93,12 @@
                         <div class="col-md-9 col-lg-9 text-left">
                             <h2 class="title-bold mt-xs-10 mt-sm-10 mt-0">Accepted Languages</h2>
                             <ul class="disc-list">
-				                <li>English</li>
-                                <li>Brazilian Portuguese</li>
-				                <li>Chinese Simplified</li>
-				                <li>Chinese Traditional</li>
-				                <li>Dutch</li>
-				                <li>French</li>
-				                <li>German</li>
-				                <li>Italian</li>
-				                <li>Japanese</li>
-				                <li>Korean</li>
-				                <li>Spanish</li>
+                    	        <li>English</li>
+                    	        <li>French</li>
+                    	        <li>German</li>
+                    	        <li>Italian</li>
+                    	        <li>Portuguese</li>
+                    	        <li>Spanish</li>
                             </ul>
                         </div>
                     </div>
@@ -122,10 +116,10 @@
                         <ul class="disc-list mt-10">
                             <li><a href="#">iBooks</a></li>
                             <li><a href="#">Amazon Kindle</a></li>
-                            <li><a href="#">Nook</a></li>
+                            <li><span>Nook</span></li>
                             <li><a href="#">Kobo</a></li>
                             <li><a href="#">Copia</a></li>
-                            <li><span>Gardners</span></li>
+                            <li><a href="#">Gardners</a></li>
                             <li><a href="#">Baker & Taylor</a></li>
                             <li><a href="#">eSentral</a></li>
                             <li><a href="#">Scribd</a></li>
@@ -153,7 +147,7 @@
     <div class="container">
         <div class="row">
            <h2 class="title-bold white">Get worldwide distribution for your book.</h2>
-            <p class="lead white">Keep your royalties. Publish on Gardners Books and more today.</p>
+            <p class="lead white">Keep your royalties. Publish on Nook today.</p>
            <a href="/quoter/confighandler.aspx?webpreconfigid=WPC0000038" class="btn btn-center btn-orange btn-lg" role="button">Get started</a>
         </div>
     </div>
@@ -164,8 +158,8 @@
 <div class="container-fluid ptb-40">
     <div class="container">
 
-            <h2 class="title-bold">About publishing on Gardners Books</h2>
-            <p class="text-left">Gardners is Britain’s leading book, DVD, Blu-ray, and music CD wholesaler, with over 4.5 million books and over 450,000 eBooks available in their catalog. Alongside current bestsellers and timeless classics, your eBook will be available in Gardners’ wholesale catalog for independent bookstores, online venders, and other 3rd party retailers to sell to their customers. Gardners also provides an eBook lending model for a number of libraries, under which library members are restricted to one concurrent loan per purchased eBook.Gardners Books makes your eBook available in ePub format, so it will be readable on any ePub-compatible device (iPad, Nook, Sony Reader, Kobo Reader, etc.) With Gardners’ wholesale pricing structure, you will earn 60% of the list price you set for your eBook.</p>
+            <h2 class="title-bold">About publishing on NOOK</h2>
+            <p class="text-left">Most eBooks are priced at $9.99 or less, but you can sell your eBook on the NOOK store for any price you like. Even if Barnes & Noble offers your eBook on NOOK at a discount, they’ll pay you 50% of your list price. While browsing inside a Barnes & Noble store location, NOOK users will be allowed to preview any available NOOK title for free. Plus, you can lend eBooks to other NOOK users for up to 14 days.</p>
 
             <h2 class="title-bold">Why publish with BookBaby?</h2>
             <p class="text-left">BookBaby has a knowledgeable customer service staff available by phone and email five days a week. We take the headache out of eBook publishing by offering all the services you need like eBook conversion, editing, cover design, printing, and more — all in one place.</p>
@@ -182,23 +176,13 @@
 <div class="container-fluid bg-dk-blue section-padding-default">
     <div class="container">
         <div class="row">
-           <h2 class="title-bold white">Publish your book on Gardners Books and more.</h2>
+           <h2 class="title-bold white">Publish your book on Nook and more.</h2>
            <a href="/quoter/confighandler.aspx?webpreconfigid=WPC0000038" class="btn btn-center btn-orange btn-lg" role="button">Get started</a>
         </div>
     </div>
 </div>
 
 
-
-<!--
-<div class="container-fluid">
-    <div class="container">
-        <div class="row">
-            <br />
-        </div>
-    </div>
-</div>
--->
 
 
 </asp:Content>

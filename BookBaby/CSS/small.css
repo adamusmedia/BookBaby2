@@ -148,7 +148,11 @@
 
 
 
-
+    .packagecompare span,
+    .packagecompare span ul.disc-list li { font-size: 13px; line-height: 20px; }
+    .packagecompare span ul.disc-list {
+        margin-left: 5px;
+    }
 
 
 

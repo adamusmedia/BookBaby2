@@ -92,5 +92,18 @@
     .bg-np-1 ~ .bg-blue-texture { padding-top: 100px; min-height: 425px; }
     .bg-white .bg-np-2 { height: 550px;  }
 
+
+    /*
+    .packagecompare span,
+    .packagecompare span ul.disc-list li { font-size: 14px; line-height: 17px; }
+    .packagecompare span ul.disc-list {
+        margin-left: 5px;
+    }
+        */
+    .packagecompare span,
+    .packagecompare span ul.disc-list li { font-size: 16px; line-height: 28px; }
+    .packagecompare span ul.disc-list {
+        margin-left: 15px;
+    }
 }
 /* ******************************* */

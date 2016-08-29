@@ -1372,7 +1372,7 @@
 
 
     <div class="button-container">
-        <input class="button primary-site-button" id="contentMain_ucEmailNameAddress_btnSubmit" name="ctl00$contentMain$ucEmailNameAddress$btnSubmit" onclick="return ValidateEmailNameAddressForm(event);" tabindex="14" title="Submit" type="submit" value="Submit">
+        <input class="btn btn-orange btn-lg" id="contentMain_ucEmailNameAddress_btnSubmit" name="ctl00$contentMain$ucEmailNameAddress$btnSubmit" onclick="return ValidateEmailNameAddressForm(event);" tabindex="14" title="Submit" type="submit" value="Submit">
     </div>
     <!-- .button-container -->
 </div>
