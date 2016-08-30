@@ -244,8 +244,8 @@
                         <tbody>
                             <tr>
                                 <td class="bg-blue"><span class="white"><strong>BOOKBABY</strong></span></td>
-                                <td class="bg-blue"><span class="white"><strong>$9.99 each</strong></span></td>
-                                <td class="bg-blue"><span class="white"><strong>$16 each</strong></span></td>
+                                <td class="bg-lt-blue"><span><strong>$9.99 each</strong></span></td>
+                                <td class="bg-lt-blue"><span><strong>$16 each</strong></span></td>
                             </tr>
                             <tr>
                                 <td class="bg-dk-grey"><span class="white"><strong>JOSTENS</strong></span></td>
@@ -281,8 +281,8 @@
                         <tbody>
                             <tr>
                                 <td class="bg-blue"><span class="white"><strong>BOOKBABY</strong></span></td>
-                                <td class="bg-blue"><span class="white"><strong>$11.48 each</strong></span></td>
-                                <td class="bg-blue"><span class="white"><strong>$18 each</strong></span></td>
+                                <td class="bg-lt-blue"><span><strong>$11.48 each</strong></span></td>
+                                <td class="bg-lt-blue"><span><strong>$18 each</strong></span></td>
                             </tr>
                             <tr>
                                 <td class="bg-dk-grey"><span class="white"><strong>JOSTENS</strong></span></td>

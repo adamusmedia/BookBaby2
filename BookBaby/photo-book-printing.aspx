@@ -165,19 +165,19 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><span><strong>Softcover/Perfect Bound</strong></span></td>
+                            <td class="bg-blue"><span><strong>Softcover/Perfect Bound</strong></span></td>
                             <td class="bg-t-lt-blue"><span>$500.00</span></td>
                             <td><span>$1,039.60</span></td>
                             <td><span>$770.50</span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>Hardcover, Image Wrap</strong></span></td>
+                            <td class="bg-blue"><span><strong>Hardcover, Image Wrap</strong></span></td>
                             <td class="bg-t-lt-blue"><span>$879.00</span></td>
                             <td><span>$1,519.60</span></td>
                             <td><span>$1,074.10</span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>Hardcover, Dust Jacket</strong></span></td>
+                            <td class="bg-blue"><span><strong>Hardcover, Dust Jacket</strong></span></td>
                             <td class="bg-t-lt-blue"><span>$979.00</span></td>
                             <td><span>$1,439.60</span></td>
                             <td><span>$N/A</span></td>
@@ -201,43 +201,43 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><span><strong>Book files reviewed by in-house prepress specialist before printing</strong></span></td>
+                            <td class="bg-blue"><span><strong>Book files reviewed by in-house prepress specialist before printing</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>Books printed in one location ensuring quality every time</strong></span></td>
+                            <td class="bg-blue"><span><strong>Books printed in one location ensuring quality every time</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>In-house professional book cover design and layout services</strong></span></td>
+                            <td class="bg-blue"><span><strong>In-house professional book cover design and layout services</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>We print our company's logo on your books</strong></span></td>
+                            <td class="bg-blue"><span><strong>We print our company's logo on your books</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>Live US based customer support (email, phone, live chat)</strong></span></td>
+                            <td class="bg-blue"><span><strong>Live US based customer support (email, phone, live chat)</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>Quality guaranteed</strong></span></td>
+                            <td class="bg-blue"><span><strong>Quality guaranteed</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                         </tr>
                         <tr>
-                            <td><span><strong>ISBN assignment</strong></span></td>
+                            <td class="bg-blue"><span><strong>ISBN assignment</strong></span></td>
                             <td class="bg-t-lt-blue"><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-x.png" class="img-responsive center-block"></span></td>
                             <td><span><img src="/images/comparison-check.png" class="img-responsive center-block"></span></td>

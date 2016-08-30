@@ -129,7 +129,7 @@
 
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cspp-4"></div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left min-h-310">
                     <div class="mw-400">
                         <h2 class="title semibold">Cover Design</h2>
                         <p>Designing a book cover is an art. Our knowledgeable team has years of experience in print and eBook cover design in a wide variety of genres and will create a custom book cover that you can be proud of. Basic cover design (for both eBook and printed books) is included with the Complete Self-Publishing Package. <a href="/ebook-cover-design">Learn about our cover design services</a></p>
@@ -153,7 +153,7 @@
     <div class="row">
 
         <div class="offset-icon-130">
-            <img class="keep-100-sales" src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
+            <img class="keep-100-sales z-index-fix" src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
         </div>
 
         <section id="self-publishing-staff">

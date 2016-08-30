@@ -19,7 +19,7 @@
 
     
     
-    <div class="container-fluid pt-60 pb-60">
+    <div class="container-fluid bg-lt-grey pt-60 pb-60">
         <div class="container">
             <div class="row">
 

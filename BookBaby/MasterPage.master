@@ -118,7 +118,6 @@
                 <ul class="nav-icons">
                     <li class="search-link"><a class="open-search-link" href="#search" title="Search"><i class="icon-search-2"></i><span class="icon-text">Search</span></a></li>
                     <li class="account-link"><a href="/MyAccount/dashboard.aspx" title="My Account"><i class="icon-user"></i><span class="icon-text">Account</span></a></li>
-                    <!--li class="cart-link"><a href="/Shop/ViewCart.aspx" title="Hardware Cart"><i class="icon-basket"></i><span class="icon-text">Cart</span></a></li-->
                     <li class="login-link"><a href="/MyAccount/login.aspx?pageto=" title="Sign In" id="login-link"><i class="icon-enter"></i><span class="icon-text">Login</span></a></li>
                 </ul>
             </div>
@@ -133,424 +132,107 @@
             <div class="main-nav">
                 <ul class="level1">
                     <li>
-                        <!-- products -->
-                        <a href="/products.asp" title="What We Do" data-toggle="nav-menu">What We Do<i class="right-arrow icon-right-dir"></i><i class=" down-arrow icon-down-dir"></i></a>
+                        <a href="/pricing/" title="What We Do" data-toggle="nav-menu">What We Do</a>
+                    </li>
+                    <li>
+                        <a href="/book-printing/" title="Book Printing" data-toggle="nav-menu">Book Printing<i class="right-arrow icon-right-dir"></i><i class=" down-arrow icon-down-dir"></i></a>
                         <ul class="level2">
                             <li>
-                                <!-- Packages -->
-                                <ul class="level3">
-                                    <li>
-                                        <a href="/products/digipaks.asp" title="Digipaks">Digipaks</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/ecowallets.asp" title="Eco-Wallets">Eco-Wallets</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/jackets.asp" title="Jackets">Jackets</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/jewelcases.asp" title="Jewel Cases">Jewel Cases</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/dvdcases.asp" title="DVD Cases">DVD Cases</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/dvdigipaks.asp" title="DVDigipaks">DVDigipaks</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/short-run.asp" title="Short-run Duplication">Short-run Duplication</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/bulk.asp" title="Bulk CDs &amp; DVDs">Bulk CDs &amp; DVDs</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/vinyl.asp" title="Vinyl Manufacturing">NEW! Vinyl Manufacturing</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/bluray.asp" title="Blu-ray Manufacturing">Blu-ray Manufacturing</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/mailingpackages.asp" title="Direct Mail Packaging">Direct Mail Packaging</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/bundles.asp" title="Bundle Packages">Bundle Packages</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/audio-books.asp" title="Audio Books">Audio Books</a>
-                                    </li>
-                                    <li class="view-all">
-                                        <a href="/products/" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/products/" title="Disc Packages &amp; Vinyl" data-toggle="nav-menu">Disc Packages &amp; Vinyl<i class="icon-right-dir"></i></a>
-                            </li> <!-- Packages -->
+                                <a href="/book-printing/" title="Book Printing Overview">Book Printing Overview</a>
+                            </li> 
                             <li>
-                                <!-- Promotional Items -->
-                                <ul class="level3">
-                                    <li>
-                                        <a href="/products/posters.asp" title="Posters">Posters</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/custom-stickers-postcards-and-logos.asp" title="Postcards">Postcards</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/custom-stickers-postcards-and-logos.asp" title="Stickers">Stickers</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/downloadcards.asp" title="Download Cards">Download Cards</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/custom-stickers-postcards-and-logos.asp" title="Flyers">Flyers</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/custom-stickers-postcards-and-logos.asp" title="Logos">Logos</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/inserts.asp" title="Inserts">Inserts</a>
-                                    </li>
-                                    <li class="view-all">
-                                        <a href="/products/promomaterials.asp" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/products/promomaterials.asp" title="Promotional Items" data-toggle="nav-menu">Promotional Items<i class="icon-right-dir"></i></a>
-                            </li> <!-- Promotional Items  -->
+                                <a href="/book-genres-and-styles/" title="Book Styles">Book Styles</a>
+                            </li> 
                             <li>
-                                <!-- Blank Media -->
-                                <ul class="level3">
-                                    <li>
-                                        <a href="/shop/parentgroups/blank.asp" title="Blank CDs (CD-Rs)">Blank CDs (CD-Rs)</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/parentgroups/blankdvd.asp" title="Blank DVDs (DVD-Rs)">Blank DVDs (DVD-Rs)</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/parentgroups/bluray.asp" title="Blank Blu-ray (BD-Rs)">Blank Blu-ray (BD-Rs)</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/parentgroups/mediline-blank-media.asp" title="Medical Grade Media">Medical Grade Media</a>
-                                    </li>
-                                    <li class="view-all">
-                                        <a href="/shop/parentgroups/blank-media.asp" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/shop/parentgroups/blank-media.asp" title="Blank Media" data-toggle="nav-menu">Blank Media<i class="icon-right-dir"></i></a>
-                            </li> <!-- Blank Media -->
+                                <a href="/print-on-demand/" title="Print on Demand">Print on Demand</a>
+                            </li>
                             <li>
-                                <!-- USB -->
-                                <ul class="level3">
-                                    <li>
-                                        <a href="/duplicators/usb/usbdrives.asp" title="USB Flash Drives">USB Flash Drives</a>
-                                    </li>
-                                    <li>
-                                        <a href="/duplicators/usb/packaging.asp" title="USB Packaging">USB Packaging</a>
-                                    </li>
-                                    <li>
-                                        <a href="/duplicators/usb/" title="USB Duplicators">USB Duplicators</a>
-                                    </li>
-                                    <li class="view-all">
-                                        <a href="/duplicators/usb/custom-usb-drives.asp" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/duplicators/usb/custom-usb-drives.asp" title="USB" data-toggle="nav-menu">USB<i class="icon-right-dir"></i></a>
-                            </li> <!-- USB -->
+                                <a href="#" title="Songwriting &amp; Recording Tools">Book Distribution</a>
+                            </li> 
                             <li>
-                                <!-- Disc Duplicators -->
-                                <ul class="level3">
-                                    <li>
-                                        <a href="/duplicators/manual/" title="Manual Duplicators">Manual Duplicators</a>
-                                    </li>
-                                    <li>
-                                        <a href="/duplicators/automated/" title="Automated Duplicators">Automated Duplicators</a>
-                                    </li>
-                                    <li>
-                                        <a href="/duplicators/manual/bluray.asp" title="Manual Blu-ray Duplicators">Manual Blu-ray Duplicators</a>
-                                    </li>
-                                    <li>
-                                        <a href="/duplicators/automated/bluray.asp" title="Automated Blu-ray Duplicators">Automated Blu-ray Duplicators</a>
-                                    </li>
-                                    <li>
-                                        <a href="/duplicators/bundles/" title="Duplicator Bundles">Duplicator Bundles</a>
-                                    </li>
+                                <a href="#" title="Complete Self Publishing Package">Complete Self Publishing Package</a>
+                            <li>
+                                <a href="/templates.aspx" title="Templates">Templates</a>
+                            <li>
+                                <a href="#" title="Preparing for Book Printing">Preparing for Book Printing</a>
+                            </li> 
+                            <li>
+                                <a href="#" title="Wholesale Book Printing">Wholesale Book Printing</a>
+                            </li> 
+                            <li>
+                                <a href="#" title="">Get Started</a>
+                            </li> 
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="/templates/" title="eBooks" data-toggle="nav-menu">eBOOKS<i class="right-arrow icon-right-dir"></i><i class=" down-arrow icon-down-dir"></i></a>
+                        <ul class="level2">
+                            <li>
+                                <a href="#" title="eBooks Overview">eBooks Overview</a>
+                            </li> 
+                            <li>
+                                <a href="#" title="eBook Publishing & Conversion">eBook Publishing & Conversion</a>
+                            </li> 
+                            <li>
+                                <a href="#" title="eBook Distribution">eBook Distribution</a>
+                            </li> 
+                            <li>
+                                <a href="#" title="Complete Self-Publishing Package">Complete Self-Publishing Package</a>
+                            </li> 
+                            <li>
+                                <a href="#" title="Fixed Layout iBooks">Fixed Layout iBooks</a>
+                            </li> 
+                            <li>
+                                <a href="#" title="How to Make an eBook">How to Make an eBook</a>
+                            </li> 
+                            <li>
+                                <a href="#" title="Preparing Your Files">Preparing Your Files</a>
+                            </li> 
+                            <li>
+                                <a href="#" title="Get Started">Get Started</a>
+                            </li> 
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/request/" title="Services" data-toggle="nav-menu">Services<i class="right-arrow icon-right-dir"></i><i class=" down-arrow icon-down-dir"></i></a>
+                        <ul class="level2">
+                            <li>
+                                <a href="#" title="Editing">Editing</a>
+                            </li> 
 
-                                    <li class="view-all">
-                                        <a href="/duplicators/" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/duplicators/" title="Disc Duplicators" data-toggle="nav-menu">Disc Duplicators<i class="icon-right-dir"></i></a>
-                            </li> <!-- Disc Duplicators -->
                             <li>
-                                <!-- On-disc Printers -->
-                                <ul class="level3">
-                                    <li>
-                                        <a href="/duplicators/printers/inkjet.asp" title="Inkjet Printers">Inkjet Printers</a>
-                                    </li>
-                                    <li>
-                                        <a href="/duplicators/printers/mfdsprintteac.asp" title="Thermal Printer">Thermal Printers</a>
-                                    </li>
-                                    <li>
-                                        <a href="/duplicators/printers/automated.asp" title="Automated Printers">Automated Printers</a>
-                                    </li>
-                                    <li>
-                                        <a href="/duplicators/printers/labelprinters.asp" title="Label Printers">Label Printers</a>
-                                    </li>
-                                    <li class="view-all">
-                                        <a href="/duplicators/printers/" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/duplicators/printers/" title="On-disc Printers" data-toggle="nav-menu">On-disc Printers<i class="icon-right-dir"></i></a>
-                            </li> <!-- On-disc Printers -->
+                                <a href="#" title="Printed Book Cover Design">Printed Book Cover Design</a>
+                            </li> 
+
                             <li>
-                                <!-- Printing Supplies -->
-                                <ul class="level3">
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=medink" title="Medley Ink">Medley Ink</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=primink" title="Primera Ink">Primera Ink</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=epsonink" title="Epson Ink">Epson Ink</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=autoink" title="Autograph Ink">Autograph Ink</a>
-                                    </li>
-                                   <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=pfproink" title="Microboards Ink">Microboards Ink</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=mfdink" title="MF Digital Ink">MF Digital Ink</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=uprintrib" title="U-Print Ribbons">U-Print Ribbons</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/ItemGroup.aspx?ItemGroup=powprtrib" title="PowerPrinter">PowerPrinter</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/ItemGroup.aspx?ItemGroup=neatolab" title="Neato Supplies">Neato Supplies</a>
-                                    </li>
-                                    <li class="view-all">
-                                        <a href="/shop/parentgroups/printsup.asp" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/shop/parentgroups/printsup.asp" title="Printing Supplies" data-toggle="nav-menu">Printing Supplies<i class="icon-right-dir"></i></a>
-                            </li> <!-- Printing Supplies -->
+                                <a href="#" title="eBook Cover Design ">eBook Cover Design </a>
+                            </li> 
+
                             <li>
-                                <!-- Packaging &amp; Mailing Supplies -->
-                                <ul class="level3">
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=CDCASES" title="Jewel Cases">Jewel Cases</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=clearplast" title="Clear Plastic Cases">Clear Plastic Cases</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=DVDCASES" title="DVD Cases">DVD Cases</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=BLURAYCASE" title="Blu-ray Cases">Blu-ray Cases</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=diecutjack" title="Die-cut Jackets">Die-cut Jackets</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=digipaks" title="Blank Digipaks">Blank Digipaks</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=foamhubs" title="Adhesive Hubs">Adhesive Hubs</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=cdsleeves" title="Sleeves">Sleeves</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemgroup.aspx?itemgroup=popitems" title="Retail Displays">Retail Displays</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemdetails.aspx?itemid=cd-070-00002" title="Board Envelope Mailers">Board Envelope Mailers</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemdetails.aspx?itemid=dvd070-00001" title="DVD Case Mailers">DVD Case Mailers</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemdetails.aspx?itemid=cd-070-00001" title="Sturdy Mailers">Sturdy Mailers</a>
-                                    </li>
-                                    <li>
-                                        <a href="/shop/itemdetails.aspx?itemid=cd-070-00003" title="Multi CD Mailers">Multi CD Mailers</a>
-                                    </li>
-                                    <li class="view-all">
-                                        <a href="/shop/parentgroups/packaging.asp" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/shop/parentgroups/packaging.asp" title="Packaging &amp; Mailing Supplies" data-toggle="nav-menu">Packaging &amp; Mailing Supplies<i class="icon-right-dir"></i></a>
-                            </li> <!-- Packaging &amp; Mailing Supplies -->
-                            <li class="view-all">
-                                <a href="/products.asp" title="view all">view all</a>
-                            </li>
-                        </ul> <!-- level2 -->
-                    </li> <!-- products -->
-                    <li>
-                        <a href="/services/" title="Book Printing" data-toggle="nav-menu">Book Printing<i class="right-arrow icon-right-dir"></i><i class=" down-arrow icon-down-dir"></i></a>
-                        <ul class="level2">
+                                <a href="#" title="Interior Print Design & Formatting ">Interior Print Design & Formatting </a>
+                            </li> 
+
                             <li>
-                                <!-- Creative Services -->
-                                <ul class="level3">
-                                    <li>
-                                        <a href="/design/" title="CD &amp; DVD Design">CD &amp; DVD Design</a>
-                                    </li>
-                                    <li>
-                                        <a href="/soundlab/" title="Mastering by the SoundLAB">Mastering by the SoundLAB</a>
-                                    </li>
-                                    <li>
-                                        <a href="/authoring/" title="DVD Authoring">DVD Authoring</a>
-                                    </li>
-                                    <li class="view-all">
-                                        <a href="/services/creative-services.asp" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/services/creative-services.asp" title="Creative Services" data-toggle="nav-menu">Creative Services<i class="icon-right-dir"></i></a>
-                            </li> <!-- Creative Services -->
+                                <a href="#" title="BookPromo">BookPromo ™</a>
+                            </li> 
+
                             <li>
-                                <!-- Sales &amp; Distribution -->
-                                <ul class="level3">
-                                	<li><a href="/merch/" title="Merch">Merch</a></li>
-                                    <li>
-                                        <a href="/services/webdistribution.asp" title="Digital Music Distribution">Digital Music Distribution</a>
-                                    </li>
-                                    <li>
-                                        <a href="/services/gracenote-vs-cd-text.asp" title="Gracenote vs. CD-Text">Gracenote vs. CD-Text</a>
-                                    </li>
-                                    <li>
-                                        <a href="/products/downloadcards.asp" title="Download Cards">Download Cards</a>
-                                    </li>
-                                    <li>
-                                        <a href="/services/hostbaby.asp" title="Web Hosting by HostBaby">Web Hosting by HostBaby</a>
-                                    </li>
-                                    <li>
-                                        <a href="/services/bookbaby.asp" title="eBook Distribution &amp; Book Printing">eBook Distribution &amp; Book Printing</a>
-                                    </li>
-                                    <li>
-                                        <a href="/services/soundscan.asp" title="Nielsen SoundScan">Nielsen SoundScan</a>
-                                    </li>
-                                    <li class="view-all">
-                                        <a href="/services/sales-distribution.asp" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/services/sales-distribution.asp" title="Sales &amp; Distribution" data-toggle="nav-menu">Sales &amp; Distribution<i class="icon-right-dir"></i></a>
-                            </li> <!-- Sales &amp; Distribution -->
+                                <a href="#" title="Book Shop">Book Shop ™</a>
+                            </li> 
+
                             <li>
-                                <!-- Promotion -->
-                                <ul class="level3">
-                                    <li>
-                                        <a href="/products/promomaterials.asp" title="Promotional Materials">Promotional Materials</a>
-                                    </li>
-                                    <li>
-                                        <a href="/services/cakewalk.asp" title="Cakewalk">Cakewalk</a>
-                                    </li>
-                                    <li>
-                                        <a href="/services/pledgemusic.asp" title="Pledge Music">Pledge Music</a>
-                                    </li>
-                                    <li>
-                                        <a href="/services/radioairplay.asp" title="Radio Airplay">Radio Airplay</a>
-                                    </li>
-                                    <li>
-                                        <a href="/services/artist-growth.asp" title="Artist Growth">Artist Growth</a>
-                                    </li>
-                                    <li class="view-all">
-                                        <a href="/services/tools-for-music-promotion.asp" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/services/tools-for-music-promotion.asp" title="Tools for Music Promotion" data-toggle="nav-menu">Tools for Music Promotion<i class="icon-right-dir"></i></a>
-                            </li> <!-- Promotion -->
+                                <a href="#" title="Scanning">Scanning</a>
+                            </li> 
+
                             <li>
-                                <!-- Songwriting & Recording Tools -->
-                                <a href="/services/masterwriter.asp" title="Songwriting &amp; Recording Tools">Songwriting &amp; Recording Tools</a>
-                            </li> <!-- Songwriting & Recording Tools -->
+                                <a href="#" title="Press Releases">Press Releases</a>
+                            </li> 
+
                             <li>
-                                <!-- Copyrights & Licensing -->
-                                <ul class="level3">
-                                    <li>
-                                        <a href="/services/easy-song-licensing.asp" title="Clear your Cover Songs">Clear your Cover Songs</a>
-                                    </li>
-                                    <li>
-                                        <a href="/services/macrovision.asp" title="Protect your DVDs from Piracy">Protect your DVDs from Piracy</a>
-                                    </li>
-                                    <li class="view-all">
-                                        <a href="/services/copyrights.asp" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/services/copyrights.asp" title="Copyrights &amp; Licensing" data-toggle="nav-menu">Copyrights &amp; Licensing<i class="icon-right-dir"></i></a>
-                            <li>
-                                <!-- Wholesale Accounts -->
-                                <ul class="level3">
-                                    <li>
-                                        <a href="/services/directmail.asp" title="Direct Mail Fulfillment">Direct Mail Fulfillment</a>
-                                    </li>
-                                    <li>
-                                        <a href="/services/majoraccount.asp" title="Supply Chain Management">Supply Chain Management</a>
-                                    </li>
-                                    <li class="view-all">
-                                        <a href="/services/wholesale-accounts.asp" title="view all">view all</a>
-                                    </li>
-                                </ul> <!-- level3 -->
-                                <a href="/services/wholesale-accounts.asp" title="Wholesale Accounts" data-toggle="nav-menu">Wholesale Accounts<i class="icon-right-dir"></i></a>
-                            <li>
-                                <!-- Insurance -->
-                                <a href="/services/music-pro-insurance.asp" title="Insurance">Insurance</a>
-                            </li> <!-- Insurance -->
-                            <li class="view-all">
-                                <a href="/services/" title="view all">view all</a>
-                            </li>
+                                <a href="#" title="Web Hosting for Authors">Web Hosting for Authors</a>
+                            </li> 
                         </ul>
-                    </li>
-                    <li>
-                        <a href="/templates/" title="eBooks" data-toggle="nav-menu">eBooks<i class="right-arrow icon-right-dir"></i><i class=" down-arrow icon-down-dir"></i></a>
-                        <ul class="level2">
-                            <li>
-                                <a href="/templates/digipaks.asp" title="Digipak Templates">Digipak Templates</a>
-                            </li> <!-- Digipaks -->
-                            <li>
-                                <a href="/templates/jewelcase.asp" title="Jewel Case Templates">Jewel Case Templates</a>
-                            </li> <!-- JewelCase -->
-                            <li>
-                                <a href="/templates/jackets.asp" title="Jacket Templates">Jacket Templates</a>
-                            </li> <!-- Jackets -->
-                            <li>
-                                <a href="/templates/ecowallets.asp" title="Eco-wallet Templates">Eco-wallet Templates</a>
-                            </li> <!-- Eco-wallets -->
-                            <li>
-                                <a href="/templates/dvd.asp" title="DVD Templates">DVD Templates</a>
-                            </li><!-- DVD -->
-                            <li>
-                                <a href="/templates/bluray.asp" title="Blu-ray Templates">Blu-ray Templates</a>
-                            </li><!-- Blu-ray -->
-                            <li>
-                                <a href="/templates/promo.asp" title="Promo Material Templates">Promo Material Templates</a>
-                            </li> <!-- Promotional Materials -->
-                            <li>
-                                <a href="/templates/folders.asp" title="Folder Templates">Folder Templates</a>
-                            </li> <!-- Folder Templates Materials -->
-                            <li>
-                                <a href="/templates/vinyl.asp" title="Vinyl Templates">Vinyl Templates</a>
-                            </li> <!-- Vinyl -->
-                            <li>
-                                <a href="/templates/box.asp" title="Retail Box Templates">Retail Box Templates</a>
-                            </li> <!-- Retail Box -->
-                            <li>
-                                <a href="/templates/ondiscprint.asp" title="On-disc Printing Templates">On-disc Printing Templates</a>
-                            </li> <!-- On-disc Printing -->
-                            <li>
-                                <a href="/templates/usb-drives.asp" title="USB Drive Templates">USB Drive Templates</a>
-                            </li> <!-- USB -->
-                            <li>
-                                <a href="/templates/logofonts.asp" title="Logo Fonts">Logo Fonts</a>
-                            </li> <!-- Logo Fonts -->
-                            <li class="view-all">
-                                <a href="/templates/" title="view all">view all</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="/request/" title="Services">Services<i></i></a>
                     </li>
                     <li>
                         <a class="pricing-nav-link" href="/quoter/default.aspx" title="Pricing">Pricing<i></i></a>

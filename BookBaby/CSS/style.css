@@ -680,6 +680,21 @@ h2.semibold { font-weight: 600; }
     padding: 10px;
     min-width: 290px; 
 }
+.black-header-container {
+    background: black;
+    float: left;
+    margin: 0;
+    padding: 10px;
+    min-width: 290px; 
+}
+
+.sm-container {
+    background: black;
+    float: left;
+    margin: -64px 0 0 -16px;
+    padding: 10px;
+    min-width: 290px; 
+}
 
 .logo-box,
 .palette { background:white; border:1px solid #ccc; margin-top:85px; }
@@ -886,7 +901,10 @@ td.col-2-copy > span { text-align: left; float: left; }
 
 
 
-
+.z-index-fix {
+    z-index: 5;
+    position: relative;
+}
 
 p.testimonial {
     font-family: 'Bitter',Arial,Helvetica,sans-serif;
@@ -920,6 +938,8 @@ p.testimonial-2 > span {
 
 div.table-res { float: left; width: 100%; }
 
+.table thead { background-color: #fff; }
+
 div.table-res .table-header {
     background: #3E3B32 URL('/images/dark-crosshatch.png');
     float: left;
@@ -935,7 +955,7 @@ div.table-res > table.res {
     display: block;
     width: 100%;
     margin: 0px 0px 20px;
-    background-color: #fff;
+    background-color: unset;
 }
 
 table.pod { background-color: #fff; }
@@ -956,9 +976,7 @@ table.res td,
 table.volume-pricing th,
 table.volume-pricing td { text-align: center; }
 
-table.art-book-printing thead th {
-    background-color: #eee;
-}
+table.art-book-printing thead th { }
 
 table.art-book-printing thead th.bg-t-blue,
 table.vs-createspace thead th.bg-t-blue,
@@ -970,7 +988,9 @@ table.packagecompare thead th.bg-t-blue {
     vertical-align: top;
 }
 
-
+table.res tbody tr td {
+    background-color: #fff;
+}
 table.yb-printing tbody tr td.bg-blue {
     background-color: #56acbe;
 }
@@ -990,7 +1010,8 @@ table.pod thead tr th.bg-lt-blue,
 table.pod tbody tr td.bg-lt-blue,
 table.book-trim-sizes thead tr th.bg-lt-blue,
 table.book-trim-sizes tbody tr td.bg-lt-blue,
-table.packagecompare tbody tr td.bg-lt-blue {
+table.packagecompare tbody tr td.bg-lt-blue,
+table.yb-printing tbody tr td.bg-lt-blue {
     background-color: #E5F3F5;
 }
 
@@ -1013,9 +1034,36 @@ table.vs-lulu tbody tr td:nth-child(n+2) {
 .packagecompare span,
 .packagecompare span ul.disc-list li { text-align: left; }
 
+/*
+    table.packagecompare tbody tr td:nth-child(1),
+    table.packagecompare thead tr th:nth-child(1) {
+        width: 15%;
+    }
+    table.packagecompare tbody tr td:nth-child(2),
+    table.packagecompare tbody tr td:nth-child(3),
+    table.packagecompare thead tr th:nth-child(2),
+    table.packagecompare thead tr th:nth-child(3) {
+        width: 10%;
+    }
+    table.packagecompare tbody tr td:nth-child(4),
+    table.packagecompare tbody tr td:nth-child(5),
+    table.packagecompare tbody tr td:nth-child(6),
+    table.packagecompare thead tr th:nth-child(4),
+    table.packagecompare thead tr th:nth-child(5),
+    table.packagecompare thead tr th:nth-child(6) {
+        width: 25%;
+    }
+*/
 
-
-
+ul.disc-list-sm { 
+    list-style: none; 
+    padding-left: 5px;
+    margin: 0;
+}
+ul.disc-list-sm li {
+    
+    margin: 8px 0 8px 0px;
+}
 
 
 
@@ -1053,7 +1101,12 @@ h4.price { margin-top: 3px; }
 .box-white-border-grey { background-color: #fff; border: 1px solid #ccc; padding: 15px; }
 .box-lt-blue-border-grey { background-color: #ebf5f5; border: 1px solid #ccc; padding: 15px; }
 
-
+.bwbg2 {
+        margin-top: 90px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 15px;
+}
 
 .sidebar-head-publish-on {
     background-color: #333;

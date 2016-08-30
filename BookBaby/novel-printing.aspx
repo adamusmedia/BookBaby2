@@ -163,7 +163,7 @@
             
             <div class="col-xs-12 visible-xs bg-img-half bg-np-3"></div>
 
-            <div class="bg-blue-texture col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
+            <div class="bg-blue-texture col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right min-h-310">
                 <div class="mw-400 mplr-15 pt-20">
                         
                     <h2 class="condensed white mt-0">What is perfect binding?</h2>
@@ -186,7 +186,7 @@
         <div class="row">
 
             <div class="offset-icon-130">
-                <img class="keep-100-sales" src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
+                <img class="keep-100-sales z-index-fix" src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
             </div>
 
             <section id="self-publishing-staff">
