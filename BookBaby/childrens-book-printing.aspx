@@ -15,67 +15,75 @@
     </div>
 
 
-
-
-
-
-
-
-<div class="container-fluid bg-white">
+    
+<div class="container-fluid bg-white c-500">
     <div class="row">
 
-        <section class="container-fluid">
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right mpb-0">
-                    <div class="mw-400">
-                        <h2 class="condensed mt-0">BookBaby will turn your vision into a gorgeous and sturdy book that parents will want to read to their children, night after night.</h2>
+            <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="ci cir">
+                    <div>
+                        <h2 class="condensed mt-0 float-right">BookBaby will turn your vision into a gorgeous and sturdy book that parents will want to read to their children, night after night.</h2>
                     </div>
+                    
                 </div>
+            </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-                    <div class="mw-400">
+            <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="ci cil">
+                    <div>
                         <p>Let your imagination soar with bookstore-quality, full-color picture books, toddler books, chapter books, middle grade books, or YA novels. By being your own children’s book publisher you retain complete creative control over your work so your vision can become a beautiful reality. BookBaby makes it easy to order and publish a children’s book online, with our <a href="/templates">book printing templates</a> and <a href="/quoter/default.aspx">online ordering app</a>. Our publishing specialists are available via phone or email to help you choose which children’s book printing style is right for you. And with our brand new Print On Demand services, you can choose to sell copies of your children’s book worldwide!</p>
                     </div>
                 </div>
-
             </div>
-        </section>
+    </div>
+</div>
+     
 
+<div class="container-fluid bg-brown c-600">
+    <div class="row">
         
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cbp-1"></div>
 
-        <section class="container-fluid bg-brown">
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cbp-1"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-                    <div class="mw-400">
-                        <h2 class="condensed white mt-0">Get the children’s book you’ve been dreaming about in 5 days flat.</h2>
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cil ybp-pf-1">
+                <div>
+                    <h2 class="condensed white mt-0">Get the children’s book you’ve been dreaming about in 5 days flat.</h2>
                 </div>
-
             </div>
-        </section>
-            
-        <section class="container-fluid bg-brown">
-            <div class="row">
-
-                <div class="col-xs-12 visible-xs bg-img-half bg-cbp-2"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400 mplr-15">
-                        <p class="white"><strong>Why choose BookBaby to print your children’s book?</strong> To put it simply: We print the most beautiful children’s books in the world. We’ve printed thousands of picture books, books for toddlers, early readers, and chapter books as well as novels for middle grade students and young adults. Every day we print and bind the highest-quality soft cover and hardcover children’s books for authors looking to sell their own books. Many of our authors come to us so they can shop their beautifully-bound books to agents and children’s book publishers. All of our books are printed in our US-based, state-of-the-art printing facility and are backed by our 100% satisfaction guarantee.</p>
-                    </div>
-                </div>
-
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cbp-2"></div>
-
-            </div>
-        </section>
-
+        </div>
 
     </div>
 </div>
+       
+
+
+<div class="container-fluid bg-brown c-500">
+    <div class="row">
+
+        <div class="col-xs-12 visible-xs bg-img-half bg-cbp-2"></div>
+
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cir ybp-pf-2">
+                <div>
+                    <p class="white"><strong>Why choose BookBaby to print your children’s book?</strong> To put it simply: We print the most beautiful children’s books in the world. We’ve printed thousands of picture books, books for toddlers, early readers, and chapter books as well as novels for middle grade students and young adults. Every day we print and bind the highest-quality soft cover and hardcover children’s books for authors looking to sell their own books. Many of our authors come to us so they can shop their beautifully-bound books to agents and children’s book publishers. All of our books are printed in our US-based, state-of-the-art printing facility and are backed by our 100% satisfaction guarantee.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cbp-2"></div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 

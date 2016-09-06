@@ -127,6 +127,7 @@
     .bg-dark .text-right .mw-400,
     .bg-dark .text-left .mw-400 {
         float: none;
+        max-width: none;
         max-width: unset;
         text-align: center;
     }
@@ -135,7 +136,7 @@
         height: 300px;
     }
 
-    /* .bg-white art-book-printing */
+    /* .bg-white art-book-printing 
     .bg-white .col-xs-12,
     .bg-white .col-sm-12 {
         padding: 25px 15px;
@@ -147,6 +148,7 @@
     .bg-white .text-right .mw-400,
     .bg-white .text-left .mw-400 {
         float: none;
+        max-width: none;
         max-width: unset;
         text-align: center;
     }
@@ -154,11 +156,54 @@
     .bg-white .bg-img-half {
         height: 300px;
     }
+    */
 
+    /*
     .bg-white .bg-abp-s-2 { padding-bottom: 300px; }
     .bg-brown .bg-cbp-2 { padding-bottom: 300px; }
     .bg-brown .bg-cb-1 { padding-bottom: 300px; }
     .img-mw-50 { max-width: 50%; }
+    */
+    
+    /* max-width-limit */
+    .mwl,
+    .jaja p,
+    .jaja h2 { width: 100%; text-align: center; }
+
+
+
+    .c { height: auto; }
+    .ci {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        float: none;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        display: block;
+        transform: none;
+    }
+
+    .ci.cir > div,
+    .ci.cil > div { margin: 0; }
+
+    .c-300 .c,
+    .c-400 .c,
+    .c-500 .c,
+    .c-600 .c,
+    .c-700 .c,
+    .c-800 .c,
+    .c-900 .c {
+        height: auto;
+    }
+
+
+
+
+
+
 
 
 
@@ -206,7 +251,10 @@
 
 
     
-.min-h-310 { min-height: 310px!important; }
+    .min-h-310 { min-height: 310px!important; }
+    .xs-pb-120 { padding-bottom: 120px; }
+
+
 
     /****/
 

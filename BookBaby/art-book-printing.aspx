@@ -15,54 +15,59 @@
     </div>
 
 
-
-
-
-
-
-<div class="container-fluid bg-white">
+<!-- white top -->
+<div class="container-fluid bg-white c-400">
     <div class="row">
 
-        <section class="container-fluid">
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400">
+            <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="ci cir">
+                    <div>
                         <h2 class="condensed">Turn your vision into a masterpiece for the ages</h2>
                     </div>
+                    
                 </div>
+            </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-                    <div class="mw-400">
+            <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="ci cil">
+                    <div>
                         <p><strong>Artists producing an art book care about one thing: superior quality</strong>. That’s why more artists choose BookBaby for their art books than any other printer. Our experienced technicians know how to deliver everything from perfect color accuracy to crisp, gorgeous black and white. We offer truly premium printing options, including 80lb glossy stock, adhesive case wraps and dust jackets, a high-gloss cover finish, and large trim sizes like 12" x 9” and 10" square. Our custom-printed art books are routinely sold in world-famous art galleries all over the country.</p>
                     </div>
                 </div>
-
             </div>
-        </section>
+    </div>
+</div>
+<!-- /white top -->     
 
-        
 
-        <section class="container-fluid bg-tan-dark">
-            <div class="row">
 
-                <div class="col-xs-12 visible-xs bg-img-half bg-abp-s-2"></div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400">
-                        <h2 class="condensed">Your coffee table never looked so good</h2>
-                        <p>Premium art book printing at the click of a button. We provide easy-to-use book printing templates to ensure print perfection, and our online ordering app will let you choose your book, upload your art, approve your proofs, and get your art book into production today. Order as few as 25 books or as many as 10,000. If you want to sell your art books worldwide, try our new Print on Demand service. (Our Print On Demand books are exactly the same as the books we produce for our larger runs.) We print all of our books right here in the US and every single book we produce is backed by our 100% satisfaction guarantee. </p>
-                    </div>
+
+
+
+
+<div class="container-fluid bg-tan-dark c-600">
+    <div class="row">
+
+        <div class="col-xs-12 visible-xs bg-img-half bg-abp-s-2"></div>
+
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cir">
+                <div>
+                    <h2 class="condensed">Your coffee table never looked so good</h2>
+                    <p>Premium art book printing at the click of a button. We provide easy-to-use book printing templates to ensure print perfection, and our online ordering app will let you choose your book, upload your art, approve your proofs, and get your art book into production today. Order as few as 25 books or as many as 10,000. If you want to sell your art books worldwide, try our new <a href="/print-on-demand">Print on Demand</a> service. (Our Print On Demand books are exactly the same as the books we produce for our larger runs.) We print all of our books right here in the US and every single book we produce is backed by our 100% satisfaction guarantee. </p>
                 </div>
-
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-abp-s-2"></div>
-
             </div>
-        </section>
+        </div>
 
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-abp-s-2"></div>
 
     </div>
 </div>
+
+
+
+
 
 
 

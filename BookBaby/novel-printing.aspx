@@ -50,47 +50,47 @@
 
 
 
-
-<div class="container-fluid bg-white">
+    <!-- s1 -->
+    
+<div class="container-fluid bg-blue-texture c-600">
     <div class="row">
-        <div class="container-fluid">
-            <div class="row">
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-np-1"></div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-np-1"></div>
-
-                <div class="bg-blue-texture col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-                    <div class="mw-400">
-                        <h2 class="condensed white mt-0">Your novel can become a beautifully printed reality in just 5 days.</h2>
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cil ybp-pf-1">
+                <div>
+                    <h2 class="condensed white mt-0">Your novel can become a beautifully printed reality in just 5 days.</h2>
                 </div>
-
             </div>
         </div>
+
     </div>
-
-    <div class="row">        
-        <div class="container-fluid bg-blue-texture">
-            
-                <div class="col-xs-12 visible-xs bg-img-half bg-np-2"></div>
-
-                <div class="bg-blue-texture col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400 mplr-15 pt-20">
-            		    <p class="white">So what’s next? The pencil is down, but your work isn’t done. </p>
-					    <p class="white">There are a few essential parts to the book making process that you need to consider before your novel is printed and published.</p>
-					    <p class="white"><strong>Page formatting:</strong> Don’t let a disjointed page structure keep readers from enjoying your novel. <a href="/book-formatting">Learn more.</a></p>
-					    <p class="white"><strong>Paper quality:</strong> We’ll help you find the right paper stock for your page-turner. <a href="/book-trim-sizes-and-binding-options">Learn more.</a></p>
-					    <p class="white"><strong>Cover design:</strong> Your novel’s cover should reflect your book’s theme. And we have the design team to realize your vision. <a href="/book-cover-design">Learn more.</a></p>  
-
-                    </div>
-                </div>
-
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-np-2"></div>
-
-            </div>
-        </div>
-    </div>
-
 </div>
+       
 
+
+<div class="container-fluid bg-blue-texture c-500">
+    <div class="row">
+
+        <div class="col-xs-12 visible-xs bg-img-half bg-np-2"></div>
+
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cir ybp-pf-2">
+                <div>
+                    <p class="white">So what’s next? The pencil is down, but your work isn’t done. </p>
+                        <p class="white">There are a few essential parts to the book making process that you need to consider before your novel is printed and published.</p>
+                        <p class="white"><strong>Page formatting:</strong> Don’t let a disjointed page structure keep readers from enjoying your novel. <a href="/book-formatting">Learn more.</a></p>
+                        <p class="white"><strong>Paper quality:</strong> We’ll help you find the right paper stock for your page-turner. <a href="/book-trim-sizes-and-binding-options">Learn more.</a></p>
+                        <p class="white"><strong>Cover design:</strong> Your novel’s cover should reflect your book’s theme. And we have the design team to realize your vision. <a href="/book-cover-design">Learn more.</a></p>  
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-np-2"></div>
+
+    </div>
+</div>
 
 
 
@@ -152,33 +152,24 @@
 
 
 
+<div class="container-fluid bg-blue-texture c-500">
+    <div class="row">
 
+        <div class="col-xs-12 visible-xs bg-img-half bg-np-3"></div>
 
-
-<div class="container-fluid bg-white p-0">
-
-
-    <div class="row">        
-        <div class="container-fluid bg-blue-texture">
-            
-            <div class="col-xs-12 visible-xs bg-img-half bg-np-3"></div>
-
-            <div class="bg-blue-texture col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right min-h-310">
-                <div class="mw-400 mplr-15 pt-20">
-                        
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cir xs-pb-120">
+                <div>
                     <h2 class="condensed white mt-0">What is perfect binding?</h2>
-            		<p class="white">Perfect Binding is the adhesive-based book binding style of choice for most softcover books. After the back folds have been cut off, the pages are bound by gluing, instead of stitching or stapling, like in a magazine. BookBaby requires a minimum of 40 pages for perfect bound book printing. </p>
-
+                    <p class="white">Perfect Binding is the adhesive-based book binding style of choice for most softcover books. After the back folds have been cut off, the pages are bound by gluing, instead of stitching or stapling, like in a magazine. BookBaby requires a minimum of 40 pages for perfect bound book printing. </p>
                 </div>
             </div>
-
-            <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-np-3"></div>
-
         </div>
+
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-np-3"></div>
+
     </div>
-
 </div>
-
 
     
     

@@ -11,128 +11,126 @@
                 <p class="link pb-10"><a href="/quoter/default.aspx" onclick="_gaq.push(['_trackEvent', 'home', 'Click', 'hero-GetPricing']);">Get pricing</a></p>
             </section>
         </div>
-
     </div>
 </div>
 
 
 <div class="container-fluid bg-cream">
+    <div class="container ptb-40">
 
-        <div class="container ptb-40">
-
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
-                <a href="/ebooks" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'eBook Publishing &amp; Distribution']);">
-                    <img class="img-responsive center-block" src="images/home/product-selections-b.png" alt="eBook publishing-Sell your eBook on Amazon, iBooks, and beyond. You keep 100% of net sales." title=":Sell your eBook on Amazon, iBooks, and beyond. You keep 100% of net sales." /></a>
-                <h3 class="title-bold">eBook publishing</h3>
-                <p>
-                    Our eBook-only package includes conversion and distribution for just $149!
-                    <br />
-                    <a class="link-orange" href="/ebooks" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'eBook Publishing &amp; Distribution']);">Learn more</a>
-                </p>
-            </div>
-
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
-                <a href="/book-printing" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Book Printing &amp; Distribution']);">
-                    <img class="img-responsive center-block" src="images/home/product-selections-a.png" alt="Custom-printed books:Hardcover, paperback + trim sizes galore. Quantities from 25 to 5,000 and up." title="Custom-printed books:Hardcover, paperback + trim sizes galore. Quantities from 25 to 5,000 and up." /></a>
-                <h3 class="title-bold">Custom-printed books</h3>
-                <p>
-                    Whether you need 25 or 10,000 books, BookBaby is your best choice.<br />
-                    <a class="link-orange" href="/book-printing" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Book Printing &amp; Distribution']);">Learn more</a>
-                </p>
-            </div>
-
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
-                <a href="/print-on-demand" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Print On Demand']);">
-                    <img class="img-responsive center-block" src="images/home/product-selections-c.png" alt="Print-On-Demand:Get everything you need to publish, promote, and sell your book in one package. " title="Print-On-Demand:Get everything you need to publish, promote, and sell your book in one package." /></a>
-                <h3 class="title-bold">Print On Demand</h3>
-                <p>
-                    Sell directly to your readers and make more money with POD & BookShop&trade;.<br />
-                    <a class="link-orange" href="/print-on-demand" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Print On Demand']);">Learn more</a>
-                </p>
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-text pb-35">
-                <h3 class="title-bold">Want to get all three?</h3>
-                <p><a class="link-orange" href="/complete-self-publishing-package">Learn more about the complete self-publishing package.</a></p>
-            </div>
-
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
+            <a href="/ebooks" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'eBook Publishing &amp; Distribution']);">
+                <img class="img-responsive center-block" src="images/home/product-selections-b.png" alt="eBook publishing-Sell your eBook on Amazon, iBooks, and beyond. You keep 100% of net sales." title=":Sell your eBook on Amazon, iBooks, and beyond. You keep 100% of net sales." /></a>
+            <h3 class="title-bold">eBook publishing</h3>
+            <p>
+                Our eBook-only package includes conversion and distribution for just $149!
+                <br />
+                <a class="link-orange" href="/ebooks" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'eBook Publishing &amp; Distribution']);">Learn more</a>
+            </p>
         </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
+            <a href="/book-printing" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Book Printing &amp; Distribution']);">
+                <img class="img-responsive center-block" src="images/home/product-selections-a.png" alt="Custom-printed books:Hardcover, paperback + trim sizes galore. Quantities from 25 to 5,000 and up." title="Custom-printed books:Hardcover, paperback + trim sizes galore. Quantities from 25 to 5,000 and up." /></a>
+            <h3 class="title-bold">Custom-printed books</h3>
+            <p>
+                Whether you need 25 or 10,000 books, BookBaby is your best choice.<br />
+                <a class="link-orange" href="/book-printing" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Book Printing &amp; Distribution']);">Learn more</a>
+            </p>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
+            <a href="/print-on-demand" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Print On Demand']);">
+                <img class="img-responsive center-block" src="images/home/product-selections-c.png" alt="Print-On-Demand:Get everything you need to publish, promote, and sell your book in one package. " title="Print-On-Demand:Get everything you need to publish, promote, and sell your book in one package." /></a>
+            <h3 class="title-bold">Print On Demand</h3>
+            <p>
+                Sell directly to your readers and make more money with POD & BookShop&trade;.<br />
+                <a class="link-orange" href="/print-on-demand" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Print On Demand']);">Learn more</a>
+            </p>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-text pb-35">
+            <h3 class="title-bold">Want to get all three?</h3>
+            <p><a class="link-orange" href="/complete-self-publishing-package">Learn more about the complete self-publishing package.</a></p>
+        </div>
+
+    </div>
 
 </div>
 
 
-<div class="container-fluid bg-dark">
+
+    <!-- s -->
+ 
+
+
+<div class="container-fluid bg-dark c-500">
     <div class="row">
 
-        <section class="container-fluid">
-            <div class="row">
+        <div class="col-xs-12 visible-xs bg-img-half bg-home-s-3-1"></div>
 
-                <div class="col-xs-12 visible-xs bg-img-half bg-home-s-3-1"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400">
-                        <h2 class="title semibold white"><em>NEW!</em> Affordable editing for self-published authors</h2>
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cir">
+                <div>
+                    <h2 class="title semibold white"><em>NEW!</em> Affordable editing for self-published authors</h2>
                         <p>
                             BookBaby Editing Services is for self-published authors who need premium editing for an affordable price. We’ve negotiated special rates with traditional publishing class editors that allow us to charge prices that are 30% to 50% lower than comparable services.<br />
                             <a class="link-orange" href="/book-editing-services" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Quadrant-editing']);">Learn more</a>
                         </p>
-                    </div>
                 </div>
-
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-home-s-3-1"></div>
-
             </div>
-        </section>
-        
-        
-        
-        <section class="container-fluid">
-            <div class="row">
+        </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-home-s-3-2"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-                    <div class="mw-400">
-                        <h2 class="title semibold white">Sell your eBooks <br />worldwide</h2>
-                        <p>
-                            We take care of all the work. You keep 100% of your net sales. It’s the easiest and most robust eBook publishing package on the planet.<br />
-                            <a class="link-orange" href="/ebooks" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Quadrant-eBooks']);">Learn more</a>
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        
-        
-        
-        <section class="container-fluid">
-            <div class="row">
-
-                <div class="col-xs-12 visible-xs bg-img-half bg-home-s-3-3"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400">
-                        <h2 class="title semibold white">Sell your printed<br />books, too</h2>
-                        <p>
-                            We offer the highest-quality printed books available in hardcover, paperback, and numerous trim sizes, all backed by our <a href="/low-price-promise" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Quadrant-Print']);">low price promise</a>. Plus, you can easily add Print On Demand to your order and start selling your books in the world’s biggest bookstores.<br />
-                            <a class="link-orange" href="/print-on-demand" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Quadrant-Print-POD']);">Learn more</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-home-s-3-3"></div>
-
-            </div>
-        </section>
-
-
-
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-home-s-3-1"></div>
 
     </div>
 </div>
 
-    
+
+
+<div class="container-fluid bg-dark c-600">
+    <div class="row">
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-home-s-3-2"></div>
+
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cil">
+                <div>
+                    <h2 class="title semibold white">Sell your eBooks <br />worldwide</h2>
+                    <p>
+                        We take care of all the work. You keep 100% of your net sales. It’s the easiest and most robust eBook publishing package on the planet.<br />
+                        <a class="link-orange" href="/ebooks" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Quadrant-eBooks']);">Learn more</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+       
+
+
+<div class="container-fluid bg-dark c-500">
+    <div class="row">
+
+        <div class="col-xs-12 visible-xs bg-img-half bg-home-s-3-3"></div>
+
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cir">
+                <div>
+                    <h2 class="title semibold white">Sell your printed<br />books, too</h2>
+                    <p>
+                        We offer the highest-quality printed books available in hardcover, paperback, and numerous trim sizes, all backed by our <a href="/low-price-promise" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Quadrant-Print']);">low price promise</a>. Plus, you can easily add Print On Demand to your order and start selling your books in the world’s biggest bookstores.<br />
+                        <a class="link-orange" href="/print-on-demand" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'Quadrant-Print-POD']);">Learn more</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-home-s-3-3"></div>
+
+    </div>
+</div>   
 
 
 <div class="container-fluid bg-lt-blue pre-offset-130">

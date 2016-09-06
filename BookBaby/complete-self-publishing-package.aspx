@@ -19,8 +19,8 @@
 
 <div class="container-fluid bg-cream ptb-20">
     <div class="container">
-            <h3 class="title-bold">Make more money faster with your printed books</h3>
-            <p>With Print On Demand on BookShop™ you can make up to 3X more in sales compared to other programs and receive your earnings within one week of purchase. <a href="/bookshop">Learn more.</a></p>
+        <h3 class="title-bold">Make more money faster with your printed books</h3>
+        <p>With Print On Demand on BookShop™ you can make up to 3X more in sales compared to other programs and receive your earnings within one week of purchase. <a href="/bookshop">Learn more.</a></p>
     </div>
 </div>
 
@@ -30,9 +30,7 @@
 <div class="container-fluid bg-lt-blue ptb-40">
     <div class="container">
 
-        
         <h3 class="title-bold">Here’s what you get when you self-publish with BookBaby:</h3>
-
 
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
             <img class="img-responsive center-block mb-10" src="/Images/complete-selfpub-world-icon.png" />
@@ -65,85 +63,98 @@
 
 
 
-<div class="container-fluid bg-white">
+
+
+
+<div class="container-fluid bg-white c-600">
     <div class="row">
 
-        <section class="container-fluid">
-            <div class="row">
+        <div class="col-xs-12 visible-xs bg-img-half bg-cspp-1"></div>
 
-                <div class="col-xs-12 visible-xs bg-img-half bg-cspp-1"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400">
-                        <h2 class="title semibold">Print On Demand (POD)</h2>
-                        <p>When your book is ordered, we print and ship your book direct to the customer. Your printed book will be available through the largest distribution network and retail sites. Books are printed as needed, no need for warehousing.<br />
-                            <a href="/print-on-demand" class="link-orange">Learn about On Demand Printing</a>
-                        </p>
-                    </div>
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cir">
+                <div>
+                    <h2 class="title semibold">Print On Demand (POD)</h2>
+                    <p>When your book is ordered, we print and ship your book direct to the customer. Your printed book will be available through the largest distribution network and retail sites. Books are printed as needed, no need for warehousing.<br />
+                        <a href="/print-on-demand" class="link-orange">Learn about On Demand Printing</a>
+                    </p>
                 </div>
-
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cspp-1"></div>
-
             </div>
-        </section>
-        
-        
-        <section class="container-fluid">
-            <div class="row">
+        </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cspp-2"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-                    <div class="mw-400">
-                        <h2 class="title semibold">eBook Conversion and Distribution</h2>
-                        <p>You also get our famous eBook Self-Publishing Package, which includes conversion of your manuscript into ePub and .mobi files along with <a href="/ebook-distribution">eBook distribution</a> to the largest retail network in the world. Best of all, you get paid 100% — <a href="/ebooks ">we take no commission!</a><br>
-                    <a href="/ebook-services">Learn about our eBook publishing package</a></p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        
-        
-        <section class="container-fluid">
-            <div class="row">
-
-                <div class="col-xs-12 visible-xs bg-img-half bg-cspp-3"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400">
-                        <h2 class="title semibold">Custom Printed Books</h2>
-                        <p>The Complete Self-Publishing Package includes 100 printed books, which is perfect for author signings. But if you want to customize your order and get more bulk printed books upfront, no problem. Use our online ordering app to customize this package.<br>
-                	    <a href="/book-genres-and-styles">See our printed book styles and book genres</a></p>
-                    </div>
-                </div>
-
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cspp-3"></div>
-
-            </div>
-        </section>
-
-        
-        <section class="container-fluid">
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cspp-4"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left min-h-310">
-                    <div class="mw-400">
-                        <h2 class="title semibold">Cover Design</h2>
-                        <p>Designing a book cover is an art. Our knowledgeable team has years of experience in print and eBook cover design in a wide variety of genres and will create a custom book cover that you can be proud of. Basic cover design (for both eBook and printed books) is included with the Complete Self-Publishing Package. <a href="/ebook-cover-design">Learn about our cover design services</a></p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cspp-1"></div>
 
     </div>
 </div>
 
-    
+
+
+<div class="container-fluid bg-white c-600">
+    <div class="row">
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cspp-2"></div>
+
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cil">
+                <div>
+                    <h2 class="title semibold">eBook Conversion and Distribution</h2>
+                        <p>You also get our famous eBook Self-Publishing Package, which includes conversion of your manuscript into ePub and .mobi files along with <a href="/ebook-distribution">eBook distribution</a> to the largest retail network in the world. Best of all, you get paid 100% — <a href="/ebooks ">we take no commission!</a><br>
+                        <a href="/ebook-services">Learn about our eBook publishing package</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+       
+
+
+<div class="container-fluid bg-white c-600">
+    <div class="row">
+
+        <div class="col-xs-12 visible-xs bg-img-half bg-cspp-3"></div>
+
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cir">
+                <div>
+                    <h2 class="title semibold">Custom Printed Books</h2>
+                        <p>The Complete Self-Publishing Package includes 100 printed books, which is perfect for author signings. But if you want to customize your order and get more bulk printed books upfront, no problem. Use our online ordering app to customize this package.<br>
+                        <a href="/book-genres-and-styles">See our printed book styles and book genres</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cspp-3"></div>
+
+    </div>
+</div>
+
+
+
+
+
+<div class="container-fluid bg-white c-600">
+    <div class="row">
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cspp-4"></div>
+
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6 xs-pb-120">
+            <div class="ci cil">
+                <div>
+                    <h2 class="title semibold">Cover Design</h2>
+                        <p>Designing a book cover is an art. Our knowledgeable team has years of experience in print and eBook cover design in a wide variety of genres and will create a custom book cover that you can be proud of. Basic cover design (for both eBook and printed books) is included with the Complete Self-Publishing Package. <a href="/ebook-cover-design">Learn about our cover design services</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
 
 
 

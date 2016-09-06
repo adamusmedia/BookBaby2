@@ -18,65 +18,67 @@
 
 
 
-
-
-
-<div class="container-fluid bg-white">
+<!-- white top -->
+<div class="container-fluid bg-white c-400">
     <div class="row">
 
-        <section class="container-fluid">
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right mpb-0">
-                    <div class="mw-400">
-                        <h2 class="condensed mt-0">Professional chefs and grandmothers alike turn to BookBaby for their cookbook printing needs.</h2>
+            <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="ci cir">
+                    <div>
+                        <h2 class="condensed mt-0 float-right">Professional chefs and grandmothers alike turn to BookBaby for their cookbook printing needs.</h2>
                     </div>
+                    
                 </div>
+            </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-                    <div class="mw-400">
+            <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="ci cil">
+                    <div>
                         <p>Making your own cookbook? Turn your best family recipes into a bookstore-quality book – available in quantities of 25 to 10,000+. Our publishing specialists are available via phone or email to help you choose which cookbook printing style is right for your project. We also make it easy to order and make a cookbook online, using our <a href="/templates">book printing templates</a> and online <a href="/quoter/default.aspx">book project configurator</a>. And with our brand new <a href="/print-on-demand">Print On Demand services</a>, you can choose to sell copies of your cookbook worldwide!</p>
                     </div>
                 </div>
-
             </div>
-        </section>
+    </div>
+</div>
 
-        
 
-        <section class="container-fluid bg-brown">
-            <div class="row">
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cb-1"></div>
+<div class="container-fluid bg-brown c-600">
+    <div class="row">
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-                    <div class="mw-400">
-                        <h2 class="condensed white mt-0">BookBaby will help make your professional project or your family recipe book a success.</h2>
+        <div class="col-xs-12 visible-xs bg-img-half bg-cb-1"></div>
+
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cir">
+                <div>
+                    <h2 class="condensed white mt-0">BookBaby will help make your professional project or your family recipe book a success.</h2>
                 </div>
-
             </div>
-        </section>
-            
-        <section class="container-fluid bg-brown">
-            <div class="row">
+        </div>
 
-                <div class="col-xs-12 visible-xs bg-img-half bg-cb-2"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400 mplr-15">
-                        <p class="white"><strong>Why trust BookBaby to create your cookbook?</strong> As the leading cookbook printer, BookBaby has printed thousands of recipe books and cookbooks for families, church fundraisers, the professional marketplace, and simply for personal enjoyment. Every day we print and bind beautiful softcover and hardcover cookbooks, all printed in our US-based, state-of-the-art printing facility.</p>
-                    </div>
-                </div>
-
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cb-2"></div>
-
-            </div>
-        </section>
-
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cb-1"></div>
 
     </div>
 </div>
 
+
+
+
+<div class="container-fluid bg-brown c-500">
+    <div class="row">
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-cb-2"></div>
+
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cil">
+                <div>
+                    <p class="white"><strong>Why trust BookBaby to create your cookbook?</strong> As the leading cookbook printer, BookBaby has printed thousands of recipe books and cookbooks for families, church fundraisers, the professional marketplace, and simply for personal enjoyment. Every day we print and bind beautiful softcover and hardcover cookbooks, all printed in our US-based, state-of-the-art printing facility.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 
 
@@ -101,15 +103,6 @@
     </div>
 </div>
 
-
-
-
-
-<div class="container-fluid">
-    <div class="container">
-        [NEW SECTION]
-    </div>
-</div>
 
 
 

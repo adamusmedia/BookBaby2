@@ -4,6 +4,7 @@
     <div class="container-fluid bg-img bg-yearbooks">
         <div class="container">
             <div class="row">
+
                 <section class="jumbotron light">
                     <h1 class="title pt-35 mb-0">Yearbook Printing</h1>
                     <h2 class="subtitle mt-0">Save 50% on your next Yearbook order!</h2>
@@ -47,9 +48,6 @@
             
 
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left yb-form">
- 
-                
-                
 	            <div id="container_EMAIL" class="input-container">
 		            <label for="control_EMAIL">Email address</label>
 		            <input type="text" name="Email" id="control_EMAIL" label="Email address" class="req-email textbox txt-email">
@@ -74,8 +72,6 @@
 		            <label for="control_COLUMN2">Number of books</label>
 		            <input type="text" name="numberofbooks" id="control_COLUMN2" label="Number of books" class="req-field textbox txt-numbers">
 	            </div>
-    
-    
                <div style="position: relative; overflow: hidden; width: 300px;">
 		            <button type="submit" class="btn btn-orange btn-lg" onclick="this.form.action='https://www.pages04.net/discmakers-cdbaby/Yearbooks'; return checkRequiredFields($('.form'));">Submit</button>
 	            </div>    
@@ -83,21 +79,8 @@
 	            <input type="hidden" name="initialsource" id="Text1" class="textInput defaultText" value="YEARBOOK-BBWEB">
 	            <input type="hidden" name="formSourceName" value="StandardForm">
                 
-                
-                
-                
                                                
             </div>
-
-
-
-
-
-
-
-
-
-
         </div>
     </div>
 
@@ -108,65 +91,65 @@
 
 
 
-
-<div class="container-fluid bg-white">
+<div class="container-fluid bg-white c-500">
     <div class="row">
 
-        <section class="container-fluid">
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right mpb-0">
-                    <div class="mw-400">
-                        <h2 class="condensed mt-0">Yearbooks printed in the exact quantity you need within 7-10 days and no upfront commitment.</h2>
+            <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="ci cir">
+                    <div>
+                        <h2 class="condensed mt-0 float-right">Yearbooks printed in the exact quantity you need within 7-10 days and no upfront commitment.</h2>
                     </div>
+                    
                 </div>
+            </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-                    <div class="mw-400">
+            <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="ci cil">
+                    <div>
                         <p><strong>A year’s worth of memories to treasure forever.</strong> Whether you’re a nursery, elementary school, middle school, high school, college, church, sport/club, or even military—we’ll help you encapsulate the highlights with custom-printed yearbooks.<br /><br /> BookBaby is your ideal solution for high-quality school yearbook printing. For a fraction of the cost of traditional yearbook publishers like Jostens, Lifetouch, or Walsworth, BookBaby’s low pricing makes it easy to create beautiful yearbooks that you’ll be proud to own.</p>
                         <a href="#form" class="btn btn-orange btn-lg">Contact us for a custom quote</a>
                     </div>
                 </div>
-
             </div>
-        </section>
+    </div>
+</div>
+     
 
+<div class="container-fluid bg-brown c-600">
+    <div class="row">
         
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-yb-1"></div>
 
-        <section class="container-fluid bg-brown">
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-yb-1"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-                    <div class="mw-400">
-                        <h2 class="condensed white mt-0">“After our elementary school yearbooks were in, we needed 13 more for parents who missed the cutoff. BookBaby printed additional copies in 7 days–same exact color, paper stock and print quality.”</h2><span class="white">- Leslie McHenry, Yearbook Advisor</span>
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cil ybp-pf-1">
+                <div>
+                    <h2 class="condensed white mt-0">“After our elementary school yearbooks were in, we needed 13 more for parents who missed the cutoff. BookBaby printed additional copies in 7 days–same exact color, paper stock and print quality.”</h2><span class="white">- Leslie McHenry, Yearbook Advisor</span>
                 </div>
-
             </div>
-        </section>
-            
-        <section class="container-fluid bg-brown">
-            <div class="row">
-
-                <div class="col-xs-12 visible-xs bg-img-half bg-yb-2"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400 mplr-15">
-                        <p class="white"><strong>Tired of the confusing contracts and upfront charges from your yearbook printer?</strong> Yearbook printing with BookBaby keeps you contract– and commitment–free. You never have to guarantee a number of books or warehouse the extras. And with our ultra-fast turn times, you can expect your yearbooks to ship within 7-10 business days from receipt of your print-ready files. So, you can wait until the last months of the school year to get your files together and only order the exact number of yearbooks you need. You can always print more at a later date if you need them..</p>
-                    </div>
-                </div>
-
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-yb-2"></div>
-
-            </div>
-        </section>
-
+        </div>
 
     </div>
 </div>
+       
 
 
+<div class="container-fluid bg-brown c-500">
+    <div class="row">
+
+        <div class="col-xs-12 visible-xs bg-img-half bg-yb-2"></div>
+
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cir ybp-pf-2">
+                <div>
+                    <p class="white"><strong>Tired of the confusing contracts and upfront charges from your yearbook printer?</strong> Yearbook printing with BookBaby keeps you contract– and commitment–free. You never have to guarantee a number of books or warehouse the extras. And with our ultra-fast turn times, you can expect your yearbooks to ship within 7-10 business days from receipt of your print-ready files. So, you can wait until the last months of the school year to get your files together and only order the exact number of yearbooks you need. You can always print more at a later date if you need them..</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-yb-2"></div>
+
+    </div>
+</div>
 
 
 
