@@ -17,53 +17,47 @@
 
 
 
-
-
-
-<div class="container-fluid bg-white col-2-blocks">
+<div class="container-fluid bg-white c-400">
     <div class="row">
 
-        <section class="container-fluid">
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400">
-                        <h2 class="condensed">Create a beautiful coffee table book that you will be proud to call your own.</h2>
+            <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="ci cir pb-0">
+                    <div>
+                        <h2 class="condensed mt-0 mb-0">Create a beautiful coffee table book that you will be proud to call your own.</h2>
                     </div>
+                    
                 </div>
+            </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-                    <div class="mw-400">
+            <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="ci cil">
+                    <div>
                         <p>When it comes to professional photo book printing, image is everything. If you’re printing a photography book you need a printer who can deliver the absolute highest-quality printing so that your photographs can truly amaze. This is a case when even excellent printing isn’t good enough–you need perfection and that is what BookBaby delivers, day in, day out. But don’t take our word for it. You can order <a href="/single-book-printing">one copy of your photography book for just $19 and see for yourself</a>.</p>
                     </div>
                 </div>
-
             </div>
-        </section>
-
     </div>
 </div>
 
- 
 
-<div class="container-fluid bg-forest-green col-2-blocks">
+
+
+
+<div class="container-fluid bg-forest-green c-900">
     <div class="row">
 
-        <section class="container-fluid">
-            <div class="row">
+        <div class="col-xs-12 visible-xs bg-img-half bg-pbp-s-2"></div>
 
-                <div class="col-xs-12 visible-xs bg-img-half bg-pbp-s-2"></div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right">
-                    <div class="mw-400">
-                        <h2 class="condensed white">BookBaby is the exclusive printer for Outdoor Photographer's "American Landscapes" series</h2>
+        <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="ci cir">
+                <div>
+                    <h2 class="condensed white mt-0">BookBaby is the exclusive printer for Outdoor Photographer's "American Landscapes" series</h2>
                         <p class="white">BookBaby makes it easy to order and publish a photo book online. We provide easy-to-use book printing templates so you know your book will be perfect. You can order anywhere from 25 books to 10,000+ and with our brand new Print On Demand service, you can even sell physical copies of your photography book worldwide! (Our Print On Demand books are exactly the same as the books we produce for our larger runs. We use the same printing presses and are able to deliver the exact same quality.) All of our books are printed in our US-based, state-of-the-art printing facility and are backed by our 100% satisfaction guarantee.</p>
-                    </div>
                 </div>
-
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-pbp-s-2"></div>
             </div>
-        </section>
+        </div>
+
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-pbp-s-2"></div>
 
     </div>
 </div>

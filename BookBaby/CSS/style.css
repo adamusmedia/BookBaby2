@@ -364,14 +364,17 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 .bg-white { background-color: #ffffff; }
 .bg-lt-blue { background-color: #ebf5f5; }
 .bg-lt-blue-2 { background-color: #D8EBE9; }
+.bg-lt-blue-3 { background-color: #D1D9ED; }
 .bg-baby-blue-el { background-color: #6FBED8;  padding: 8px; margin-bottom: 20px; max-width: 200px; }
     .bg-baby-blue-el > span { color: #fff; text-align: center; }
 .bg-dk-blue { background-color: #212733; }
+.bg-dk-blue-2 { background-color: #19375C; }
 .bg-lt-grey { background-color: #F8F7F6; }
 .bg-md-grey { border-top: 4px #AAA69C solid; background: #dad5c2; padding: 45px 0; }
     .bt-0 { border-top: 0px; }
 .bg-green { background-color: #4d5e38; }
 .bg-forest-green { background-color: #575748; }
+
 
 
 
@@ -386,7 +389,8 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 .bg-cspp-2 { background-image: url(../images/complete-selfpub-quadebook.jpg); }
 .bg-cspp-3 { background-image: url(../images/complete-selfpub-quadprint.jpg); }
 .bg-cspp-4 { background-image: url(../images/complete-selfpub-design.jpg); }
-
+.bg-hcbp-1 { background-image: url(../images/hardcover-quad1.jpg); }
+.bg-hcbp-2 { background-image: url(../images/hardcover-quad2.jpg); }
 
 
 
@@ -435,7 +439,11 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 .bg-affiliate-program { background-image: url('../images/affiliates-mainimage.jpg'); }
 .bg-complete-self-publishing-package { background-image: url("../images/complete-selfpub-hero.jpg"); }
 .bg-novel-printing { background-image: url("../images/novel-hero.jpg"); }
-.bg-blue-texture { background-image:url("../images/novel-bluebkgrd.jpg") }
+.bg-blue-texture { background-image:url("../images/novel-bluebkgrd.jpg"); }
+.bg-blue-texture-2 { background-image:url("../images/paperback-books-quadblue.jpg"); }
+.bg-brown-texture-2 { background-image: url("../images/paperback-books-quadbrown.jpg"); }
+
+
 .bg-book-distribution { background-image: url("../images/book-distribution-hero.jpg"); }
 .bg-error { background-image: url("../images/404-bkgd.jpg"); }
 .bg-yearbooks { background-image: url("../images/yearbooks-hero-image2.jpg"); }
@@ -453,6 +461,20 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 .bg-brown-texture { background-image: url("../images/brown-texture-bg.jpg"); }
 
 .bg-apg-thanks { background-image: url("../images/request-all-guides-thanks.jpg"); min-height: 400px;  }
+.bg-paperback { background-image: url("../images/paperback-books-hero.jpg");  }
+.bg-hardcover { background: url("/images/hardcover-hero-image.jpg") no-repeat scroll center center / cover; }
+
+
+.bg-pb-1 { background-image: url("../images/paperback-books-quad1.jpg"); }
+.bg-pb-2 { background-image: url("../images/paperback-books-quad2.jpg"); }
+.bg-pb-3 { background-image: url("../images/paperback-books-quad3.jpg"); }
+
+
+
+
+
+
+
 .ty-aside { margin-left: 20px; }
 
 
@@ -767,6 +789,7 @@ h2.semibold { font-weight: 600; }
 .white { color: #fff!important; }
 .black { color: #000!important; }
 .orange { color: #EC8606; }
+.grey { color: #525260; }
 
 p.subhead { font-weight: 600; font-size: 130%; }
 
@@ -848,6 +871,11 @@ p.subhead { font-weight: 600; font-size: 130%; }
   text-align: left; 
  /*left: 5%;  right: 5%;*/
 }
+
+
+.ci.pb-0 { padding-bottom: 0; }
+.ci.pt-0 { padding-top: 0; }
+
 
 
 .ci.cir { left: unset; right: 0; }

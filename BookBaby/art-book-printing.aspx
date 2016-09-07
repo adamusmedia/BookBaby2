@@ -15,14 +15,13 @@
     </div>
 
 
-<!-- white top -->
 <div class="container-fluid bg-white c-400">
     <div class="row">
 
             <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <div class="ci cir">
+                <div class="ci cir pb-0">
                     <div>
-                        <h2 class="condensed">Turn your vision into a masterpiece for the ages</h2>
+                        <h2 class="condensed mt-0">Turn your vision into a masterpiece for the ages</h2>
                     </div>
                     
                 </div>
@@ -36,10 +35,7 @@
                 </div>
             </div>
     </div>
-</div>
-<!-- /white top -->     
-
-
+</div> 
 
 
 
