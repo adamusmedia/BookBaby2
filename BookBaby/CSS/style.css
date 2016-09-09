@@ -45,10 +45,16 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
 
 /* padding and margin */
 
+
 .ptb-10 { padding: 10px 0; }
 .ptb-20 { padding: 20px 0; }
 .ptb-40 { padding: 40px 0 50px; }
 
+/*
+.ptb-10 { padding-top: 10px; padding-bottom: 10px; }
+.ptb-20 { padding-top: 20px; padding-bottom: 20px; }
+.ptb-40 { padding-top: 40px; padding-bottom: 50px; }
+*/
 .plr-0 { padding-left: 0; padding-right: 0; }
 .plr-15 { padding-left: 15px; padding-right: 15px; }
 .mlr-15 { margin-left: 15px; margin-right: 15px; }
@@ -116,6 +122,8 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
 .mt-80 { margin-top: 80px; }
 .mt-90 { margin-top: 90px; }
 .mt-100 { margin-top: 100px; }
+
+
 
 
 .clear-both { clear: both; }
@@ -186,10 +194,19 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
     border:1px solid green;
 }*/
 
+.aside-sm p.title-sm {
+    font-size: 15px;
+}
+.aside-sm p,
+ul.aside-sm li {
+    font-size: 14px;
+    line-height: 21px;
+}
+
 
 
 p { margin-bottom: 15px; }
-.small-print{
+.small-print {
     font-size: 12px;
     font-style: italic;
 }
@@ -360,6 +377,7 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 .bg-tan { background-color: #EBE4D1; }
 .bg-tan-dark { background-color: #DAD5C0; }
 .bg-brown { background-color: #8a754f; }
+.bg-brown-2 { background-color: #A06E3F; }
 .bg-dark { background-color: #3E3B32; }
 .bg-white { background-color: #ffffff; }
 .bg-lt-blue { background-color: #ebf5f5; }
@@ -369,6 +387,7 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
     .bg-baby-blue-el > span { color: #fff; text-align: center; }
 .bg-dk-blue { background-color: #212733; }
 .bg-dk-blue-2 { background-color: #19375C; }
+.bg-dk-blue-3 { background-color: #A6D1CE; }
 .bg-lt-grey { background-color: #F8F7F6; }
 .bg-md-grey { border-top: 4px #AAA69C solid; background: #dad5c2; padding: 45px 0; }
     .bt-0 { border-top: 0px; }
@@ -392,6 +411,17 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 .bg-hcbp-1 { background-image: url(../images/hardcover-quad1.jpg); }
 .bg-hcbp-2 { background-image: url(../images/hardcover-quad2.jpg); }
 
+.bg-book-formatting { background-image: url("../images/formatting-hero.jpg"); }
+.bg-wholesale-book-printing { background-image: url("../images/wholesale-hero.jpg"); }
+.bg-fantasy { background-image: url("../images/fantasy-hero-img.jpg"); }
+
+.bg-christian { background-image: url("../images/christian-hero.jpg"); }
+.bg-christian-1 { background-image: url("../images/christian-people.jpg"); }
+.bg-christian-2 { background-image: url("../images/christian-candles.jpg"); }
+.bg-christian-mesh { background-image: url("../images/christian-canvas-bkgrd.jpg"); }
+
+
+
 
 
 
@@ -400,11 +430,24 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 
 .bg-brown .bg-cbp-1 { background-image: url("../images/childrens-books-quad1.jpg"); }
 .bg-brown .bg-cbp-2 { background-image: url("../images/childrens-books-quad2.jpg"); }
+
+.bg-fantasy-s-1 { background-image: url("../images/fantasy-quad1.jpg"); }
+
 .bg-cbp-testimonial { background-image: url("../images/childrens-books-bob.jpg"); }
 .bg-cb-testimonial { background-image: url("../images/cookbooks-jeanine.jpg"); }
 
 .bg-brown .bg-cb-1 { background-image: url("../images/cookbooks-chef.jpg"); }
 .bg-brown .bg-cb-2 { background-image: url("../images/cookbooks-chef-cooking.jpg"); }
+
+.bg-fantasy-lt { background-image: url("../images/fantasy-tree-bkgrd.jpg"); }
+.bg-book-editing { background-image: url("../images/book-editing-hero.jpg"); }
+.bg-book-editing-2 { background-image: url("../images/book-editing-bottomcallout.jpg"); }
+.bg-book-editing-paper { background-image: url("../images/book-editing-paperbkgrd.jpg"); }
+
+.bg-bp2-1 { background-image: url("../images/booklet-printing-quad1.jpg"); }
+.bg-bp2-2 { background-image: url("../images/booklet-printing-quad2.jpg"); }
+
+
 
 .bg-home-s-6 { background-image: url("../images/home/great-book-background.jpg"); }
 .bg-home-hero { background-image: url("../images/home/home-hero.jpg"); }
@@ -469,7 +512,7 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 .bg-pb-2 { background-image: url("../images/paperback-books-quad2.jpg"); }
 .bg-pb-3 { background-image: url("../images/paperback-books-quad3.jpg"); }
 
-
+.bg-bookpromo { background-image: url("../images/book-promo-hero.jpg"); }
 
 
 
@@ -783,13 +826,14 @@ h2.semibold { font-weight: 600; }
     font-weight: 600;
 }
 
-.success-subheader { font-size: 20px; font-weight: bold; }
+.success-subheader { font-weight: bold; }
 
 
 .white { color: #fff!important; }
 .black { color: #000!important; }
 .orange { color: #EC8606; }
 .grey { color: #525260; }
+.red { color: #B20000; }
 
 p.subhead { font-weight: 600; font-size: 130%; }
 
@@ -1043,7 +1087,20 @@ p.testimonial-2 > span {
 }
 
 
-div.table-res { float: left; width: 100%; }
+div.table-res { float: left; width: 100%; min-width: 331px; }
+div.table-res-fix {min-width: unset; }
+
+div.table-res-fix ul.disc-list li { font-size: 14px; }
+.bold-med { font-weight: 600; }
+.normal { font-weight: 100; }
+.w-100 { width: 100%; float: left; }
+.price-big { line-height: 100%; font-family: 'Bitter'; }
+
+.span-p {
+    margin-bottom:20px; display: block;
+}
+
+
 
 .table thead { background-color: #fff; }
 
@@ -1077,7 +1134,12 @@ table.pod > thead > tr > th {
 table.pod thead.lt-blue:first-child th:nth-child(1) { width: 30%; }*/
 
 
+table.mob-fix { background: transparent; }
 
+
+table.cover-design thead tr th,
+table.cover-design tbody tr td { width: 50%; vertical-align: top; }
+table.cover-design tbody tr td span { vertical-align: top; }
 table.res th,
 table.res td,
 table.volume-pricing th,
@@ -1140,6 +1202,15 @@ table.vs-lulu tbody tr td:nth-child(n+2) {
 
 .packagecompare span,
 .packagecompare span ul.disc-list li { text-align: left; }
+
+
+
+
+table.book-editing thead th.bg-t-blue {
+    background-color: #56acbe;
+    color: #fff;
+}
+
 
 /*
     table.packagecompare tbody tr td:nth-child(1),

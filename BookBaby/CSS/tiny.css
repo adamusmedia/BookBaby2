@@ -254,7 +254,8 @@
     .min-h-310 { min-height: 310px!important; }
     .xs-pb-120 { padding-bottom: 120px; }
 
-
+    
+    .success-subheader { font-size: 16px; }
 
     /****/
 
@@ -339,7 +340,8 @@
 
     table.art-book-printing thead th.bg-t-blue,
     table.vs-createspace thead th.bg-t-blue,
-    table.printing thead th.bg-t-blue {
+    table.printing thead th.bg-t-blue,
+    table.mob-fix thead th.bg-t-blue {
         background-color: #56acbe;
         color: #fff;
     }
@@ -392,7 +394,8 @@
     table.vs-lulu tbody tr,
     table.vs-createspace tbody tr,
     table.yb-printing tbody tr,
-    table.art-book-printing tbody tr { margin-bottom: 20px; }
+    table.art-book-printing tbody tr,
+    table.mob-fix tbody tr { margin-bottom: 20px; }
 
     
     .col-xs-12.embed-responsive > iframe { padding-left: 20px; padding-right: 20px; }
@@ -426,7 +429,8 @@
     .table.vs-lulu.table-bordered,
     .table.vs-createspace.table-bordered,
     table.yb-printing.table-bordered,
-    table.art-book-printing.table-bordered { border: none; }
+    table.art-book-printing.table-bordered,
+    table.mob-fix.table-bordered { border: none; }
 
     .table.packagecompare tbody tr td:nth-child(1):before,
     .table.packagecompare tbody tr td:nth-child(1) p { color: #fff; }
@@ -451,9 +455,14 @@
 /*** /responsive tables ***/
 
 
+    .price-big {
+        font-family: "Open Sans", Arial, sans-serif;
+        font-weight: 600;
+        font-size: 70px;
+    }
+    .price-big { font-size: 70px; }
 
-
-
+    
 
 }
 /* ******************************* */

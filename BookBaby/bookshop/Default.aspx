@@ -64,7 +64,7 @@
         	<img src="/images/bookshop-sell-ebook.png" class="img-responsive center-block mb-20">
 		</div>
 
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left text-center-xs">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
             <h2 class="title-bold">When you sell your eBook with BookShop:</h2>
             <ul class="disc-list">
                 <li>You set your own price and earn 85% of your retail sales.</li>
@@ -81,7 +81,7 @@
         	<img src="/images/bookshop-sell-print.png" class="img-responsive center-block mb-20">
 		</div>
 
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left text-center-xs">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
             <h2 class="title-bold">When you sell your printed book with BookShop:</h2>
             <ul class="disc-list">
                 <li>You make more – MUCH more – in royalties selling through BookShop. More than Amazon. More than anywhere else.</li>

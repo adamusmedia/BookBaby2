@@ -100,7 +100,8 @@
         padding-bottom: 20px;
     }
 
-
+    
+    .success-subheader { font-size: 16px; }
 
     div.table-res > table.res { display: table; }
 
@@ -191,6 +192,8 @@
     .mwl { width: 355px; }
 
     .xs-pb-120 { padding-bottom: unset; }
+
+    .price-big { font-size: 76px; }
 
 }
 /* ******************************* */

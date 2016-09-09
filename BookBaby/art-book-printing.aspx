@@ -296,7 +296,8 @@
     <div class="container-fluid bg-dk-blue section-padding-default">
         <div class="container">
             <div class="row">
-               <h2 class="title-bold white">Try before you buy. <br />Get a single copy of your book made for just $19!</h2>
+               <h2 class="title-bold white">Try before you buy.</h2>
+                <p class="lead white">Get a single copy of your book made for just $19!</p>
                 <a href="/single-book-printing" class="btn btn-center btn-orange btn-lg" onclick="_gaq.push(['_trackEvent', 'products', 'Click', 'POD-get-started-make-a-book']);">Get started</a>
             </div>
         </div>

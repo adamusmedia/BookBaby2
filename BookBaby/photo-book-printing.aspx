@@ -255,8 +255,8 @@
     <div class="container">
 
         	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left text-center-xs text-center-sm">
-            	<h3 class="title-bold white">"BookBaby did a bang up job on my photography book. In fact, the book looks so good that when I delivered it to a major bookstore, the rep e-mailed me, saying, ‘Eli. I have your book in my office. WOW! What a book!’ Her exact words."</h3>
-                <p class="white">Eli Vega, Author/Photographer, 
+            	<h3 class="title-bolder text-shadow white mt-0">"BookBaby did a bang up job on my photography book. In fact, the book looks so good that when I delivered it to a major bookstore, the rep e-mailed me, saying, ‘Eli. I have your book in my office. WOW! What a book!’ Her exact words."</h3>
+                <p class="white text-shadow">Eli Vega, Author/Photographer, 
                     <em class="">Right Brain Photography</em>
                 </p>
             </div>
@@ -321,7 +321,8 @@
     <div class="container-fluid bg-dk-blue section-padding-default">
         <div class="container">
             <div class="row">
-               <h2 class="title-bold white">Try before you buy. <br />Get a single copy of your book made for just $19!</h2>
+               <h2 class="title-bold white">Try before you buy.</h2>
+                <p class="lead white">Get a single copy of your book made for just $19!</p>
                 <a href="/single-book-printing" class="btn btn-center btn-orange btn-lg" onclick="_gaq.push(['_trackEvent', 'products', 'Click', 'POD-get-started-make-a-book']);">Get started</a>
             </div>
         </div>

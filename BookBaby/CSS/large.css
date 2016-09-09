@@ -116,8 +116,11 @@
         */
 
     .ci {
-        
         max-width: 590px;
     }
+
+    
+    .success-subheader { font-size: 19px; }
+    .price-big { font-size: 90px; }
 }
 /* ******************************* */

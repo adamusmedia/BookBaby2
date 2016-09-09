@@ -289,7 +289,7 @@
             <div class="table-res mt-20 mb-40">
                 
 
-                <table class="table table-bordered res book-trim-sizes">
+                <table class="table table-bordered res mob-fix book-trim-sizes">
                     <thead>
                         <tr>
                             <th class="bg-t-blue"><span>Word Count</span></th>
