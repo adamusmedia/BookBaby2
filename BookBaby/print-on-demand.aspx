@@ -17,26 +17,28 @@
 
 
 
-
+<div class="container-fluid bg-tan bt-0">
+        </div>
+    </div>
+</div>
 
 
 <div class="container-fluid ptb-40">
-    <div class="container">
+    <div class="row">
+        <div class="container ptb-40">
 
-        <h2 class="title-bold mb-30">What is Print On Demand?</h2>
+            <h2 class="title-bold mb-30">What is Print On Demand?</h2>        
 
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 embed-responsive embed-responsive-16by9">
-            <div class="row">
-	            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AV7A27C2pow?rel=0" frameborder="0" allowfullscreen></iframe>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 embed-responsive embed-responsive-16by9">
+	            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AV7A27C2pow?rel=0" frameborder="0" allowfullscreen=""></iframe>
             </div>
-        </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left text-center-xs text-center-sm">
-            <div class="row">
-                <p class="p-40 pt-xs-0 pt-sm-0 mplr-0">BookBaby makes your title(s) available for ordering to the largest network of global booksellers, libraries and online retailers. Through our network, your book will be available for sale online at Powell’s Books, Amazon, and Barnes &amp; Noble, both domestically and globally. In addition, your title(s) will be available for ordering through the <a href="/book-distribution">largest book distribution network</a> in the world including Ingram, Baker &amp; Taylor, NACSCORP, Book-a-Zine, Diamond Comic, BPDI along with 50+ others.</p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center mt-20">
+                
+                    <p class="">BookBaby makes your title(s) available for ordering to the largest network of global booksellers, libraries and online retailers. Through our network, your book will be available for sale online at Powell’s Books, Amazon, and Barnes &amp; Noble, both domestically and globally. In addition, your title(s) will be available for ordering through the <a href="/book-distribution">largest book distribution network</a> in the world including Ingram, Baker &amp; Taylor, NACSCORP, Book-a-Zine, Diamond Comic, BPDI along with 50+ others.</p>
             </div>
-        </div>
 
+        </div>
     </div>
 </div>
 

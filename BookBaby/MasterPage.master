@@ -69,7 +69,8 @@
     <script src="<%= Page.ResolveClientUrl("~/JS/nav/scripts-utilities.js") %>"></script>
     <script src="<%= Page.ResolveClientUrl("~/JS/nav/fastclick.js") %>"></script>
     <script src="<%= Page.ResolveClientUrl("~/JS/nav/scripts-dmresponsive.js") %>"></script>
-
+    <link href="<%= Page.ResolveClientUrl("~/CSS/jquery.bxslider.css") %>" rel="stylesheet" />
+    
 
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -91,7 +92,7 @@
 <header id="mobile-header">
     <div class="content-wrapper">
         <div class="main-logo">
-            <a class="link-logo" href="/" title="Disc Makers">
+            <a class="link-logo" href="/" title="BookBaby">
                 <img class="img-logo" src="../../images/nav-logo2.png" />
             </a>
         </div>
@@ -123,7 +124,7 @@
             </div>
 
             <div class="main-logo">
-                <a class="link-logo" href="/" title="Disc Makers Home">
+                <a class="link-logo" href="/" title="BookBaby Home">
                     <span class="text-logo">Home</span>
                     <img class="img-logo" src="../../images/nav-logo2.png" />
                 </a>
@@ -166,7 +167,7 @@
                     </li>
                     
                     <li>
-                        <a href="/templates/" title="eBooks" data-toggle="nav-menu">eBOOKS<i class="right-arrow icon-right-dir"></i><i class=" down-arrow icon-down-dir"></i></a>
+                        <a href="/templates/" title="eBooks" data-toggle="nav-menu" class="ebooks-nav">eBOOKS<i class="right-arrow icon-right-dir"></i><i class=" down-arrow icon-down-dir"></i></a>
                         <ul class="level2">
                             <li>
                                 <a href="#" title="eBooks Overview">eBooks Overview</a>
@@ -254,7 +255,7 @@
                 <ul>
                     <li>
                         <p class="textbox-mask txt-search" title="Please enter the terms you would like to search for.">
-                            <input type="text" id="SearchTerms" value="Search" class="main-search textbox" headersuggest="yes" onfocus="this.value = this.value=='Search'?'':this.value;" onblur="this.value = this.value==''?'Search':this.value;" size="45" />
+                            <input type="text" id="SearchTerms" value="Search" class="main-search textbox" headersuggest="yes" onfocus="this.value = this.value=='Search'?'':this.value;" onblur="this.value = this.value==''?'Search':this.value;" size="45" placeholder="Search" />
                         </p>
                         <a id="SearchButton" class="new-search-button" href="#search"><i class="icon-search-2"></i></a>
                     </li>
@@ -456,5 +457,42 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<%= Page.ResolveClientUrl("~/JS/bootstrap.min.js") %>"></script>
+    <script src="<%= Page.ResolveClientUrl("~/JS/jquery.bxslider.min.js") %>"></script>
+    
+
+    <script>
+        jqs2 = jQuery.noConflict();
+        jqs2(document).ready(function () {
+            jqs2('.bxslider2').bxSlider({
+                slideWidth: 420,
+                nextSelector: $("#slider-next"),
+                nextText: '',
+                prevSelector: $("#slider-prev"),
+                prevText: '',
+                pager: false,
+                minSlides: 2,
+                maxSlides: 2,
+                slideMargin: 20,
+                responsive: true
+            });
+        });
+
+
+        jqs4 = jQuery.noConflict();
+        jqs4(document).ready(function () {
+            jqs4('.bxslider4').bxSlider({
+                slideWidth: 200,
+                nextSelector: $("#slider-next"),
+                nextText: '',
+                prevSelector: $("#slider-prev"),
+                prevText: '',
+                pager: false,
+                minSlides: 4,
+                maxSlides: 4,
+                slideMargin: 20,
+                responsive: true
+            });
+        });
+    </script>
 </body>
 </html>

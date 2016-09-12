@@ -98,6 +98,9 @@
     .container-fluid .text-center-mobile {
         text-align: center;
     }
+
+    body #site-header.open { background-color: #4c3304; }
+    body #site-header.open #header-search.open { background-color: #000!important; }
 }
 /* ******************************* */
 
@@ -114,9 +117,22 @@
 
 
 /* ******************************* */
-/* Small Devices, Tablets          */
-@media only screen and (min-width : 768px) {
+/* arrow for nav dropdown          */
+@media only screen and (min-width : 864px) {
 
+    #site-header .main-nav .level2 li:nth-child(1):before {
+        
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: -10px;
+        left: 56px;
+        display: block;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #fff;
+    }
 }
 /* ******************************* */
 

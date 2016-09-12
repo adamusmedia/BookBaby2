@@ -194,6 +194,7 @@
     .xs-pb-120 { padding-bottom: unset; }
 
     .price-big { font-size: 76px; }
+    .fpg-item { min-height: 160px; }
 
 }
 /* ******************************* */

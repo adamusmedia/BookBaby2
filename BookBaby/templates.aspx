@@ -35,151 +35,175 @@
             	    <p>4.25&quot; x 6.87&quot;</p>
            		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
                 </div>
-            </div>            
-
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                    <img src="/Images/templates-pocketbook.jpg" alt="Pocket Book 4.25 inches x 6.87 inches" title="Pocket Book 4.25 inches x 6.87 inches" class="img-responsive center-block" />
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                    <h3>Pocket Book</h3>
-            	    <p>4.25&quot; x 6.87&quot;</p>
-           		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
-                </div>
-            </div>            
-
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                    <img src="/Images/templates-pocketbook.jpg" alt="Pocket Book 4.25 inches x 6.87 inches" title="Pocket Book 4.25 inches x 6.87 inches" class="img-responsive center-block" />
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                    <h3>Pocket Book</h3>
-            	    <p>4.25&quot; x 6.87&quot;</p>
-           		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
-                </div>
-            </div>            
-
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                    <img src="/Images/templates-pocketbook.jpg" alt="Pocket Book 4.25 inches x 6.87 inches" title="Pocket Book 4.25 inches x 6.87 inches" class="img-responsive center-block" />
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                    <h3>Pocket Book</h3>
-            	    <p>4.25&quot; x 6.87&quot;</p>
-           		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
-                </div>
-            </div>            
-
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                    <img src="/Images/templates-pocketbook.jpg" alt="Pocket Book 4.25 inches x 6.87 inches" title="Pocket Book 4.25 inches x 6.87 inches" class="img-responsive center-block" />
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                    <h3>Pocket Book</h3>
-            	    <p>4.25&quot; x 6.87&quot;</p>
-           		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
-                </div>
-            </div>            
-
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                    <img src="/Images/templates-pocketbook.jpg" alt="Pocket Book 4.25 inches x 6.87 inches" title="Pocket Book 4.25 inches x 6.87 inches" class="img-responsive center-block" />
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                    <h3>Pocket Book</h3>
-            	    <p>4.25&quot; x 6.87&quot;</p>
-           		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
-                </div>
-            </div>            
-
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                    <img src="/Images/templates-pocketbook.jpg" alt="Pocket Book 4.25 inches x 6.87 inches" title="Pocket Book 4.25 inches x 6.87 inches" class="img-responsive center-block" />
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                    <h3>Pocket Book</h3>
-            	    <p>4.25&quot; x 6.87&quot;</p>
-           		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
-                </div>
-            </div>            
-
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                    <img src="/Images/templates-pocketbook.jpg" alt="Pocket Book 4.25 inches x 6.87 inches" title="Pocket Book 4.25 inches x 6.87 inches" class="img-responsive center-block" />
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                    <h3>Pocket Book</h3>
-            	    <p>4.25&quot; x 6.87&quot;</p>
-           		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
-                </div>
-            </div>            
-
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                    <img src="/Images/templates-pocketbook.jpg" alt="Pocket Book 4.25 inches x 6.87 inches" title="Pocket Book 4.25 inches x 6.87 inches" class="img-responsive center-block" />
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                    <h3>Pocket Book</h3>
-            	    <p>4.25&quot; x 6.87&quot;</p>
-           		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
-                </div>
-            </div>            
-
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                    <img src="/Images/templates-pocketbook.jpg" alt="Pocket Book 4.25 inches x 6.87 inches" title="Pocket Book 4.25 inches x 6.87 inches" class="img-responsive center-block" />
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                    <h3>Pocket Book</h3>
-            	    <p>4.25&quot; x 6.87&quot;</p>
-           		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
-                </div>
-            </div>            
-
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                    <img src="/Images/templates-pocketbook.jpg" alt="Pocket Book 4.25 inches x 6.87 inches" title="Pocket Book 4.25 inches x 6.87 inches" class="img-responsive center-block" />
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                    <h3>Pocket Book</h3>
-            	    <p>4.25&quot; x 6.87&quot;</p>
-           		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
-                </div>
-            </div>            
-
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                    <img src="/Images/templates-pocketbook.jpg" alt="Pocket Book 4.25 inches x 6.87 inches" title="Pocket Book 4.25 inches x 6.87 inches" class="img-responsive center-block" />
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                    <h3>Pocket Book</h3>
-            	    <p>4.25&quot; x 6.87&quot;</p>
-           		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
-                </div>
-            </div>            
-
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
-                    <img src="/Images/templates-pocketbook.jpg" alt="Pocket Book 4.25 inches x 6.87 inches" title="Pocket Book 4.25 inches x 6.87 inches" class="img-responsive center-block" />
-                </div>
-
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                    <h3>Pocket Book</h3>
-            	    <p>4.25&quot; x 6.87&quot;</p>
-           		    <p><a class="btn btn-orange btn-small" href="/Templates/Pocket-Book/templatedownload/Pocket-Book.zip" title="Download Template">Download</a></p>
-                </div>
             </div>
+            
+            
+            
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                    <img src="/Images/templates-digest.jpg" alt="" title="" class="img-responsive center-block" />
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                    <h3>Digest</h3>
+            	    <p>5.5" x 8.5"</p>
+           		    <p><a class="btn btn-orange btn-small" href="#" title="Download Template">Download</a></p>
+                </div>
+            </div>   
+            
+            
+            
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                    <img src="/Images/templates-ustrade.jpg" alt="" title="" class="img-responsive center-block" />
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                    <h3>US Trade</h3>
+            	    <p>6" x 9"</p>
+           		    <p><a class="btn btn-orange btn-small" href="#" title="Download Template">Download</a></p>
+                </div>
+            </div> 
+            
+            
+            
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                    <img src="/Images/templates-comicbook.jpg" alt="" title="" class="img-responsive center-block" />
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                    <h3>Comic Book</h3>
+            	    <p>6.625" x 10.25"</p>
+           		    <p><a class="btn btn-orange btn-small" href="#" title="Download Template">Download</a></p>
+                </div>
+            </div>   
+            
+            
+            
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                    <img src="/Images/templates-usletter.jpg" alt="" title="" class="img-responsive center-block" />
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                    <h3>US Letter</h3>
+            	    <p>8.5" x 11"</p>
+           		    <p><a class="btn btn-orange btn-small" href="#" title="Download Template">Download</a></p>
+                </div>
+            </div> 
+            
+            
+            
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                    <img src="/Images/templates-portrait.jpg" alt="" title="" class="img-responsive center-block" />
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                    <h3>Portrait</h3>
+            	    <p>8" x 10"</p>
+           		    <p><a class="btn btn-orange btn-small" href="#" title="Download Template">Download</a></p>
+                </div>
+            </div>   
+            
+            
+            
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                    <img src="/Images/templates-largeportrait.jpg" alt="" title="" class="img-responsive center-block" />
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                    <h3>Large Portrait</h3>
+            	    <p>9" x 12"</p>
+           		    <p><a class="btn btn-orange btn-small" href="#" title="Download Template">Download</a></p>
+                </div>
+            </div> 
+            
+            
+            
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                    <img src="/Images/templates-smallsquare.jpg" alt="" title="" class="img-responsive center-block" />
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                    <h3>Small Square</h3>
+            	    <p>7.5" x 7.5"</p>
+           		    <p><a class="btn btn-orange btn-small" href="#" title="Download Template">Download</a></p>
+                </div>
+            </div>   
+            
+            
+            
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                    <img src="/Images/templates-square.jpg" alt="" title="" class="img-responsive center-block" />
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                    <h3>Square</h3>
+            	    <p>8.5" x 8.5"</p>
+           		    <p><a class="btn btn-orange btn-small" href="#" title="Download Template">Download</a></p>
+                </div>
+            </div> 
+            
+            
+            
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                    <img src="/Images/templates-largeportrait.jpg" alt="" title="" class="img-responsive center-block" />
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                    <h3>Large Square</h3>
+            	    <p>10" x 10"</p>
+           		    <p><a class="btn btn-orange btn-small" href="#" title="Download Template">Download</a></p>
+                </div>
+            </div>   
+            
+            
+            
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                    <img src="/Images/templates-landscape.jpg" alt="" title="" class="img-responsive center-block" />
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                    <h3>Landscape</h3>
+            	    <p>9" x 7"</p>
+           		    <p><a class="btn btn-orange btn-small" href="#" title="Download Template">Download</a></p>
+                </div>
+            </div> 
+            
+            
+            
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                    <img src="/Images/templates-landscape-ltr.jpg" alt="" title="" class="img-responsive center-block" />
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                    <h3>Landscape</h3>
+            	    <p>11" x 8.5"</p>
+           		    <p><a class="btn btn-orange btn-small" href="#" title="Download Template">Download</a></p>
+                </div>
+            </div>   
+            
+            
+            
+            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 text-left template-item pb-30">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                    <img src="/Images/templates-landscape12x9.jpg" alt="" title="" class="img-responsive center-block" />
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
+                    <h3>Landscape</h3>
+            	    <p>12" x 9"</p>
+           		    <p><a class="btn btn-orange btn-small" href="#" title="Download Template">Download</a></p>
+                </div>
+            </div>            
 
             
 

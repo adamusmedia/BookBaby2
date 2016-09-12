@@ -10,7 +10,24 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left text-center-xs text-center-sm">
 				<p class="h1-leadin grey">eBOOK COVER DESIGN</p>
 				<h1 class="alt black">Sell more books with a great-looking cover.</h1>
-                SLIDER
+
+                <ul class="bxslider4">
+                    <img src="/images/cover-design-example-9.png">
+				    <img src="/images/cover-design-example-6.png">
+				    <img src="/images/cover-design-example-11.png">
+				    <img src="/images/cover-design-example-8.png">
+                    
+					<img src="/images/cover-design-example-5.png">
+					<img src="/images/cover-design-example-10.png">
+					<img src="/images/cover-design-example-7.png">
+					<img src="/images/cover-design-example-12.png">
+                </ul>
+
+                <div class="ctl">
+			        <div id="slider-next"></div>
+			        <div id="slider-prev"></div>
+                </div>
+
 			</div>
 
         </section>

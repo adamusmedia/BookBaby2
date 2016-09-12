@@ -9,19 +9,53 @@
             <p class="h1-leadin grey mb-0">WEBSITE HOSTING FOR AUTHORS</p>
             <h1 class="title no-shadow mt-10">Get a professional website in minutes.</h1>
             <div class="clearfix"></div>
-            slider
-            <!--
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-				<p class="h1-leadin">PUBLISH YOUR BOOK ON NOOK</p>
-				<h1 class="alt">Get published on Barnes & Noble's eBook store and more</h1>
-                <a href="/quoter/confighandler.aspx?webpreconfigid=WPC0000038" class="btn btn-orange btn-lg" role="button">Get started</a>
 
-			</div>
+
+            <!--
+            <div id="slider-wrap">
+					<div class="bx-wrapper" style="max-width: 865px;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 288px;"><div id="slider" class="bxslider" style="width: 645%; position: relative; transition-duration: 0s; transform: translate3d(-865px, 0px, 0px);"><div style="float: left; list-style: none; position: relative; width: 865px;" class="bx-clone">
+							<img src="/images/hostbaby-examples/johnjames.jpg" class="left">
+							<img src="/images/hostbaby-examples/jonahwalker.jpg">
+						</div>
+						<div style="float: left; list-style: none; position: relative; width: 865px;">
+							<img src="/images/hostbaby-examples/chloebenson.jpg" class="left">
+							<img src="/images/hostbaby-examples/janelwheaton.jpg">
+						</div>
+						<div style="float: left; list-style: none; position: relative; width: 865px;">
+							<img src="/images/hostbaby-examples/jasonroth.jpg" class="left">
+							<img src="/images/hostbaby-examples/jenniferlinn.jpg">
+						</div>
+						<div style="float: left; list-style: none; position: relative; width: 865px;">
+							<img src="/images/hostbaby-examples/johnjames.jpg" class="left">
+							<img src="/images/hostbaby-examples/jonahwalker.jpg">
+						</div>
+					<div style="float: left; list-style: none; position: relative; width: 865px;" class="bx-clone">
+							<img src="/images/hostbaby-examples/chloebenson.jpg" class="left">
+							<img src="/images/hostbaby-examples/janelwheaton.jpg">
+						</div></div></div><div class="bx-controls"></div></div>
+					<div id="slider-next"><a class="bx-next" href=""></a></div>
+					<div id="slider-prev"><a class="bx-prev" href=""></a></div>
+				</div>
             -->
+
+
+            
+            <ul class="bxslider2">
+              <li><img src="/images/hostbaby-examples/chloebenson.jpg" /></li>
+              <li><img src="/images/hostbaby-examples/janelwheaton.jpg" /></li>
+              <li><img src="/images/hostbaby-examples/jonahwalker.jpg" /></li>
+              <li><img src="/images/hostbaby-examples/johnjames.jpg" /></li>
+            </ul>
+
+            <div class="ctl">
+			    <div id="slider-next"></div>
+			    <div id="slider-prev"></div>
+            </div>
+
+
         </section>
     </div>
 </div>
-
 
 
 

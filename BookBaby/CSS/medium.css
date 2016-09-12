@@ -164,5 +164,7 @@
     }
     
     .price-big { font-size: 80px; }
+    
+    .fpg-item { min-height: 220px; }
 }
 /* ******************************* */

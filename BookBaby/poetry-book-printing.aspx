@@ -1,15 +1,15 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="MasterPage.master" CodeFile="Default.aspx.cs" Inherits="Default" %>
 <asp:Content runat="server" ContentPlaceHolderID="pageContent">
 
-    <div class="container-fluid bg-img bg-christian">
+    <div class="container-fluid bg-img bg-poetry">
         <div class="container">
             <div class="row">
                 <section class="jumbotron light">
 
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7 text-left text-center-xs text-center-sm">
-                        <h1 class="title pt-35 mb-0">Religious Books</h1>
-                        <h2 class="subtitle mt-20 mb-20">Deliver the message with a beautifully-printed religious book</h2>
-                        <a href="/quoter/confighandler.aspx?configid=900177871&amp;itemid=BBP-Book-Print&amp;qty=100&amp;pagecount=68&amp;proditemid=EXTTURN" class="btn btn-orange btn-lg mb-20" role="button">Get Started</a>
+                        <h1 class="title no-shadow black pt-35 mb-0">Poetry Book Printing</h1>
+                        <h2 class="subtitle no-shadow black mt-20 mb-20">How will you love our beautiful hardcover or softcover poetry books? Let us count the ways</h2>
+                        <a href="h/quoter/confighandler.aspx?configid=900174024&itemid=BBP-Book-Print&qty=100&pagecount=48&proditemid=EXTTURN" class="btn btn-orange btn-lg mb-20" role="button">Get Started</a>
                     </div>
 
                 </section>
@@ -27,7 +27,7 @@
             <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <div class="ci cir pb-0">
                     <div>
-                        <h2 class="condensed mt-0 mb-0">Religious leaders and people of faith alike turn to BookBaby for their Christian book publishing and religious publishing needs.</h2>
+                        <h2 class="condensed mt-0 mb-0">Think you’ll never see a poetry book as lovely as a tree? BookBaby can make it happen in 5 days.</h2>
                     </div>
                     
                 </div>
@@ -36,7 +36,7 @@
             <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <div class="ci cil">
                     <div>
-                        <p>Publishing your own Christian book or religious book? Turn your faith-based message into a beautifully-printed, bookstore-quality Christian or religious book. (Available in quantities of 25 to 10,000+) Our publishing specialists are available via phone or email to help you choose which Christian book printing style is right for your message. We also make it easy to order and publish a religious book online, using our <a href="/templates">book printing templates</a> and <a href="/quoter/default.aspx">online book project configurator</a>. And with our brand new <a href="/print-on-demand">Print on Demand services</a>, you can choose to sell copies of your religious book worldwide, including circulation through Christian Book Distributors, the largest Christian catalog/Internet company in the world!</p>
+                        <p>No other genre of book is as associated with self-publishing as the poetry book, or chapbook. Whitman, Eliot, Poe, Pope, Shelley, Cummings, Browning, and so many other poetry greats all paid to publish their first books. Too bad they didn’t have BookBaby. For not only did they have to write good poems, they had to struggle to typeset, print, and bind the books that housed them. BookBaby makes this a breeze. You can order beautiful poetry books from the comfort of your home. And our amazing <a href="/print-on-demand">Print On Demand service</a> service allows you to quickly and easily sell your books all over the world. So whether you’re looking to send books to poetry publishers or looking to self-publish your own chapbooks, you’ll never wander lonely as a cloud with BookBaby by your side.</p>
                     </div>
                 </div>
             </div>
@@ -44,15 +44,15 @@
 </div>
 
 
-<div class="container-fluid bg-brown c-500">
+<div class="container-fluid bg-tan-lt c-500">
     <div class="row">
         
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-christian-1"></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-img-half bg-poetry-s-1"></div>
 
         <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <div class="ci cil ybp-pf-1">
                 <div>
-                    <h2 class="condensed white mt-0">BookBaby will help your Christian book or religious book inspire readers around the world.</h2>
+                    <h2 class="condensed black mt-0">We’re so sure you’ll be comparing your poetry book to a summer’s day we offer a 100% satisfaction guarantee</h2>
                 </div>
             </div>
         </div>
@@ -62,20 +62,20 @@
        
 
 
-<div class="container-fluid bg-brown c-500">
+<div class="container-fluid bg-tan-lt c-500">
     <div class="row">
 
-        <div class="col-xs-12 visible-xs bg-img-half bg-christian-2"></div>
+        <div class="col-xs-12 visible-xs bg-img-half bg-poetry-s-2"></div>
 
         <div class="c col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <div class="ci cir ybp-pf-2">
                 <div>
-                    <p class="white">Why trust BookBaby to create your Christian book? As the leading religious book printer, BookBaby has printed thousands of beautiful hardcover and softcover Christian books and religious books for church leaders and people of faith. We’ve printed Christian children’s books, inspirational religious testimonials, Biblical studies, personal stories, and creative novels inspired by faith. Our authors have used these books for fundraisers, the professional marketplace, and simply for personal, spiritual fulfillment. Every day we print and bind beautiful softcover and hardcover Christian books, Catholic books, Jewish books, Buddhist books, Islamic books, and books for all faiths and religions. All of our books are printed in our US-based, state-of-the-art printing facility.</p>  
+                    <p class="">BookBaby crafts the highest-quality softcover and hardcover poetry books in the industry. In fact, we’re so sure you’ll be comparing your poetry book to a summer’s day we offer a 100% satisfaction guarantee. We’re able to stand by our quality because we print our poetry books right here in our US-based state-of-the-art printing facility. You can order a retail-ready poetry book in minutes, thanks to our book templates and online ordering app. And you don’t have to spend a fortune, either. BookBaby lets you order as few as 25 books (or if you want to try us on for size, order just one book for only $19). Our publishing specialists are available to answer your questions by phone or email. Just don’t ask them if they have a rhyme for purple.</p>  
                 </div>
             </div>
         </div>
 
-        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-christian-2"></div>
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 bg-img-half bg-poetry-s-2"></div>
 
     </div>
 </div>
@@ -97,33 +97,38 @@
             
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-text pb-35">
-                <h2 class="title-bold">Choose the style and binding for your custom religious book</h2>
-                <p>We offer both soft cover and hardcover religious book printing options in a variety of sizes and paper  stocks. Religious <a href="/book-trim-sizes-and-binding-options">book printing and binding options</a> include: spiral, perfect binding, or hardcover (casebound). Print from a PDF or have us <a href="/book-cover-design">design your book cover</a> and book interior. Here are some of our Christian book and religious book styles:</p>
+                <h2 class="title-bold">Choose the style and binding for your custom-printed poetry book</h2>
+                <p>We offer both softcover and hardcover poetry book printing options in a variety of sizes and paper stocks. Poetry and chapbook <a href="/book-trim-sizes-and-binding-options">printing and binding options</a> include: saddle stitched, perfect binging, or hardcover (case bound). We can print from your PDF or even <a href="/book-cover-design">design your book cover</a> and book interior. Here are some of our most popular styles of poetry books:</p>
             </div>
 
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ptb-20 center-text">
-                <img src="/Images/christian-thumb-ustrade-hard.png" alt="US Trade 6&quot; x 9&quot;" title="US Trade 6&quot; x 9&quot;" class="img-responsive center-block" />
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
+                <a href="#"><img src="/Images/poetry-thumb-digest.png" alt="Square 8.5&quot; x 8.5&quot;" title="Square 8.5&quot; x 8.5&quot;" class="img-responsive center-block"></a>
+                <h3 class="title-bold">Digest 5.5" x 8.5"</h3>
+                <p>Saddle stitched, 60lb natural <br>
+				<a href="#" class="link-orange">Get started</a>
+                </p>
+                
+            </div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
 
+                <a href="#"><img src="/Images/poetry-thumb-digestperfect.png" alt="Landscape 9&quot; x 7&quot;" title="Landscape 9&quot; x 7&quot;" class="img-responsive center-block"></a>
+                <h3 class="title-bold">Digest 5.5" x 8.5"</h3>
+                <p>Perfect bound, 60lb natural<br>
+				<a href="#" class="link-orange">Get started</a>
+                </p>
+            </div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ptb-20 center-text">
+                <a href="#"><img src="/Images/poetry-thumb-ustrade.png" alt="Letter 8.5&quot; x 11&quot;" title="Letter 8.5&quot; x 11&quot;" class="img-responsive center-block"></a>
                 <h3 class="title-bold">US Trade 6" x 9"</h3>
-                <p>
-                   Hardcover, Perfect Binding, 60lb natural
-                    <br />
-                    <a href="#" class="link-orange">Get started</a>
+                <p>Case bound, 60lb natural<br>
+                <a href="#" class="link-orange">Get started</a>
                 </p>
             </div>
 
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ptb-20 center-text">
-                <img src="/Images/christian-thumb-ustrade-soft.png" alt="US Trade 6&quot; x 9&quot;" title="US Trade 6&quot; x 9&quot;" class="img-responsive center-block" />
 
-                <h3 class="title-bold">US Trade 6" x 9"</h3>
-                <p>
-                   Softcover, Perfect Binding, 60lb natural
-                    <br />
-                    <a href="#" class="link-orange">Get started</a>
-                </p>
-            </div>
+
 
             <div class="clearfix"></div>
 
@@ -140,21 +145,23 @@
 
 
 
-<div class="container-fluid bg-christian-mesh">
+<div class="container-fluid bg-poetry-2 pt-40">
     <div class="container">
         
 
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
-            
-            <h3 class="title-bold">Keys to a successful religious book</h3>
-            <p><strong>Design:</strong> With religious books, as with all books, it is vital that your cover stands out not only on the bookshelf but also on the web. Your design needs to make it clear what your book is about and who your audience is. <a href="/book-cover-design">Learn more about our design services.</a></p>
-
-			<p><strong>Content:</strong> Writing a religious book can be its own fulfilling experience but if you want your book to inspire others make sure your book offers a unique perspective. Write about your own personal experiences, awakening, insights, or spiritual journeys. Remember who your audience is and remember what inspired you to want to write your book. Above all, be true to yourself and your faith.</p>
-
-        </div>
 
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <img src="/Images/christian-book-success.png" width="552" height="570" class="img-responsive center-block" alt="Keys to a successful religious book" title="Keys to a successful religious book">
+            <img src="/Images/poetry-sample-book.png" class="img-responsive center-block" alt="Keys to a successful religious book" title="Keys to a successful religious book">
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
+            
+            <h3 class="title-bold">How to create a poetry book</h3>
+                <p>Imagery is important, not just figuratively but also literally. Hire a designer to <strong>create a cover</strong> for your poetry book that perfectly capture’s your art. If you don’t know a designer, hire BookBaby’s artists to design one for you.  <a href="/book-cover-design">Learn more.</a></p>
+                <p>Looking to wow poetry publishers? Make an impression by sending them a beautifully-bound, printed poetry book.</p>
+				<p>Get a copy of <strong>Poet’s Market</strong>, which is published annually by Writer’s Digest. It’s widely considered the bible for those looking to publish poetry.</p>
+                <p class="mb-100">Join a national poetry society like the <strong>Poetry Society of America</strong> (or a local group) and go to their conferences. Bring printed copies of your book with you. You just might meet someone who can help your career!</p>
+
         </div>
 
 
@@ -165,24 +172,7 @@
 
 
 
-    
 
-    
-<div class="container-fluid bg-wood-2 ptb-40 pb-100">
-    <div class="container">
-
-        	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left text-center-xs text-center-sm">
-            	<h3 class="title-bolder text-shadow white mt-0 mt-md-christian">“Whether you need the whole deal or just to get the finished product out there you can do it with BookBaby without losing your shirt or your marbles”</h3>
-                <p class="white text-shadow">Alexandra Shankland, author of <em class="">Don’t Blame God </em>
-                </p>
-            </div>
-
-            <div class="hidden-xs col-sm-12 col-md-6 col-lg-6">
-                <img src="/Images/christian-testimonial-book.png" width="300" height="450" alt="Don't Blame God" title="Don't Blame God" class="img-responsive center-block">
-            </div>
-
-    </div>
-</div>
 
 
 
@@ -191,7 +181,7 @@
         <div class="row">
 
             <div class="offset-icon-130">
-                <img class="keep-100-sales" src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
+                <img class="keep-100-sales z-index-fix" src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
             </div>
 
             <section id="self-publishing-staff">
@@ -199,7 +189,7 @@
                     <div class="row">
 
                         <h2 class="title-bold">Publish and sell your poetry books</h2>
-                        <p class="bodycopy15">BookBaby poets can publish and sell their eBooks and printed books in the world’s biggest bookstores. We can we convert your manuscript into an <a href="/ebooks">eBook</a> and sell it digitally in 60+ stores, including Amazon. And with our new <a href="/print-on-demand">Print On Demand</a> technology, you can sell your printed poetry book direct to your readers, without having to pay for large print runs, warehousing, or fulfillment.</p>
+                        <p class="mb-30">BookBaby poets can publish and sell their eBooks and printed books in the world’s biggest bookstores. We can we convert your manuscript into an <a href="/ebooks">eBook</a> and sell it digitally in 60+ stores, including Amazon. And with our new <a href="/print-on-demand">Print On Demand</a> technology, you can sell your printed poetry book direct to your readers, without having to pay for large print runs, warehousing, or fulfillment.</p>
                     
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half logos-container">
 

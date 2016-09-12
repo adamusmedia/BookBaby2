@@ -34,6 +34,10 @@
         	<img src="/images/bookshop-logo.png" alt="Bookshop" title="Bookshop" height="55" width="234" class="img-responsive center-block mb-20">
 			<p>BookShop is your one-stop shop to sell both eBooks and printed books straight to your readers. With BookShop, you can earn more profits, receive faster payments, and maintain total control of your page content. <strong>And best of all: it’s free to all BookBaby authors!</strong></p>
 
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 embed-responsive embed-responsive-16by9 mb-30">
+	            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E3sEeCUlRAI?rel=0" frameborder="0" allowfullscreen=""></iframe>
+            </div>
+
 			<p>And now, BookShop is available with <a href="/print-on-demand">Print On Demand</a> exclusively from BookBaby. Your printed book will be guaranteed to always be in stock all day, every day. 24/7/365.</p>
 		</div>
 
@@ -43,11 +47,12 @@
 
 
 
-<div class="container-fluid ptb-40">
+<div class="container-fluid pt-90 pb-90 bg-img bg-bookshop">
     <div class="container">
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            TABLE AREA
+            <h3 class="title-bold white text-shadow">How much more can you make selling your printed book on BookShop? See for yourself:</h3>
+            <p class="white text-shadow">BookShop is your free online storefront exclusive to BookBaby authors. Setting up your page only takes a few minutes: Most of your important content is preloaded from the initial sign up process. All your book’s vital information is prominently showcased and you can make updates anytime you like.</p>
 		</div>
 
     </div>

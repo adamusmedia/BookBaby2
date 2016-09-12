@@ -162,6 +162,10 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
     display: inline-block;
     float: none!important;
 }
+
+
+
+#site-header .main-nav .level1 li a.ebooks-nav { text-transform: none; }
 /*
 .va-c,
 .list-image > a {
@@ -299,6 +303,9 @@ a.title-bold > h3  {
     margin: 0 0 5px;
 }
 
+.template-item { min-height: 200px; }
+
+
 .template-item .btn-orange { font-size: 12px; }
 
 #free-publishing-guides p,
@@ -360,6 +367,7 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 
 .apb-item { padding-top: 20px; }
 
+    body #header-search, body #site-header.open { background-color: #4c3304; }
 
 
 /* bg properties */
@@ -375,9 +383,11 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 
 .bg-cream { background-color: #E9E5D2; }
 .bg-tan { background-color: #EBE4D1; }
+.bg-tan-lt { background-color: #F0F0E1; }
 .bg-tan-dark { background-color: #DAD5C0; }
 .bg-brown { background-color: #8a754f; }
 .bg-brown-2 { background-color: #A06E3F; }
+.bg-dk-brown { background-color: #4c3304; }
 .bg-dark { background-color: #3E3B32; }
 .bg-white { background-color: #ffffff; }
 .bg-lt-blue { background-color: #ebf5f5; }
@@ -394,11 +404,24 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 .bg-green { background-color: #4d5e38; }
 .bg-forest-green { background-color: #575748; }
 
+.bg-poetry { background-image: url("../images/poetry-hero.jpg"); }
+.bg-poetry-s-1 { background-image: url("../images/poetry-quad1.jpg"); }
+.bg-poetry-s-2 { background-image: url("../images/poetry-quad2.jpg"); }
+.bg-poetry-2 {background-image: url("../images/poetry-weathered-bkgrd.jpg"); }
+
+
+
+.bg-romance { background-image: url("../images/romance-hero.jpg"); }
+.bg-romance-s-1 { background-image: url("../images/romance-quad1.jpg"); }
+.bg-romance-s-2 { background-image: url("../images/romance-quad2.jpg"); }
 
 
 
 
-.bg-XXXXX { background-image: url("../images/XXXXXX.png"); }
+
+.bg-bookshop { background-image: url("../images/pod-101-royaltiesbkgrd.jpg"); }
+
+
 
 .bg-dark .bg-home-s-3-1 { background-image: url(../images/home/quadrant-home-editing.jpg); }
 .bg-dark .bg-home-s-3-2 { background-image: url(../images/home/quadrant-home-ebook.jpg); }
@@ -1299,3 +1322,168 @@ h4.price { margin-top: 3px; }
     border: 1px solid #CCC;
     background: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination-container.active {
+    display: block;
+}
+.pagination-container {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: none;
+}
+
+.pagination-container span.page-label {
+    color: #ccc;
+}
+
+.pagination-container a.page.current-page {
+    color: #666;
+    background-color: #EAF4F8;
+    cursor: default;
+}
+.pagination-container a.page, .pagination-container span.page {
+    font-weight: bold;
+    color: #ccc;
+    border: 1px solid #999;
+    margin-left: 5px;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+.pagination-container a.page:hover {
+    color: #666;
+}
+
+.pagination-container a.page { text-decoration:none; }
+
+
+
+.results-item {
+    display: block;
+    float: left;
+    text-align: left;
+    width: 100%;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.results-item:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.results-item span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.body-copy {
+    font-size: 15px;
+    line-height: 28px !important;
+    text-align: left;
+    color: #333;
+}
+
+.breadcrumbs {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #666;
+}
+.breadcrumbs span:not(.divider) {
+    content: '';
+    color: #666;
+}
+
+
+#search-results-page #search-results-form {
+    float: left;
+}
+#search-results-form {
+    width: 100%;
+    margin: 0;
+}
+
+
+.search-box-container {
+    width: calc(75% - 15px);
+    float: left;
+    padding-right: 5%;
+}
+
+
+.search-box-container .searchbox {
+    width: 100%;
+    padding: 10px;
+    color: #666;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+
+
+.btn-green.btn-search {
+    margin: 0px;
+    float: left;
+    min-width: initial;
+    max-width: 325px;
+    min-width: 210px;
+    width: 20%;
+}
+
+.btn-green.btn-search span {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#search-section-1 {
+    height: auto;
+    overflow-y: visible;
+}
+.blue {
+    background: #EAF4F8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
