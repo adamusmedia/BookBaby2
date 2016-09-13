@@ -47,12 +47,53 @@
 
 
 
-<div class="container-fluid pt-90 pb-90 bg-img bg-bookshop">
+<div class="container-fluid pt-60 pb-50 bg-img bg-bookshop">
     <div class="container">
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
             <h3 class="title-bold white text-shadow">How much more can you make selling your printed book on BookShop? See for yourself:</h3>
             <p class="white text-shadow">BookShop is your free online storefront exclusive to BookBaby authors. Setting up your page only takes a few minutes: Most of your important content is preloaded from the initial sign up process. All your book’s vital information is prominently showcased and you can make updates anytime you like.</p>
+
+
+                <div class="table-res mt-20 mb-20">
+           
+                <table class="table table-bordered res bookshop mob-fix">
+                    <thead>
+                        <tr>
+                            <th class="bg-lt-blue"><span>Your Selling Price</span></th>
+                            <th class="bg-lt-blue"><span>Amazon Basic</span></th>
+                            <th class="bg-lt-blue"><span>Amazon Extended</span></th>
+                            <th class="bg-lt-blue"><span>BookBaby POD</span></th>
+                            <th class="bg-t-blue"><span>BookShop POD</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$9.99</span></td>
+                            <td><span>$3.34</span></td>
+                            <td><span>$1.34</span></td>
+                            <td><span>$1.35</span></td>
+                            <td class="bg-t-blue"><span>$5.00</span></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$19.99</span></td>
+                            <td><span>$4.14</span></td>
+                            <td><span>$0.14</span></td>
+                            <td><span>$2.07</span></td>
+                            <td class="bg-t-blue"><span>$10.00</span></td>
+                        </tr>
+                        <tr>
+                            <td class="bg-lt-blue"><span>$24.99</span></td>
+                            <td><span>Doesn't distribute</span></td>
+                            <td><span>Doesn't distribute</span></td>
+                            <td><span>$2.70</span></td>
+                            <td class="bg-t-blue"><span>$12.50</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                </div>
+
 		</div>
 
     </div>
@@ -105,7 +146,7 @@
  <div class="container-fluid bg-lt-blue ptb-40">
     <div class="container">
 
-        <h2 class="mb-40">Your BookShop page will include:</h2>
+        <h2 class="title-bold mb-40">Your BookShop page will include:</h2>
 
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left text-center-xs">
         	<img src="../../images/bookshop-closeup-cover.png" width="420" height="310" alt="A giant display of your book cover, instantly communicating your book’s themes." title="A giant display of your book cover, instantly communicating your book’s themes." class="img-responsive center-block">
@@ -184,7 +225,7 @@
 <div class="container-fluid ptb-40">
     <div class="container">
 
-        	<h2 class="mb-20">Check out some of our authors’ BookShop pages!</h2>
+        	<h2 class="title-bold mb-20">Check out some of our authors’ BookShop pages!</h2>
             
             <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
            	    <a href="https://store.bookbaby.com/book/Revenge-River" target="_blank">

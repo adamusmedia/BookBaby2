@@ -143,31 +143,57 @@
     
 
 
+<!--
 
+    
 
-<div class="container-fluid bg-tan-lt pt-40">
+<div class="container-fluid bg-tan-lt">
     <div class="container">
+        <div class="row relative overflow-hidden">
         
 
-
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <img src="/Images/romance-sample-book.png" class="img-responsive center-block" alt="" title="">
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left pt-30 pb-90">
             
-            <h3 class="title-bold">How to create a romance book</h3>
-                <p><strong>Having a great cover</strong> is important for any book but it is an absolute must for romance and erotic fiction. Hire a designer to create something that will really stand out. Don’t know a designer? Let BookBaby design it for you. <a href="/book-cover-design">Learn more.</a></p>
-				<p><strong>Looking to get a publishing deal?</strong> It doesn’t hurt to be able to hand an agent or publisher a beautifully-printed and -bound copy of your romance book.</p>
-                <p><strong>Join a book writing society</strong> like Romance Writers of America (RWA) and bring printed copies of your book to their national conferences. You just might meet someone who can help your career!</p>
+                <h3 class="title-bold">How to create a romance book</h3>
+                    <p><strong>Having a great cover</strong> is important for any book but it is an absolute must for romance and erotic fiction. Hire a designer to create something that will really stand out. Don’t know a designer? Let BookBaby design it for you. <a href="/book-cover-design">Learn more.</a></p>
+				    <p><strong>Looking to get a publishing deal?</strong> It doesn’t hurt to be able to hand an agent or publisher a beautifully-printed and -bound copy of your romance book.</p>
+                    <p><strong>Join a book writing society</strong> like Romance Writers of America (RWA) and bring printed copies of your book to their national conferences. You just might meet someone who can help your career!</p>
+
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-push-3 col-md-push-0 abs-bot">
+                <img src="/Images/romance-sample-book.png" class=" center-block" alt="" title="">
+            </div>
 
         </div>
-
-
 
     </div>
 </div>
 
+    -->
+
+
+<div class="container-fluid bg-tan-lt">
+    <div class="container">
+        <div class="bg-img-genre bg-g-romance">
+        
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left pt-30">
+            
+                <h3 class="title-bold">How to create a romance book</h3>
+                    <p><strong>Having a great cover</strong> is important for any book but it is an absolute must for romance and erotic fiction. Hire a designer to create something that will really stand out. Don’t know a designer? Let BookBaby design it for you. <a href="/book-cover-design">Learn more.</a></p>
+				    <p><strong>Looking to get a publishing deal?</strong> It doesn’t hurt to be able to hand an agent or publisher a beautifully-printed and -bound copy of your romance book.</p>
+                    <p><strong>Join a book writing society</strong> like Romance Writers of America (RWA) and bring printed copies of your book to their national conferences. You just might meet someone who can help your career!</p>
+
+            </div>
+            <!-- 
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-push-3 col-md-push-0 abs-bot">
+                <img src="/Images/romance-sample-book.png" class=" center-block" alt="" title="">
+            </div>
+            -->
+        </div>
+
+    </div>
+</div>
 
 
 

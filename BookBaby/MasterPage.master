@@ -21,8 +21,8 @@
     <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/medium.css")%>" />
     <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/large.css") %>" />
     
-    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/CSS/nav/dm-styles.css") %>">
-    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/CSS/nav/dm-header.css") %>">
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/CSS/nav/bb-styles.css") %>">
+    <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/CSS/nav/bb-header.css") %>">
     <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/CSS/nav/animation.css") %>">
     <link rel="stylesheet" href="<%= Page.ResolveClientUrl("~/CSS/nav/ResponsiveForms/styles.css") %>">
     <link rel="stylesheet" type="text/css" href="<%= Page.ResolveClientUrl("~/CSS/custom-mq.css") %>" />
@@ -69,6 +69,8 @@
     <script src="<%= Page.ResolveClientUrl("~/JS/nav/scripts-utilities.js") %>"></script>
     <script src="<%= Page.ResolveClientUrl("~/JS/nav/fastclick.js") %>"></script>
     <script src="<%= Page.ResolveClientUrl("~/JS/nav/scripts-dmresponsive.js") %>"></script>
+
+    <!-- for pages with sliders -->
     <link href="<%= Page.ResolveClientUrl("~/CSS/jquery.bxslider.css") %>" rel="stylesheet" />
     
 
@@ -78,16 +80,6 @@
 </head>
 <body>
 <form method="post" action="/" id="form1">
-
-
-
-
-
-
-
-
-
-
 
 <header id="mobile-header">
     <div class="content-wrapper">
@@ -236,13 +228,13 @@
                         </ul>
                     </li>
                     <li>
-                        <a class="pricing-nav-link" href="/quoter/default.aspx" title="Pricing">Pricing<i></i></a>
+                        <a class="pricing-nav-link" href="/quoter/default.aspx" title="Pricing">Pricing</a>
                     </li>
                     <li>
-                        <a href="#" title="Free Guides">Free Guides<i></i></a>
+                        <a href="#" title="Free Guides">Free Guides</a>
                     </li>
                     <li>
-                        <a href="http://support.discmakers.com/hc/en-us" title="Help">Help<i></i></a>
+                        <a href="http://support.discmakers.com/hc/en-us" title="Help">Help</a>
                     </li>
                 </ul>
             </div>
@@ -457,40 +449,43 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<%= Page.ResolveClientUrl("~/JS/bootstrap.min.js") %>"></script>
+    <!-- for pages with sliders -->
     <script src="<%= Page.ResolveClientUrl("~/JS/jquery.bxslider.min.js") %>"></script>
     
 
     <script>
+
+        //websites-for-authors.aspx
         jqs2 = jQuery.noConflict();
         jqs2(document).ready(function () {
             jqs2('.bxslider2').bxSlider({
-                slideWidth: 420,
                 nextSelector: $("#slider-next"),
                 nextText: '',
                 prevSelector: $("#slider-prev"),
                 prevText: '',
                 pager: false,
-                minSlides: 2,
-                maxSlides: 2,
                 slideMargin: 20,
-                responsive: true
+                responsive: true,
+                slideWidth: 420,
+                minSlides: 2,
+                maxSlides: 2
             });
         });
 
-
+        //ebook-cover-design.aspx
         jqs4 = jQuery.noConflict();
         jqs4(document).ready(function () {
             jqs4('.bxslider4').bxSlider({
-                slideWidth: 200,
                 nextSelector: $("#slider-next"),
                 nextText: '',
                 prevSelector: $("#slider-prev"),
                 prevText: '',
                 pager: false,
-                minSlides: 4,
-                maxSlides: 4,
                 slideMargin: 20,
-                responsive: true
+                responsive: true,
+                slideWidth: 200,
+                minSlides: 4,
+                maxSlides: 4
             });
         });
     </script>

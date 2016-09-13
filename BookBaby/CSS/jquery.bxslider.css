@@ -19,7 +19,9 @@
 	margin: 0 auto 60px;
 	padding: 0;
 	*zoom: 1;
-    padding: 25px;
+	padding-left: 45px;
+    padding-right: 45px;
+
 }
 
 .bx-wrapper img {
@@ -39,7 +41,7 @@
 	left: -5px;
 	background: #fff;
         */
-	
+
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);
@@ -213,7 +215,7 @@
     width: 40px;
     position: absolute;
     top: 0px;
-    left: -15px;
+    left: 0px;
 }
 #slider-next .bx-next {
     background: transparent URL('../images/slider-right.png');
@@ -222,7 +224,7 @@
     width: 40px;
     position: absolute;
     top: 0px;
-    right: -15px;
+    right: 0px;
 }
 
 
@@ -230,5 +232,5 @@
     position:relative;
     float: left;
     width: 100%;
-    margin-top: -240px;
+    top: 20px;
 }

@@ -435,6 +435,16 @@
     .table.packagecompare tbody tr td:nth-child(1):before,
     .table.packagecompare tbody tr td:nth-child(1) p { color: #fff; }
     .table.packagecompare tbody tr td:nth-child(1) { background-color: #56acbe; }
+
+
+
+    
+	table.bookshop tbody tr td:nth-of-type(1):before { content: "Your Selling Price"; }
+	table.bookshop tbody tr td:nth-of-type(2):before { content: "Amazon Basic"; }
+	table.bookshop tbody tr td:nth-of-type(3):before { content: "Amazon Extended"; }
+	table.bookshop tbody tr td:nth-of-type(4):before { content: "BookBaby POD"; }
+	table.bookshop tbody tr td:nth-of-type(5):before { content: "BookShop POD"; }
+
     /*
     table.res > tbody > tr > td { 
         padding: 0;
@@ -461,7 +471,12 @@
         font-size: 70px;
     }
     .price-big { font-size: 70px; }
+    
 
+    ul.disc-list-sm li {
+        width: 45%;
+        margin-left: 3%;
+    }
     
 
 }

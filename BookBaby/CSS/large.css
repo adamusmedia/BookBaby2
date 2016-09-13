@@ -123,5 +123,10 @@
     .success-subheader { font-size: 19px; }
     .price-big { font-size: 90px; }
     .fpg-item { min-height: 160px; }
+
+    ul.disc-list-sm li {
+        width: 20%;
+        margin-left: 3%;
+    }
 }
 /* ******************************* */

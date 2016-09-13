@@ -166,5 +166,11 @@
     .price-big { font-size: 80px; }
     
     .fpg-item { min-height: 220px; }
+    table.bookshop { font-size: 14px; }
+
+    ul.disc-list-sm li {
+        width: 30%;
+        margin-left: 3%;
+    }
 }
 /* ******************************* */
