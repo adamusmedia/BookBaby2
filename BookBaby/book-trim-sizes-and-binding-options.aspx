@@ -17,7 +17,7 @@
     </div>
 
 
-    <div class="container-fluid bg-img bg-brown-texture ptb-40">
+    <div class="container-fluid bg-img bg-brown-texture ptb-40 plr-15">
         <div class="container">
             <h3 class="title-bold white">What's your style? What's your genre?</h3>
             <p class="lead white">There's nothing like seeing your work in print for the very first time. We’ve got you covered with a large and robust selection of affordable book printing options. Review the choices below to decide what your next masterpiece will look like and create your unique book today.</p>
@@ -28,7 +28,7 @@
     <div class="container-fluid bg-lt-grey ptb-40">
         <div class="container">
             <h2 class="title-bold">Book Cover styles</h2>
-            <p class="">BookBaby offers both hardcover and softcover book options. There is a 24-page count minimum for our hard case bindings. Hardcover books can also be covered with a dust jacket, a removable paper cover used to protect a book from dirt or damage.</p>
+            <p class="plr-15">BookBaby offers both hardcover and softcover book options. There is a 24-page count minimum for our hard case bindings. Hardcover books can also be covered with a dust jacket, a removable paper cover used to protect a book from dirt or damage.</p>
             <div class="clearfix mb-30"></div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
@@ -52,7 +52,7 @@
             <div class="article-divider clearfix"></div>
             
             <h2 class="title-bold">Standard Trim Sizes</h2>
-            <p class="">Deciding which trim size will best suit your book can be confusing, especially given all the industry-standard but completely unhelpful trim size names, like "US Trade" and "Digest." We've put together our genre recommendations, based on industry standards, to help you choose a trim size that makes it clear to the reader what they're buying. Here are our most popular standard book sizes.</p>
+            <p class="plr-15">Deciding which trim size will best suit your book can be confusing, especially given all the industry-standard but completely unhelpful trim size names, like "US Trade" and "Digest." We've put together our genre recommendations, based on industry standards, to help you choose a trim size that makes it clear to the reader what they're buying. Here are our most popular standard book sizes.</p>
             
             <div class="article-divider clearfix"></div>
 
@@ -155,7 +155,7 @@
             
             
             <h2 class="title-bold">Custom Book Binding Options</h2>
-            <p class="mb-30">Whether you want a flexible perfect bound paperback, a spiral bound cookbook, or a saddle-stitched wedding program, we offer many custom book binding options to give your book the look and feel you want. Not sure which binding style is right for your book? Each style is explained in detail below.</p>
+            <p class="mb-30 plr-15">Whether you want a flexible perfect bound paperback, a spiral bound cookbook, or a saddle-stitched wedding program, we offer many custom book binding options to give your book the look and feel you want. Not sure which binding style is right for your book? Each style is explained in detail below.</p>
 
 
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 book-item">
@@ -242,7 +242,7 @@
             
             
             <h2 class="title-bold">Interior Text Paper Stock Options</h2>
-            <p class="mb-30">Your pages should look as good as the words written on them. The art of choosing the right paper stock is tricky, but it will ultimately define the feel and quality of your book, depending on your budget and production time. Uncoated paper stock has a rough, natural feel to it and is recommended for more traditional books without imagery. Coated paper stock reflects more light and has a slicker feel. It’s a popular choice for photography, art, comic and children’s books.</p>
+            <p class="mb-30 plr-15">Your pages should look as good as the words written on them. The art of choosing the right paper stock is tricky, but it will ultimately define the feel and quality of your book, depending on your budget and production time. Uncoated paper stock has a rough, natural feel to it and is recommended for more traditional books without imagery. Coated paper stock reflects more light and has a slicker feel. It’s a popular choice for photography, art, comic and children’s books.</p>
             
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-sm-15 col-md-15 col-lg-15 book-item">
                 <img src="../Images/book-printing-stock-500-92.jpg" width="131" height="168" alt="Soft cover book" title="Soft cover book" class="img-responsive center-block mb-20">

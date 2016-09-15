@@ -295,37 +295,15 @@
                                     <ul class="disc-list">
                                         <li>US Letter size has many uses including text books, art & photography books, children's books, training manuals, cooking books, year books & religious publications</li>
                                         <li>US letter size works great with all binding styles and text paper stock options</li>
-                                        <li>Choose gloss or matte cover finis</li>
+                                        <li>Choose gloss or matte cover finish</li>
                                     </ul>
                                 </span>
                             </td>
                         </tr>
-
-
-
-
-
-
-
-
-
-
-
                     </tbody>
                 </table>
 
             </div>
-
-
-
-
-
-
-
-
-
-
-
 
                 <div class="clearfix"></div>
                 <p><a href="/quoter/default.aspx" class="btn btn-orange btn-center btn-lg mb-30" role="button">Make a book</a></p>

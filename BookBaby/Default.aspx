@@ -60,9 +60,6 @@
 
 
 
-    <!-- s -->
- 
-
 
 <div class="container-fluid bg-dark c-500">
     <div class="row">
@@ -134,17 +131,15 @@
 
 
 <div class="container-fluid bg-lt-blue pre-offset-130">
-    <div class="row">
 
-        <section id="self-publishing-staff">
-            <div class="container section-padding-default">
+            <div class="container pt-40 pb-40">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <img class="img-responsive center-block" src="Images/home/bb-staff-small.jpg" width="460" height="317" alt="BookBaby friendly experts in Philadelphia and Portland" title="BookBaby friendly experts in Philadelphia and Portland" />
+                        <img class="img-responsive center-block mb-30" src="Images/home/bb-staff-small.jpg" width="460" height="317" alt="BookBaby friendly experts in Philadelphia and Portland" title="BookBaby friendly experts in Philadelphia and Portland" />
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left text-center-xs">
-                        <h2 class="title-bold black">Self-publishing doesn’t mean going it alone</h2>
+                        <h2 class="title-bold black mt-0">Self-publishing doesn’t mean going it alone</h2>
                         <p><strong>At BookBaby we believe in People Powered Publishing</strong>.</p>
                         <p>
                             Our friendly experts in the Philadelphia-area are ready to answer your publishing and printing questions.
@@ -154,8 +149,7 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
+
 </div>
 
 
@@ -165,8 +159,8 @@
 <div class="container-fluid bg-md-grey">
     <div class="row">
 
-        <div class="offset-icon-130">
-            <img class="keep-100-sales" src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
+        <div class="ico-offset">
+            <img src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
         </div>
 
         <section id="self-publishing-staff">
@@ -174,7 +168,7 @@
                 <div class="row">
                     
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-                        <h2 class="title-bold mt-0 mb-20">Sell your book in the world’s biggest bookstores</h2>
+                        <h2 class="title-bold mt-30 mb-20">Sell your book in the world’s biggest bookstores</h2>
                     </div>
                     
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half logos-container">
@@ -212,7 +206,7 @@
 <div class="container-fluid bg-img bg-dark bg-home-s-6 p-20">
     <div class="container">
         <div class="row">
-            <section id="feeling-great-book">
+            <section id="feeling-great-book" class="pt-30 pb-30">
                 <div class="col-xs-6 col sm-6 col-md-6 col-lg-6 text-left text-center-mobile text-100-mobile">
                     <div class="half-column">
                         <h2 class="title-bold white text-shadow mt-0">Nothing beats the feeling of a great book</h2>

@@ -17,7 +17,7 @@
     </div>
 </div>
 
-
+<div class="container-fluid">
     <div class="container mtb-40">
         <div class="row">
             
@@ -65,10 +65,10 @@
 
         </div>
     </div>
+</div>
 
-
-    <div class="container-fluid bg-green ptb-40">
-        <div class="container">
+    <div class="container-fluid bg-green">
+        <div class="container mtb-40">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
                     <a href="http://www.bookbaby.com/guarantee"><img src="/Images/coupons-guarantee.png" alt="Buy with the confidence that your book will be produced to your complete satisfaction." title="Buy with the confidence that your book will be produced to your complete satisfaction." class="img-responsive center-block mt-20" /></a>
@@ -82,8 +82,8 @@
     </div>
 
 
-    <div class="container-fluid bg-tan ptb-40">
-        <div class="container">
+    <div class="container-fluid bg-tan">
+        <div class="container mtb-40">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left text-center-mobile">
                     <p><strong>About our coupons, promo codes, special offers, deals and discounts</strong><br>

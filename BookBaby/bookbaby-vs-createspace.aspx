@@ -21,10 +21,11 @@
 
 
 <div class="container-fluid">
-    <div class="container">
+    <div class="container pt-40 pb-40">
+        <div class="row">
 
         <h3 class="title-bold mt-40">Which publisher is right for you?</h3>
-        <p>We work closely with our valued partner Amazon to distribute your books to their massive audience. But Amazon offers their own Print on Demand service and we frequently get asked which company — BookBaby or CreateSpace — is the best for independent authors.</p>
+        <p class="plr-15">We work closely with our valued partner Amazon to distribute your books to their massive audience. But Amazon offers their own Print on Demand service and we frequently get asked which company — BookBaby or CreateSpace — is the best for independent authors.</p>
 
         <div class="col-xs-12 mtb-50 mt-20">
             <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 list-image">
@@ -80,7 +81,7 @@
         </div>
 
 
-
+    </div>
     </div>
 </div>
 

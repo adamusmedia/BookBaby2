@@ -160,15 +160,12 @@ body .container-fluid .valign > .valign-inner { vertical-align: middle; display:
     float: left;
     height: 1px;
     width: 100%;
-    border: 1px solid blue;
 }
 
 .ico-offset > img {
     display: block;
     margin: -130px auto 0;
     position: relative;
-    
-    border: 1px solid red;
 }
 
 .i140 > img { margin-top: -140px; }
@@ -580,20 +577,6 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 .bg-g-christian { background-image: url("../images/christian-book-success.png"); }
 .bg-g-poetry { background-image: url("../images/poetry-sample-book.png"); }
 .bg-g-fantasy { background-image: url("../images/fantasy-sample-book.png"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-.bg-g-xxx { background-image: url("../images/XXXXXXXXXXXXXXX"); }
-        
 
 
 
@@ -615,10 +598,11 @@ ol.num-list li { margin-bottom: 20px; margin-left: 30px; }
 
 
 
-
+#contract { margin-left: 20px; margin-right: 20px; }
 
 .ty-aside { margin-left: 20px; }
-
+.fpg-item,
+.fpg-item > div { padding-left: 0; padding-right: 0; }
 
 
 .free-guide-img > img { /*max-height: 400px;*/ display: block; }

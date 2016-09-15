@@ -16,8 +16,8 @@
 
 
 
-    <div class="container-fluid bg-lt-grey ptb-40">
-        <div class="container">
+    <div class="container-fluid bg-lt-grey">
+        <div class="container pt-40 pb-40">
             <div class="row">
 
                 <p class="lead">BookBaby is an all-in-one solution for government agencies looking to convert and distribute their entire catalog of documents as eBooks. In addition to offering the widest eBook distribution network, BookBaby pays out 100% of net sales back to the eBook author – the highest payout rate in the eBook distribution industry.</p>
@@ -93,8 +93,8 @@
 
 
 
-    <div class="container-fluid bg-dk-blue section-padding-default">
-        <div class="container">
+    <div class="container-fluid bg-dk-blue">
+        <div class="container pt-40 pb-40">
             <div class="row">
                 <h2 class="title-bold white">BookBaby has deep experience in digital distribution</h2>
                 <p class="lead white">As a member of the CD Baby family of brands (the world’s largest online distributor of independent music with over $280 million paid directly to artists), BookBaby is well positioned to help publishers, agents, and authors cope with the new realities of eBooks.</p>

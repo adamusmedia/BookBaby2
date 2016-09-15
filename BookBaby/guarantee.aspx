@@ -21,8 +21,8 @@
 
 
 <div class="container-fluid">
-    <div class="container">
-        <h2 class="title-bolder mt-100">We stand behind our products and services with the strongest guarantee in the eBook and publishing business.</h2>
+    <div class="container mb-40">
+        <h2 class="title-bolder mt-30">We stand behind our products and services with the strongest guarantee in the eBook and publishing business.</h2>
         <p class="intro mb-40">You can buy with the highest confidence knowing that your eBook or printed books will be produced to your complete satisfaction. If there are any issues with the quality and craftsmanship of your book project, we will work with you to make it right or we will refund your money. It’s as simple as that. Our team of publishing experts is just a phone call or email away with answers, advice and more for your publishing projects.</p>
     </div>
 </div>

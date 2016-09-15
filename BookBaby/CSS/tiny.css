@@ -365,6 +365,7 @@
     table.vs-createspace tbody tr td:nth-child(1),
     table.vs-lulu thead tr th:nth-child(1),
     table.vs-lulu tbody tr td:nth-child(1) {
+        width: 100%;
         width: unset;
     }
 
@@ -373,6 +374,7 @@
     table.vs-createspace tbody tr td:nth-child(n+2),
     table.vs-lulu thead tr th:nth-child(n+2),
     table.vs-lulu tbody tr td:nth-child(n+2) {
+        width: 100%;
         width: unset;
     }
 
@@ -393,7 +395,8 @@
     table.vs-createspace tbody tr,
     table.yb-printing tbody tr,
     table.art-book-printing tbody tr,
-    table.mob-fix tbody tr { margin-bottom: 20px; }
+    table.mob-fix tbody tr,
+    table.volume-pricing tbody tr { margin-bottom: 20px; }
 
     
     .col-xs-12.embed-responsive > iframe { padding-left: 20px; padding-right: 20px; }
@@ -419,7 +422,7 @@
 
     table.packagecompare tbody tr td:nth-child(n) { width: 100%; text-align: left; }
     table.packagecompare tbody tr td:nth-child(n) img { float: left; display: none; }
-    table.packagecompare tbody tr { float:left; margin-bottom: 20px; }
+    table.packagecompare tbody tr { float:left; margin-bottom: 20px; width: 100%; }
 
 
     /* disable border on tiny */
@@ -428,7 +431,8 @@
     .table.vs-createspace.table-bordered,
     table.yb-printing.table-bordered,
     table.art-book-printing.table-bordered,
-    table.mob-fix.table-bordered { border: none; }
+    table.mob-fix.table-bordered,
+    table.volume-pricing.table-bordered { border: none; }
 
     .table.packagecompare tbody tr td:nth-child(1):before,
     .table.packagecompare tbody tr td:nth-child(1) p { color: #fff; }
@@ -506,9 +510,7 @@
         height: auto;  
         background-position-y: bottom;
         width: 100%;
-        border: 1px solid red;
     }
 
-    .imgb {  }
 }
 /* ******************************* */

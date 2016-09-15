@@ -25,7 +25,7 @@
 
         <h3 class="title-bold">How do you choose which self-publishing company is right for you?</h3>
 
-        <p>It’s a tough question when you’re self-publishing for the first time. Lulu specializes in volume book printing, which can often yield cheap, low-quality books. And there isn’t much concern for royalties or global distribution. Meanwhile, BookBaby offers everything an author needs to successfully self-publish, including high-quality <a href="/book-printing">book printing</a>, industry-leading <a href="/book-distribution">distribution</a>, <a href="/ebooks">eBook conversion</a>, <a href="/book-cover-design">cover design</a>, <a href="/book-formatting">book formatting</a>, and more. We frequently get asked which company — BookBaby or Lulu — is best for independent authors. If you’re an aspiring author who takes self-publishing seriously, then take a look at how BookBaby differs from Lulu and decide for yourself.</p>
+        <p class="plr-15">It’s a tough question when you’re self-publishing for the first time. Lulu specializes in volume book printing, which can often yield cheap, low-quality books. And there isn’t much concern for royalties or global distribution. Meanwhile, BookBaby offers everything an author needs to successfully self-publish, including high-quality <a href="/book-printing">book printing</a>, industry-leading <a href="/book-distribution">distribution</a>, <a href="/ebooks">eBook conversion</a>, <a href="/book-cover-design">cover design</a>, <a href="/book-formatting">book formatting</a>, and more. We frequently get asked which company — BookBaby or Lulu — is best for independent authors. If you’re an aspiring author who takes self-publishing seriously, then take a look at how BookBaby differs from Lulu and decide for yourself.</p>
 
     </div>
 </div>
@@ -52,7 +52,6 @@
                         <p>We have negotiated the best eBook royalty rates for authors selling through websites like Amazon, where the bulk of self-published author income comes from. While Lulu takes a selling fee from authors’ profits – up to 20% in some cases—BookBaby doesn’t take a penny, meaning more profit for our authors.</p>
                     </div>
                 </div>
-
 
                 <h2 class="title-bold mt-0 mb-30">Here’s a side-by-side comparison:</h2>
     
@@ -94,7 +93,7 @@
                 </table>
             </div>
             
-
+        
         </div>
     </div>    
 
@@ -102,7 +101,7 @@
 
 
     <div class="container-fluid">
-        <div class="container">
+        <div class="container ptb-40">
 
             
             <div class="col-xs-12 mtb-50">

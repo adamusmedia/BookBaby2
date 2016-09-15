@@ -29,17 +29,15 @@
 
         <h2 class="title-bold mb-30">It’s the publishing dream of millions of would-be authors: Selling their printed books to customers around the globe.</h2>
 
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 embed-responsive embed-responsive-16by9">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 embed-responsive embed-responsive-16by9 mb-30">
             <div class="row">
 	            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GvUzoUwMCc8?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left">
-            <div class="row">
-                <p class="p-40 pt-xs-0 pt-sm-0 mplr-0">And now that dream has come true – thanks to <a href="/print-on-demand">BookBaby’s Print On Demand (POD) program</a>. Utilizing the latest in digital printing and modern logistics, indie authors can sell their printed book at Amazon, Barnes &amp; Noble and dozens of other stores.<br /><br />
-                    While it’s fast and easy for readers around the world to order your book, the process is a little more complicated behind the scenes. Rest assured that BookBaby is doing all of the heavy, technical lifting, but it’s important that authors who elect to purchase Print On Demand understand how they can take full advantage of this powerful selling program.</p>
-            </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+            <p>And now that dream has come true – thanks to <a href="/print-on-demand">BookBaby’s Print On Demand (POD) program</a>. Utilizing the latest in digital printing and modern logistics, indie authors can sell their printed book at Amazon, Barnes &amp; Noble and dozens of other stores.<br /><br />
+                While it’s fast and easy for readers around the world to order your book, the process is a little more complicated behind the scenes. Rest assured that BookBaby is doing all of the heavy, technical lifting, but it’s important that authors who elect to purchase Print On Demand understand how they can take full advantage of this powerful selling program.</p>
         </div>
 
     </div>

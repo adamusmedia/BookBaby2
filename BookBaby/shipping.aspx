@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="MasterPage.master" CodeFile="Default.aspx.cs" Inherits="Default" %>
 <asp:Content runat="server" ContentPlaceHolderID="pageContent">
 
-<div class="container-fluid pb-40 plr-0">
+<div class="container-fluid pb-40 plr-15">
     <div class="container">
         <div class="row">
             <section class="jumbotron light">
@@ -28,14 +28,14 @@
 <div class="container-fluid bg-tan ptb-20">
     <div class="container text-center">
         <h2 class="title-bold">BookBaby Shipping Policies</h2>
-        <p class="lead">All orders are produced in the USA.</p>
+        <p class="lead plr-15">All orders are produced in the USA.</p>
         <div class="article-divider-2"></div>
         
         <p class="large mb-0 mt-30"><strong>USA</strong></p>
-        <p class="mb-40">All US orders ship via UPS or motor freight carrier depending on size.</p>
+        <p class="mb-40 plr-15">All US orders ship via UPS or motor freight carrier depending on size.</p>
 
         <p class="large"><strong>Outside USA</strong></p>
-        <p class="mb-30">All orders to delivering to destinations outside of the US will ship via DHL. All international shipments ship D.D.U. (Delivery Duty Unpaid). Consignees are responsible for all applicable duties, taxes and import charges at time of delivery.</p>
+        <p class="mb-30 plr-15">All orders to delivering to destinations outside of the US will ship via DHL. All international shipments ship D.D.U. (Delivery Duty Unpaid). Consignees are responsible for all applicable duties, taxes and import charges at time of delivery.</p>
 
 
 

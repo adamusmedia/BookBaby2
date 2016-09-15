@@ -17,15 +17,9 @@
 
 
 
-<div class="container-fluid bg-tan bt-0">
-        </div>
-    </div>
-</div>
-
-
 <div class="container-fluid ptb-40">
-    <div class="row">
-        <div class="container ptb-40">
+    <div class="container plr-15">
+        <div class="row">
 
             <h2 class="title-bold mb-30">What is Print On Demand?</h2>        
 

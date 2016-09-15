@@ -13,9 +13,9 @@
 
 
 
-<div class="container-fluid section-padding-default bg-lt-grey">
-    <div class="container">
-        <div id="free-publishing-guides" class="row text-left">
+<div class="container-fluid bg-lt-grey">
+    <div class="container ptb-40">
+        <div id="free-publishing-guides" class="text-left">
             
 
             <div class="col-xs-12">
