@@ -158,8 +158,8 @@
     <div class="container-fluid bg-md-grey">
         <div class="row">
 
-            <div class="offset-icon-130">
-                <img class="keep-100-sales" src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
+            <div class="ico-offset">
+                <img src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
             </div>
 
             <section id="self-publishing-staff">
@@ -167,7 +167,7 @@
                     <div class="row">
                     
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-                            <h2 class="title-bold mt-0 mb-20">Publish and sell your children's book</h2>
+                            <h2 class="title-bold mt-30 mb-20">Publish and sell your children's book</h2>
                             <p class="mb-50">BookBaby writers can now publish and sell their eBooks and printed books in the world’s biggest bookstores. With our new Print On Demand technology, you can now sell your printed children’s book (book-by-book) direct to your readers, without having to pay for large print runs, warehousing, or fulfillment.</p>
                         </div>
                     

@@ -127,14 +127,17 @@
     
     
     <div class="container-fluid bg-md-grey">
-        <div class="row">
 
-            <div class="offset-icon-130">
-                <img class="keep-100-sales z-index-fix" title="The biggest worldwide distribution networks" alt="The biggest worldwide distribution networks" src="/images/guarantee-page-icon.png">
+        <div class="row">
+            
+
+            <div class="ico-offset i140">
+                <img class="" title="The biggest worldwide distribution networks" alt="The biggest worldwide distribution networks" src="/images/guarantee-page-icon.png">
             </div>
+            <div class="clearfix"></div>
 
             <section id="self-publishing-staff">
-                <div class="container section-padding-default">
+                <div class="container section-padding-default mt-60">
                     <div class="row">
                     
                     

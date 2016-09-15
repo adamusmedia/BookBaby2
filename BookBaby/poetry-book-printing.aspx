@@ -145,77 +145,98 @@
 
 
 
+    
+
 <div class="container-fluid bg-poetry-2 pt-40">
-    <div class="container">
+    <div class="container rel h-poetry">
         
-
-
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <img src="/Images/poetry-sample-book.png" class="img-responsive center-block" alt="Keys to a successful religious book" title="Keys to a successful religious book">
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
+        <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6 text-left pt-30 pb-70 pb-20-mo">
             
             <h3 class="title-bold">How to create a poetry book</h3>
-                <p>Imagery is important, not just figuratively but also literally. Hire a designer to <strong>create a cover</strong> for your poetry book that perfectly capture’s your art. If you don’t know a designer, hire BookBaby’s artists to design one for you.  <a href="/book-cover-design">Learn more.</a></p>
-                <p>Looking to wow poetry publishers? Make an impression by sending them a beautifully-bound, printed poetry book.</p>
-				<p>Get a copy of <strong>Poet’s Market</strong>, which is published annually by Writer’s Digest. It’s widely considered the bible for those looking to publish poetry.</p>
-                <p class="mb-100">Join a national poetry society like the <strong>Poetry Society of America</strong> (or a local group) and go to their conferences. Bring printed copies of your book with you. You just might meet someone who can help your career!</p>
-
+            <p>Imagery is important, not just figuratively but also literally. Hire a designer to <strong>create a cover</strong> for your poetry book that perfectly capture’s your art. If you don’t know a designer, hire BookBaby’s artists to design one for you.  <a href="/book-cover-design">Learn more.</a></p>
+            <p>Looking to wow poetry publishers? Make an impression by sending them a beautifully-bound, printed poetry book.</p>
+			<p>Get a copy of <strong>Poet’s Market</strong>, which is published annually by Writer’s Digest. It’s widely considered the bible for those looking to publish poetry.</p>
+            <p>Join a national poetry society like the <strong>Poetry Society of America</strong> (or a local group) and go to their conferences. Bring printed copies of your book with you. You just might meet someone who can help your career!</p>
         </div>
 
+        <div class="hidden-xs col-sm-5 hidden-md hidden-lg"></div>
 
+        <div class="col-xs-12 imgb bg-img-genre r25 bg-g-poetry">
+            <img src="/Images/poetry-sample-book.png" class="visible-xs img-responsive" alt="Keys to a successful religious book" title="Keys to a successful religious book">
+        </div>
 
     </div>
 </div>
 
+<!-- 
+<div class="container-fluid bg-tan-lt">
+    <div class="container rel h-romance">
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left pt-30 pb-70">
+            
+            <h3 class="title-bold">How to create a romance book</h3>
+            <p><strong>Having a great cover</strong> is important for any book but it is an absolute must for romance and erotic fiction. Hire a designer to create something that will really stand out. Don’t know a designer? Let BookBaby design it for you. <a href="/book-cover-design">Learn more.</a></p>
+			<p><strong>Looking to get a publishing deal?</strong> It doesn’t hurt to be able to hand an agent or publisher a beautifully-printed and -bound copy of your romance book.</p>
+            <p><strong>Join a book writing society</strong> like Romance Writers of America (RWA) and bring printed copies of your book to their national conferences. You just might meet someone who can help your career!</p>
 
+        </div>
 
+        <div class="hidden-xs col-sm-6 hidden-md hidden-lg"></div>
 
+        <div class="col-xs-12 imgb bg-img-genre bg-g-romance">
+            <img src="/images/romance-sample-book.png" class="visible-xs center-block img-responsive" />
+        </div>
 
+    </div>
+</div>
+-->
 
 
 
     
     <div class="container-fluid bg-md-grey">
-        <div class="row">
+        <div class="container">
+            <div class="row">
 
-            <div class="offset-icon-130">
-                <img class="keep-100-sales z-index-fix" src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
-            </div>
+            
+                <div class="ico-offset">
+                    <img src="images/home/keep-100-sales.png" alt="" title="" />
+                </div>
+                <div class="clearfix"></div>
 
-            <section id="self-publishing-staff">
-                <div class="container section-padding-default">
-                    <div class="row">
+                <section id="self-publishing-staff">
+                    <div class="container section-padding-default">
+                        <div class="row">
 
-                        <h2 class="title-bold">Publish and sell your poetry books</h2>
-                        <p class="mb-30">BookBaby poets can publish and sell their eBooks and printed books in the world’s biggest bookstores. We can we convert your manuscript into an <a href="/ebooks">eBook</a> and sell it digitally in 60+ stores, including Amazon. And with our new <a href="/print-on-demand">Print On Demand</a> technology, you can sell your printed poetry book direct to your readers, without having to pay for large print runs, warehousing, or fulfillment.</p>
+                            <h2 class="title-bold">Publish and sell your poetry books</h2>
+                            <p class="mb-30">BookBaby poets can publish and sell their eBooks and printed books in the world’s biggest bookstores. We can we convert your manuscript into an <a href="/ebooks">eBook</a> and sell it digitally in 60+ stores, including Amazon. And with our new <a href="/print-on-demand">Print On Demand</a> technology, you can sell your printed poetry book direct to your readers, without having to pay for large print runs, warehousing, or fulfillment.</p>
                     
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half logos-container">
-
-                        <div class="logos-container-header">
-                            <h3><a href="/ebook-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'learn-more-aboutBB']);">eBook distribution</a></h3>
-                        </div>
-                        <a href="/ebook-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'sell-eBook-stores']);">
-                            <img src="Images/home/logos-retailers-ebook.png" class="img-responsive center-block p-20" width="400" height="342" alt="iBookstore, Amazon, Kobo, Scribd, Gardners Books, Copia, Esentral">
-                        </a>
-
-                    </div>
-
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half logos-container">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half logos-container">
 
                             <div class="logos-container-header">
-                                <h3><a href="book-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'sell-print-stores']);">Printed book distribution</a></h3>
+                                <h3><a href="/ebook-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'learn-more-aboutBB']);">eBook distribution</a></h3>
                             </div>
-                            <a href="/book-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'sell-print-stores']);">
-                                <img src="Images/home/logos-retailers-print.png" class="img-responsive center-block p-20" width="400" height="342" alt="Amazon, Barnes & Noble, Baker & Taylor, Powell's, Ingram" />
+                            <a href="/ebook-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'sell-eBook-stores']);">
+                                <img src="Images/home/logos-retailers-ebook.png" class="img-responsive center-block p-20" width="400" height="342" alt="iBookstore, Amazon, Kobo, Scribd, Gardners Books, Copia, Esentral">
                             </a>
 
                         </div>
 
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-half logos-container">
+
+                                <div class="logos-container-header">
+                                    <h3><a href="book-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'sell-print-stores']);">Printed book distribution</a></h3>
+                                </div>
+                                <a href="/book-distribution" onclick="_gaq.push(['_trackEvent', 'homeB', 'Click', 'sell-print-stores']);">
+                                    <img src="Images/home/logos-retailers-print.png" class="img-responsive center-block p-20" width="400" height="342" alt="Amazon, Barnes & Noble, Baker & Taylor, Powell's, Ingram" />
+                                </a>
+
+                            </div>
+
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     </div>
 

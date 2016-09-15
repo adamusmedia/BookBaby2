@@ -276,8 +276,6 @@
 
 
 
-
-
 /*** responsive tables ***/
 	/* Force table to not be like tables anymore */
 	table.res, table.res thead, table.res tbody, table.res thead tr, table.res thead tr th, table.res tbody tr, table.res tbody tr td {
@@ -478,6 +476,39 @@
         margin-left: 3%;
     }
     
+    
 
+
+
+
+    .bg-img-genre { right: -20%; }
+
+    .h-romance,
+    .h-christian { height: 410px; }
+
+    .h-poetry { height: 740px; }
+
+    .h-fantasy { height: 450px; }
+
+
+
+
+
+
+    
+
+    .imgb {
+        position: relative;
+        right: 0;
+        right: unset;
+        float: left;
+        bottom: unset;
+        height: auto;  
+        background-position-y: bottom;
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .imgb {  }
 }
 /* ******************************* */

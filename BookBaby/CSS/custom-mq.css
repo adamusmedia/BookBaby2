@@ -49,6 +49,7 @@
 /* 0 - 767 */
 @media all and (min-width: 0px) and (max-width: 767px) {
     .text-100-mobile { width: 100%; }
+    .pb-20-mo { padding-bottom: 20px; }
 }
 
 
@@ -110,6 +111,9 @@
 
     body #site-header.open { background-color: #4c3304; }
     body #site-header.open #header-search.open { background-color: #000!important; }
+
+
+    /*.bg-img-genre { background-position-x: 100%; }*/
 }
 /* ******************************* */
 

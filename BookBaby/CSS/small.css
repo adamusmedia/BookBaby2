@@ -138,5 +138,17 @@
         margin-left: 3%;
     }
 
+
+
+
+    .bg-img-genre { right: -20%; }
+        .r25 { right: -25%; }
+
+
+    .h-romance { height: 575px; }
+    .h-christian { height: 540px; }
+    .h-poetry { height: 675px; }
+    .h-fantasy { height: 575px; }
+
 }
 /* ******************************* */

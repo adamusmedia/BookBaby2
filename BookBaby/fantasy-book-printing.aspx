@@ -155,13 +155,10 @@
 
 
 
-<div class="container-fluid bg-img bg-brown-2">
-    <div class="container">
-        <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
-            <img src="/Images/fantasy-sample-book.png" width="552" height="605" alt="The magic to making a fantasy novel" title="The magic to making a fantasy novel" class="img-responsive" />
-        </div>
+<div class="container-fluid bg-brown-2">
+    <div class="container rel h-fantasy">
         
-        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 text-left text-center-xs">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left pt-30 pb-40">
 
             <h2 class="title-bold white mt-30">The magic to making a fantasy novel</h2>
             <p class="white"><span class="success-subheader">Cover Design:</span>  Your book’s cover is your first impression, instantly portraying your story’s tone and theme. Let BookBaby design your cover art and help take your readers to your world before they reach the first page. <a href="/book-cover-design" class="white">Learn more.</a></p>
@@ -171,9 +168,15 @@
 			<p class="white"><span class="success-subheader">Content:</span> As an author, you get to build your own world and set your own rules. But an important part of great storytelling is following those rules too.  <a href="#" class="white">Learn more.</a></p>
 
         </div>
+
+        <div class="hidden-xs col-sm-6 hidden-md hidden-lg"></div>
+
+        <div class="col-xs-12 imgb bg-img-genre bg-g-fantasy">
+            <img src="/Images/fantasy-sample-book.png" width="552" height="605" alt="The magic to making a fantasy novel" title="The magic to making a fantasy novel" class="visible-xs center-block img-responsive" />
+        </div>
+
     </div>
-</div>    
-    
+</div>
 
 
     
@@ -181,8 +184,8 @@
     <div class="container-fluid bg-md-grey">
         <div class="row">
 
-            <div class="offset-icon-130">
-                <img class="keep-100-sales" src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
+            <div class="ico-offset">
+                <img src="images/home/keep-100-sales.png" alt="Keep 100% of your net eBook sales" title="Keep 100% of your net eBook sales" />
             </div>
 
             <section id="self-publishing-staff">
@@ -190,7 +193,7 @@
                     <div class="row">
                     
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-                            <h2 class="title-bold mt-0 mb-20">Sell your science fiction books around the world</h2>
+                            <h2 class="title-bold mt-30 mb-20">Sell your science fiction books around the world</h2>
                             <p class="mb-50">BookBaby writers can now publish and sell both their eBooks and printed books in the world’s biggest bookstores. Not only will we convert your cookbook into an eBook and sell it digitally in 60+ stores, with our new print on demand technology, you can now sell your printed cookbook (book-by-book) direct to your readers, without having to pay for large print runs, warehousing, or fulfillment.</p>
                         </div>
                     

@@ -138,7 +138,7 @@
     
 
 
-
+<!--
 
 <div class="container-fluid bg-christian-mesh">
     <div class="container">
@@ -161,8 +161,29 @@
 
     </div>
 </div>
+-->
 
 
+<div class="container-fluid bg-christian-mesh">
+    <div class="container rel h-christian">
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left pt-30 pb-30">
+            
+            <h3 class="title-bold">Keys to a successful religious book</h3>
+            <p><strong>Design:</strong> With religious books, as with all books, it is vital that your cover stands out not only on the bookshelf but also on the web. Your design needs to make it clear what your book is about and who your audience is. <a href="/book-cover-design">Learn more about our design services.</a></p>
+
+			<p><strong>Content:</strong> Writing a religious book can be its own fulfilling experience but if you want your book to inspire others make sure your book offers a unique perspective. Write about your own personal experiences, awakening, insights, or spiritual journeys. Remember who your audience is and remember what inspired you to want to write your book. Above all, be true to yourself and your faith.</p>
+
+        </div>
+
+        <div class="hidden-xs col-sm-6 hidden-md hidden-lg"></div>
+
+        <div class="col-xs-12 imgb bg-img-genre bg-g-christian">
+            <img src="/images/christian-book-success.png" class="visible-xs center-block img-responsive" />
+        </div>
+
+    </div>
+</div>
 
 
     
